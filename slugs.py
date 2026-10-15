@@ -88,5 +88,4 @@ COMPANY_SLUGS = {
     "Snowflake":        {"ats": "greenhouse","slug": "snowflake-computing"},
     "OpenAI":           {"ats": "greenhouse","slug": "openai"},
     "Anthropic":        {"ats": "ashby",     "slug": "anthropic"},
-    "Palantir":         {"ats": "lever",     "slug": "palantir"},
 }
