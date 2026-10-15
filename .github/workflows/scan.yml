@@ -1,0 +1,50 @@
+name: FirstLight Job Scanner
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: "*/30 * * * *"
+  workflow_dispatch: # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write # needed to commit .seen_jobs.json back to the repo
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Use the default GITHUB_TOKEN — write permission granted above
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run FirstLight scanner
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python main.py --notify
+
+      - name: Commit updated seen-jobs state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if .seen_jobs.json was created or changed
+          if git diff --quiet .seen_jobs.json 2>/dev/null && git ls-files --error-unmatch .seen_jobs.json 2>/dev/null; then
+            echo "No changes to .seen_jobs.json — nothing to commit"
+          else
+            git add .seen_jobs.json
+            git commit -m "chore: update seen jobs [skip ci]"
+            git push
+          fi

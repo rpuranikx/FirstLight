@@ -1,0 +1,96 @@
+# Define your job search parameters here.
+
+Roles:
+  - Solutions Engineer
+  - Sales Engineer
+  - Pre-Sales Engineer
+  - Consultant
+  - Implementation Consultant
+  - Technical Consultant
+  - Forward Deployed Engineer
+
+Companies:
+  # --- AI Agents & Workflow Orchestration ---
+  - Letta                   # Series A | Memory-first agent infrastructure
+  - LangChain               # Series A | LLM orchestration & LangSmith observability
+  - Vellum AI               # Series A | LLM product dev & orchestration platform
+  - Beam AI                 # Series A | Agentic AI for enterprise automation
+  - Lindy AI                # Series A | AI agents for business workflows
+  - Relevance AI            # Series B | No-code AI agent builder for enterprises
+  - Cogna                   # Series A | AI-native workflow automation
+  - Kore.ai                 # Series D | Conversational AI & agent platform
+
+  # --- Data Infrastructure & Modern Data Stack ---
+  - Hex                     # Series C | Collaborative data science & analytics
+  - Monte Carlo             # Series C | Data reliability & observability
+  - Anomalo                 # Series B | AI-powered data quality monitoring
+  - Fivetran                # Series D | ELT data pipelines (great SE culture)
+  - Airbyte                 # Series B | Open-source data integration platform
+  - Hightouch               # Series B | Reverse ETL & data activation
+  - Census                  # Series B | Reverse ETL, data sync platform
+  - Coalesce                # Series B | dbt-era data transformation platform
+  - Arize AI                # Series B | LLM & ML observability platform
+  - Metaplane               # Series A | Data observability for modern data teams
+  - Meltano                 # Series A | Open-source ELT & data ops platform
+  - Turntable               # Series A | Collaborative analytics & data workflows
+
+  # --- AI Security & Governance (matches Interveil project) ---
+  - Aikido Security         # Series B | Dev-first security platform
+  - Cyera                   # Series D | AI-powered data security & governance
+  - Doppel                  # Series C | AI-native brand & social engineering defense
+  - Adaptive Security       # Series B | AI-attack simulation & security training
+  - Prompt Security         # Series A | LLM/AI application security gateway
+  - Lasso Security          # Series A | Generative AI security & governance
+  - Calypso AI              # Series B | AI governance & risk platform
+  - Protect AI              # Series B | ML/AI supply chain security
+
+  # --- Developer Tools & API Infrastructure ---
+  - Temporal                # Series C | Workflow orchestration engine (huge SE demand)
+  - Retool                  # Series C | Internal tools & workflow builder
+  - Merge                   # Series B | Unified API integrations platform
+  - Apideck                 # Series A | Unified API & integration layer
+  - Stytch                  # Series B | Developer-first auth & identity platform
+  - Clerk                   # Series B | Auth & user management for developers
+  - Supabase                # Series B | Open-source Firebase alternative
+  - Inngest                 # Series A | Event-driven workflow platform for devs
+  - Trigger.dev             # Series A | Background jobs & workflow automation
+
+  # --- Integration & Connectivity Platforms ---
+  - Tray.io                 # Series C | Enterprise iPaaS & automation platform
+  - Workato                 # Series D | Enterprise automation & integration
+  - Paragon                 # Series B | Embedded integration platform for SaaS
+  - Nango                   # Series A | Open-source API integrations platform
+  - Vessel                  # Series A | Universal CRM integration layer
+  - Boomi                   # Series D | Cloud integration & API management
+
+  # --- Fintech & Payments Infrastructure ---
+  - Coinflow                # Series A | Crypto payment infrastructure
+  - Lithic                  # Series C | Card issuing & payment infrastructure
+  - Stord                   # Series D | Commerce enablement & fulfillment
+  - Slope                   # Series B | B2B BNPL & payments platform
+  - Modern Treasury         # Series C | Payment operations platform
+
+  # --- Enterprise AI & Applied ML ---
+  - Glean                   # Series D | AI-powered enterprise search & knowledge
+  - Moveworks               # Series D | AI copilot for enterprise IT & HR
+  - Observe AI              # Series C | AI for contact center intelligence
+  - Hebbia                  # Series B | AI research & document intelligence
+  - Aisera                  # Series D | AI-driven service management
+  - Cohere                  # Series D | Enterprise LLM & NLP platform
+  - Weights & Biases        # Series C | MLOps & experiment tracking platform
+
+  # --- Infrastructure / Cloud / DevOps ---
+  - Cribl                   # Series D | Data observability & log management
+  - Chronosphere             # Series C | Cloud-native observability platform
+  - Cortex                  # Series B | Internal developer portal (IDP)
+  - Rootly                  # Series B | Incident management platform
+  - Port                    # Series B | Developer platform & IDP
+  - Middleware.io           # Series A | Full-stack cloud observability
+
+  # --- Anchor / Enterprise (still high growth) ---
+  - Databricks              # Growth | Data & AI lakehouse platform
+  - Palantir                # Public | FDE-heavy culture, great SE origin
+  - Stripe                  # Late | Payments infra — excellent SE program
+  - Snowflake               # Public | Strong solutions engineering track
+  - OpenAI                  # Growth | Expanding enterprise FDE & SE teams
+  - Anthropic               # Growth | Enterprise AI, hiring field engineers
