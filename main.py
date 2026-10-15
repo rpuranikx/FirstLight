@@ -312,35 +312,57 @@ def _discord_post(payload: dict) -> bool:
 def notify_discord_jobs(new_jobs: list[dict]) -> None:
     """Send one Discord embed per new job, then a summary embed."""
     if not DISCORD_WEBHOOK_URL:
-        _p(C.DIM, "  [discord] DISCORD_WEBHOOK_URL not set — skipping notification")
+        _p(C.DIM, "  [discord] DISCORD_WEBHOOK_URL not set -- skipping notification")
         return
 
     for job in new_jobs:
-        location = job.get("location") or "Remote / Not specified"
-        posted   = (job.get("posted") or "")[:19]
+        location  = job.get("location") or "Remote / Not specified"
+        posted    = (job.get("posted") or "")[:19]
+        apply_url = job["url"]
+        ats_name  = job["id"].split(":")[0].capitalize()
 
         embed = {
+            # Embed title is clickable
             "title":       job["title"],
-            "url":         job["url"],
+            "url":         apply_url,
             "color":       DISCORD_COLOR_NEW_JOB,
-            "description": f"**{job['company']}**  |  {location}",
+            "description": f"**{job['company']}**\n{location}",
             "fields": [
-                {"name": "Apply",  "value": job["url"], "inline": False},
+                {
+                    # URL as hyperlink AND raw copyable text in a code block
+                    "name":   "Apply Link",
+                    "value":  f"[Click to apply]({apply_url})\n```\n{apply_url}\n```",
+                    "inline": False,
+                },
+                {
+                    "name":   "Posted",
+                    "value":  posted or "Unknown",
+                    "inline": True,
+                },
+                {
+                    "name":   "ATS",
+                    "value":  ats_name,
+                    "inline": True,
+                },
             ],
-            "footer": {"text": f"Posted: {posted}  |  FirstLight"},
+            "footer":    {"text": "FirstLight Job Scanner"},
             "timestamp": datetime.utcnow().isoformat() + "Z",
         }
-        _discord_post({"embeds": [embed]})
-        time.sleep(0.5)  # avoid Discord rate-limit (50 req/s)
 
-    # Summary embed
+        # Plain-text content surfaces in push notifications before embed renders
+        plain = f"**New job:** {job['title']} @ {job['company']}\n{apply_url}"
+        _discord_post({"content": plain, "embeds": [embed]})
+        time.sleep(0.5)  # stay under Discord rate-limit
+
+    # Summary embed listing all new jobs
+    summary_lines = "\n".join(
+        f"- [{j['title']} @ {j['company']}]({j['url']})" for j in new_jobs
+    )
     summary_embed = {
-        "title":       f"{len(new_jobs)} new job(s) found by FirstLight",
+        "title":       f"FirstLight: {len(new_jobs)} new job(s) found",
         "color":       DISCORD_COLOR_SUMMARY,
-        "description": "\n".join(
-            f"- [{j['title']} @ {j['company']}]({j['url']})" for j in new_jobs
-        ),
-        "footer": {"text": datetime.now().strftime("%Y-%m-%d %H:%M:%S")},
+        "description": summary_lines,
+        "footer":      {"text": datetime.now().strftime("%Y-%m-%d %H:%M:%S")},
     }
     _discord_post({"embeds": [summary_embed]})
     _p(C.GREEN, f"  [discord] Notified for {len(new_jobs)} job(s)")
