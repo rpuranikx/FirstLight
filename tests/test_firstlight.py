@@ -184,8 +184,21 @@ PEOPLE = [
 
 
 def test_fallback_ranks_solutions_then_eng_leaders_over_recruiters():
-    names = [p["name"] for p in contacts.fallback_picks(PEOPLE)]
-    assert names == ["Sam Solutions", "Ed Eng", "Fay Founder"]
+    picks = contacts.fallback_picks(PEOPLE, {"title": "Solutions Engineer"})
+    assert [p["name"] for p in picks] == ["Sam Solutions", "Ed Eng", "Fay Founder"]
+    assert "hiring manager" in picks[0]["why"]
+
+
+def test_fallback_prefers_engineers_for_engineering_jobs():
+    people = PEOPLE + [{"name": "Ana Applied", "title": "Applied AI Engineer", "email": "ana@g.ai"}]
+    picks = contacts.fallback_picks(people, {"title": "AI Engineer"})
+    assert [p["name"] for p in picks][:2] == ["Ed Eng", "Ana Applied"]
+
+
+def test_no_api_key_uses_free_ranking(monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "")  # unset GitHub secrets arrive as empty strings
+    picks = contacts.rank_contacts(job("a:1", "Solutions Engineer", 1), {}, PEOPLE, {})
+    assert picks[0]["name"] == "Sam Solutions"
 
 
 def test_clean_picks_drops_invented_emails():

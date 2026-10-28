@@ -208,7 +208,7 @@ def _extract_json(text: str) -> dict | None:
 def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> list[dict]:
     """Returns up to 3 picks: {name, title, email, linkedin, why, angle}."""
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        return fallback_picks(people)
+        return fallback_picks(people, job)
 
     import anthropic  # imported here so scanning works without the package
 
@@ -247,14 +247,14 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
             messages = [messages[0], {"role": "assistant", "content": resp.content}]
     except anthropic.APIError as e:
         print(f"  [contacts] Claude call failed: {e}")
-        return fallback_picks(people)
+        return fallback_picks(people, job)
 
     if resp.stop_reason == "refusal":
-        return fallback_picks(people)
+        return fallback_picks(people, job)
     text = "".join(b.text for b in resp.content if b.type == "text")
     data = _extract_json(text) or _structure(client, model, text)
     if not data:
-        return fallback_picks(people)
+        return fallback_picks(people, job)
     return clean_picks(data["picks"], people)
 
 
@@ -292,28 +292,46 @@ def clean_picks(picks: list[dict], people: list[dict]) -> list[dict]:
 
 
 SENIORITY_ORDER = ["founder", "owner", "c_suite", "executive", "vp", "head", "director", "manager", "senior"]
+CUSTOMER_FACING = ("solutions", "forward deployed", "field", "customer engineer", "sales engineer",
+                   "deployment", "implementation", "pre-sales", "presales")
+ENGINEERING = ("engineering", "engineer", "cto", "technical", "ai", "ml", "platform", "infrastructure")
 
 
-def fallback_picks(people: list[dict]) -> list[dict]:
-    """Without Claude: prefer technical leaders, then founders, then anyone senior."""
-    def score(p):
+def _has(text: str, words) -> bool:
+    return any(re.search(rf"\b{re.escape(w)}\b", text) for w in words)
+
+
+def fallback_picks(people: list[dict], job: dict | None = None) -> list[dict]:
+    """
+    Free ranking (no Claude): people on the same kind of team as the job first,
+    then engineering leaders, then founders, then anyone senior; recruiters last.
+    """
+    job_title = (job or {}).get("title", "").lower()
+    customer_job = _has(job_title, CUSTOMER_FACING) or not job_title
+
+    def classify(p):
         t = f"{p.get('title', '')} {p.get('department', '')}".lower()
-        s = 0
-        if any(k in t for k in ("solutions", "forward deployed", "field", "customer engineer", "sales engineer")):
-            s -= 30
-        if any(k in t for k in ("engineering", "cto", "technical")):
-            s -= 20
-        if any(k in t for k in ("founder", "ceo")):
-            s -= 15
         if "recruit" in t or "talent" in t:
-            s += 10
+            return 4, "Recruiter: a fallback if nobody closer to the team replies."
+        team_words = CUSTOMER_FACING if customer_job else ENGINEERING
+        if _has(t, team_words) and (customer_job or not _has(t, CUSTOMER_FACING)):
+            lead = _has(t, ("head", "vp", "director", "lead", "manager", "chief"))
+            return 0, ("Leads the team this role sits on; likely the hiring manager." if lead
+                       else "Works on the team this role sits on; can tell you what it's really like and refer you.")
+        if _has(t, ("cto", "vp engineering", "head of engineering", "engineering manager")):
+            return 1, "Engineering leader; usually signs off on technical hires."
+        if _has(t, ("founder", "ceo", "co-founder")):
+            return 2, "Founder: at a startup this size they often still hire directly."
+        return 3, "Senior person at the company; can point you to the right team."
+
+    def key(p):
+        tier, _ = classify(p)
         sen = (p.get("seniority") or "").lower()
-        s += SENIORITY_ORDER.index(sen) if sen in SENIORITY_ORDER else len(SENIORITY_ORDER)
-        return s
-    ranked = sorted(people, key=score)[:3]
+        return tier, SENIORITY_ORDER.index(sen) if sen in SENIORITY_ORDER else len(SENIORITY_ORDER)
+
     return [{"name": p["name"], "title": p.get("title", ""), "email": p.get("email"),
-             "linkedin": p.get("linkedin"), "why": "Ranked by title (no Claude key set).", "angle": ""}
-            for p in ranked]
+             "linkedin": p.get("linkedin"), "why": classify(p)[1], "angle": ""}
+            for p in sorted(people, key=key)[:3]]
 
 
 # ─────────────────────────────────────────────
