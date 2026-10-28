@@ -165,6 +165,31 @@ def is_chicagoland(text: str) -> bool:
     return any(tok in t for tok in tokens)
 
 
+NON_US_PLACES = [
+    "india", "bangalore", "bengaluru", "hyderabad", "pune", "mumbai", "delhi", "gurgaon", "chennai",
+    "uk", "united kingdom", "london", "dublin", "ireland", "emea", "apac", "latam", "europe",
+    "germany", "berlin", "munich", "france", "paris", "spain", "madrid", "barcelona", "portugal",
+    "lisbon", "italy", "netherlands", "amsterdam", "poland", "warsaw", "sweden", "stockholm",
+    "switzerland", "zurich", "israel", "tel aviv", "singapore", "japan", "tokyo", "korea", "seoul",
+    "china", "hong kong", "taiwan", "australia", "sydney", "melbourne", "new zealand", "canada",
+    "toronto", "vancouver", "montreal", "mexico", "brazil", "sao paulo", "argentina", "colombia",
+    "philippines", "vietnam", "uae", "dubai",
+]
+US_MARKERS = ["united states", "usa", "us", "u.s.", "u.s", "americas", "north america", "us-remote"]
+
+
+def _has_word(text: str, words: list[str]) -> bool:
+    return any(re.search(rf"(?<![a-z]){re.escape(w)}(?![a-z])", text) for w in words)
+
+
+def is_non_us(text: str) -> bool:
+    """True for locations outside the US, e.g. "IN-Bangalore-MSO" or "Remote - Canada"."""
+    t = text.lower()
+    if re.match(r"^(in|gb|uk|de|fr|ca|ie|sg|au|jp|br|mx|pl|es|nl|il)-", t):
+        return True
+    return _has_word(t, NON_US_PLACES) and not _has_word(t, US_MARKERS)
+
+
 def matches_location(job: dict) -> bool:
     """
     1) In-Office or Hybrid is cool if location is Chicago/Chicagoland.
@@ -178,14 +203,9 @@ def matches_location(job: dict) -> bool:
     if is_chicagoland(combined):
         return True
 
-    # Exclude non-US international locations unless US is also mentioned
-    international_tokens = [
-        "india", "uk", "london", "emea", "apac", "germany", "france",
-        "singapore", "japan", "australia", "canada", "brazil", "netherlands"
-    ]
-    if any(token in combined for token in international_tokens):
-        if not any(us_tok in combined for us_tok in ["united states", "usa", "us remote", "remote - us"]):
-            return False
+    # Exclude non-US locations unless the US is also mentioned
+    if is_non_us(combined):
+        return False
 
     # Otherwise, must be remote
     if is_remote is True:

@@ -39,8 +39,8 @@ jobs:
         uses: actions/cache@v4
         with:
           path: .contacts_cache.json
-          key: contacts-${{ github.run_id }}
-          restore-keys: contacts-
+          key: contacts-v2-${{ github.run_id }}
+          restore-keys: contacts-v2-
 
       - name: Run FirstLight scanner
         env:

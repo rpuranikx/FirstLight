@@ -258,3 +258,26 @@ def test_format_contacts_fits_discord_field():
              "why": "w" * 400, "angle": "a" * 400}] * 3
     text = main.format_contacts(long)
     assert len(text) <= 1024 and text.startswith("**1.")
+
+
+def test_non_us_locations_rejected_even_when_marked_remote():
+    def loc(l, remote=True):
+        return {"location": l, "workplace": "", "is_remote": remote}
+    assert not main.matches_location(loc("IN-Bangalore-MSO"))
+    assert not main.matches_location(loc("Remote - Canada"))
+    assert not main.matches_location(loc("London, UK"))
+    assert main.matches_location(loc("Remote U.S."))
+    assert main.matches_location(loc("Remote (US or Canada)"))
+    assert main.matches_location(loc("Milwaukee, WI"))  # "uk" inside a word is not the UK
+    assert main.matches_location(loc("Chicago, IL", remote=False))
+
+
+def test_unrelated_functions_ranked_below_senior_generalists():
+    people = [
+        {"name": "Cee Fo", "title": "CFO", "seniority": "c_suite"},
+        {"name": "Pat Partner", "title": "Director of Partner Management", "seniority": "director"},
+        {"name": "Gus General", "title": "Chief of Staff", "seniority": "executive"},
+        {"name": "Fran FDE", "title": "Forward Deployed Engineer"},
+    ]
+    names = [p["name"] for p in contacts.fallback_picks(people, {"title": "Forward Deployed Engineer"})]
+    assert names[:2] == ["Fran FDE", "Gus General"]

@@ -60,6 +60,8 @@ def hunter_people(domain: str) -> list[dict]:
     try:
         r = requests.get(HUNTER_SEARCH_URL, timeout=REQUEST_TIMEOUT, params={
             "domain": domain, "api_key": key, "type": "personal", "limit": 10,
+            # Free plan returns 10 people; skip finance, legal, HR and marketing
+            "department": "it,executive,management,sales,support",
         })
         r.raise_for_status()
         emails = r.json().get("data", {}).get("emails", [])
@@ -294,6 +296,9 @@ def clean_picks(picks: list[dict], people: list[dict]) -> list[dict]:
 SENIORITY_ORDER = ["founder", "owner", "c_suite", "executive", "vp", "head", "director", "manager", "senior"]
 CUSTOMER_FACING = ("solutions", "forward deployed", "field", "customer engineer", "sales engineer",
                    "deployment", "implementation", "pre-sales", "presales")
+UNRELATED = ("cfo", "finance", "financial", "accounting", "legal", "counsel", "compliance", "risk",
+             "people", "hr", "marketing", "communications", "partner", "partnerships",
+             "account management", "business operations", "procurement", "facilities")
 ENGINEERING = ("engineering", "engineer", "cto", "technical", "ai", "ml", "platform", "infrastructure")
 
 
@@ -318,6 +323,8 @@ def fallback_picks(people: list[dict], job: dict | None = None) -> list[dict]:
             lead = _has(t, ("head", "vp", "director", "lead", "manager", "chief"))
             return 0, ("Leads the team this role sits on; likely the hiring manager." if lead
                        else "Works on the team this role sits on; can tell you what it's really like and refer you.")
+        if _has(t, UNRELATED):
+            return 5, "Not on the hiring side for this role; only if nobody else answers."
         if _has(t, ("cto", "vp engineering", "head of engineering", "engineering manager")):
             return 1, "Engineering leader; usually signs off on technical hires."
         if _has(t, ("founder", "ceo", "co-founder")):
