@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 FirstLight - Job Fetcher
-Polls Greenhouse, Lever, Ashby, Workable, and Rippling APIs for new
+Polls Greenhouse, Lever, Ashby, SmartRecruiters, Workable, and Rippling APIs for new
 job postings matching your target roles, as defined in config.yml.
 
 Usage:
@@ -442,12 +442,42 @@ def fetch_rippling(company: str, slug: str) -> list[dict]:
     return jobs
 
 
+def fetch_smartrecruiters(company: str, slug: str) -> list[dict]:
+    jobs = []
+    for offset in range(0, 1000, 100):  # paged, 100 per page
+        url  = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100&offset={offset}"
+        data = _get(url)
+        if not data or not data.get("content"):
+            break
+        for j in data["content"]:
+            l = j.get("location") or {}
+            loc = l.get("fullLocation") or ", ".join(
+                x for x in [l.get("city"), l.get("region"), l.get("country", "").upper()] if x)
+            remote = l.get("remote") is True
+            jobs.append({
+                "id":           f"smartrecruiters:{slug}:{j.get('id')}",
+                "company":      company,
+                "title":        j.get("name", ""),
+                "url":          f"https://jobs.smartrecruiters.com/{slug}/{j.get('id')}",
+                "location":     loc + (" (Remote)" if remote and "remote" not in loc.lower() else ""),
+                "workplace":    "Remote" if remote else "",
+                "is_remote":    remote,
+                "compensation": None,  # only in the per-posting detail call
+                "posted":       j.get("releasedDate", ""),
+                "description":  "",
+            })
+        if offset + 100 >= data.get("totalFound", 0):
+            break
+    return jobs
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever":      fetch_lever,
     "ashby":      fetch_ashby,
     "workable":   fetch_workable,
     "rippling":   fetch_rippling,
+    "smartrecruiters": fetch_smartrecruiters,
 }
 
 

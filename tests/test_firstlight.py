@@ -44,7 +44,7 @@ def test_filter_yc_keeps_active_mid_size_us_companies():
 
 def test_candidate_slugs_order_and_dedupe():
     assert discover.candidate_slugs("Trigger.dev", "trigger.dev", "trigger-dev") == \
-        ["trigger-dev", "trigger", "triggerdev"]
+        ["trigger-dev", "trigger", "triggerdev", "Triggerdev"]
     assert discover.candidate_slugs("Hex", "hex.tech")[0] == "hex"
 
 
@@ -58,6 +58,33 @@ def test_probe_board_tries_slugs_then_ats(monkeypatch):
     monkeypatch.setattr(discover, "_board_jobs", fake)
     assert discover.probe_board("Growthy", "growthy.ai") == {"ats": "greenhouse", "slug": "growthy"}
     assert calls[:2] == [("ashby", "growthy"), ("greenhouse", "growthy")]
+
+
+def test_smartrecruiters_empty_company_is_not_a_board(monkeypatch):
+    class R:
+        status_code = 200
+        def __init__(self, data): self.data = data
+        def json(self): return self.data
+    monkeypatch.setattr(discover.requests, "get", lambda url, **kw: R({"totalFound": 0, "content": []}))
+    assert discover._board_jobs("smartrecruiters", "nobody") is None
+    monkeypatch.setattr(discover.requests, "get", lambda url, **kw: R({"totalFound": 1, "content": [{"id": "1"}]}))
+    assert discover._board_jobs("smartrecruiters", "Acme") == [{"id": "1"}]
+
+
+def test_fetch_smartrecruiters_pages_and_maps_fields(monkeypatch):
+    def page(offset):
+        n = 100 if offset == 0 else 20
+        return {"totalFound": 120, "content": [
+            {"id": f"{offset + i}", "name": "Solutions Engineer", "releasedDate": "2026-10-28T10:00:00.000Z",
+             "location": {"city": "Chicago", "region": "IL", "country": "us", "remote": i == 0}}
+            for i in range(n)]}
+    urls = []
+    monkeypatch.setattr(main, "_get", lambda url: urls.append(url) or page(int(url.split("offset=")[1])))
+    jobs = main.fetch_smartrecruiters("Acme", "Acme")
+    assert len(jobs) == 120 and len(urls) == 2
+    assert jobs[0]["url"] == "https://jobs.smartrecruiters.com/Acme/0"
+    assert jobs[0]["location"] == "Chicago, IL, US (Remote)" and jobs[0]["is_remote"]
+    assert main.matches_location(jobs[1])  # Chicago, on-site
 
 
 def test_discover_caches_probe_results(monkeypatch):

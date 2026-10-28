@@ -7,7 +7,7 @@ and tells you who to message at the company to get in the door.
    high-growth startups discovered automatically from the YC directory
    (active, hiring, 15–1000 people, US or remote; ~575 companies today).
    Optional: Apollo company search for non-YC venture-backed startups.
-2. **Finds each company's job board** on Ashby, Greenhouse or Lever by probing
+2. **Finds each company's job board** on Ashby, Greenhouse, Lever or SmartRecruiters by probing
    likely slugs. Results are cached in `.board_cache.json`. If a hand-picked
    slug stops working, it is re-probed and fixed automatically (`[heal]` in the log).
 3. **Scans every board in parallel** and keeps jobs matching your roles,
@@ -19,6 +19,10 @@ and tells you who to message at the company to get in the door.
 
 The first time a company is scanned, its existing postings are recorded silently
 (except ones from the last 48h), so adding hundreds of companies doesn't flood Discord.
+
+Careers pages on a company's own site are usually one of these boards embedded
+(look for `gh_jid=` / `ashby_jid=` in the URL), so they are covered too. Not covered:
+Workday, iCIMS, BambooHR and fully custom pages.
 
 ## Setup
 Repository secrets (Settings → Secrets and variables → Actions):

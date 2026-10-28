@@ -30,7 +30,7 @@ CONTACTS_PATH   = os.path.join(os.path.dirname(__file__), ".contacts_cache.json"
 REQUEST_TIMEOUT = 10
 YC_HIRING_URL   = "https://yc-oss.github.io/api/companies/hiring.json"
 APOLLO_ORG_URL  = "https://api.apollo.io/api/v1/mixed_companies/search"
-PROBE_ORDER     = ["ashby", "greenhouse", "lever"]
+PROBE_ORDER     = ["ashby", "greenhouse", "lever", "smartrecruiters"]
 PROBE_WORKERS   = 16
 NO_BOARD_RETRY_DAYS = 14
 
@@ -86,6 +86,7 @@ def candidate_slugs(name: str, domain: str = "", hint: str = "") -> list[str]:
         re.sub(r"[^a-z0-9]", "", name.lower()),
         re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-"),
         re.sub(r"[^a-z0-9]", "", base),
+        re.sub(r"[^A-Za-z0-9]", "", name),  # SmartRecruiters IDs are often CamelCase
     ]:
         if s and s not in out:
             out.append(s)
@@ -98,6 +99,7 @@ def _board_jobs(ats: str, slug: str):
         "ashby":      f"https://api.ashbyhq.com/posting-api/job-board/{slug}",
         "greenhouse": f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
         "lever":      f"https://api.lever.co/v0/postings/{slug}?mode=json&limit=1",
+        "smartrecruiters": f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=1",
     }
     try:
         r = requests.get(urls[ats], timeout=REQUEST_TIMEOUT)
@@ -111,6 +113,9 @@ def _board_jobs(ats: str, slug: str):
         return None
     if ats == "lever":
         return data if isinstance(data, list) else None
+    if ats == "smartrecruiters":
+        # Unknown company IDs also answer 200, just with nothing in them
+        return data["content"] if isinstance(data, dict) and data.get("totalFound") else None
     if isinstance(data, dict) and isinstance(data.get("jobs"), list):
         return data["jobs"]
     return None

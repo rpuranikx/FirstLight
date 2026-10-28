@@ -2,7 +2,7 @@
 # Format: "Company Name": {"ats": "<platform>", "slug": "<board_slug>", "domain": "<site>"}
 # domain is used to look up people to message (Hunter/Apollo).
 # A wrong slug is auto-detected and re-probed; see [heal] lines in the run log.
-# ATS options: greenhouse, lever, ashby, workable, rippling
+# ATS options: greenhouse, lever, ashby, smartrecruiters, workable, rippling
 #
 # To find a slug: visit the company careers page, look at the URL.
 #   Greenhouse:  boards.greenhouse.io/<slug>
@@ -10,6 +10,7 @@
 #   Ashby:       jobs.ashbyhq.com/<slug>
 #   Workable:    apply.workable.com/<slug>
 #   Rippling:    ats.rippling.com/<slug>
+#   SmartRecruiters: jobs.smartrecruiters.com/<CompanyId>
 
 COMPANY_SLUGS = {
     # --- AI Agents & Workflow Orchestration ---
