@@ -1,0 +1,7152 @@
+{
+ "boards": {
+  "AIOS": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "aios"
+  },
+  "AON3D": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "aon3d"
+  },
+  "ARQ": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "arq"
+  },
+  "Abacum": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "abacum"
+  },
+  "Accord": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "accord"
+  },
+  "Acely": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Activeloop": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Afriex": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Agave": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "agave"
+  },
+  "Agency": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "agency"
+  },
+  "Akiflow": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Albedo": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "albedo"
+  },
+  "AlemHealth": {
+   "ats": "smartrecruiters",
+   "checked": 1793207879.1262577,
+   "slug": "alemhealth"
+  },
+  "Aleph": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "aleph"
+  },
+  "AlgoUniversity": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Algolia": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "algolia"
+  },
+  "Alpaca": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "alpaca"
+  },
+  "Alpha Vantage": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Ambient.ai": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Anima": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "anima"
+  },
+  "Ankr Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Apero Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Apollo": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "apollo"
+  },
+  "Apollo.io": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "apollo"
+  },
+  "Aqua": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "ArchForm": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Arketa": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "arketa"
+  },
+  "Ashby": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "ashby"
+  },
+  "Aspire": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Assembly": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "assembly"
+  },
+  "AssemblyAI": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "assemblyai"
+  },
+  "Astranis": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "astranis"
+  },
+  "Athelas": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Atlas": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "atlas"
+  },
+  "AtoB": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "atob"
+  },
+  "Atomic": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "atomic"
+  },
+  "Atomic Industries": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "atomic"
+  },
+  "Authologic": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Axel Travel": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Axle Health": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "axle-health"
+  },
+  "BIK": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Baraka": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "BeGo": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Beacons": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "beacons"
+  },
+  "BelozFi": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Belvo": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "belvo"
+  },
+  "Benepass": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "benepass"
+  },
+  "Betterhalf": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Binks": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "BioRender": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "biorender"
+  },
+  "Bitmovin": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "bitmovin"
+  },
+  "Blissway": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "blissway"
+  },
+  "Bloom Institute of Technology": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Blue Onion": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "BlueCargo": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Bolster": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Bot MD": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Broccoli AI": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "broccoli"
+  },
+  "BuildBuddy": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Bunkerhill Health": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "bunkerhillhealth"
+  },
+  "BusinessOnBot": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Camber": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "camber"
+  },
+  "Cambly": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "cambly"
+  },
+  "Canary Technologies": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "canarytechnologies"
+  },
+  "Candid Health": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "candidhealth"
+  },
+  "CaptivateIQ": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "captivateiq"
+  },
+  "CarbonChain": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "carbonchain"
+  },
+  "Cashfree Payments": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Castle": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "castle"
+  },
+  "Centaur": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "centaur"
+  },
+  "Charge Robotics": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "charge-robotics"
+  },
+  "Checkr": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "checkr"
+  },
+  "Cinder": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "cinder"
+  },
+  "Circle Medical": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "circlemedical"
+  },
+  "CircuitHub": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "circuithub"
+  },
+  "Cityfurnish": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "ClassDojo": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "classdojo"
+  },
+  "Clipboard": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "clipboard"
+  },
+  "Coast": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "coast"
+  },
+  "Coderhouse": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Codingal": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Cofactr": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "Cofactr"
+  },
+  "Cogram": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "CoinTracker": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "cointracker"
+  },
+  "Collectly": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Community Phone Company": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Complif": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Confido": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "confido"
+  },
+  "Craniometrix": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Curacel": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Curri": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "curri"
+  },
+  "Cyble": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "D-ID": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Datafold": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "datafold"
+  },
+  "Datrics": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Deepgram": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "deepgram"
+  },
+  "DigiBuild": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "DirectShifts": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Double": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "double"
+  },
+  "Draftwise": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "DreamCraft Entertainment, Inc.": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Drip Capital": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Duffel": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "duffel"
+  },
+  "Dynamo AI": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "dynamo"
+  },
+  "Eden": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Eight Sleep": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "eightsleep"
+  },
+  "Ello": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "ello"
+  },
+  "Enode": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "enode"
+  },
+  "Eventual": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "eventual"
+  },
+  "Explorex": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Eze": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Faire": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "faire"
+  },
+  "FamPay": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "fampay"
+  },
+  "Fieldguide": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "fieldguide"
+  },
+  "Finch": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "finch"
+  },
+  "Finku": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Firstbase.io": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Flagright": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Fleek": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "fleek"
+  },
+  "Flint": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "flint"
+  },
+  "Flock Safety": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "FlutterFlow": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "flutterflow"
+  },
+  "Forage": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Formance": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "formance"
+  },
+  "Freshpaint": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "freshpaint"
+  },
+  "Function of Beauty": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "GIMO": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Gather": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "gather"
+  },
+  "Gauss": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Gecko Robotics": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "gecko-robotics"
+  },
+  "Gemnote": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "General Proximity": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "generalproximity"
+  },
+  "Gigs": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "gigs"
+  },
+  "GiveCampus": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "givecampus"
+  },
+  "Glimpse": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "glimpse"
+  },
+  "Go1": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "GoGoGrandparent": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "GoLinks": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "golinks"
+  },
+  "Goldbelly": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "GovDash": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "govdash"
+  },
+  "Great Question": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "greatquestion"
+  },
+  "Gridware": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "gridware"
+  },
+  "GrowthBook": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Gym Class": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "HackerRank": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "hackerrank"
+  },
+  "Handle": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Handoff": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "handoff"
+  },
+  "Hapi": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Haven": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "haven"
+  },
+  "Helloverify": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Heron": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "herondata"
+  },
+  "HeyCharge": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "HiOperator": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "HitPay": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Hive": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "hive"
+  },
+  "Humaans": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "humaans"
+  },
+  "Human Interest": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "humaninterest"
+  },
+  "Hypotenuse AI": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "IMT Care": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "imt"
+  },
+  "IOMETE": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "InEvent": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "InfluxData": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "influxdata"
+  },
+  "Infracost": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "infracost"
+  },
+  "Inito": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Inscribe": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Inspectify": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Instawork": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "instawork"
+  },
+  "Instrumentl": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "Instrumentl"
+  },
+  "Invert": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "invert"
+  },
+  "Ironclad": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "JABU": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "JITX": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Jiga": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "jiga"
+  },
+  "Joy": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Junction": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "junction"
+  },
+  "Just Appraised": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "JuziBot": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "KaiPod Learning": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Kalshi": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "kalshi"
+  },
+  "Karat Financial": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Kingdom": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "kingdom"
+  },
+  "Kodex": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "kodex"
+  },
+  "Kodo": {
+   "ats": "smartrecruiters",
+   "checked": 1793207879.1262577,
+   "slug": "kodo"
+  },
+  "Lago": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Lamar Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Landed": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Lattice": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "lattice"
+  },
+  "Laylo": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Ledger Investing": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Leena AI": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Legalist": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "legalist"
+  },
+  "Lightdash": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "lightdash"
+  },
+  "LineLeap": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "LiveFlow": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "liveflow"
+  },
+  "Living Carbon": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "livingcarbon"
+  },
+  "Lob": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "lob"
+  },
+  "Lugg": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Luminai": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "luminai"
+  },
+  "MDalgorithms Inc.": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Mach9": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "mach9"
+  },
+  "Magic": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "magic"
+  },
+  "Mashgin": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Mason": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "May Mobility": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "maymobility"
+  },
+  "MedMe Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Mednet": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "mednet"
+  },
+  "Meru Health": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "meruhealth"
+  },
+  "Method Financial": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Middesk": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "middesk"
+  },
+  "MindFi": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Mintlify": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "mintlify"
+  },
+  "MixRank": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Modern Health": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "modernhealth"
+  },
+  "Modern Treasury": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "moderntreasury"
+  },
+  "Moonvalley": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Multiply Labs": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "multiplylabs"
+  },
+  "Mutiny": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "mutiny"
+  },
+  "Muzz": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Mytos": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "mytos"
+  },
+  "Nabis": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "nabis"
+  },
+  "NanoNets": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "nanonets"
+  },
+  "Nash": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "nash"
+  },
+  "Neodocs": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Nestor": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "New Story": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "new-story"
+  },
+  "Nextera Robotics | DIDGE.ai": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Nimble": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Nira Energy": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "niraenergy"
+  },
+  "Noloco": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Nomic Bio": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "nomic"
+  },
+  "Noora Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Notabene": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "notabene"
+  },
+  "Nourish": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Nova Credit": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "novacredit"
+  },
+  "Numero": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "OWNY": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Odeko": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "odeko"
+  },
+  "Okteto": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "OneChronos": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "onechronos"
+  },
+  "OneLocal": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "OneSchema": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "oneschema"
+  },
+  "OneSignal": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Ophelia": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "ophelia"
+  },
+  "Overview": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "overview"
+  },
+  "Oxygen": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "PNO\u0112": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Padlet": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "padlet"
+  },
+  "Pair Team": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "pairteam"
+  },
+  "Paragon": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "paragon"
+  },
+  "Parallel Bio": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "parallel-bio"
+  },
+  "Pave": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "pave"
+  },
+  "Payflow": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Peakflo": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Pelago": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "pelago"
+  },
+  "People.ai": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "people-ai"
+  },
+  "Per Diem": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "PermitFlow": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "permitflow"
+  },
+  "Phoenix": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "phoenix"
+  },
+  "PicnicAI": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "picnicai"
+  },
+  "Pine Park Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "PocketSuite": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Podium": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "podium"
+  },
+  "Popl": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "popl"
+  },
+  "Porter": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "porter"
+  },
+  "PostEra": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "postera"
+  },
+  "PostHog": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "posthog"
+  },
+  "Postscript": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "postscript"
+  },
+  "Prelim": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "prelim"
+  },
+  "Prembly (formerly Identitypass)": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Probably Genetic": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "probablygenetic"
+  },
+  "Prodigal": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "prodigal"
+  },
+  "Prolific": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "prolific"
+  },
+  "Promise": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "promise"
+  },
+  "Prospa": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "prospa"
+  },
+  "Proven Group": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Pulley": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "pulley"
+  },
+  "Quartzy": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "quartzy"
+  },
+  "Quicknode": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "quicknode"
+  },
+  "Qventus": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "qventus"
+  },
+  "RADAR": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "radar"
+  },
+  "Rally": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "rallyuxr"
+  },
+  "Ramani": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Reach": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "reach"
+  },
+  "Ready": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "ready"
+  },
+  "Reality Defender": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "realitydefender"
+  },
+  "Recall.ai": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "recall"
+  },
+  "Recidiviz": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "recidiviz"
+  },
+  "Recurrency": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "recurrency"
+  },
+  "Reforged Labs": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Reframe": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Remi": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "remi"
+  },
+  "Replit": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "replit"
+  },
+  "Replo": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "replo"
+  },
+  "Rescale": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "rescale"
+  },
+  "Resquared": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Retool": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "RevenueCat": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "revenuecat"
+  },
+  "Ridecell": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Riot": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "tryriot"
+  },
+  "Roboflow": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "roboflow"
+  },
+  "RocketSDR": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Rootly": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Rose Rocket": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Runa": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "runa"
+  },
+  "Runway": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "runway"
+  },
+  "Rutter": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "rutter"
+  },
+  "SOUNDBOKS": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "SafetyWing": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Scale AI": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "scaleai"
+  },
+  "Scispot": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Seal": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Seam": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Sendbird": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "sendbird"
+  },
+  "Serif Health": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "serifhealth"
+  },
+  "Shepherd": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "shepherd"
+  },
+  "Short Story": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "shortstory"
+  },
+  "Shuttle Central": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "SiPhox Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Sieve": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "sieve"
+  },
+  "SigNoz": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "signoz"
+  },
+  "SimplyInsured": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Skyways": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "skyways"
+  },
+  "Slash": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Slope": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "slope"
+  },
+  "SnapMagic": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "snapmagic"
+  },
+  "Snappr": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "snappr"
+  },
+  "Solo": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Soraban": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Sourcify": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Spade": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "spade"
+  },
+  "Speak": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "speak"
+  },
+  "Spellbrush": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "spellbrush"
+  },
+  "Spenmo": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "SpruceID": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "spruceid"
+  },
+  "Stable": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "stable"
+  },
+  "Standard AI": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Stayflexi": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Stepful": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "stepful"
+  },
+  "Stoke Space": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Storylane": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Streak": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Sully": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Swayable": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "swayable"
+  },
+  "Swif.ai": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "SwiftSku": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "TRM Labs": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "trm-labs"
+  },
+  "Taiv": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Taktile": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "taktile"
+  },
+  "Tavus": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "tavus"
+  },
+  "Tempo": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "tempo"
+  },
+  "Terra API": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Thunkable": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "thunkable"
+  },
+  "Tilt (f.k.a. Delphia)": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "tilt"
+  },
+  "Tint": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Titan": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "titan"
+  },
+  "Topkey": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Topline Pro": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "topline-pro"
+  },
+  "Tovala": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "tovala"
+  },
+  "Tractian": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "tractian"
+  },
+  "Triomics": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "triomics"
+  },
+  "Truss": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Turing College": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Turion Space": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "turion-space"
+  },
+  "UNISON": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "UpCodes": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "upcodes"
+  },
+  "Vanta": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "vanta"
+  },
+  "Vapi": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "vapi"
+  },
+  "Velt": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Verge Genomics": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "VergeSense": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "vergesense"
+  },
+  "Verse Medical": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "versemedical"
+  },
+  "Veryfi, Inc.": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Vetcove": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "vetcove"
+  },
+  "Vitable Health": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Volantio": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Volta Labs, Inc.": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "voltalabs"
+  },
+  "Vori": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "vori"
+  },
+  "Vouch": {
+   "ats": "smartrecruiters",
+   "checked": 1793207879.1262577,
+   "slug": "vouch"
+  },
+  "Webflow": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "webflow"
+  },
+  "Weekday": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Weekend (fmr. Volley)": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "weekend"
+  },
+  "Wefunder": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Within": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Women Who Code": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Wonderly": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "wonderly"
+  },
+  "Xendit": {
+   "ats": "greenhouse",
+   "checked": 1793207879.1262577,
+   "slug": "xendit"
+  },
+  "Y Combinator": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "ycombinator"
+  },
+  "Zapier": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "zapier"
+  },
+  "Zentail": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "Ziina": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "ziina"
+  },
+  "Zip": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "zip"
+  },
+  "Zippi": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "zippi"
+  },
+  "Zuddl": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "arnata": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "authzed": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "authzed"
+  },
+  "borong": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "digi": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "doola": {
+   "ats": "lever",
+   "checked": 1793207879.1262577,
+   "slug": "doola"
+  },
+  "manual:Adaptive Security": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "adaptivesecurity"
+  },
+  "manual:Aikido Security": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "aikido"
+  },
+  "manual:Airbyte": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "airbyte"
+  },
+  "manual:Aisera": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "aisera"
+  },
+  "manual:Anomalo": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "anomalo"
+  },
+  "manual:Anthropic": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "anthropic"
+  },
+  "manual:Apideck": {
+   "ats": "lever",
+   "checked": 1793207724.3287258,
+   "slug": "apideck"
+  },
+  "manual:Arize AI": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "arizeai"
+  },
+  "manual:Beam AI": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "beam"
+  },
+  "manual:Boomi": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "boomi"
+  },
+  "manual:Calypso AI": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "calypso-ai"
+  },
+  "manual:Census": {
+   "ats": "lever",
+   "checked": 1793207724.3287258,
+   "slug": "census"
+  },
+  "manual:Chronosphere": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "chronosphere"
+  },
+  "manual:Clerk": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "clerk"
+  },
+  "manual:Coalesce": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "coalesce"
+  },
+  "manual:Cohere": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "cohere"
+  },
+  "manual:Coinflow": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "coinflow"
+  },
+  "manual:Cortex": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "cortex"
+  },
+  "manual:Cribl": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "cribl"
+  },
+  "manual:Cyera": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "cyera"
+  },
+  "manual:Databricks": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "databricks"
+  },
+  "manual:Doppel": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "doppel"
+  },
+  "manual:Fivetran": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "fivetran"
+  },
+  "manual:Glean": {
+   "ats": "smartrecruiters",
+   "checked": 1793207724.3287258,
+   "slug": "glean"
+  },
+  "manual:Hebbia": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "hebbia"
+  },
+  "manual:Hex": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "hex"
+  },
+  "manual:Hightouch": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "hightouch"
+  },
+  "manual:Inngest": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "inngest"
+  },
+  "manual:Kore.ai": {
+   "ats": "smartrecruiters",
+   "checked": 1793207724.3287258,
+   "slug": "koreai"
+  },
+  "manual:LangChain": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "langchain"
+  },
+  "manual:Lasso Security": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "lasso-security"
+  },
+  "manual:Letta": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "letta"
+  },
+  "manual:Lindy AI": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "lindy"
+  },
+  "manual:Lithic": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "lithic"
+  },
+  "manual:Meltano": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "meltano"
+  },
+  "manual:Merge": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "merge"
+  },
+  "manual:Metaplane": {
+   "ats": "lever",
+   "checked": 1793207724.3287258,
+   "slug": "metaplane"
+  },
+  "manual:Modern Treasury": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "moderntreasury"
+  },
+  "manual:Monte Carlo": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "montecarlodata"
+  },
+  "manual:Moveworks": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "moveworks"
+  },
+  "manual:Nango": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "nango"
+  },
+  "manual:Observe AI": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "observeai"
+  },
+  "manual:OpenAI": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "openai"
+  },
+  "manual:Paragon": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "paragon"
+  },
+  "manual:Port": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "port"
+  },
+  "manual:Prompt Security": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "prompt"
+  },
+  "manual:Protect AI": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "protect-ai"
+  },
+  "manual:Relevance AI": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "relevanceai"
+  },
+  "manual:Retool": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "retool"
+  },
+  "manual:Rootly": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "rootly"
+  },
+  "manual:Slope": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "slope"
+  },
+  "manual:Snowflake": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "snowflake"
+  },
+  "manual:Stripe": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "stripe"
+  },
+  "manual:Stytch": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "stytch"
+  },
+  "manual:Supabase": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "supabase"
+  },
+  "manual:Temporal": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "temporal"
+  },
+  "manual:Tray.io": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "tray"
+  },
+  "manual:Trigger.dev": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "triggerdev"
+  },
+  "manual:Vellum AI": {
+   "ats": "ashby",
+   "checked": 1793207724.3287258,
+   "slug": "vellum"
+  },
+  "manual:Weights & Biases": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "weights-biases"
+  },
+  "manual:Workato": {
+   "ats": "greenhouse",
+   "checked": 1793207724.3287258,
+   "slug": "workato"
+  },
+  "testRigor": {
+   "ats": null,
+   "checked": 1793207879.1262577,
+   "slug": null
+  },
+  "voize": {
+   "ats": "ashby",
+   "checked": 1793207879.1262577,
+   "slug": "voize"
+  }
+ },
+ "discovered": {
+  "companies": [
+   {
+    "about": "On-Demand Electronics Manufacturing",
+    "domain": "circuithub.com",
+    "name": "CircuitHub",
+    "slug_hint": "circuithub",
+    "source": "YC Winter 2012",
+    "team_size": 58
+   },
+   {
+    "about": "High Performance Computing Built for the Cloud",
+    "domain": "rescale.com",
+    "name": "Rescale",
+    "slug_hint": "rescale",
+    "source": "YC Winter 2012",
+    "team_size": 250
+   },
+   {
+    "about": "Make something people want.",
+    "domain": "ycombinator.com",
+    "name": "Y Combinator",
+    "slug_hint": "y-combinator",
+    "source": "YC Unspecified",
+    "team_size": 100
+   },
+   {
+    "about": "Apollo helps engineering teams accelerate delivery",
+    "domain": "apollographql.com",
+    "name": "Apollo",
+    "slug_hint": "apollo",
+    "source": "YC Summer 2011",
+    "team_size": 200
+   },
+   {
+    "about": "Change the world to value skills over pedigree",
+    "domain": "hackerrank.com",
+    "name": "HackerRank",
+    "slug_hint": "hackerrank",
+    "source": "YC Summer 2011",
+    "team_size": 300
+   },
+   {
+    "about": "Engage customers through personalized omni-channel messaging",
+    "domain": "onesignal.com",
+    "name": "OneSignal",
+    "slug_hint": "onesignal",
+    "source": "YC Summer 2011",
+    "team_size": 150
+   },
+   {
+    "about": "Streak transforms Gmail into a powerful CRM",
+    "domain": "streak.com",
+    "name": "Streak",
+    "slug_hint": "streak",
+    "source": "YC Summer 2011",
+    "team_size": 35
+   },
+   {
+    "about": "Marketplace for life science supplies.",
+    "domain": "quartzy.com",
+    "name": "Quartzy",
+    "slug_hint": "quartzy",
+    "source": "YC Summer 2011",
+    "team_size": 100
+   },
+   {
+    "about": "Data products for sales, marketing, finance, recruiting, and more.",
+    "domain": "mixrank.com",
+    "name": "MixRank",
+    "slug_hint": "mixrank",
+    "source": "YC Summer 2011",
+    "team_size": 31
+   },
+   {
+    "about": "Post-booking revenue and capacity optimization for airlines\u2026",
+    "domain": "volantio.com",
+    "name": "Volantio",
+    "slug_hint": "volantio",
+    "source": "YC Winter 2009",
+    "team_size": 19
+   },
+   {
+    "about": "We're making ecommerce simple connecting brands with sales channels",
+    "domain": "zentail.com",
+    "name": "Zentail",
+    "slug_hint": "zentail",
+    "source": "YC Summer 2012",
+    "team_size": 30
+   },
+   {
+    "about": "The easiest way to automate your work.",
+    "domain": "zapier.com",
+    "name": "Zapier",
+    "slug_hint": "zapier",
+    "source": "YC Summer 2012",
+    "team_size": 700
+   },
+   {
+    "about": "Papyrus \u2192 Parchment \u2192 Paper \u2192 Padlet",
+    "domain": "padlet.com",
+    "name": "Padlet",
+    "slug_hint": "padlet",
+    "source": "YC Winter 2013",
+    "team_size": 65
+   },
+   {
+    "about": "The platform for building and operating time series applications.",
+    "domain": "influxdata.com",
+    "name": "InfluxData",
+    "slug_hint": "influxdata",
+    "source": "YC Winter 2013",
+    "team_size": 210
+   },
+   {
+    "about": "RADAR is building technology to completely transform the in-store\u2026",
+    "domain": "goradar.com",
+    "name": "RADAR",
+    "slug_hint": "radar",
+    "source": "YC Winter 2013",
+    "team_size": 120
+   },
+   {
+    "about": "We sell health insurance to small businesses 100% online.",
+    "domain": "simplyinsured.com",
+    "name": "SimplyInsured",
+    "slug_hint": "simplyinsured",
+    "source": "YC Winter 2013",
+    "team_size": 35
+   },
+   {
+    "about": "We're Robinhood for pre-IPO startups. Everyone can invest $100.",
+    "domain": "wefunder.com",
+    "name": "Wefunder",
+    "slug_hint": "wefunder",
+    "source": "YC Winter 2013",
+    "team_size": 35
+   },
+   {
+    "about": "Empowering restaurants and small food makers to ship nationwide.",
+    "domain": "goldbelly.com",
+    "name": "Goldbelly",
+    "slug_hint": "goldbelly",
+    "source": "YC Winter 2013",
+    "team_size": 125
+   },
+   {
+    "about": "Lob is the only automation platform that transforms direct mail into\u2026",
+    "domain": "lob.com",
+    "name": "Lob",
+    "slug_hint": "lob",
+    "source": "YC Summer 2013",
+    "team_size": 150
+   },
+   {
+    "about": "Professional website design and publishing platform. ",
+    "domain": "webflow.com",
+    "name": "Webflow",
+    "slug_hint": "webflow",
+    "source": "YC Summer 2013",
+    "team_size": 600
+   },
+   {
+    "about": "On-demand access to English tutors over video chat.",
+    "domain": "cambly.com",
+    "name": "Cambly",
+    "slug_hint": "cambly",
+    "source": "YC Winter 2014",
+    "team_size": 200
+   },
+   {
+    "about": "Training patients and their families with health skills",
+    "domain": "noorahealth.org",
+    "name": "Noora Health",
+    "slug_hint": "noora-health",
+    "source": "YC Winter 2014",
+    "team_size": 500
+   },
+   {
+    "about": "A developer-friendly and enterprise-grade search API.",
+    "domain": "algolia.com",
+    "name": "Algolia",
+    "slug_hint": "algolia",
+    "source": "YC Winter 2014",
+    "team_size": 810
+   },
+   {
+    "about": "People infrastructure for the future of work",
+    "domain": "checkr.com",
+    "name": "Checkr",
+    "slug_hint": "checkr",
+    "source": "YC Summer 2014",
+    "team_size": 800
+   },
+   {
+    "about": "Intelligence to accelerate human health.",
+    "domain": "picnic.ai",
+    "name": "PicnicAI",
+    "slug_hint": "picnicai",
+    "source": "YC Summer 2014",
+    "team_size": 100
+   },
+   {
+    "about": "Marketing automation for event promoters (email, sms, ads, CRM)",
+    "domain": "hive.co",
+    "name": "Hive",
+    "slug_hint": "hive",
+    "source": "YC Summer 2014",
+    "team_size": 65
+   },
+   {
+    "about": "We automate operations for hospitals and health systems",
+    "domain": "qventus.com",
+    "name": "Qventus",
+    "slug_hint": "qventus",
+    "source": "YC Winter 2015",
+    "team_size": 230
+   },
+   {
+    "about": "Extremely talented assistants for busy people",
+    "domain": "getmagic.com",
+    "name": "Magic",
+    "slug_hint": "magic",
+    "source": "YC Winter 2015",
+    "team_size": 350
+   },
+   {
+    "about": "Live home fitness training powered by computer vision.",
+    "domain": "tempo.fit",
+    "name": "Tempo",
+    "slug_hint": "tempo",
+    "source": "YC Winter 2015",
+    "team_size": 158
+   },
+   {
+    "about": "Self-Checkout using Computer Vision.",
+    "domain": "mashgin.com",
+    "name": "Mashgin",
+    "slug_hint": "mashgin",
+    "source": "YC Winter 2015",
+    "team_size": 150
+   },
+   {
+    "about": "Move anything, anytime, anywhere",
+    "domain": "lugg.com",
+    "name": "Lugg",
+    "slug_hint": "lugg",
+    "source": "YC Summer 2015",
+    "team_size": 50
+   },
+   {
+    "about": "AI-powered contract management",
+    "domain": "ironcladapp.com",
+    "name": "Ironclad",
+    "slug_hint": "ironclad",
+    "source": "YC Summer 2015",
+    "team_size": 700
+   },
+   {
+    "about": "We pioneer solutions to end the global housing crisis by empowering\u2026",
+    "domain": "newstoryhomes.org",
+    "name": "New Story",
+    "slug_hint": "new-story",
+    "source": "YC Summer 2015",
+    "team_size": 20
+   },
+   {
+    "about": "Gemnote is the easiest way to design, create and send custom products.",
+    "domain": "gemnote.com",
+    "name": "Gemnote",
+    "slug_hint": "gemnote",
+    "source": "YC Summer 2015",
+    "team_size": 40
+   },
+   {
+    "about": "AI-assisted electronics design",
+    "domain": "snapmagic.com",
+    "name": "SnapMagic",
+    "slug_hint": "snapmagic",
+    "source": "YC Summer 2015",
+    "team_size": 23
+   },
+   {
+    "about": "Long range, wireless energy distribution that scales",
+    "domain": "reachpower.com",
+    "name": "Reach",
+    "slug_hint": "reach",
+    "source": "YC Summer 2015",
+    "team_size": 45
+   },
+   {
+    "about": "We use human data and AI to develop better drugs faster.",
+    "domain": "vergegenomics.com",
+    "name": "Verge Genomics",
+    "slug_hint": "verge-genomics",
+    "source": "YC Summer 2015",
+    "team_size": 50
+   },
+   {
+    "about": "Digital trade finance and B2B commerce company",
+    "domain": "dripcapital.com",
+    "name": "Drip Capital",
+    "slug_hint": "drip-capital",
+    "source": "YC Summer 2015",
+    "team_size": 280
+   },
+   {
+    "about": "The fundraising platform for schools.",
+    "domain": "go.givecampus.com",
+    "name": "GiveCampus",
+    "slug_hint": "givecampus",
+    "source": "YC Summer 2015",
+    "team_size": 130
+   },
+   {
+    "about": "Modern primary care via video and in-person",
+    "domain": "circlemedical.com",
+    "name": "Circle Medical",
+    "slug_hint": "circle-medical",
+    "source": "YC Summer 2015",
+    "team_size": 235
+   },
+   {
+    "about": "Provides payment infrastructure for Southeast Asia",
+    "domain": "xendit.co",
+    "name": "Xendit",
+    "slug_hint": "xendit",
+    "source": "YC Summer 2015",
+    "team_size": 700
+   },
+   {
+    "about": "A learning platform that enables you to train your staff or customers.",
+    "domain": "go1.com",
+    "name": "Go1",
+    "slug_hint": "go1",
+    "source": "YC Summer 2015",
+    "team_size": 650
+   },
+   {
+    "about": "Powers OTT online video providers with video developer tools.",
+    "domain": "bitmovin.com",
+    "name": "Bitmovin",
+    "slug_hint": "bitmovin",
+    "source": "YC Summer 2015",
+    "team_size": 145
+   },
+   {
+    "about": "A flexible work app that connects businesses with hourly workers.",
+    "domain": "instawork.com",
+    "name": "Instawork",
+    "slug_hint": "instawork",
+    "source": "YC Summer 2015",
+    "team_size": 500
+   },
+   {
+    "about": "The sleep fitness company.",
+    "domain": "eightsleep.com",
+    "name": "Eight Sleep",
+    "slug_hint": "eight-sleep",
+    "source": "YC Summer 2015",
+    "team_size": 100
+   },
+   {
+    "about": "The 401(k) for small and medium-sized businesses.",
+    "domain": "humaninterest.com",
+    "name": "Human Interest",
+    "slug_hint": "human-interest",
+    "source": "YC Summer 2015",
+    "team_size": 765
+   },
+   {
+    "about": "Modern people management platform.",
+    "domain": "lattice.com",
+    "name": "Lattice",
+    "slug_hint": "lattice",
+    "source": "YC Winter 2016",
+    "team_size": 540
+   },
+   {
+    "about": "We're creating the loudest battery-driven speaker on the market",
+    "domain": "soundboks.com",
+    "name": "SOUNDBOKS",
+    "slug_hint": "soundboks",
+    "source": "YC Winter 2016",
+    "team_size": 50
+   },
+   {
+    "about": "Building foundational AI for speech transcription and understanding.",
+    "domain": "deepgram.com",
+    "name": "Deepgram",
+    "slug_hint": "deepgram",
+    "source": "YC Winter 2016",
+    "team_size": 115
+   },
+   {
+    "about": "A smart-oven-paired subscription meal service.",
+    "domain": "tovala.com",
+    "name": "Tovala",
+    "slug_hint": "tovala",
+    "source": "YC Winter 2016",
+    "team_size": 375
+   },
+   {
+    "about": "Mason is the fastest way to take smart devices from idea to end user",
+    "domain": "bymason.com",
+    "name": "Mason",
+    "slug_hint": "mason",
+    "source": "YC Winter 2016",
+    "team_size": 65
+   },
+   {
+    "about": "All-In-One Business Operating System by PocketSuite",
+    "domain": "pocketsuite.io",
+    "name": "PocketSuite",
+    "slug_hint": "pocketsuite",
+    "source": "YC Winter 2016",
+    "team_size": 30
+   },
+   {
+    "about": "Block bots & bad behavior",
+    "domain": "castle.io",
+    "name": "Castle",
+    "slug_hint": "castle-2",
+    "source": "YC Winter 2016",
+    "team_size": 20
+   },
+   {
+    "about": "Customizable beauty for hair, skin, and body care products.",
+    "domain": "functionofbeauty.com",
+    "name": "Function of Beauty",
+    "slug_hint": "function-of-beauty",
+    "source": "YC Winter 2016",
+    "team_size": 300
+   },
+   {
+    "about": "Get more leads. Make more money. ",
+    "domain": "podium.com",
+    "name": "Podium",
+    "slug_hint": "podium",
+    "source": "YC Winter 2016",
+    "team_size": 1000
+   },
+   {
+    "about": "Apollo is the foundation of your entire go-to-market strategy.",
+    "domain": "apollo.io",
+    "name": "Apollo.io",
+    "slug_hint": "apollo-io",
+    "source": "YC Winter 2016",
+    "team_size": 800
+   },
+   {
+    "about": "Thunkable is the no-code platform to build powerful native mobile apps",
+    "domain": "thunkable.com",
+    "name": "Thunkable",
+    "slug_hint": "thunkable",
+    "source": "YC Winter 2016",
+    "team_size": 40
+   },
+   {
+    "about": "AI + Robotics for the Built World",
+    "domain": "geckorobotics.com",
+    "name": "Gecko Robotics",
+    "slug_hint": "gecko-robotics",
+    "source": "YC Winter 2016",
+    "team_size": 230
+   },
+   {
+    "about": "The AI agent that doesn\u2019t just support, it delights.",
+    "domain": "sendbird.com",
+    "name": "Sendbird",
+    "slug_hint": "sendbird",
+    "source": "YC Winter 2016",
+    "team_size": 300
+   },
+   {
+    "about": "Advanced satellites for high orbits.",
+    "domain": "astranis.com",
+    "name": "Astranis",
+    "slug_hint": "astranis",
+    "source": "YC Winter 2016",
+    "team_size": 500
+   },
+   {
+    "about": "Powering the animal health supply chain.",
+    "domain": "vetcove.com",
+    "name": "Vetcove",
+    "slug_hint": "vetcove",
+    "source": "YC Summer 2016",
+    "team_size": 170
+   },
+   {
+    "about": "The platform for all your life events.",
+    "domain": "withjoy.com",
+    "name": "Joy",
+    "slug_hint": "joy",
+    "source": "YC Summer 2016",
+    "team_size": 100
+   },
+   {
+    "about": "Rose Rocket is ERP software for trucking companies.",
+    "domain": "roserocket.com",
+    "name": "Rose Rocket",
+    "slug_hint": "rose-rocket",
+    "source": "YC Summer 2016",
+    "team_size": 165
+   },
+   {
+    "about": "Instrumentl automates grant discovery and management for nonprofits.",
+    "domain": "instrumentl.com",
+    "name": "Instrumentl",
+    "slug_hint": "instrumentl",
+    "source": "YC Summer 2016",
+    "team_size": 100
+   },
+   {
+    "about": "Bridging a world of consumer-permissioned credit data",
+    "domain": "novacredit.com",
+    "name": "Nova Credit",
+    "slug_hint": "nova-credit",
+    "source": "YC Summer 2016",
+    "team_size": 100
+   },
+   {
+    "about": "The Smart Market for Institutional Investors",
+    "domain": "onechronos.com",
+    "name": "OneChronos",
+    "slug_hint": "onechronos",
+    "source": "YC Summer 2016",
+    "team_size": 75
+   },
+   {
+    "about": "WWCode is a non profit that empowering diverse women to excel in tech.",
+    "domain": "womenwhocode.com",
+    "name": "Women Who Code",
+    "slug_hint": "women-who-code",
+    "source": "YC Summer 2016",
+    "team_size": 25
+   },
+   {
+    "about": "Robotic production capacity for the pharma manufacturing industry",
+    "domain": "multiplylabs.com",
+    "name": "Multiply Labs",
+    "slug_hint": "multiply-labs",
+    "source": "YC Summer 2016",
+    "team_size": 36
+   },
+   {
+    "about": "Legal investment firm",
+    "domain": "legalist.com",
+    "name": "Legalist",
+    "slug_hint": "legalist",
+    "source": "YC Summer 2016",
+    "team_size": 40
+   },
+   {
+    "about": "Customer support as a service. ",
+    "domain": "hioperator.com",
+    "name": "HiOperator",
+    "slug_hint": "hioperator",
+    "source": "YC Summer 2016",
+    "team_size": 200
+   },
+   {
+    "about": "A concierge service for seniors\u2019 rides, meals, meds, home and more.",
+    "domain": "gogograndparent.com",
+    "name": "GoGoGrandparent",
+    "slug_hint": "gogograndparent",
+    "source": "YC Summer 2016",
+    "team_size": 50
+   },
+   {
+    "about": "Extensible, Integrated Technology that Simplifies Health Systems",
+    "domain": "athelas.com",
+    "name": "Athelas",
+    "slug_hint": "athelas",
+    "source": "YC Summer 2016",
+    "team_size": 1000
+   },
+   {
+    "about": "Data-centric infrastructure to accelerate the development of AI ",
+    "domain": "scale.com",
+    "name": "Scale AI",
+    "slug_hint": "scale-ai",
+    "source": "YC Summer 2016",
+    "team_size": 500
+   },
+   {
+    "about": "Harnesses business activity to unlock growth.",
+    "domain": "people.ai",
+    "name": "People.ai",
+    "slug_hint": "people-ai",
+    "source": "YC Summer 2016",
+    "team_size": 300
+   },
+   {
+    "about": "Communication app for K-8 teachers, kids, and families",
+    "domain": "classdojo.com",
+    "name": "ClassDojo",
+    "slug_hint": "classdojo",
+    "source": "YC Summer 2012",
+    "team_size": 100
+   },
+   {
+    "about": "A superhuman, AI-powered language tutor in your pocket",
+    "domain": "speak.com",
+    "name": "Speak",
+    "slug_hint": "speak",
+    "source": "YC Winter 2017",
+    "team_size": 40
+   },
+   {
+    "about": "Democratizing Dermatology with AI ",
+    "domain": "mdalgorithms.com",
+    "name": "MDalgorithms Inc.",
+    "slug_hint": "mdalgorithms-inc",
+    "source": "YC Winter 2017",
+    "team_size": 40
+   },
+   {
+    "about": "Marketplace for insurance securitization.",
+    "domain": "ledgerinvesting.com",
+    "name": "Ledger Investing",
+    "slug_hint": "ledger-investing",
+    "source": "YC Winter 2017",
+    "team_size": 85
+   },
+   {
+    "about": "Every shift, Covered.",
+    "domain": "clipboardworks.com",
+    "name": "Clipboard",
+    "slug_hint": "clipboard",
+    "source": "YC Winter 2017",
+    "team_size": 1000
+   },
+   {
+    "about": "AI company transforming enterprise physical security to prevent\u2026",
+    "domain": "ambient.ai",
+    "name": "Ambient.ai",
+    "slug_hint": "ambient-ai",
+    "source": "YC Winter 2017",
+    "team_size": 150
+   },
+   {
+    "about": "Snappr is the one-stop-shop for visual content creation",
+    "domain": "snappr.com",
+    "name": "Snappr",
+    "slug_hint": "snappr",
+    "source": "YC Winter 2017",
+    "team_size": 250
+   },
+   {
+    "about": "Mednet helps doctors answer their toughest clinical questions \u2014\u2026",
+    "domain": "themednet.org",
+    "name": "Mednet",
+    "slug_hint": "mednet",
+    "source": "YC Winter 2017",
+    "team_size": 35
+   },
+   {
+    "about": "Document AI. One API Call.",
+    "domain": "veryfi.com",
+    "name": "Veryfi, Inc.",
+    "slug_hint": "veryfi-inc",
+    "source": "YC Winter 2017",
+    "team_size": 70
+   },
+   {
+    "about": "We help healthcare orgs collect more money faster",
+    "domain": "collectly.co",
+    "name": "Collectly",
+    "slug_hint": "collectly",
+    "source": "YC Winter 2017",
+    "team_size": 106
+   },
+   {
+    "about": "AI Radiologist in a Box - We provide a vertically integrated AI\u2026",
+    "domain": "alemhealth.com",
+    "name": "AlemHealth",
+    "slug_hint": "alemhealth",
+    "source": "YC Winter 2017",
+    "team_size": 25
+   },
+   {
+    "about": "Additive Manufacturing with advanced materials",
+    "domain": "aon3d.com",
+    "name": "AON3D",
+    "slug_hint": "aon3d",
+    "source": "YC Winter 2017",
+    "team_size": 40
+   },
+   {
+    "about": "Automatic Data Extraction",
+    "domain": "nanonets.com",
+    "name": "NanoNets",
+    "slug_hint": "nanonets",
+    "source": "YC Winter 2017",
+    "team_size": 102
+   },
+   {
+    "about": "The global online platform empowering independent retail.",
+    "domain": "faire.com",
+    "name": "Faire",
+    "slug_hint": "faire",
+    "source": "YC Winter 2017",
+    "team_size": 900
+   },
+   {
+    "about": "World's Leading Fleet Intelligence Platform",
+    "domain": "ridecell.com",
+    "name": "Ridecell",
+    "slug_hint": "ridecell",
+    "source": "YC Winter 2012",
+    "team_size": 88
+   },
+   {
+    "about": "Build internal tools fast.",
+    "domain": "retool.com",
+    "name": "Retool",
+    "slug_hint": "retool",
+    "source": "YC Winter 2017",
+    "team_size": 300
+   },
+   {
+    "about": "Creating a new form of air transportation to advance our civilization",
+    "domain": "skyways.com",
+    "name": "Skyways",
+    "slug_hint": "skyways",
+    "source": "YC Summer 2017",
+    "team_size": 33
+   },
+   {
+    "about": "AI-Powered Building Management",
+    "domain": "vergesense.com",
+    "name": "VergeSense",
+    "slug_hint": "vergesense",
+    "source": "YC Summer 2017",
+    "team_size": 70
+   },
+   {
+    "about": "The online coding school that invests in you.",
+    "domain": "bloomtech.com",
+    "name": "Bloom Institute of Technology",
+    "slug_hint": "bloom-institute-of-technology",
+    "source": "YC Summer 2017",
+    "team_size": 50
+   },
+   {
+    "about": "AI platform for unifying codes, assemblies, products, and specs",
+    "domain": "up.codes",
+    "name": "UpCodes",
+    "slug_hint": "upcodes",
+    "source": "YC Summer 2017",
+    "team_size": 35
+   },
+   {
+    "about": "AI-powered checkout for retail.",
+    "domain": "standard.ai",
+    "name": "Standard AI",
+    "slug_hint": "standard-ai",
+    "source": "YC Summer 2017",
+    "team_size": 150
+   },
+   {
+    "about": "Data-driven teacher hiring",
+    "domain": "hirenimble.com",
+    "name": "Nimble",
+    "slug_hint": "nimble",
+    "source": "YC Summer 2017",
+    "team_size": 25
+   },
+   {
+    "about": "The first public safety operating system that eliminates crime.",
+    "domain": "flocksafety.com",
+    "name": "Flock Safety",
+    "slug_hint": "flock-safety",
+    "source": "YC Summer 2017",
+    "team_size": 1000
+   },
+   {
+    "about": "Build better banking",
+    "domain": "prelim.com",
+    "name": "Prelim",
+    "slug_hint": "prelim",
+    "source": "YC Summer 2017",
+    "team_size": 49
+   },
+   {
+    "about": "Enable creators and developers to generate realistic AI personas",
+    "domain": "d-id.com",
+    "name": "D-ID",
+    "slug_hint": "d-id",
+    "source": "YC Summer 2017",
+    "team_size": 27
+   },
+   {
+    "about": "OneLocal is a CRM for local businesses.",
+    "domain": "onelocal.com",
+    "name": "OneLocal",
+    "slug_hint": "onelocal",
+    "source": "YC Summer 2017",
+    "team_size": 90
+   },
+   {
+    "about": "Where Single Muslims meet",
+    "domain": "muzz.com",
+    "name": "Muzz",
+    "slug_hint": "muzz",
+    "source": "YC Summer 2017",
+    "team_size": 104
+   },
+   {
+    "about": "Transforming cities and rural areas through AV transit and technology",
+    "domain": "maymobility.com",
+    "name": "May Mobility",
+    "slug_hint": "may-mobility",
+    "source": "YC Summer 2017",
+    "team_size": 260
+   },
+   {
+    "about": "The best way to build Voice AI apps",
+    "domain": "assemblyai.com",
+    "name": "AssemblyAI",
+    "slug_hint": "assemblyai",
+    "source": "YC Summer 2017",
+    "team_size": 65
+   },
+   {
+    "about": "Just Appraised makes software for local governments.",
+    "domain": "justappraised.com",
+    "name": "Just Appraised",
+    "slug_hint": "just-appraised",
+    "source": "YC Summer 2017",
+    "team_size": 40
+   },
+   {
+    "about": "Next-gen digital payments provider for India.",
+    "domain": "cashfree.com",
+    "name": "Cashfree Payments",
+    "slug_hint": "cashfree-payments",
+    "source": "YC Summer 2017",
+    "team_size": 200
+   },
+   {
+    "about": "PROVEN is using AI, data and personalization to disrupt CPG",
+    "domain": "provenskincare.com",
+    "name": "Proven Group",
+    "slug_hint": "proven-group",
+    "source": "YC Winter 2018",
+    "team_size": 40
+   },
+   {
+    "about": "Making Anime Real",
+    "domain": "spellbrush.com",
+    "name": "Spellbrush",
+    "slug_hint": "spellbrush",
+    "source": "YC Winter 2018",
+    "team_size": 30
+   },
+   {
+    "about": "Create remarkable client experiences",
+    "domain": "assembly.com",
+    "name": "Assembly",
+    "slug_hint": "assembly-com",
+    "source": "YC Winter 2018",
+    "team_size": 25
+   },
+   {
+    "about": "The gold standard in cryptocurrency portfolio tracking and taxes",
+    "domain": "cointracker.com",
+    "name": "CoinTracker",
+    "slug_hint": "cointracker",
+    "source": "YC Winter 2018",
+    "team_size": 70
+   },
+   {
+    "about": "Better payment systems for governments and the communities they serve.",
+    "domain": "promise-pay.com",
+    "name": "Promise",
+    "slug_hint": "promise",
+    "source": "YC Winter 2018",
+    "team_size": 80
+   },
+   {
+    "about": "A mental health benefits platform for employers.",
+    "domain": "modernhealth.com",
+    "name": "Modern Health",
+    "slug_hint": "modern-health",
+    "source": "YC Winter 2018",
+    "team_size": 375
+   },
+   {
+    "about": "Vanta\u2014the proven leader in automated compliance helping startups\u2026",
+    "domain": "vanta.com",
+    "name": "Vanta",
+    "slug_hint": "vanta",
+    "source": "YC Winter 2018",
+    "team_size": 700
+   },
+   {
+    "about": "'Figma/Canva for scientists\u2019",
+    "domain": "biorender.com",
+    "name": "BioRender",
+    "slug_hint": "biorender",
+    "source": "YC Winter 2018",
+    "team_size": 250
+   },
+   {
+    "about": "Sourcify helps brands manufacture products in Asia.",
+    "domain": "sourcify.com",
+    "name": "Sourcify",
+    "slug_hint": "sourcify",
+    "source": "YC Winter 2018",
+    "team_size": 15
+   },
+   {
+    "about": "Every student's AI coach for college readiness",
+    "domain": "acely.com",
+    "name": "Acely",
+    "slug_hint": "acely",
+    "source": "YC Winter 2018",
+    "team_size": 30
+   },
+   {
+    "about": "AI games and entertainment on TV",
+    "domain": "weekend.com",
+    "name": "Weekend (fmr. Volley)",
+    "slug_hint": "weekend-fmr-volley",
+    "source": "YC Winter 2018",
+    "team_size": 80
+   },
+   {
+    "about": "The world's first digital clinic for substance use management",
+    "domain": "pelagohealth.com",
+    "name": "Pelago",
+    "slug_hint": "pelago",
+    "source": "YC Winter 2018",
+    "team_size": 180
+   },
+   {
+    "about": "GitHub for Investment Methodology",
+    "domain": "tilt.io",
+    "name": "Tilt (f.k.a. Delphia)",
+    "slug_hint": "tilt-fka-delphia",
+    "source": "YC Winter 2018",
+    "team_size": 25
+   },
+   {
+    "about": "Health insurance for remote teams",
+    "domain": "safetywing.com",
+    "name": "SafetyWing",
+    "slug_hint": "safetywing",
+    "source": "YC Winter 2018",
+    "team_size": 130
+   },
+   {
+    "about": "All-in-one Finance OS for businesses",
+    "domain": "aspireapp.com",
+    "name": "Aspire",
+    "slug_hint": "aspire",
+    "source": "YC Winter 2018",
+    "team_size": 500
+   },
+   {
+    "about": "Replacing orthodontic braces with our clear aligner and software",
+    "domain": "archform.com",
+    "name": "ArchForm",
+    "slug_hint": "archform",
+    "source": "YC Winter 2018",
+    "team_size": 23
+   },
+   {
+    "about": "Agile commission software to design, deploy & adapt commission plans.",
+    "domain": "captivateiq.com",
+    "name": "CaptivateIQ",
+    "slug_hint": "captivateiq",
+    "source": "YC Winter 2018",
+    "team_size": 280
+   },
+   {
+    "about": "Automating payroll for Latin America.",
+    "domain": "runahr.com",
+    "name": "Runa",
+    "slug_hint": "runa",
+    "source": "YC Winter 2018",
+    "team_size": 100
+   },
+   {
+    "about": "Helloverify is a background screening platform (Checkr for India).  ",
+    "domain": "helloverify.ae",
+    "name": "Helloverify",
+    "slug_hint": "helloverify",
+    "source": "YC Winter 2018",
+    "team_size": 600
+   },
+   {
+    "about": "Swayable predicts consumer opinion and the impact of content",
+    "domain": "swayable.com",
+    "name": "Swayable",
+    "slug_hint": "swayable",
+    "source": "YC Winter 2018",
+    "team_size": 30
+   },
+   {
+    "about": "Collaborative in-browser IDE ",
+    "domain": "replit.com",
+    "name": "Replit",
+    "slug_hint": "replit",
+    "source": "YC Winter 2018",
+    "team_size": 65
+   },
+   {
+    "about": "AI driven payment rails for emerging market banks.",
+    "domain": "owny.com",
+    "name": "OWNY",
+    "slug_hint": "owny",
+    "source": "YC Summer 2018",
+    "team_size": 15
+   },
+   {
+    "about": "Company Brain for people and agents to work in harmony. ",
+    "domain": "within.ai",
+    "name": "Within",
+    "slug_hint": "within",
+    "source": "YC Summer 2018",
+    "team_size": 128
+   },
+   {
+    "about": "Payment operations tools for money movement.",
+    "domain": "moderntreasury.com",
+    "name": "Modern Treasury",
+    "slug_hint": "modern-treasury",
+    "source": "YC Summer 2018",
+    "team_size": 160
+   },
+   {
+    "about": "AI-enabled ordering for medical equipment & supplies",
+    "domain": "versemedical.com",
+    "name": "Verse Medical",
+    "slug_hint": "jetlenses",
+    "source": "YC Summer 2018",
+    "team_size": 250
+   },
+   {
+    "about": "Build and grow your app business",
+    "domain": "revenuecat.com",
+    "name": "RevenueCat",
+    "slug_hint": "revenuecat",
+    "source": "YC Summer 2018",
+    "team_size": 160
+   },
+   {
+    "about": "Database for AI",
+    "domain": "activeloop.ai",
+    "name": "Activeloop",
+    "slug_hint": "activeloop",
+    "source": "YC Summer 2018",
+    "team_size": 15
+   },
+   {
+    "about": "Titan is an award-winning wealth manager with a mission to increase\u2026",
+    "domain": "titan.com",
+    "name": "Titan",
+    "slug_hint": "titan",
+    "source": "YC Summer 2018",
+    "team_size": 40
+   },
+   {
+    "about": "AI Document Fraud Detection for Banks, Credit Unions & Lenders",
+    "domain": "inscribe.ai",
+    "name": "Inscribe",
+    "slug_hint": "inscribe",
+    "source": "YC Summer 2018",
+    "team_size": 35
+   },
+   {
+    "about": "Automatic circuit board design.",
+    "domain": "jitx.com",
+    "name": "JITX",
+    "slug_hint": "jitx",
+    "source": "YC Summer 2018",
+    "team_size": 18
+   },
+   {
+    "about": "An online provider for greater mental health",
+    "domain": "meruhealth.com",
+    "name": "Meru Health",
+    "slug_hint": "meru-health",
+    "source": "YC Summer 2018",
+    "team_size": 55
+   },
+   {
+    "about": "The complete toolkit to sell travel.",
+    "domain": "duffel.com",
+    "name": "Duffel",
+    "slug_hint": "duffel",
+    "source": "YC Summer 2018",
+    "team_size": 55
+   },
+   {
+    "about": "Platform that allows anyone to create and monetize video games.",
+    "domain": "dreamcraft.com",
+    "name": "DreamCraft Entertainment, Inc.",
+    "slug_hint": "dreamcraft-entertainment-inc",
+    "source": "YC Summer 2018",
+    "team_size": 23
+   },
+   {
+    "about": "We provide primary care in senior living communities.",
+    "domain": "pineparkhealth.com",
+    "name": "Pine Park Health",
+    "slug_hint": "pine-park-health",
+    "source": "YC Summer 2018",
+    "team_size": 75
+   },
+   {
+    "about": "Robotic human cell manufacturing",
+    "domain": "mytos.bio",
+    "name": "Mytos",
+    "slug_hint": "cytera-cellworks",
+    "source": "YC Summer 2018",
+    "team_size": 26
+   },
+   {
+    "about": "The automated solution for complex freight transactions.",
+    "domain": "bluecargo.io",
+    "name": "BlueCargo",
+    "slug_hint": "bluecargo",
+    "source": "YC Summer 2018",
+    "team_size": 35
+   },
+   {
+    "about": "Developer-friendly and enterprise-grade APIs for financial market\u2026",
+    "domain": "alphavantage.co",
+    "name": "Alpha Vantage",
+    "slug_hint": "alpha-vantage",
+    "source": "YC Summer 2018",
+    "team_size": 25
+   },
+   {
+    "about": "Modernizing the hospitality tech stack. ",
+    "domain": "canarytechnologies.com",
+    "name": "Canary Technologies",
+    "slug_hint": "canary-technologies",
+    "source": "YC Summer 2018",
+    "team_size": 150
+   },
+   {
+    "about": "Lending Intelligence Software",
+    "domain": "prodigaltech.com",
+    "name": "Prodigal",
+    "slug_hint": "prodigal",
+    "source": "YC Summer 2018",
+    "team_size": 99
+   },
+   {
+    "about": "AI Clinical Assistant for Doctors",
+    "domain": "botmd.io",
+    "name": "Bot MD",
+    "slug_hint": "bot-md",
+    "source": "YC Summer 2018",
+    "team_size": 15
+   },
+   {
+    "about": "Skills-based talent management solutions for a dynamic workforce.",
+    "domain": "nestorup.com",
+    "name": "Nestor",
+    "slug_hint": "nestor",
+    "source": "YC Summer 2018",
+    "team_size": 20
+   },
+   {
+    "about": "Building Clinical Superintelligence.",
+    "domain": "edenmed.com",
+    "name": "Eden",
+    "slug_hint": "eden-2",
+    "source": "YC Summer 2018",
+    "team_size": 100
+   },
+   {
+    "about": "Your AI agent for creating anything customer-facing, in minutes.",
+    "domain": "mutinyhq.com",
+    "name": "Mutiny",
+    "slug_hint": "mutiny",
+    "source": "YC Summer 2018",
+    "team_size": 20
+   },
+   {
+    "about": "We at Leena AI build a virtual assistant that answers employee's\u2026",
+    "domain": "leena.ai",
+    "name": "Leena AI",
+    "slug_hint": "leena-ai",
+    "source": "YC Summer 2018",
+    "team_size": 500
+   },
+   {
+    "about": "Intercom for WeChat, help companies to acquire,  engage, retain\u2026",
+    "domain": "juzibot.com",
+    "name": "JuziBot",
+    "slug_hint": "juzibot",
+    "source": "YC Winter 2019",
+    "team_size": 34
+   },
+   {
+    "about": "A leading digital bank in the US offering personal and business\u2026",
+    "domain": "getoxygen.com",
+    "name": "Oxygen",
+    "slug_hint": "oxygen",
+    "source": "YC Summer 2018",
+    "team_size": 68
+   },
+   {
+    "about": "Reshaping industrial quality with AI, hardware, and software",
+    "domain": "overview.ai",
+    "name": "Overview",
+    "slug_hint": "overview",
+    "source": "YC Winter 2019",
+    "team_size": 40
+   },
+   {
+    "about": "1st federally regulated exchange where people can trade on events",
+    "domain": "kalshi.com",
+    "name": "Kalshi",
+    "slug_hint": "kalshi",
+    "source": "YC Winter 2019",
+    "team_size": 125
+   },
+   {
+    "about": "We Create Superior Data By Making Annotation Competitive",
+    "domain": "centaur.ai",
+    "name": "Centaur",
+    "slug_hint": "centaur",
+    "source": "YC Winter 2019",
+    "team_size": 45
+   },
+   {
+    "about": "The SMS revenue platform for e-commerce merchants",
+    "domain": "postscript.io",
+    "name": "Postscript",
+    "slug_hint": "postscript",
+    "source": "YC Winter 2019",
+    "team_size": 180
+   },
+   {
+    "about": "We make it easier for B2B companies to transact with one another",
+    "domain": "middesk.com",
+    "name": "Middesk",
+    "slug_hint": "middesk",
+    "source": "YC Winter 2019",
+    "team_size": 140
+   },
+   {
+    "about": "Intuitive, easy-to-remember short links - powered by AI.",
+    "domain": "golinks.io",
+    "name": "GoLinks",
+    "slug_hint": "golinks",
+    "source": "YC Winter 2019",
+    "team_size": 70
+   },
+   {
+    "about": "The phone that gives families peace of mind about aging parents",
+    "domain": "communityphone.org",
+    "name": "Community Phone Company",
+    "slug_hint": "community-phone-company",
+    "source": "YC Winter 2019",
+    "team_size": 101
+   },
+   {
+    "about": "Nabis is the largest licensed cannabis wholesale platform.",
+    "domain": "nabis.com",
+    "name": "Nabis",
+    "slug_hint": "nabis",
+    "source": "YC Winter 2019",
+    "team_size": 700
+   },
+   {
+    "about": "Cloud Development Environments with one click",
+    "domain": "okteto.com",
+    "name": "Okteto",
+    "slug_hint": "okteto",
+    "source": "YC Winter 2019",
+    "team_size": 30
+   },
+   {
+    "about": "All-in-one recruiting platform that empowers hiring excellence in\u2026",
+    "domain": "ashbyhq.com",
+    "name": "Ashby",
+    "slug_hint": "ashby",
+    "source": "YC Winter 2019",
+    "team_size": 110
+   },
+   {
+    "about": "Patient Intelligence Platform for Genetic Disease ",
+    "domain": "probablygenetic.com",
+    "name": "Probably Genetic",
+    "slug_hint": "probably-genetic",
+    "source": "YC Winter 2019",
+    "team_size": 17
+   },
+   {
+    "about": "Bunkerhill is a long-horizon agent for health systems",
+    "domain": "bunkerhillhealth.com",
+    "name": "Bunkerhill Health",
+    "slug_hint": "bunkerhill-health",
+    "source": "YC Winter 2019",
+    "team_size": 30
+   },
+   {
+    "about": "Simplifying Payments and Compliance for Construction Suppliers",
+    "domain": "handle.com",
+    "name": "Handle",
+    "slug_hint": "handle",
+    "source": "YC Winter 2019",
+    "team_size": 203
+   },
+   {
+    "about": "Generative AI for frontline worker hiring",
+    "domain": "gotlanded.com",
+    "name": "Landed",
+    "slug_hint": "landed-2",
+    "source": "YC Winter 2019",
+    "team_size": 50
+   },
+   {
+    "about": "AI agent that saves you money on travel",
+    "domain": "helloaxel.com",
+    "name": "Axel Travel",
+    "slug_hint": "axel-travel",
+    "source": "YC Winter 2019",
+    "team_size": 20
+   },
+   {
+    "about": "Enabling health professionals to prescribe clinical-grade wellness\u2026",
+    "domain": "",
+    "name": "PNO\u0112",
+    "slug_hint": "pnoe",
+    "source": "YC Winter 2019",
+    "team_size": 70
+   },
+   {
+    "about": "Unlocking the utility of genomics for the world.",
+    "domain": "voltalabs.com",
+    "name": "Volta Labs, Inc.",
+    "slug_hint": "volta-labs-inc",
+    "source": "YC Winter 2019",
+    "team_size": 50
+   },
+   {
+    "about": "API-first stock and crypto brokerage platform",
+    "domain": "alpaca.markets",
+    "name": "Alpaca",
+    "slug_hint": "alpaca",
+    "source": "YC Winter 2019",
+    "team_size": 150
+   },
+   {
+    "about": "Payment Platform for LatAm Micro and Small Businesses",
+    "domain": "zippi.com.br",
+    "name": "Zippi",
+    "slug_hint": "zippi",
+    "source": "YC Summer 2019",
+    "team_size": 60
+   },
+   {
+    "about": "An AI-powered, all-in-one business platform for content creators",
+    "domain": "beacons.ai",
+    "name": "Beacons",
+    "slug_hint": "beacons",
+    "source": "YC Summer 2019",
+    "team_size": 25
+   },
+   {
+    "about": "Cityfurnish - Commitment-free furniture rentals for a better you!",
+    "domain": "cityfurnish.com",
+    "name": "Cityfurnish",
+    "slug_hint": "cityfurnish",
+    "source": "YC Winter 2019",
+    "team_size": 90
+   },
+   {
+    "about": "Enabling better self care with at-home hormone tracking.",
+    "domain": "inito.com",
+    "name": "Inito",
+    "slug_hint": "inito",
+    "source": "YC Winter 2019",
+    "team_size": 100
+   },
+   {
+    "about": "Modern fundraising software for political campaigns and nonprofits.",
+    "domain": "numero.ai",
+    "name": "Numero",
+    "slug_hint": "numero",
+    "source": "YC Winter 2019",
+    "team_size": 15
+   },
+   {
+    "about": "Modern spend management & concierge.",
+    "domain": "atlascard.com",
+    "name": "Atlas",
+    "slug_hint": "atlas-3",
+    "source": "YC Winter 2019",
+    "team_size": 25
+   },
+   {
+    "about": "Insurance and risk management tools for startups and growth-stage\u2026",
+    "domain": "vouch.us",
+    "name": "Vouch",
+    "slug_hint": "vouch",
+    "source": "YC Summer 2019",
+    "team_size": 190
+   },
+   {
+    "about": "Modern medical billing",
+    "domain": "aperohealth.com",
+    "name": "Apero Health",
+    "slug_hint": "apero-health",
+    "source": "YC Summer 2019",
+    "team_size": 24
+   },
+   {
+    "about": "Financial connectivity API for consumer liabilities",
+    "domain": "methodfi.com",
+    "name": "Method Financial",
+    "slug_hint": "method-financial",
+    "source": "YC Summer 2019",
+    "team_size": 50
+   },
+   {
+    "about": "Our operations software makes it easier to run--and grow--your cafe",
+    "domain": "odeko.com",
+    "name": "Odeko",
+    "slug_hint": "odeko",
+    "source": "YC Summer 2019",
+    "team_size": 371
+   },
+   {
+    "about": "Modern ecommerce for petite women",
+    "domain": "shortstorybox.com",
+    "name": "Short Story",
+    "slug_hint": "short-story",
+    "source": "YC Summer 2019",
+    "team_size": 120
+   },
+   {
+    "about": "Building the safety net of the future",
+    "domain": "pairteam.com",
+    "name": "Pair Team",
+    "slug_hint": "pair-team",
+    "source": "YC Summer 2019",
+    "team_size": 500
+   },
+   {
+    "about": "TRM is building a safer world for billions of people.",
+    "domain": "trmlabs.com",
+    "name": "TRM Labs",
+    "slug_hint": "trm-labs",
+    "source": "YC Summer 2019",
+    "team_size": 400
+   },
+   {
+    "about": "Making diverse, high-quality data easily available to anyone, anywhere",
+    "domain": "prolific.com",
+    "name": "Prolific",
+    "slug_hint": "prolific",
+    "source": "YC Summer 2019",
+    "team_size": 180
+   },
+   {
+    "about": "The Unified API for Business Financial Data",
+    "domain": "rutter.com",
+    "name": "Rutter",
+    "slug_hint": "rutter",
+    "source": "YC Summer 2019",
+    "team_size": 24
+   },
+   {
+    "about": "Workforce platform to recruit, license, credential & manage clinicians",
+    "domain": "directshifts.com",
+    "name": "DirectShifts",
+    "slug_hint": "directshifts",
+    "source": "YC Summer 2019",
+    "team_size": 72
+   },
+   {
+    "about": "LineLeap gets customers to the fun, faster.",
+    "domain": "lineleap.com",
+    "name": "LineLeap",
+    "slug_hint": "lineleap",
+    "source": "YC Summer 2019",
+    "team_size": 50
+   },
+   {
+    "about": "A zero inventory, zero returns factory-to-consumer apparel company",
+    "domain": "getbinks.com",
+    "name": "Binks",
+    "slug_hint": "binks",
+    "source": "YC Summer 2019",
+    "team_size": 70
+   },
+   {
+    "about": "India\u2019s first neobank for teenagers",
+    "domain": "fampay.in",
+    "name": "FamPay",
+    "slug_hint": "fampay",
+    "source": "YC Summer 2019",
+    "team_size": 24
+   },
+   {
+    "about": "Helping create a smaller, fairer, safer justice system",
+    "domain": "recidiviz.org",
+    "name": "Recidiviz",
+    "slug_hint": "recidiviz",
+    "source": "YC Summer 2019",
+    "team_size": 120
+   },
+   {
+    "about": "In-Person, Hybrid and Virtual Event Management Software",
+    "domain": "inevent.com",
+    "name": "InEvent",
+    "slug_hint": "inevent",
+    "source": "YC Summer 2019",
+    "team_size": 150
+   },
+   {
+    "about": "Customer data collection, safeguarding, & activation for healthcare",
+    "domain": "freshpaint.io",
+    "name": "Freshpaint",
+    "slug_hint": "freshpaint",
+    "source": "YC Summer 2019",
+    "team_size": 120
+   },
+   {
+    "about": "Construction & industrial logistics platform.",
+    "domain": "curri.com",
+    "name": "Curri",
+    "slug_hint": "curri",
+    "source": "YC Summer 2019",
+    "team_size": 104
+   },
+   {
+    "about": "Closed-loop end-to-end AI System that recursively improves on\u2026",
+    "domain": "wonderly.com",
+    "name": "Wonderly",
+    "slug_hint": "wonderly",
+    "source": "YC Winter 2020",
+    "team_size": 75
+   },
+   {
+    "about": "Business banking that helps you grow",
+    "domain": "trykarat.com",
+    "name": "Karat Financial",
+    "slug_hint": "karat-financial",
+    "source": "YC Winter 2020",
+    "team_size": 25
+   },
+   {
+    "about": "The Revenue Excellence Platform",
+    "domain": "inaccord.com",
+    "name": "Accord",
+    "slug_hint": "accord",
+    "source": "YC Winter 2020",
+    "team_size": 20
+   },
+   {
+    "about": "The embedded integration platform for SaaS apps.",
+    "domain": "useparagon.com",
+    "name": "Paragon",
+    "slug_hint": "paragon",
+    "source": "YC Winter 2020",
+    "team_size": 48
+   },
+   {
+    "about": "Easiest way to deploy on AWS/GCP/Azure",
+    "domain": "porter.run",
+    "name": "Porter",
+    "slug_hint": "porter",
+    "source": "YC Summer 2020",
+    "team_size": 18
+   },
+   {
+    "about": "Pulley helps founders and finance teams manage their equity and cap\u2026",
+    "domain": "pulley.com",
+    "name": "Pulley",
+    "slug_hint": "pulley",
+    "source": "YC Winter 2020",
+    "team_size": 68
+   },
+   {
+    "about": "Medication & support to beat opioid addiction from home",
+    "domain": "ophelia.com",
+    "name": "Ophelia",
+    "slug_hint": "ophelia",
+    "source": "YC Winter 2020",
+    "team_size": 250
+   },
+   {
+    "about": "AI-powered tech that makes business TV smarter, engaging, and\u2026",
+    "domain": "taiv.tv",
+    "name": "Taiv",
+    "slug_hint": "taiv",
+    "source": "YC Winter 2020",
+    "team_size": 40
+   },
+   {
+    "about": "AI estimator & agent for remodelers.",
+    "domain": "handoff.ai",
+    "name": "Handoff",
+    "slug_hint": "handoff",
+    "source": "YC Winter 2020",
+    "team_size": 20
+   },
+   {
+    "about": "Homeownership reimagined for the 21st century.",
+    "domain": "havenservicing.com",
+    "name": "Haven",
+    "slug_hint": "haven",
+    "source": "YC Winter 2020",
+    "team_size": 15
+   },
+   {
+    "about": "The easiest way to track, buy, and sell your company\u2019s tech \u2014 all in\u2026",
+    "domain": "ezeit.ai",
+    "name": "Eze",
+    "slug_hint": "eze",
+    "source": "YC Winter 2020",
+    "team_size": 32
+   },
+   {
+    "about": "Pre-tax and lifestyle benefits, managed in one place.",
+    "domain": "benepass.com",
+    "name": "Benepass",
+    "slug_hint": "benepass",
+    "source": "YC Winter 2020",
+    "team_size": 130
+   },
+   {
+    "about": "The next generation of induced-proximity medicines.",
+    "domain": "generalproximity.bio",
+    "name": "General Proximity",
+    "slug_hint": "general-proximity",
+    "source": "YC Winter 2020",
+    "team_size": 15
+   },
+   {
+    "about": "Building the world's first 1:1 AI teacher.",
+    "domain": "ello.com",
+    "name": "Ello",
+    "slug_hint": "ello",
+    "source": "YC Winter 2020",
+    "team_size": 45
+   },
+   {
+    "about": "BuildBuddy provides enterprise features for Bazel \u2014 the open source\u2026",
+    "domain": "buildbuddy.io",
+    "name": "BuildBuddy",
+    "slug_hint": "buildbuddy",
+    "source": "YC Winter 2020",
+    "team_size": 15
+   },
+   {
+    "about": "Vori is a modern operating system for supermarkets",
+    "domain": "vori.com",
+    "name": "Vori",
+    "slug_hint": "vori",
+    "source": "YC Winter 2020",
+    "team_size": 29
+   },
+   {
+    "about": "The autonomous revenue cycle management platform.",
+    "domain": "joincandidhealth.com",
+    "name": "Candid Health",
+    "slug_hint": "candid-health",
+    "source": "YC Winter 2020",
+    "team_size": 200
+   },
+   {
+    "about": "Cybersecurity awareness for fast growing companies",
+    "domain": "tryriot.com",
+    "name": "Riot",
+    "slug_hint": "riot",
+    "source": "YC Winter 2020",
+    "team_size": 160
+   },
+   {
+    "about": "The single platform to analyze, test, observe, and deploy new features",
+    "domain": "posthog.com",
+    "name": "PostHog",
+    "slug_hint": "posthog",
+    "source": "YC Winter 2020",
+    "team_size": 150
+   },
+   {
+    "about": "The world\u2019s first full-stack AI doctor",
+    "domain": "aiosmedical.notion.site",
+    "name": "AIOS",
+    "slug_hint": "aios",
+    "source": "YC Winter 2020",
+    "team_size": 100
+   },
+   {
+    "about": "API for at-home health data",
+    "domain": "junction.com",
+    "name": "Junction",
+    "slug_hint": "junction",
+    "source": "YC Winter 2020",
+    "team_size": 19
+   },
+   {
+    "about": "Automated ERP for distributors.",
+    "domain": "recurrency.com",
+    "name": "Recurrency",
+    "slug_hint": "recurrency",
+    "source": "YC Summer 2020",
+    "team_size": 50
+   },
+   {
+    "about": "Medicinal Chemistry powered by Machine Learning",
+    "domain": "postera.ai",
+    "name": "PostEra",
+    "slug_hint": "postera",
+    "source": "YC Winter 2020",
+    "team_size": 40
+   },
+   {
+    "about": "BeGo Connects cargo shippers with truck suppliers in Mexico and US",
+    "domain": "bego.ai",
+    "name": "BeGo",
+    "slug_hint": "be-go",
+    "source": "YC Winter 2020",
+    "team_size": 65
+   },
+   {
+    "about": "We're building financial infrastructure for Africa's supply chains",
+    "domain": "ramani.io",
+    "name": "Ramani",
+    "slug_hint": "ramani",
+    "source": "YC Winter 2020",
+    "team_size": 70
+   },
+   {
+    "about": "Nomic is doing for proteins what Illumina has done for DNA",
+    "domain": "nomic.bio",
+    "name": "Nomic Bio",
+    "slug_hint": "nomic-bio",
+    "source": "YC Winter 2020",
+    "team_size": 100
+   },
+   {
+    "about": "A virtual address + mailbox for business",
+    "domain": "usestable.com",
+    "name": "Stable",
+    "slug_hint": "stable",
+    "source": "YC Winter 2020",
+    "team_size": 60
+   },
+   {
+    "about": "The API to get recordings, transcripts, and metadata from meetings",
+    "domain": "recall.ai",
+    "name": "Recall.ai",
+    "slug_hint": "recall-ai",
+    "source": "YC Winter 2020",
+    "team_size": 30
+   },
+   {
+    "about": "borong is a SaaS-enabled marketplace that connects brands like\u2026",
+    "domain": "borong.com",
+    "name": "borong",
+    "slug_hint": "borong",
+    "source": "YC Winter 2020",
+    "team_size": 80
+   },
+   {
+    "about": "maximizing biomass on low quality land",
+    "domain": "livingcarbon.com",
+    "name": "Living Carbon",
+    "slug_hint": "living-carbon",
+    "source": "YC Winter 2020",
+    "team_size": 40
+   },
+   {
+    "about": "Open Finance API platform for Latam.",
+    "domain": "belvo.com",
+    "name": "Belvo",
+    "slug_hint": "belvo",
+    "source": "YC Winter 2020",
+    "team_size": 100
+   },
+   {
+    "about": "The future of B2B spend",
+    "domain": "ziphq.com",
+    "name": "Zip",
+    "slug_hint": "zip",
+    "source": "YC Summer 2020",
+    "team_size": 500
+   },
+   {
+    "about": "Luminai is the AI platform for Health System Operations.",
+    "domain": "luminai.com",
+    "name": "Luminai",
+    "slug_hint": "luminai",
+    "source": "YC Summer 2020",
+    "team_size": 50
+   },
+   {
+    "about": "\ud83d\uddbc\ufe0f Give your software the sense of sight.",
+    "domain": "roboflow.com",
+    "name": "Roboflow",
+    "slug_hint": "roboflow",
+    "source": "YC Summer 2020",
+    "team_size": 100
+   },
+   {
+    "about": "Automating manual and repetitive data engineering tasks with AI",
+    "domain": "datafold.com",
+    "name": "Datafold",
+    "slug_hint": "datafold",
+    "source": "YC Summer 2020",
+    "team_size": 30
+   },
+   {
+    "about": "The open source Looker alternative ",
+    "domain": "lightdash.com",
+    "name": "Lightdash",
+    "slug_hint": "hubble",
+    "source": "YC Summer 2020",
+    "team_size": 23
+   },
+   {
+    "about": "Financial data layer for AI-powered finance and accounting",
+    "domain": "blueonion.ai",
+    "name": "Blue Onion",
+    "slug_hint": "blue-onion",
+    "source": "YC Summer 2020",
+    "team_size": 27
+   },
+   {
+    "about": "Modernizing global transportation payments.",
+    "domain": "atob.com",
+    "name": "AtoB",
+    "slug_hint": "atob",
+    "source": "YC Summer 2020",
+    "team_size": 75
+   },
+   {
+    "about": "API for IoT Devices",
+    "domain": "seam.co",
+    "name": "Seam",
+    "slug_hint": "seam",
+    "source": "YC Summer 2020",
+    "team_size": 25
+   },
+   {
+    "about": "Ecosystem Platform for Restaurants in India",
+    "domain": "explorex.co",
+    "name": "Explorex",
+    "slug_hint": "explorex",
+    "source": "YC Summer 2020",
+    "team_size": 25
+   },
+   {
+    "about": "Plan, communicate, and benchmark your compensation in real-time.",
+    "domain": "pave.com",
+    "name": "Pave",
+    "slug_hint": "pave-2",
+    "source": "YC Summer 2020",
+    "team_size": 170
+   },
+   {
+    "about": "AI-native Operating System for Enterprise Ecommerce Companies",
+    "domain": "hypotenuse.ai",
+    "name": "Hypotenuse AI",
+    "slug_hint": "hypotenuse-ai",
+    "source": "YC Summer 2020",
+    "team_size": 15
+   },
+   {
+    "about": "Manage every device. Govern every AI agent.",
+    "domain": "swif.ai",
+    "name": "Swif.ai",
+    "slug_hint": "swif-ai",
+    "source": "YC Summer 2020",
+    "team_size": 20
+   },
+   {
+    "about": "The tolling industry\u2019s prime tech infrastructure",
+    "domain": "blissway.com",
+    "name": "Blissway",
+    "slug_hint": "blissway",
+    "source": "YC Summer 2020",
+    "team_size": 22
+   },
+   {
+    "about": "Business-in-a-Box\u2122 for LLCs",
+    "domain": "doola.com",
+    "name": "doola",
+    "slug_hint": "doola",
+    "source": "YC Summer 2020",
+    "team_size": 43
+   },
+   {
+    "about": "All-in-one workspace for companies making regulated products",
+    "domain": "seal.run",
+    "name": "Seal",
+    "slug_hint": "seal-2",
+    "source": "YC Summer 2020",
+    "team_size": 22
+   },
+   {
+    "about": "API that lets companies embed investment accounts into their services",
+    "domain": "atomicvest.com",
+    "name": "Atomic",
+    "slug_hint": "atomic",
+    "source": "YC Summer 2020",
+    "team_size": 25
+   },
+   {
+    "about": "AI-native Robotics",
+    "domain": "nexterarobotics.com",
+    "name": "Nextera Robotics | DIDGE.ai",
+    "slug_hint": "nextera-robotics-didgeai",
+    "source": "YC Summer 2020",
+    "team_size": 20
+   },
+   {
+    "about": "Affordable care via ICHRA and primary care with visits, meds, labs\u2026",
+    "domain": "vitablehealth.com",
+    "name": "Vitable Health",
+    "slug_hint": "vitable-health",
+    "source": "YC Summer 2020",
+    "team_size": 60
+   },
+   {
+    "about": "Agentic AI CRM for ecommerce",
+    "domain": "bik.ai",
+    "name": "BIK",
+    "slug_hint": "bik",
+    "source": "YC Summer 2020",
+    "team_size": 55
+   },
+   {
+    "about": "The Notabene platform is the trust layer for global money movement.",
+    "domain": "notabene.id",
+    "name": "Notabene",
+    "slug_hint": "notabene",
+    "source": "YC Summer 2020",
+    "team_size": 47
+   },
+   {
+    "about": "Clinically-validated ingredients from natural microbes",
+    "domain": "kingdomsuperculture.com",
+    "name": "Kingdom",
+    "slug_hint": "kingdom",
+    "source": "YC Summer 2020",
+    "team_size": 21
+   },
+   {
+    "about": "Securing Nurses for Your Future",
+    "domain": "withflint.com",
+    "name": "Flint",
+    "slug_hint": "flint",
+    "source": "YC Summer 2020",
+    "team_size": 50
+   },
+   {
+    "about": "All your tasks and calendars into an AI-powered productivity app",
+    "domain": "akiflow.com",
+    "name": "Akiflow",
+    "slug_hint": "akiflow",
+    "source": "YC Summer 2020",
+    "team_size": 18
+   },
+   {
+    "about": "The CRM powering iconic musicians and events",
+    "domain": "laylo.com",
+    "name": "Laylo",
+    "slug_hint": "laylo",
+    "source": "YC Summer 2020",
+    "team_size": 24
+   },
+   {
+    "about": "Everything for your fitness or wellness business.",
+    "domain": "arketa.com",
+    "name": "Arketa",
+    "slug_hint": "arketa",
+    "source": "YC Summer 2020",
+    "team_size": 55
+   },
+   {
+    "about": "We help companies automate the accounting of their carbon emissions",
+    "domain": "carbonchain.com",
+    "name": "CarbonChain",
+    "slug_hint": "carbonchain",
+    "source": "YC Summer 2020",
+    "team_size": 16
+   },
+   {
+    "about": "Ensuring AI delivers what people need, when and where they need it,\u2026",
+    "domain": "ready.net",
+    "name": "Ready",
+    "slug_hint": "ready",
+    "source": "YC Summer 2020",
+    "team_size": 75
+   },
+   {
+    "about": "Transform your decision-making with reliable AI agents in weeks, not\u2026",
+    "domain": "taktile.com",
+    "name": "Taktile",
+    "slug_hint": "taktile",
+    "source": "YC Summer 2020",
+    "team_size": 150
+   },
+   {
+    "about": "Contract and negotiation AI built for lawyers",
+    "domain": "draftwise.com",
+    "name": "Draftwise",
+    "slug_hint": "draftwise",
+    "source": "YC Summer 2020",
+    "team_size": 50
+   },
+   {
+    "about": "A spend management software that provides businesses visibility,\u2026",
+    "domain": "summitglobal.com",
+    "name": "Spenmo",
+    "slug_hint": "spenmo",
+    "source": "YC Summer 2020",
+    "team_size": 200
+   },
+   {
+    "about": "Instant, low-fee remittances",
+    "domain": "afriexapp.com",
+    "name": "Afriex",
+    "slug_hint": "afriex",
+    "source": "YC Summer 2020",
+    "team_size": 55
+   },
+   {
+    "about": "Glimpse is the system of action for CPG retail operations",
+    "domain": "tryglimpse.com",
+    "name": "Glimpse",
+    "slug_hint": "glimpse-2",
+    "source": "YC Summer 2020",
+    "team_size": 52
+   },
+   {
+    "about": "Home Inspections, Simplified",
+    "domain": "inspectify.com",
+    "name": "Inspectify",
+    "slug_hint": "inspectify",
+    "source": "YC Summer 2020",
+    "team_size": 75
+   },
+   {
+    "about": "Zuddl is a modular platform for events and webinars that helps event\u2026",
+    "domain": "zuddl.com",
+    "name": "Zuddl",
+    "slug_hint": "zuddl",
+    "source": "YC Summer 2020",
+    "team_size": 120
+   },
+   {
+    "about": "Finch is the Employment Data Platform",
+    "domain": "tryfinch.com",
+    "name": "Finch",
+    "slug_hint": "finch",
+    "source": "YC Summer 2020",
+    "team_size": 73
+   },
+   {
+    "about": "Vertical AI for Audit & Advisory Firms",
+    "domain": "fieldguide.com",
+    "name": "Fieldguide",
+    "slug_hint": "fieldguide",
+    "source": "YC Summer 2020",
+    "team_size": 200
+   },
+   {
+    "about": "Underwriting automation for small business finance",
+    "domain": "herondata.io",
+    "name": "Heron",
+    "slug_hint": "heron",
+    "source": "YC Summer 2020",
+    "team_size": 60
+   },
+   {
+    "about": "At-Home health monitoring with silicon photonic chips for data centers",
+    "domain": "siphoxhealth.com",
+    "name": "SiPhox Health",
+    "slug_hint": "siphox-health",
+    "source": "YC Summer 2020",
+    "team_size": 63
+   },
+   {
+    "about": "Building a better way to meet online.",
+    "domain": "gather.town",
+    "name": "Gather",
+    "slug_hint": "gather-2",
+    "source": "YC Summer 2019",
+    "team_size": 60
+   },
+   {
+    "about": "The AI-native FP&A platform that helps Finance teams drive business\u2026",
+    "domain": "abacum.ai",
+    "name": "Abacum",
+    "slug_hint": "abacum",
+    "source": "YC Winter 2021",
+    "team_size": 125
+   },
+   {
+    "about": "Easier and more reliable mobile app releases for teams.",
+    "domain": "runway.team",
+    "name": "Runway",
+    "slug_hint": "runway",
+    "source": "YC Winter 2021",
+    "team_size": 20
+   },
+   {
+    "about": "Software orchestrated mass production of plastics",
+    "domain": "atomic.industries",
+    "name": "Atomic Industries",
+    "slug_hint": "atomic-industries",
+    "source": "YC Winter 2021",
+    "team_size": 60
+   },
+   {
+    "about": "Authorization Infrastructure securing AI at OpenAI, Zoom, & more",
+    "domain": "authzed.com",
+    "name": "authzed",
+    "slug_hint": "authzed",
+    "source": "YC Winter 2021",
+    "team_size": 31
+   },
+   {
+    "about": "AI-Powered HRIS for high performing teams",
+    "domain": "humaans.io",
+    "name": "Humaans",
+    "slug_hint": "humaans",
+    "source": "YC Winter 2021",
+    "team_size": 48
+   },
+   {
+    "about": "Full-stack VLEO satellite missions",
+    "domain": "albedo.com",
+    "name": "Albedo",
+    "slug_hint": "albedo",
+    "source": "YC Winter 2021",
+    "team_size": 55
+   },
+   {
+    "about": "AI Native Sales Outreach Platform",
+    "domain": "rocketsdr.ai",
+    "name": "RocketSDR",
+    "slug_hint": "rocketsdr",
+    "source": "YC Winter 2021",
+    "team_size": 30
+   },
+   {
+    "about": "Software for pharmacies to move beyond dispensing",
+    "domain": "medmehealth.com",
+    "name": "MedMe Health",
+    "slug_hint": "medme-health",
+    "source": "YC Winter 2021",
+    "team_size": 60
+   },
+   {
+    "about": "Stocks and cryptos trading app with zero commissions and no minimums\u2026",
+    "domain": "hapi.trade",
+    "name": "Hapi",
+    "slug_hint": "hapi",
+    "source": "YC Winter 2021",
+    "team_size": 45
+   },
+   {
+    "about": "Open source alternative to DataDog ",
+    "domain": "signoz.io",
+    "name": "SigNoz",
+    "slug_hint": "signoz",
+    "source": "YC Winter 2021",
+    "team_size": 38
+   },
+   {
+    "about": "AI workers for the logistics industry. ",
+    "domain": "arnata.com",
+    "name": "arnata",
+    "slug_hint": "arnata",
+    "source": "YC Winter 2021",
+    "team_size": 15
+   },
+   {
+    "about": "Telehealth dietitians covered by insurance",
+    "domain": "nourish.com",
+    "name": "Nourish",
+    "slug_hint": "nourish",
+    "source": "YC Winter 2021",
+    "team_size": 250
+   },
+   {
+    "about": "SpruceID lets users control their data across the web.",
+    "domain": "spruceid.com",
+    "name": "SpruceID",
+    "slug_hint": "spruceid",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "AI recruiter that runs outbound sourcing campaigns to find top talent",
+    "domain": "weekday.works",
+    "name": "Weekday",
+    "slug_hint": "weekday",
+    "source": "YC Winter 2021",
+    "team_size": 38
+   },
+   {
+    "about": "Scheduling and workforce management SaaS for home healthcare providers",
+    "domain": "axlehealth.com",
+    "name": "Axle Health",
+    "slug_hint": "axle-health",
+    "source": "YC Winter 2021",
+    "team_size": 28
+   },
+   {
+    "about": "Cyble - World\u2019s First Intelligence-Driven, AI-Native Security\u2026",
+    "domain": "cyble.com",
+    "name": "Cyble",
+    "slug_hint": "cyble",
+    "source": "YC Winter 2021",
+    "team_size": 197
+   },
+   {
+    "about": "Protecting the grid today, preparing the grid for tomorrow",
+    "domain": "gridware.io",
+    "name": "Gridware",
+    "slug_hint": "gridware",
+    "source": "YC Winter 2021",
+    "team_size": 125
+   },
+   {
+    "about": "The all-in-one startup operating system",
+    "domain": "firstbase.io",
+    "name": "Firstbase.io",
+    "slug_hint": "firstbase-io",
+    "source": "YC Winter 2021",
+    "team_size": 50
+   },
+   {
+    "about": "The AI operating system for restaurants",
+    "domain": "tryperdiem.com",
+    "name": "Per Diem",
+    "slug_hint": "per-diem",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "Admin automation for healthcare",
+    "domain": "camber.health",
+    "name": "Camber",
+    "slug_hint": "camber-2",
+    "source": "YC Winter 2021",
+    "team_size": 101
+   },
+   {
+    "about": "Voice AI for developers.",
+    "domain": "vapi.ai",
+    "name": "Vapi",
+    "slug_hint": "vapi",
+    "source": "YC Winter 2021",
+    "team_size": 50
+   },
+   {
+    "about": "Corporate card & spend management platform for Indian startups",
+    "domain": "kodo.com",
+    "name": "Kodo",
+    "slug_hint": "kodo",
+    "source": "YC Winter 2021",
+    "team_size": 45
+   },
+   {
+    "about": "",
+    "domain": "topkey.io",
+    "name": "Topkey",
+    "slug_hint": "topkey",
+    "source": "YC Winter 2021",
+    "team_size": 17
+   },
+   {
+    "about": "The next generation care enablement platform",
+    "domain": "animahealth.com",
+    "name": "Anima",
+    "slug_hint": "anima",
+    "source": "YC Winter 2021",
+    "team_size": 20
+   },
+   {
+    "about": "Your AI GTM platform for In-Person Events",
+    "domain": "popl.co",
+    "name": "Popl",
+    "slug_hint": "popl",
+    "source": "YC Winter 2021",
+    "team_size": 70
+   },
+   {
+    "about": "The Unified AI-ERP & FP&A Platform",
+    "domain": "liveflow.com",
+    "name": "LiveFlow",
+    "slug_hint": "liveflow",
+    "source": "YC Winter 2021",
+    "team_size": 51
+   },
+   {
+    "about": "User research on autopilot. ",
+    "domain": "greatquestion.co",
+    "name": "Great Question",
+    "slug_hint": "great-question",
+    "source": "YC Winter 2021",
+    "team_size": 41
+   },
+   {
+    "about": "Generative AI Healthcare Coding Automation",
+    "domain": "datrics.ai",
+    "name": "Datrics",
+    "slug_hint": "datrics",
+    "source": "YC Winter 2021",
+    "team_size": 22
+   },
+   {
+    "about": "Energy Orchestration Platform",
+    "domain": "enode.com",
+    "name": "Enode",
+    "slug_hint": "enode",
+    "source": "YC Winter 2021",
+    "team_size": 70
+   },
+   {
+    "about": "Live online courses that turn learners into builders",
+    "domain": "coderhouse.com",
+    "name": "Coderhouse",
+    "slug_hint": "coderhouse",
+    "source": "YC Winter 2021",
+    "team_size": 70
+   },
+   {
+    "about": "Generative AI powered Shopify for home service professionals",
+    "domain": "toplinepro.com",
+    "name": "Topline Pro",
+    "slug_hint": "topline-pro",
+    "source": "YC Winter 2021",
+    "team_size": 28
+   },
+   {
+    "about": "Tools & infra to build and scale high-quality blockchain applications.",
+    "domain": "quicknode.com",
+    "name": "Quicknode",
+    "slug_hint": "quicknode",
+    "source": "YC Winter 2021",
+    "team_size": 115
+   },
+   {
+    "about": "Marketing automation platform for selling to local businesses.",
+    "domain": "re2.ai",
+    "name": "Resquared",
+    "slug_hint": "resquared",
+    "source": "YC Winter 2021",
+    "team_size": 40
+   },
+   {
+    "about": "Leading online after-school for kids & teens to learn AI & coding",
+    "domain": "codingal.com",
+    "name": "Codingal",
+    "slug_hint": "codingal",
+    "source": "YC Winter 2021",
+    "team_size": 100
+   },
+   {
+    "about": "Physical AI for asset-heavy industries",
+    "domain": "tractian.com",
+    "name": "Tractian",
+    "slug_hint": "tractian",
+    "source": "YC Winter 2021",
+    "team_size": 530
+   },
+   {
+    "about": "We help people resolve debt.",
+    "domain": "solosuit.com",
+    "name": "Solo",
+    "slug_hint": "solo",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "Seamless mobility to, through, and from space. It starts with 100%\u2026",
+    "domain": "stokespace.com",
+    "name": "Stoke Space",
+    "slug_hint": "stoke-space",
+    "source": "YC Winter 2021",
+    "team_size": 305
+   },
+   {
+    "about": "Makes it easy for tech platforms to embed insurance into products",
+    "domain": "tint.ai",
+    "name": "Tint",
+    "slug_hint": "tint",
+    "source": "YC Winter 2021",
+    "team_size": 40
+   },
+   {
+    "about": "Banking, corporate cards, stablecoin payments \u2013 available globally.",
+    "domain": "slash.com",
+    "name": "Slash",
+    "slug_hint": "slash",
+    "source": "YC Summer 2021",
+    "team_size": 70
+   },
+   {
+    "about": "Canada's digital health clinic for men",
+    "domain": "phoenix.ca",
+    "name": "Phoenix",
+    "slug_hint": "phoenix",
+    "source": "YC Winter 2021",
+    "team_size": 70
+   },
+   {
+    "about": "India\u2019s first and only marriage super app",
+    "domain": "betterhalf.ai",
+    "name": "Betterhalf",
+    "slug_hint": "betterhalf",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "Take Care of Shitty Paperwork for Expensive Drugs",
+    "domain": "lamarhealth.com",
+    "name": "Lamar Health",
+    "slug_hint": "lamar-health",
+    "source": "YC Winter 2021",
+    "team_size": 15
+   },
+   {
+    "about": "AI tax workflow platform for accounting firms ",
+    "domain": "soraban.com",
+    "name": "Soraban",
+    "slug_hint": "soraban",
+    "source": "YC Winter 2021",
+    "team_size": 50
+   },
+   {
+    "about": "Operating System for Hotels and Vacation Rentals",
+    "domain": "business.stayflexi.com",
+    "name": "Stayflexi",
+    "slug_hint": "stayflexi",
+    "source": "YC Winter 2021",
+    "team_size": 58
+   },
+   {
+    "about": "A digital wallet for the Middle East & North Africa",
+    "domain": "ziina.com",
+    "name": "Ziina",
+    "slug_hint": "ziina",
+    "source": "YC Winter 2021",
+    "team_size": 57
+   },
+   {
+    "about": "Shift FinOps Left: Proactively Find & Fix Cloud Cost Issues",
+    "domain": "infracost.io",
+    "name": "Infracost",
+    "slug_hint": "infracost",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "Application Development Platform (Native Mobile + Web Apps)",
+    "domain": "flutterflow.io",
+    "name": "FlutterFlow",
+    "slug_hint": "flutterflow",
+    "source": "YC Winter 2021",
+    "team_size": 55
+   },
+   {
+    "about": "Automated user acquisition & selling on WhatsApp for businesses",
+    "domain": "businessonbot.com",
+    "name": "BusinessOnBot",
+    "slug_hint": "businessonbot",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "The OS for Embedded Telecom",
+    "domain": "gigs.com",
+    "name": "Gigs",
+    "slug_hint": "gigs",
+    "source": "YC Winter 2021",
+    "team_size": 150
+   },
+   {
+    "about": "Banking for businesses ",
+    "domain": "getprospa.com",
+    "name": "Prospa",
+    "slug_hint": "prospa",
+    "source": "YC Winter 2021",
+    "team_size": 70
+   },
+   {
+    "about": "Source better parts by partnering directly with vetted manufacturers",
+    "domain": "jiga.io",
+    "name": "Jiga",
+    "slug_hint": "jiga",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "AI-driven online tech school for busy professionals",
+    "domain": "turingcollege.com",
+    "name": "Turing College",
+    "slug_hint": "turing-college",
+    "source": "YC Winter 2021",
+    "team_size": 50
+   },
+   {
+    "about": "Building the next generation AI creative studio",
+    "domain": "moonvalley.com",
+    "name": "Moonvalley",
+    "slug_hint": "moonvalley",
+    "source": "YC Winter 2021",
+    "team_size": 95
+   },
+   {
+    "about": "Stripe for online identity verification",
+    "domain": "authologic.com",
+    "name": "Authologic",
+    "slug_hint": "authologic",
+    "source": "YC Winter 2021",
+    "team_size": 44
+   },
+   {
+    "about": "AI Agents for Oncology EHRs",
+    "domain": "triomics.com",
+    "name": "Triomics",
+    "slug_hint": "triomics",
+    "source": "YC Winter 2021",
+    "team_size": 50
+   },
+   {
+    "about": "Management and analytics software for convenience stores",
+    "domain": "swiftsku.com",
+    "name": "SwiftSku",
+    "slug_hint": "swiftsku",
+    "source": "YC Winter 2021",
+    "team_size": 35
+   },
+   {
+    "about": "Modernizing commercial insurance",
+    "domain": "shepherdinsurance.com",
+    "name": "Shepherd",
+    "slug_hint": "shepherd",
+    "source": "YC Winter 2021",
+    "team_size": 60
+   },
+   {
+    "about": "API for developers and AIs to access health data ",
+    "domain": "tryterra.co",
+    "name": "Terra API",
+    "slug_hint": "terra-api",
+    "source": "YC Winter 2021",
+    "team_size": 25
+   },
+   {
+    "about": "The B2B Payments Platform ",
+    "domain": "slopepay.com",
+    "name": "Slope",
+    "slug_hint": "slope",
+    "source": "YC Summer 2021",
+    "team_size": 16
+   },
+   {
+    "about": "App to help people quit or cut back on alcohol use",
+    "domain": "joinreframeapp.com",
+    "name": "Reframe",
+    "slug_hint": "reframe",
+    "source": "YC Summer 2021",
+    "team_size": 35
+   },
+   {
+    "about": "Healthcare Price Transparency APIs and Data Products",
+    "domain": "serifhealth.com",
+    "name": "Serif Health",
+    "slug_hint": "serif-health",
+    "source": "YC Winter 2022",
+    "team_size": 25
+   },
+   {
+    "about": "Grow Your Wealth With Baraka",
+    "domain": "getbaraka.com",
+    "name": "Baraka",
+    "slug_hint": "baraka",
+    "source": "YC Summer 2021",
+    "team_size": 34
+   },
+   {
+    "about": "AI-native on-call and incident response carefully crafted to help\u2026",
+    "domain": "rootly.com",
+    "name": "Rootly",
+    "slug_hint": "rootly",
+    "source": "YC Summer 2021",
+    "team_size": 75
+   },
+   {
+    "about": "Sell anything",
+    "domain": "replo.app",
+    "name": "Replo",
+    "slug_hint": "replo",
+    "source": "YC Summer 2021",
+    "team_size": 20
+   },
+   {
+    "about": "The global financial platform for affluent consumers in the Americas.",
+    "domain": "arqfinance.com",
+    "name": "ARQ",
+    "slug_hint": "arq",
+    "source": "YC Summer 2021",
+    "team_size": 100
+   },
+   {
+    "about": "AI-enabled financial automation and intelligence for CPG Brands",
+    "domain": "confidotech.com",
+    "name": "Confido",
+    "slug_hint": "confido",
+    "source": "YC Summer 2021",
+    "team_size": 65
+   },
+   {
+    "about": "Using the immune system to cure disease",
+    "domain": "parallel.bio",
+    "name": "Parallel Bio",
+    "slug_hint": "parallel-bio",
+    "source": "YC Summer 2021",
+    "team_size": 20
+   },
+   {
+    "about": "Building Job driven Virtual Tech University for India \ud83c\uddee\ud83c\uddf3",
+    "domain": "algouniversity.com",
+    "name": "AlgoUniversity",
+    "slug_hint": "algouniversity",
+    "source": "YC Summer 2021",
+    "team_size": 40
+   },
+   {
+    "about": "Instant lab tests on your smartphone",
+    "domain": "neodocs.in",
+    "name": "Neodocs",
+    "slug_hint": "neodocs",
+    "source": "YC Summer 2021",
+    "team_size": 20
+   },
+   {
+    "about": "We make software for bookkeepers.",
+    "domain": "doublehq.com",
+    "name": "Double",
+    "slug_hint": "doublehq",
+    "source": "YC Summer 2021",
+    "team_size": 80
+   },
+   {
+    "about": "The AI Native Billing Platform",
+    "domain": "getlago.com",
+    "name": "Lago",
+    "slug_hint": "lago",
+    "source": "YC Summer 2021",
+    "team_size": 27
+   },
+   {
+    "about": "Payments powering people",
+    "domain": "joinforage.com",
+    "name": "Forage",
+    "slug_hint": "forage-2",
+    "source": "YC Summer 2021",
+    "team_size": 66
+   },
+   {
+    "about": "Building the human layer of AI",
+    "domain": "tavus.io",
+    "name": "Tavus",
+    "slug_hint": "tavus",
+    "source": "YC Summer 2021",
+    "team_size": 75
+   },
+   {
+    "about": "Easiest way for companies to process data requests from governments",
+    "domain": "kodexglobal.com",
+    "name": "Kodex",
+    "slug_hint": "kodex",
+    "source": "YC Summer 2021",
+    "team_size": 30
+   },
+   {
+    "about": "The AI-Native Turnkey Alternative Investment Platform (TAIP)",
+    "domain": "investwithaqua.com",
+    "name": "Aqua",
+    "slug_hint": "aqua",
+    "source": "YC Summer 2021",
+    "team_size": 23
+   },
+   {
+    "about": "Executable specifications in English for test automation",
+    "domain": "testrigor.com",
+    "name": "testRigor",
+    "slug_hint": "testrigor",
+    "source": "YC Summer 2021",
+    "team_size": 25
+   },
+   {
+    "about": "We buy & track building materials for construction companies.",
+    "domain": "digibuild.com",
+    "name": "DigiBuild",
+    "slug_hint": "digibuild",
+    "source": "YC Summer 2021",
+    "team_size": 15
+   },
+   {
+    "about": "Transforming Mental Health for Corporate Asia",
+    "domain": "mindfi.co",
+    "name": "MindFi",
+    "slug_hint": "mindfi",
+    "source": "YC Summer 2021",
+    "team_size": 25
+   },
+   {
+    "about": "Truss is a banking and payments network for blue-collar trades.",
+    "domain": "trusspayments.com",
+    "name": "Truss",
+    "slug_hint": "truss",
+    "source": "YC Summer 2021",
+    "team_size": 15
+   },
+   {
+    "about": "Software to find the best sites for renewables on the electrical grid",
+    "domain": "niraenergy.com",
+    "name": "Nira Energy",
+    "slug_hint": "nira-energy",
+    "source": "YC Winter 2022",
+    "team_size": 20
+   },
+   {
+    "about": "The Best Data Infrastructure for Biotechs",
+    "domain": "scispot.io",
+    "name": "Scispot",
+    "slug_hint": "scispot-io",
+    "source": "YC Summer 2021",
+    "team_size": 16
+   },
+   {
+    "about": "Open Source Infrastructure for the Financial Internet",
+    "domain": "formance.com",
+    "name": "Formance",
+    "slug_hint": "formance",
+    "source": "YC Summer 2021",
+    "team_size": 33
+   },
+   {
+    "about": "The AI Cowork for big data",
+    "domain": "oneschema.co",
+    "name": "OneSchema",
+    "slug_hint": "oneschema",
+    "source": "YC Summer 2021",
+    "team_size": 20
+   },
+   {
+    "about": "A national network of microschools bringing school choice to every\u2026",
+    "domain": "kaipodlearning.com",
+    "name": "KaiPod Learning",
+    "slug_hint": "kaipod-learning",
+    "source": "YC Summer 2021",
+    "team_size": 27
+   },
+   {
+    "about": "One source of truth for financial data.",
+    "domain": "getaleph.com",
+    "name": "Aleph",
+    "slug_hint": "aleph",
+    "source": "YC Summer 2021",
+    "team_size": 30
+   },
+   {
+    "about": "Low-cost, high-scale EV charging platform for apartments (and more).",
+    "domain": "heycharge.com",
+    "name": "HeyCharge",
+    "slug_hint": "heycharge",
+    "source": "YC Summer 2021",
+    "team_size": 17
+   },
+   {
+    "about": "Demo operations for the AI era",
+    "domain": "trycoast.com",
+    "name": "Coast",
+    "slug_hint": "coast",
+    "source": "YC Summer 2021",
+    "team_size": 35
+   },
+   {
+    "about": "Full-stack payments infrastructure for growing APAC businesses",
+    "domain": "hitpayapp.com",
+    "name": "HitPay",
+    "slug_hint": "hitpay",
+    "source": "YC Summer 2021",
+    "team_size": 42
+   },
+   {
+    "about": "The platform for buying, selling and managing residential construction",
+    "domain": "bolsterbuilt.com",
+    "name": "Bolster",
+    "slug_hint": "bolster",
+    "source": "YC Summer 2021",
+    "team_size": 25
+   },
+   {
+    "about": "AI CAD Software for Civil Engineering",
+    "domain": "mach9.ai",
+    "name": "Mach9",
+    "slug_hint": "mach9",
+    "source": "YC Summer 2021",
+    "team_size": 25
+   },
+   {
+    "about": "Flexible Business Apps for Modern Teams",
+    "domain": "noloco.io",
+    "name": "Noloco",
+    "slug_hint": "noloco",
+    "source": "YC Summer 2021",
+    "team_size": 15
+   },
+   {
+    "about": "Build Interactive Product Demo in 10 mins for SaaS companies",
+    "domain": "storylane.io",
+    "name": "Storylane",
+    "slug_hint": "storylane",
+    "source": "YC Summer 2021",
+    "team_size": 55
+   },
+   {
+    "about": "Online Training for Healthcare Jobs",
+    "domain": "stepful.com",
+    "name": "Stepful",
+    "slug_hint": "stepful",
+    "source": "YC Summer 2021",
+    "team_size": 100
+   },
+   {
+    "about": "Moving Things Around in Space, Imaging Space Objects When We're Not",
+    "domain": "turionspace.com",
+    "name": "Turion Space",
+    "slug_hint": "turion-space",
+    "source": "YC Summer 2021",
+    "team_size": 15
+   },
+   {
+    "about": "Robots that build solar farms",
+    "domain": "chargerobotics.com",
+    "name": "Charge Robotics",
+    "slug_hint": "charge-robotics",
+    "source": "YC Summer 2021",
+    "team_size": 25
+   },
+   {
+    "about": "A mobile app. It allows employees to get paid their salary on-demand.",
+    "domain": "payflow.es",
+    "name": "Payflow",
+    "slug_hint": "payflow",
+    "source": "YC Summer 2021",
+    "team_size": 50
+   },
+   {
+    "about": "Nash is the digital logistics infrastructure for commerce",
+    "domain": "usenash.com",
+    "name": "Nash",
+    "slug_hint": "nash",
+    "source": "YC Summer 2021",
+    "team_size": 40
+   },
+   {
+    "about": "Autonomous team of AI agents that runs the entire hospital operations",
+    "domain": "sully.ai",
+    "name": "Sully",
+    "slug_hint": "sully",
+    "source": "YC Summer 2021",
+    "team_size": 44
+   },
+   {
+    "about": "B2B payments, transforming Africa's cash economy",
+    "domain": "gojabu.com",
+    "name": "JABU",
+    "slug_hint": "jabu",
+    "source": "YC Summer 2021",
+    "team_size": 40
+   },
+   {
+    "about": "Open source feature flagging and A/B testing",
+    "domain": "growthbook.io",
+    "name": "GrowthBook",
+    "slug_hint": "growthbook",
+    "source": "YC Winter 2022",
+    "team_size": 46
+   },
+   {
+    "about": "Applied AI for Construction",
+    "domain": "useagave.com",
+    "name": "Agave",
+    "slug_hint": "agave",
+    "source": "YC Winter 2022",
+    "team_size": 50
+   },
+   {
+    "about": "The multimodal data lab",
+    "domain": "sievedata.com",
+    "name": "Sieve",
+    "slug_hint": "sieve",
+    "source": "YC Winter 2022",
+    "team_size": 34
+   },
+   {
+    "about": "Agentic workflows that automate your back\u2011office operations",
+    "domain": "peakflo.co",
+    "name": "Peakflo",
+    "slug_hint": "peakflo",
+    "source": "YC Winter 2022",
+    "team_size": 45
+   },
+   {
+    "about": "Using AI to help dementia patients age at home",
+    "domain": "craniometrix.com",
+    "name": "Craniometrix",
+    "slug_hint": "craniometrix",
+    "source": "YC Winter 2022",
+    "team_size": 64
+   },
+   {
+    "about": "Connecting the world by simulating it",
+    "domain": "gymclass.com",
+    "name": "Gym Class",
+    "slug_hint": "gym-class",
+    "source": "YC Winter 2022",
+    "team_size": 20
+   },
+   {
+    "about": "Compliant-Ready AI for the Enterprise",
+    "domain": "dynamo.ai",
+    "name": "Dynamo AI",
+    "slug_hint": "dynamo-ai",
+    "source": "YC Winter 2022",
+    "team_size": 40
+   },
+   {
+    "about": "Data analytics software for biomanufacturing.",
+    "domain": "invertbio.com",
+    "name": "Invert",
+    "slug_hint": "invert",
+    "source": "YC Winter 2022",
+    "team_size": 25
+   },
+   {
+    "about": "Helping travel companies to sell transportation online",
+    "domain": "book.shuttlecentral.com",
+    "name": "Shuttle Central",
+    "slug_hint": "shuttle-central",
+    "source": "YC Winter 2022",
+    "team_size": 28
+   },
+   {
+    "about": "Virtualizing brick-mortar infrastructures of clinics w/ generative AI ",
+    "domain": "ankr.us",
+    "name": "Ankr Health",
+    "slug_hint": "ankr-health",
+    "source": "YC Winter 2022",
+    "team_size": 30
+   },
+   {
+    "about": "Compliance tools & AI agents for financial entities",
+    "domain": "complif.com",
+    "name": "Complif",
+    "slug_hint": "complif",
+    "source": "YC Winter 2022",
+    "team_size": 100
+   },
+   {
+    "about": "Turn intuition into insights, in minutes",
+    "domain": "reforgedlabs.com",
+    "name": "Reforged Labs",
+    "slug_hint": "reforged-labs",
+    "source": "YC Winter 2022",
+    "team_size": 19
+   },
+   {
+    "about": "AI-native AML compliance platform for fintechs & banks",
+    "domain": "flagright.com",
+    "name": "Flagright",
+    "slug_hint": "flagright",
+    "source": "YC Winter 2022",
+    "team_size": 58
+   },
+   {
+    "about": "AI agent that helps consumers lower the cost of debt automatically",
+    "domain": "gauss.money",
+    "name": "Gauss",
+    "slug_hint": "gauss",
+    "source": "YC Winter 2022",
+    "team_size": 16
+   },
+   {
+    "about": "Self-hosted data lakehouse platform",
+    "domain": "iomete.com",
+    "name": "IOMETE",
+    "slug_hint": "iomete",
+    "source": "YC Winter 2022",
+    "team_size": 25
+   },
+   {
+    "about": "The intelligent knowledge platform",
+    "domain": "mintlify.com",
+    "name": "Mintlify",
+    "slug_hint": "mintlify",
+    "source": "YC Winter 2022",
+    "team_size": 75
+   },
+   {
+    "about": "Construction's AI Platform",
+    "domain": "permitflow.com",
+    "name": "PermitFlow",
+    "slug_hint": "permitflow",
+    "source": "YC Winter 2022",
+    "team_size": 80
+   },
+   {
+    "about": "Disrupting Indian Insurance space by empowering distrubutors",
+    "domain": "imt.care",
+    "name": "IMT Care",
+    "slug_hint": "imt-care",
+    "source": "YC Winter 2022",
+    "team_size": 23
+   },
+   {
+    "about": "Enabling banks have a fintech-style loan origination process",
+    "domain": "digitech.la",
+    "name": "digi",
+    "slug_hint": "digi",
+    "source": "YC Winter 2022",
+    "team_size": 30
+   },
+   {
+    "about": "SDK for adding an agent and human governance layer to your product",
+    "domain": "velt.dev",
+    "name": "Velt",
+    "slug_hint": "velt",
+    "source": "YC Winter 2022",
+    "team_size": 15
+   },
+   {
+    "about": "The AI Platform for Architects and Engineers",
+    "domain": "cogram.com",
+    "name": "Cogram",
+    "slug_hint": "cogram",
+    "source": "YC Winter 2022",
+    "team_size": 15
+   },
+   {
+    "about": "AI-Powered Infrastructure for Insurance & Healthcare",
+    "domain": "curacel.co",
+    "name": "Curacel",
+    "slug_hint": "curacel",
+    "source": "YC Winter 2022",
+    "team_size": 30
+   },
+   {
+    "about": "We build the AI companion for nurses, to create time for care.",
+    "domain": "voize.de",
+    "name": "voize",
+    "slug_hint": "voize",
+    "source": "YC Winter 2022",
+    "team_size": 140
+   },
+   {
+    "about": "Agency replaces traditional security and compliance headcount with AI.",
+    "domain": "getagency.com",
+    "name": "Agency",
+    "slug_hint": "agency",
+    "source": "YC Winter 2022",
+    "team_size": 50
+   },
+   {
+    "about": "Identity Verification API for Emerging Markets",
+    "domain": "prembly.com",
+    "name": "Prembly (formerly Identitypass)",
+    "slug_hint": "prembly",
+    "source": "YC Winter 2022",
+    "team_size": 80
+   },
+   {
+    "about": "Infrastructure to protect companies from AI abuse",
+    "domain": "cinder.ai",
+    "name": "Cinder",
+    "slug_hint": "cinder-2",
+    "source": "YC Winter 2022",
+    "team_size": 30
+   },
+   {
+    "about": "AI-native operating system for home service businesses",
+    "domain": "broccoli.com",
+    "name": "Broccoli AI",
+    "slug_hint": "broccoli-ai",
+    "source": "YC Winter 2022",
+    "team_size": 85
+   },
+   {
+    "about": "Live between worlds, in UNISON, using the headset we're building!",
+    "domain": "in-unison.com",
+    "name": "UNISON",
+    "slug_hint": "unison",
+    "source": "YC Winter 2022",
+    "team_size": 15
+   },
+   {
+    "about": "Spade is the data and AI platform for modern finance.",
+    "domain": "spade.com",
+    "name": "Spade",
+    "slug_hint": "spade",
+    "source": "YC Winter 2022",
+    "team_size": 30
+   },
+   {
+    "about": "Financial health focused micro-lender in Mexico",
+    "domain": "belozfi.com.mx",
+    "name": "BelozFi",
+    "slug_hint": "belozfi",
+    "source": "YC Winter 2022",
+    "team_size": 29
+   },
+   {
+    "about": "A B2B marketplace for wholesale second hand fashion",
+    "domain": "joinfleek.com",
+    "name": "Fleek",
+    "slug_hint": "fleek",
+    "source": "YC Winter 2022",
+    "team_size": 100
+   },
+   {
+    "about": "Agentic User Research Infrastructure",
+    "domain": "rallyuxr.com",
+    "name": "Rally",
+    "slug_hint": "rallyuxr",
+    "source": "YC Winter 2022",
+    "team_size": 33
+   },
+   {
+    "about": "AI powered personal finance app for Indonesia",
+    "domain": "finku.id",
+    "name": "Finku",
+    "slug_hint": "finku",
+    "source": "YC Winter 2022",
+    "team_size": 20
+   },
+   {
+    "about": "We help underbanked workers get paid before payday",
+    "domain": "gimo.vn",
+    "name": "GIMO",
+    "slug_hint": "gimo",
+    "source": "YC Winter 2022",
+    "team_size": 70
+   },
+   {
+    "about": "AI platform to win and run government contracts",
+    "domain": "govdash.com",
+    "name": "GovDash",
+    "slug_hint": "govdash",
+    "source": "YC Winter 2022",
+    "team_size": 56
+   },
+   {
+    "about": "AI-Powered Electronics Supply Chain Infrastructure",
+    "domain": "cofactr.com",
+    "name": "Cofactr",
+    "slug_hint": "cofactr",
+    "source": "YC Winter 2022",
+    "team_size": 15
+   },
+   {
+    "about": "Building the AI data engine for any modality and scale",
+    "domain": "daft.ai",
+    "name": "Eventual",
+    "slug_hint": "eventual",
+    "source": "YC Winter 2022",
+    "team_size": 18
+   },
+   {
+    "about": "Simplifying roofing for homeowners, roofers and enterprises.",
+    "domain": "remihq.com",
+    "name": "Remi",
+    "slug_hint": "remi",
+    "source": "YC Winter 2022",
+    "team_size": 170
+   },
+   {
+    "about": "Enterprise Deepfake Detection",
+    "domain": "realitydefender.com",
+    "name": "Reality Defender",
+    "slug_hint": "reality-defender",
+    "source": "YC Winter 2022",
+    "team_size": 54
+   },
+   {
+    "about": "API first electronic health record (EHR) that is open source",
+    "domain": "medplum.com",
+    "name": "Medplum",
+    "slug_hint": "medplum",
+    "source": "YC Summer 2022",
+    "team_size": 20
+   },
+   {
+    "about": "India's Telemedicine Platform & Online Pharmacy for Dermatology Care",
+    "domain": "clinikally.com",
+    "name": "Clinikally",
+    "slug_hint": "clinikally",
+    "source": "YC Summer 2022",
+    "team_size": 125
+   },
+   {
+    "about": "The AI Claims Workbench automating insurance claims ",
+    "domain": "stream.claims",
+    "name": "Stream",
+    "slug_hint": "stream",
+    "source": "YC Summer 2022",
+    "team_size": 15
+   },
+   {
+    "about": "Agentic AI for Power Projects and AI Infrastructure",
+    "domain": "paces.com",
+    "name": "Paces",
+    "slug_hint": "paces",
+    "source": "YC Summer 2022",
+    "team_size": 48
+   },
+   {
+    "about": "AI fraud prevention and underwriting agent",
+    "domain": "twodots.com",
+    "name": "Two Dots",
+    "slug_hint": "two-dots",
+    "source": "YC Summer 2022",
+    "team_size": 28
+   },
+   {
+    "about": "A payment network connecting nonprofits to the $326B in DAFs",
+    "domain": "givechariot.com",
+    "name": "Chariot",
+    "slug_hint": "chariot-2",
+    "source": "YC Summer 2022",
+    "team_size": 24
+   },
+   {
+    "about": "Headless ERP for retail operations",
+    "domain": "tailor.tech",
+    "name": "Tailor",
+    "slug_hint": "tailor",
+    "source": "YC Summer 2022",
+    "team_size": 40
+   },
+   {
+    "about": "AI agents for insurance and benefits",
+    "domain": "pasito.ai",
+    "name": "Pasito",
+    "slug_hint": "pasito",
+    "source": "YC Summer 2022",
+    "team_size": 20
+   },
+   {
+    "about": "We're building satellites to create a real-time 3D map of the world.",
+    "domain": "arraylabs.io",
+    "name": "Array Labs",
+    "slug_hint": "array-labs",
+    "source": "YC Summer 2022",
+    "team_size": 30
+   },
+   {
+    "about": "America's #1 Sports Trading App",
+    "domain": "novig.com",
+    "name": "Novig",
+    "slug_hint": "novig",
+    "source": "YC Summer 2022",
+    "team_size": 55
+   },
+   {
+    "about": "Smart, fast, and collaborative compliance reviews ",
+    "domain": "blee.com",
+    "name": "Blee",
+    "slug_hint": "blee",
+    "source": "YC Summer 2022",
+    "team_size": 15
+   },
+   {
+    "about": "AI Agents for Recruiting",
+    "domain": "juicebox.ai",
+    "name": "Juicebox",
+    "slug_hint": "juicebox",
+    "source": "YC Summer 2022",
+    "team_size": 100
+   },
+   {
+    "about": "Making motherhood safe, not scary",
+    "domain": "heymalama.co",
+    "name": "Malama Health",
+    "slug_hint": "malama-health",
+    "source": "YC Summer 2022",
+    "team_size": 35
+   },
+   {
+    "about": "Turning the web into a structured database of real world events.",
+    "domain": "newscatcherapi.com",
+    "name": "NewsCatcher",
+    "slug_hint": "newscatcher",
+    "source": "YC Summer 2022",
+    "team_size": 22
+   },
+   {
+    "about": "Ironclad for construction",
+    "domain": "provision.com",
+    "name": "Provision",
+    "slug_hint": "provision",
+    "source": "YC Summer 2022",
+    "team_size": 15
+   },
+   {
+    "about": "AI-Native Finance OS",
+    "domain": "getthera.com",
+    "name": "Thera",
+    "slug_hint": "thera",
+    "source": "YC Summer 2022",
+    "team_size": 15
+   },
+   {
+    "about": "Automating non-emergency calls for 911 centers",
+    "domain": "aurelian.com",
+    "name": "Aurelian",
+    "slug_hint": "aurelian",
+    "source": "YC Summer 2022",
+    "team_size": 45
+   },
+   {
+    "about": "Healthcare data infrastructure for next generation care delivery.",
+    "domain": "metriport.com",
+    "name": "Metriport",
+    "slug_hint": "metriport",
+    "source": "YC Summer 2022",
+    "team_size": 29
+   },
+   {
+    "about": "Datadog for Space",
+    "domain": "quindar.space",
+    "name": "Quindar",
+    "slug_hint": "quindar",
+    "source": "YC Summer 2022",
+    "team_size": 57
+   },
+   {
+    "about": "Shopify for vehicles",
+    "domain": "ekho.com",
+    "name": "Ekho",
+    "slug_hint": "ekho",
+    "source": "YC Summer 2022",
+    "team_size": 30
+   },
+   {
+    "about": "AI-powered Global Compliance Platform",
+    "domain": "aiprise.com",
+    "name": "AiPrise",
+    "slug_hint": "aiprise",
+    "source": "YC Summer 2022",
+    "team_size": 65
+   },
+   {
+    "about": "Sell your home without brokers",
+    "domain": "thehomli.com",
+    "name": "HOMLI",
+    "slug_hint": "homli",
+    "source": "YC Summer 2022",
+    "team_size": 20
+   },
+   {
+    "about": "YC's most popular security compliance platform (SOC 2, ISO 27001,\u2026",
+    "domain": "oneleet.com",
+    "name": "Oneleet",
+    "slug_hint": "oneleet",
+    "source": "YC Summer 2022",
+    "team_size": 75
+   },
+   {
+    "about": "The Costco for cloud is here \ud83d\udd25\ud83d\udd25",
+    "domain": "pump.co",
+    "name": "Pump.co",
+    "slug_hint": "pump-co",
+    "source": "YC Summer 2022",
+    "team_size": 75
+   },
+   {
+    "about": "Changing the way people buy by giving superpowers to shoppers",
+    "domain": "itsrever.com",
+    "name": "REVER",
+    "slug_hint": "rever",
+    "source": "YC Summer 2022",
+    "team_size": 35
+   },
+   {
+    "about": "AI-native commercial real estate operations",
+    "domain": "cambio.ai",
+    "name": "Cambio",
+    "slug_hint": "cambio-2",
+    "source": "YC Summer 2022",
+    "team_size": 60
+   },
+   {
+    "about": "AI-native clearinghouse for insurance",
+    "domain": "axle.insure",
+    "name": "Axle",
+    "slug_hint": "axle",
+    "source": "YC Summer 2022",
+    "team_size": 20
+   },
+   {
+    "about": "Landeed is India\u2019s digital infrastructure for property intelligence,\u2026",
+    "domain": "landeed.com",
+    "name": "Landeed",
+    "slug_hint": "landeed",
+    "source": "YC Summer 2022",
+    "team_size": 35
+   },
+   {
+    "about": "General Autonomy for Industrial Vehicles",
+    "domain": "polymathrobotics.com",
+    "name": "Polymath Robotics",
+    "slug_hint": "polymath-robotics",
+    "source": "YC Summer 2022",
+    "team_size": 25
+   },
+   {
+    "about": "AI-powered Sales Agent for Service-Based Industries",
+    "domain": "avoca.ai",
+    "name": "Avoca",
+    "slug_hint": "avoca",
+    "source": "YC Winter 2023",
+    "team_size": 85
+   },
+   {
+    "about": "Security infrastructure for developers and agents",
+    "domain": "infisical.com",
+    "name": "Infisical",
+    "slug_hint": "infisical",
+    "source": "YC Winter 2023",
+    "team_size": 70
+   },
+   {
+    "about": "AI-based full stack observability platform",
+    "domain": "middleware.io",
+    "name": "Middleware",
+    "slug_hint": "middleware",
+    "source": "YC Winter 2023",
+    "team_size": 40
+   },
+   {
+    "about": "Automate data-driven slide decks and documents with AI",
+    "domain": "rollstack.com",
+    "name": "Rollstack",
+    "slug_hint": "rollstack-2",
+    "source": "YC Winter 2023",
+    "team_size": 30
+   },
+   {
+    "about": "The AI Agent platform for finance",
+    "domain": "concourse.ai",
+    "name": "Concourse",
+    "slug_hint": "concourse",
+    "source": "YC Winter 2023",
+    "team_size": 15
+   },
+   {
+    "about": "Medical language models to automate healthcare operations",
+    "domain": "latenthealth.com",
+    "name": "Latent",
+    "slug_hint": "latent",
+    "source": "YC Winter 2023",
+    "team_size": 50
+   },
+   {
+    "about": "The AI-native sales tax solution.",
+    "domain": "numeral.com",
+    "name": "Numeral",
+    "slug_hint": "numeral",
+    "source": "YC Winter 2023",
+    "team_size": 130
+   },
+   {
+    "about": "AI Servicing for Auto Lenders",
+    "domain": "trysalient.com",
+    "name": "Salient",
+    "slug_hint": "salient",
+    "source": "YC Winter 2023",
+    "team_size": 40
+   },
+   {
+    "about": "Fast, Transparent Patient Experiences",
+    "domain": "tennr.com",
+    "name": "Tennr",
+    "slug_hint": "tennr",
+    "source": "YC Winter 2023",
+    "team_size": 205
+   },
+   {
+    "about": "Build your control plane to deploy your product in your customer VPC\u2026",
+    "domain": "omnistrate.com",
+    "name": "Omnistrate",
+    "slug_hint": "omnistrate",
+    "source": "YC Winter 2023",
+    "team_size": 25
+   },
+   {
+    "about": "Workflow automation, without AI hallucinations.",
+    "domain": "loopfour.com",
+    "name": "loopfour",
+    "slug_hint": "loopfour",
+    "source": "YC Winter 2023",
+    "team_size": 20
+   },
+   {
+    "about": "AI for Government Contractors",
+    "domain": "goveagle.com",
+    "name": "GovEagle",
+    "slug_hint": "goveagle",
+    "source": "YC Winter 2023",
+    "team_size": 25
+   },
+   {
+    "about": "Automation platform for logistics",
+    "domain": "vooma.ai",
+    "name": "Vooma",
+    "slug_hint": "vooma",
+    "source": "YC Winter 2023",
+    "team_size": 40
+   },
+   {
+    "about": "AI Platform for Architects and Engineers",
+    "domain": "pirros.com",
+    "name": "Pirros",
+    "slug_hint": "pirros",
+    "source": "YC Winter 2023",
+    "team_size": 44
+   },
+   {
+    "about": "Salesforce for Cloud marketplaces on AWS, Azure, GCP",
+    "domain": "suger.io",
+    "name": "Suger",
+    "slug_hint": "suger",
+    "source": "YC Winter 2023",
+    "team_size": 50
+   },
+   {
+    "about": "AI-powered care for seniors with chronic disease",
+    "domain": "kivohealth.com",
+    "name": "Kivo Health",
+    "slug_hint": "kivo-health",
+    "source": "YC Winter 2023",
+    "team_size": 40
+   },
+   {
+    "about": "Build AI Agent teammates and automations in code or no-code",
+    "domain": "inkeep.com",
+    "name": "Inkeep",
+    "slug_hint": "inkeep",
+    "source": "YC Winter 2023",
+    "team_size": 18
+   },
+   {
+    "about": "AI-Powered Accounting",
+    "domain": "trytruewind.com",
+    "name": "Truewind",
+    "slug_hint": "truewind",
+    "source": "YC Winter 2023",
+    "team_size": 30
+   },
+   {
+    "about": "the AI social facilitator for offline human to human interactions",
+    "domain": "222.place",
+    "name": "222",
+    "slug_hint": "222",
+    "source": "YC Winter 2023",
+    "team_size": 28
+   },
+   {
+    "about": "Automating Securities Compliance",
+    "domain": "hadrius.com",
+    "name": "Hadrius",
+    "slug_hint": "hadrius",
+    "source": "YC Winter 2023",
+    "team_size": 80
+   },
+   {
+    "about": "Transforming how health systems optimize labor",
+    "domain": "vitalize.care",
+    "name": "Vitalize",
+    "slug_hint": "vitalize",
+    "source": "YC Winter 2023",
+    "team_size": 28
+   },
+   {
+    "about": "The Agentic Support Platform purpose-built for B2B.",
+    "domain": "usepylon.com",
+    "name": "Pylon",
+    "slug_hint": "pylon-2",
+    "source": "YC Winter 2023",
+    "team_size": 120
+   },
+   {
+    "about": "The operating system for shipping and receiving.",
+    "domain": "helloconduit.com",
+    "name": "Conduit",
+    "slug_hint": "conduit",
+    "source": "YC Winter 2023",
+    "team_size": 15
+   },
+   {
+    "about": "Empowering Autism Care Providers to Go Independent",
+    "domain": "finnihealth.com",
+    "name": "Finni Health",
+    "slug_hint": "finni-health",
+    "source": "YC Winter 2023",
+    "team_size": 40
+   },
+   {
+    "about": "Advertising for the new internet",
+    "domain": "vector.co",
+    "name": "Vector",
+    "slug_hint": "vector",
+    "source": "YC Winter 2023",
+    "team_size": 20
+   },
+   {
+    "about": "The AI context platform for private capital. Everything your firm\u2026",
+    "domain": "metal.ai",
+    "name": "Metal",
+    "slug_hint": "metal",
+    "source": "YC Winter 2023",
+    "team_size": 17
+   },
+   {
+    "about": "Offensive security for the teams that are 100x outnumbered",
+    "domain": "escape.tech",
+    "name": "Escape",
+    "slug_hint": "escape",
+    "source": "YC Winter 2023",
+    "team_size": 29
+   },
+   {
+    "about": "Call every LLM API like it's OpenAI [100+ LLMs]",
+    "domain": "litellm.ai",
+    "name": "LiteLLM",
+    "slug_hint": "litellm",
+    "source": "YC Winter 2023",
+    "team_size": 20
+   },
+   {
+    "about": "The operating system for inbound B2B revenue",
+    "domain": "hockeystack.com",
+    "name": "HockeyStack",
+    "slug_hint": "hockeystack",
+    "source": "YC Summer 2023",
+    "team_size": 32
+   },
+   {
+    "about": "Software that streams data from databases to warehouses in real-time",
+    "domain": "artie.com",
+    "name": "Artie",
+    "slug_hint": "artie",
+    "source": "YC Summer 2023",
+    "team_size": 20
+   },
+   {
+    "about": "The fastest way to build AI assistants on technical content",
+    "domain": "kapa.ai",
+    "name": "kapa.ai",
+    "slug_hint": "kapa-ai",
+    "source": "YC Summer 2023",
+    "team_size": 22
+   },
+   {
+    "about": "Revenue Activation Platform",
+    "domain": "hyperbound.ai",
+    "name": "Hyperbound",
+    "slug_hint": "hyperbound",
+    "source": "YC Summer 2023",
+    "team_size": 30
+   },
+   {
+    "about": "The enterprise platform for AI phone calls",
+    "domain": "bland.com",
+    "name": "Bland AI",
+    "slug_hint": "bland-ai",
+    "source": "YC Summer 2023",
+    "team_size": 65
+   },
+   {
+    "about": "AI Compliance Platform for Healthcare Organizations",
+    "domain": "readily.ai",
+    "name": "Readily",
+    "slug_hint": "readily",
+    "source": "YC Summer 2023",
+    "team_size": 20
+   },
+   {
+    "about": "Make Banking Magical",
+    "domain": "cascading.ai",
+    "name": "Casca",
+    "slug_hint": "casca",
+    "source": "YC Summer 2023",
+    "team_size": 40
+   },
+   {
+    "about": "AI Phone Agents for Healthcare Operations",
+    "domain": "getprosper.ai",
+    "name": "Prosper",
+    "slug_hint": "prosper",
+    "source": "YC Summer 2023",
+    "team_size": 60
+   },
+   {
+    "about": "Tech-enabled heat pump contractor that cuts costs by 60%",
+    "domain": "electricair.io",
+    "name": "Electric Air",
+    "slug_hint": "electric-air-2",
+    "source": "YC Summer 2023",
+    "team_size": 18
+   },
+   {
+    "about": "Digital-native home painting franchise",
+    "domain": "craftwork.com",
+    "name": "Craftwork",
+    "slug_hint": "craftwork",
+    "source": "YC Summer 2023",
+    "team_size": 50
+   },
+   {
+    "about": "Helping businesses in emerging markets make pay their international\u2026",
+    "domain": "capimoney.com",
+    "name": "Capi Money",
+    "slug_hint": "capi-money",
+    "source": "YC Summer 2023",
+    "team_size": 40
+   },
+   {
+    "about": "The AI Native ERP for the fastest growing companies.",
+    "domain": "campfire.ai",
+    "name": "Campfire",
+    "slug_hint": "campfire-2",
+    "source": "YC Summer 2023",
+    "team_size": 105
+   },
+   {
+    "about": "Plaid for Telematics Data in Commercial Trucking",
+    "domain": "withterminal.com",
+    "name": "Terminal",
+    "slug_hint": "terminal",
+    "source": "YC Summer 2023",
+    "team_size": 17
+   },
+   {
+    "about": "AI-powered user interviews",
+    "domain": "outset.ai",
+    "name": "Outset",
+    "slug_hint": "outset",
+    "source": "YC Summer 2023",
+    "team_size": 120
+   },
+   {
+    "about": "AI enabled marketplace matching trucks with jobs",
+    "domain": "fleetworks.ai",
+    "name": "FleetWorks",
+    "slug_hint": "fleetworks",
+    "source": "YC Summer 2023",
+    "team_size": 20
+   },
+   {
+    "about": "The all-in-one EMR built for med spas and elective care",
+    "domain": "decodahealth.com",
+    "name": "Decoda Health",
+    "slug_hint": "decoda-health",
+    "source": "YC Summer 2023",
+    "team_size": 19
+   },
+   {
+    "about": "Engineering a future without cancer deaths.",
+    "domain": "numen.com",
+    "name": "Numen",
+    "slug_hint": "numen",
+    "source": "YC Summer 2023",
+    "team_size": 18
+   },
+   {
+    "about": "Make more $$$ with SEO and AEO",
+    "domain": "maintouch.com",
+    "name": "Maintouch",
+    "slug_hint": "maintouch",
+    "source": "YC Summer 2023",
+    "team_size": 15
+   },
+   {
+    "about": "AI-native operations for the banks",
+    "domain": "bretton.com",
+    "name": "Bretton AI",
+    "slug_hint": "bretton-ai",
+    "source": "YC Summer 2023",
+    "team_size": 34
+   },
+   {
+    "about": "TurboTax for Medicaid",
+    "domain": "fortunahealth.com",
+    "name": "Fortuna Health",
+    "slug_hint": "fortuna-health",
+    "source": "YC Summer 2023",
+    "team_size": 29
+   },
+   {
+    "about": "End-to-end content, learning, & deal intelligence for B2B sales teams",
+    "domain": "letter.ai",
+    "name": "Letter AI",
+    "slug_hint": "letter-ai",
+    "source": "YC Summer 2023",
+    "team_size": 70
+   },
+   {
+    "about": "AI Powered All-In-One Payroll, HR + Recruiting ",
+    "domain": "bolto.com",
+    "name": "Bolto",
+    "slug_hint": "bolto",
+    "source": "YC Summer 2023",
+    "team_size": 20
+   },
+   {
+    "about": "Personalized learning built for schools",
+    "domain": "flintk12.com",
+    "name": "Flint",
+    "slug_hint": "flint-2",
+    "source": "YC Summer 2023",
+    "team_size": 18
+   },
+   {
+    "about": "AI Operating System for Private Market Investors",
+    "domain": "vectorshift.ai",
+    "name": "VectorShift",
+    "slug_hint": "vectorshift",
+    "source": "YC Summer 2023",
+    "team_size": 30
+   },
+   {
+    "about": "iMessage for Sales",
+    "domain": "sendblue.com",
+    "name": "Sendblue",
+    "slug_hint": "sendblue",
+    "source": "YC Summer 2023",
+    "team_size": 50
+   },
+   {
+    "about": "The cheapest way to borrow money",
+    "domain": "syntheticfi.com",
+    "name": "SyntheticFi",
+    "slug_hint": "syntheticfi",
+    "source": "YC Summer 2023",
+    "team_size": 25
+   },
+   {
+    "about": "All-in-one POS for liquor stores",
+    "domain": "santehq.com",
+    "name": "Sant\u00e9",
+    "slug_hint": "sante",
+    "source": "YC Summer 2023",
+    "team_size": 20
+   },
+   {
+    "about": "Intelligence that runs your operations. ",
+    "domain": "happyrobot.ai",
+    "name": "HappyRobot",
+    "slug_hint": "happyrobot",
+    "source": "YC Summer 2023",
+    "team_size": 80
+   },
+   {
+    "about": "AI agents that run insurance operations",
+    "domain": "getstrada.com",
+    "name": "Strada",
+    "slug_hint": "strada",
+    "source": "YC Summer 2023",
+    "team_size": 21
+   },
+   {
+    "about": "A construction payroll and compliance platform built for specialty\u2026",
+    "domain": "buildtrayd.com",
+    "name": "Trayd",
+    "slug_hint": "trayd",
+    "source": "YC Summer 2023",
+    "team_size": 34
+   },
+   {
+    "about": "Automating Compliance for Construction",
+    "domain": "dili.com",
+    "name": "dili",
+    "slug_hint": "dili",
+    "source": "YC Summer 2023",
+    "team_size": 15
+   },
+   {
+    "about": "AI Support Agent for Enterprises.",
+    "domain": "giga.ai",
+    "name": "Giga",
+    "slug_hint": "giga",
+    "source": "YC Summer 2023",
+    "team_size": 30
+   },
+   {
+    "about": "The agentic operating system for legal work",
+    "domain": "legora.com",
+    "name": "Legora",
+    "slug_hint": "legora",
+    "source": "YC Winter 2024",
+    "team_size": 900
+   },
+   {
+    "about": "AI code review agent with complete context of your codebase",
+    "domain": "greptile.com",
+    "name": "Greptile",
+    "slug_hint": "greptile",
+    "source": "YC Winter 2024",
+    "team_size": 35
+   },
+   {
+    "about": "Open source alternative to AWS",
+    "domain": "ubicloud.com",
+    "name": "Ubicloud",
+    "slug_hint": "ubicloud",
+    "source": "YC Winter 2024",
+    "team_size": 15
+   },
+   {
+    "about": "The complete agentic document platform",
+    "domain": "reducto.ai",
+    "name": "Reducto",
+    "slug_hint": "reducto",
+    "source": "YC Winter 2024",
+    "team_size": 30
+   },
+   {
+    "about": "Mo, the AI QA engineer that bug-bashes your app before every release",
+    "domain": "momentic.ai",
+    "name": "Momentic",
+    "slug_hint": "momentic",
+    "source": "YC Winter 2024",
+    "team_size": 18
+   },
+   {
+    "about": "Alex is the AI recruiter for hiring great people.",
+    "domain": "alex.com",
+    "name": "Alex",
+    "slug_hint": "alex-com",
+    "source": "YC Winter 2024",
+    "team_size": 30
+   },
+   {
+    "about": "Marketplace for America's most essential assets",
+    "domain": "shopgarage.com",
+    "name": "Garage",
+    "slug_hint": "garage-2",
+    "source": "YC Winter 2024",
+    "team_size": 35
+   },
+   {
+    "about": "AI Time Platform for Law Firms",
+    "domain": "pointone.com",
+    "name": "PointOne",
+    "slug_hint": "pointone",
+    "source": "YC Winter 2024",
+    "team_size": 35
+   },
+   {
+    "about": "The single platform to run all healthcare operations",
+    "domain": "arini.ai",
+    "name": "Arini",
+    "slug_hint": "arini",
+    "source": "YC Winter 2024",
+    "team_size": 17
+   },
+   {
+    "about": "AI Workforce for the Insurance Industry",
+    "domain": "furtherai.com",
+    "name": "FurtherAI",
+    "slug_hint": "furtherai",
+    "source": "YC Winter 2024",
+    "team_size": 36
+   },
+   {
+    "about": "AI employees that take on real work, starting with sales",
+    "domain": "artisan.co",
+    "name": "Artisan",
+    "slug_hint": "artisan",
+    "source": "YC Winter 2024",
+    "team_size": 50
+   },
+   {
+    "about": "Modern OS for the financial back office. ",
+    "domain": "greenboard.com",
+    "name": "Greenboard",
+    "slug_hint": "greenboard",
+    "source": "YC Winter 2024",
+    "team_size": 35
+   },
+   {
+    "about": "Accelerate Medication Access with AI",
+    "domain": "runtrellis.com",
+    "name": "Trellis AI",
+    "slug_hint": "trellis-ai",
+    "source": "YC Winter 2024",
+    "team_size": 34
+   },
+   {
+    "about": "Tools for AI agents to run marketing for the world's biggest\u2026",
+    "domain": "zaymo.com",
+    "name": "Zaymo",
+    "slug_hint": "zaymo",
+    "source": "YC Winter 2024",
+    "team_size": 19
+   },
+   {
+    "about": "Open-source, extensible AI gateway with observability and evals",
+    "domain": "respan.ai",
+    "name": "Respan",
+    "slug_hint": "respan",
+    "source": "YC Winter 2024",
+    "team_size": 20
+   },
+   {
+    "about": "The AI communication layer for healthcare",
+    "domain": "clarionhealth.com",
+    "name": "Clarion",
+    "slug_hint": "clarion",
+    "source": "YC Winter 2024",
+    "team_size": 16
+   },
+   {
+    "about": "AI Inference Platform for Drug Discovery",
+    "domain": "tamarind.bio",
+    "name": "Tamarind Bio",
+    "slug_hint": "tamarind-bio",
+    "source": "YC Winter 2024",
+    "team_size": 20
+   },
+   {
+    "about": "Enterprise AI customer support",
+    "domain": "open.cx",
+    "name": "Open",
+    "slug_hint": "open",
+    "source": "YC Winter 2024",
+    "team_size": 21
+   },
+   {
+    "about": "Autonomous offensive and defensive cybersecurity platform",
+    "domain": "codeant.ai",
+    "name": "CodeAnt AI",
+    "slug_hint": "codeant-ai",
+    "source": "YC Winter 2024",
+    "team_size": 25
+   },
+   {
+    "about": "Supersonics for the new Jet Age",
+    "domain": "astromecha.co",
+    "name": "Astro Mechanica",
+    "slug_hint": "astro-mechanica",
+    "source": "YC Winter 2024",
+    "team_size": 52
+   },
+   {
+    "about": "AI Agents for Hospitality",
+    "domain": "conduit.ai",
+    "name": "Conduit",
+    "slug_hint": "conduit-ai",
+    "source": "YC Winter 2024",
+    "team_size": 15
+   },
+   {
+    "about": "AI-native investment bank for small businesses",
+    "domain": "offdeal.io",
+    "name": "OffDeal",
+    "slug_hint": "offdeal",
+    "source": "YC Winter 2024",
+    "team_size": 25
+   },
+   {
+    "about": "Real-time and two-way sync between CRMs and Databases",
+    "domain": "stacksync.com",
+    "name": "Stacksync",
+    "slug_hint": "stacksync",
+    "source": "YC Winter 2024",
+    "team_size": 34
+   },
+   {
+    "about": "Earn airline miles on hotels and everyday spend.",
+    "domain": "rove.com",
+    "name": "Rove",
+    "slug_hint": "rove",
+    "source": "YC Winter 2024",
+    "team_size": 32
+   },
+   {
+    "about": "Supercharge Your Contact Center Operations with AI Phone Agents",
+    "domain": "retellai.com",
+    "name": "Retell AI",
+    "slug_hint": "retell-ai",
+    "source": "YC Winter 2024",
+    "team_size": 50
+   },
+   {
+    "about": "Building The Next Generation of Night Vision Devices",
+    "domain": "deepnight.com",
+    "name": "Deepnight",
+    "slug_hint": "deepnight",
+    "source": "YC Winter 2024",
+    "team_size": 16
+   },
+   {
+    "about": "Spur is the validation infrastructure enterprises use to ship at the\u2026",
+    "domain": "spurtest.com",
+    "name": "Spur",
+    "slug_hint": "spur",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "Modern health insurance for dual income families",
+    "domain": "healiahealth.com",
+    "name": "Healia",
+    "slug_hint": "healia",
+    "source": "YC Winter 2024",
+    "team_size": 15
+   },
+   {
+    "about": "An AI-powered supply chain compliance engine",
+    "domain": "retailreadyai.com",
+    "name": "RetailReady",
+    "slug_hint": "retailready",
+    "source": "YC Winter 2024",
+    "team_size": 16
+   },
+   {
+    "about": "AI Agents for collections",
+    "domain": "domu.ai",
+    "name": "Domu Technology Inc.",
+    "slug_hint": "domu-technology-inc",
+    "source": "YC Summer 2024",
+    "team_size": 50
+   },
+   {
+    "about": "AI-native operating system for behavioral health clinics.",
+    "domain": "mdhub.ai",
+    "name": "mdhub",
+    "slug_hint": "mdhub",
+    "source": "YC Summer 2024",
+    "team_size": 25
+   },
+   {
+    "about": "Making it easy for insurance companies to process claims",
+    "domain": "claimsorted.com",
+    "name": "ClaimSorted",
+    "slug_hint": "claimsorted",
+    "source": "YC Summer 2024",
+    "team_size": 50
+   },
+   {
+    "about": "Find & resolve issues in data center engineering & operations using AI",
+    "domain": "entangl.com",
+    "name": "Entangl",
+    "slug_hint": "entangl",
+    "source": "YC Summer 2024",
+    "team_size": 22
+   },
+   {
+    "about": "Medical Record Retrieval with Zero Human Error",
+    "domain": "codeshealth.com",
+    "name": "Codes Health",
+    "slug_hint": "codes-health",
+    "source": "YC Summer 2024",
+    "team_size": 35
+   },
+   {
+    "about": "Corgi is building an AI financial infrastructure company",
+    "domain": "corgi.com",
+    "name": "Corgi Insurance",
+    "slug_hint": "corgi-insurance",
+    "source": "YC Summer 2024",
+    "team_size": 250
+   },
+   {
+    "about": "AI agents you can rely on",
+    "domain": "wordware.ai",
+    "name": "Wordware",
+    "slug_hint": "wordware",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "AI-native office leasing broker",
+    "domain": "tandemspace.com",
+    "name": "Tandem",
+    "slug_hint": "tandem-2",
+    "source": "YC Summer 2024",
+    "team_size": 22
+   },
+   {
+    "about": "Practical and delightful home robots",
+    "domain": "weaverobotics.com",
+    "name": "Weave Robotics",
+    "slug_hint": "weave-robotics",
+    "source": "YC Summer 2024",
+    "team_size": 26
+   },
+   {
+    "about": "Production-grade unstructured document extraction",
+    "domain": "runpulse.com",
+    "name": "Pulse",
+    "slug_hint": "pulse-3",
+    "source": "YC Summer 2024",
+    "team_size": 22
+   },
+   {
+    "about": "AI tax assistant for professionals and businesses",
+    "domain": "taxgpt.com",
+    "name": "TaxGPT",
+    "slug_hint": "taxgpt",
+    "source": "YC Summer 2024",
+    "team_size": 45
+   },
+   {
+    "about": "We work on generalizable tools for the next era of biotech. ",
+    "domain": "anthrogen.com",
+    "name": "Anthrogen",
+    "slug_hint": "anthrogen",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "AI employee for consumer lending",
+    "domain": "kastle.ai",
+    "name": "Kastle",
+    "slug_hint": "kastle",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "Automate security and privacy reviews",
+    "domain": "clearly-ai.com",
+    "name": "Clearly AI",
+    "slug_hint": "clearly-ai",
+    "source": "YC Summer 2024",
+    "team_size": 17
+   },
+   {
+    "about": "Compliance and back office workflows for Wealth Managers.",
+    "domain": "saturnos.com",
+    "name": "Saturn",
+    "slug_hint": "saturn",
+    "source": "YC Summer 2024",
+    "team_size": 18
+   },
+   {
+    "about": "The organic growth engine for financial advisors ",
+    "domain": "finny.com",
+    "name": "FINNY AI",
+    "slug_hint": "finny-ai",
+    "source": "YC Summer 2024",
+    "team_size": 35
+   },
+   {
+    "about": "Drone detection for US defense and national security  ",
+    "domain": "guardianrf.com",
+    "name": "Guardian RF",
+    "slug_hint": "guardian-rf",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "Building the open operating system for the automated physical economy.",
+    "domain": "oway.io",
+    "name": "Oway",
+    "slug_hint": "oway",
+    "source": "YC Summer 2024",
+    "team_size": 16
+   },
+   {
+    "about": "AI Platform for Winning Defense & Government Contracts",
+    "domain": "usul.com",
+    "name": "Usul",
+    "slug_hint": "usul",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "Apple Care-like warranty program for every retailer ",
+    "domain": "surebright.com",
+    "name": "SureBright",
+    "slug_hint": "surebright",
+    "source": "YC Summer 2024",
+    "team_size": 35
+   },
+   {
+    "about": "Turn ideas into physical products",
+    "domain": "nologo.com",
+    "name": "No Logo",
+    "slug_hint": "no-logo",
+    "source": "YC Summer 2024",
+    "team_size": 15
+   },
+   {
+    "about": "AI for critical banking operations",
+    "domain": "arva.ai",
+    "name": "Arva AI",
+    "slug_hint": "arva-ai",
+    "source": "YC Summer 2024",
+    "team_size": 20
+   },
+   {
+    "about": "AI powered ERP for Construction",
+    "domain": "merlinai.co",
+    "name": "Merlin AI",
+    "slug_hint": "merlin-ai",
+    "source": "YC Summer 2024",
+    "team_size": 19
+   },
+   {
+    "about": "The Mobile Development Platform",
+    "domain": "revyl.com",
+    "name": "Revyl",
+    "slug_hint": "revyl",
+    "source": "YC Fall 2024",
+    "team_size": 16
+   },
+   {
+    "about": "Voice AI and Chat AI agents: Testing and Observability",
+    "domain": "cekura.ai",
+    "name": "Cekura",
+    "slug_hint": "cekura-ai",
+    "source": "YC Fall 2024",
+    "team_size": 15
+   },
+   {
+    "about": "Real-time B2B data via simple APIs",
+    "domain": "crustdata.com",
+    "name": "Crustdata",
+    "slug_hint": "crustdata",
+    "source": "YC Fall 2024",
+    "team_size": 30
+   },
+   {
+    "about": "Automating consumer debt collection with AI",
+    "domain": "collectwise.com",
+    "name": "CollectWise",
+    "slug_hint": "collectwise",
+    "source": "YC Fall 2024",
+    "team_size": 22
+   },
+   {
+    "about": "Enterprise systems delivery without the turbulence.",
+    "domain": "laminar.com",
+    "name": "Laminar",
+    "slug_hint": "laminar-com",
+    "source": "YC Fall 2024",
+    "team_size": 15
+   },
+   {
+    "about": "AI RCM. Increase net revenue by 16%. ",
+    "domain": "embercopilot.ai",
+    "name": "Ember",
+    "slug_hint": "ember",
+    "source": "YC Fall 2024",
+    "team_size": 25
+   },
+   {
+    "about": "Wire Harnesses in as little as 7 days",
+    "domain": "loombotic.com",
+    "name": "Loombotic",
+    "slug_hint": "loombotic",
+    "source": "YC Fall 2024",
+    "team_size": 25
+   },
+   {
+    "about": "AI hiring platform powered by expert recruiters",
+    "domain": "contrario.ai",
+    "name": "Contrario",
+    "slug_hint": "contrario",
+    "source": "YC Winter 2025",
+    "team_size": 20
+   },
+   {
+    "about": "AI for insurance verification & billing at dental clinics",
+    "domain": "toothy.ai",
+    "name": "Toothy AI",
+    "slug_hint": "toothy-ai",
+    "source": "YC Winter 2025",
+    "team_size": 15
+   },
+   {
+    "about": "AI to understand and then route engineering work",
+    "domain": "weaveos.com",
+    "name": "Weave",
+    "slug_hint": "weave-3",
+    "source": "YC Winter 2025",
+    "team_size": 16
+   },
+   {
+    "about": "Supply chain superintelligence for distribution and procurement",
+    "domain": "salespatriot.com",
+    "name": "SalesPatriot",
+    "slug_hint": "salespatriot",
+    "source": "YC Winter 2025",
+    "team_size": 15
+   },
+   {
+    "about": "AI Accountant for Accounting Firms",
+    "domain": "cifrato.ai",
+    "name": "Cifrato",
+    "slug_hint": "cifrato",
+    "source": "YC Winter 2025",
+    "team_size": 17
+   },
+   {
+    "about": "Platform and marketplace for RL environments and AI data",
+    "domain": "hud.ai",
+    "name": "HUD",
+    "slug_hint": "hud",
+    "source": "YC Winter 2025",
+    "team_size": 24
+   },
+   {
+    "about": "AI-native commercial insurance brokerage",
+    "domain": "harperinsure.com",
+    "name": "Harper",
+    "slug_hint": "harper",
+    "source": "YC Winter 2025",
+    "team_size": 25
+   },
+   {
+    "about": "Applied research lab curating data solutions for foundation model\u2026",
+    "domain": "afterquery.com",
+    "name": "AfterQuery",
+    "slug_hint": "afterquery",
+    "source": "YC Winter 2025",
+    "team_size": 30
+   },
+   {
+    "about": "Software Enabled CNC Parts Supplier",
+    "domain": "forgeautomation.ca",
+    "name": "Forge Automation",
+    "slug_hint": "forge-automation",
+    "source": "YC Winter 2025",
+    "team_size": 21
+   },
+   {
+    "about": "Agentic AI platform for Pharma GTM teams",
+    "domain": "synthiolabs.com",
+    "name": "Synthio Labs",
+    "slug_hint": "synthio-labs",
+    "source": "YC Spring 2025",
+    "team_size": 29
+   },
+   {
+    "about": "The agentic operating system for modern system integrators.",
+    "domain": "getauctor.com",
+    "name": "Auctor",
+    "slug_hint": "auctor",
+    "source": "YC Spring 2025",
+    "team_size": 30
+   },
+   {
+    "about": "Function Health for Europe ",
+    "domain": "lucis.life",
+    "name": "Lucis",
+    "slug_hint": "lucis",
+    "source": "YC Spring 2025",
+    "team_size": 17
+   },
+   {
+    "about": "AI-Native Fresh Produce Logistics",
+    "domain": "getasap.us",
+    "name": "GETASAP",
+    "slug_hint": "getasap",
+    "source": "YC Summer 2025",
+    "team_size": 30
+   },
+   {
+    "about": "We Bring Customers to Your Dealership",
+    "domain": "useflai.com",
+    "name": "Flai",
+    "slug_hint": "flai",
+    "source": "YC Summer 2025",
+    "team_size": 40
+   },
+   {
+    "about": "Secure frontier AI for government & adjacent knowledge work",
+    "domain": "vulcan.ai",
+    "name": "Vulcan Technologies",
+    "slug_hint": "vulcan-technologies",
+    "source": "YC Summer 2025",
+    "team_size": 17
+   },
+   {
+    "about": "Supplying America's Industrial Base",
+    "domain": "noxmetals.co",
+    "name": "Nox Metals",
+    "slug_hint": "nox-metals",
+    "source": "YC Summer 2025",
+    "team_size": 52
+   },
+   {
+    "about": "The AI platform for private markets investors",
+    "domain": "f2.ai",
+    "name": "F2",
+    "slug_hint": "f2",
+    "source": "YC Summer 2025",
+    "team_size": 15
+   },
+   {
+    "about": "Replace marketing agencies with AI",
+    "domain": "uplane.com",
+    "name": "Uplane",
+    "slug_hint": "uplane",
+    "source": "YC Fall 2025",
+    "team_size": 26
+   },
+   {
+    "about": "Voice AI to enable India's next billion",
+    "domain": "bolna.ai",
+    "name": "Bolna AI",
+    "slug_hint": "bolna-ai",
+    "source": "YC Fall 2025",
+    "team_size": 21
+   },
+   {
+    "about": "We are building an AI-native telemedicine clinic for addiction. \ud83c\udf3b",
+    "domain": "sunflowerclinic.com",
+    "name": "Sunflower",
+    "slug_hint": "sunflower",
+    "source": "YC Summer 2026",
+    "team_size": 15
+   },
+   {
+    "about": "Stratospheric birds for defense",
+    "domain": "icarus.one",
+    "name": "Icarus",
+    "slug_hint": "icarus",
+    "source": "YC Fall 2025",
+    "team_size": 50
+   },
+   {
+    "about": "Space solar arrays that grow to the size of a football field in orbit",
+    "domain": "beyondreachlabs.com",
+    "name": "Beyond Reach Labs",
+    "slug_hint": "beyond-reach-labs",
+    "source": "YC Winter 2026",
+    "team_size": 15
+   },
+   {
+    "about": "Counter Drone Systems. $1.6m sales. We delivered for the DoW.",
+    "domain": "9mothers.com",
+    "name": "9 Mothers",
+    "slug_hint": "9-mothers-corporation",
+    "source": "YC Spring 2026",
+    "team_size": 19
+   },
+   {
+    "about": "Physical AI data lab",
+    "domain": "humanarchive.ai",
+    "name": "Human Archive",
+    "slug_hint": "human-archive",
+    "source": "YC Winter 2026",
+    "team_size": 100
+   },
+   {
+    "about": "Take Notes in the Real World",
+    "domain": "heypocket.com",
+    "name": "Pocket",
+    "slug_hint": "pocket",
+    "source": "YC Winter 2026",
+    "team_size": 35
+   },
+   {
+    "about": "AI Recruiting Coordinator for Executive Search",
+    "domain": "tryvela.ai",
+    "name": "Vela",
+    "slug_hint": "vela",
+    "source": "YC Winter 2026",
+    "team_size": 15
+   },
+   {
+    "about": "Real-world training data for frontier AI labs and robotics.",
+    "domain": "hub.xyz",
+    "name": "Hub",
+    "slug_hint": "hub",
+    "source": "YC Spring 2026",
+    "team_size": 60
+   }
+  ],
+  "fetched": 1793207879.1262577
+ },
+ "seeded_boards": [
+  "ashby:abacum",
+  "ashby:accord",
+  "ashby:adaptivesecurity",
+  "ashby:agave",
+  "ashby:aios",
+  "ashby:airbyte",
+  "ashby:aleph",
+  "ashby:anima",
+  "ashby:arketa",
+  "ashby:arq",
+  "ashby:ashby",
+  "ashby:assembly",
+  "ashby:atlas",
+  "ashby:atob",
+  "ashby:atomic",
+  "ashby:authzed",
+  "ashby:axle-health",
+  "ashby:belvo",
+  "ashby:benepass",
+  "ashby:blissway",
+  "ashby:broccoli",
+  "ashby:bunkerhillhealth",
+  "ashby:camber",
+  "ashby:cambly",
+  "ashby:candidhealth",
+  "ashby:castle",
+  "ashby:charge-robotics",
+  "ashby:cinder",
+  "ashby:circuithub",
+  "ashby:classdojo",
+  "ashby:clerk",
+  "ashby:clipboard",
+  "ashby:cohere",
+  "ashby:coinflow",
+  "ashby:confido",
+  "ashby:curri",
+  "ashby:datafold",
+  "ashby:deepgram",
+  "ashby:doppel",
+  "ashby:double",
+  "ashby:duffel",
+  "ashby:eightsleep",
+  "ashby:ello",
+  "ashby:enode",
+  "ashby:eventual",
+  "ashby:fieldguide",
+  "ashby:finch",
+  "ashby:fleek",
+  "ashby:flint",
+  "ashby:flutterflow",
+  "ashby:formance",
+  "ashby:freshpaint",
+  "ashby:gecko-robotics",
+  "ashby:gigs",
+  "ashby:glimpse",
+  "ashby:golinks",
+  "ashby:govdash",
+  "ashby:greatquestion",
+  "ashby:herondata",
+  "ashby:hex",
+  "ashby:hightouch",
+  "ashby:humaans",
+  "ashby:influxdata",
+  "ashby:inngest",
+  "ashby:invert",
+  "ashby:jiga",
+  "ashby:junction",
+  "ashby:kalshi",
+  "ashby:kingdom",
+  "ashby:kodex",
+  "ashby:langchain",
+  "ashby:letta",
+  "ashby:lightdash",
+  "ashby:liveflow",
+  "ashby:luminai",
+  "ashby:mach9",
+  "ashby:magic",
+  "ashby:mednet",
+  "ashby:merge",
+  "ashby:middesk",
+  "ashby:mintlify",
+  "ashby:moderntreasury",
+  "ashby:montecarlodata",
+  "ashby:mutiny",
+  "ashby:nango",
+  "ashby:nash",
+  "ashby:nomic",
+  "ashby:notabene",
+  "ashby:onechronos",
+  "ashby:oneschema",
+  "ashby:openai",
+  "ashby:overview",
+  "ashby:padlet",
+  "ashby:parallel-bio",
+  "ashby:permitflow",
+  "ashby:phoenix",
+  "ashby:popl",
+  "ashby:posthog",
+  "ashby:prelim",
+  "ashby:probablygenetic",
+  "ashby:promise",
+  "ashby:prompt",
+  "ashby:quicknode",
+  "ashby:radar",
+  "ashby:rallyuxr",
+  "ashby:reach",
+  "ashby:ready",
+  "ashby:realitydefender",
+  "ashby:recall",
+  "ashby:relevanceai",
+  "ashby:replit",
+  "ashby:replo",
+  "ashby:rescale",
+  "ashby:revenuecat",
+  "ashby:roboflow",
+  "ashby:runa",
+  "ashby:runway",
+  "ashby:serifhealth",
+  "ashby:shepherd",
+  "ashby:shortstory",
+  "ashby:sieve",
+  "ashby:signoz",
+  "ashby:slope",
+  "ashby:snapmagic",
+  "ashby:snowflake",
+  "ashby:spade",
+  "ashby:speak",
+  "ashby:spellbrush",
+  "ashby:spruceid",
+  "ashby:stable",
+  "ashby:stepful",
+  "ashby:supabase",
+  "ashby:taktile",
+  "ashby:tavus",
+  "ashby:tempo",
+  "ashby:temporal",
+  "ashby:tilt",
+  "ashby:titan",
+  "ashby:topline-pro",
+  "ashby:triggerdev",
+  "ashby:triomics",
+  "ashby:trm-labs",
+  "ashby:turion-space",
+  "ashby:upcodes",
+  "ashby:vanta",
+  "ashby:vapi",
+  "ashby:versemedical",
+  "ashby:vetcove",
+  "ashby:voize",
+  "ashby:vori",
+  "ashby:webflow",
+  "ashby:wonderly",
+  "ashby:ycombinator",
+  "ashby:zapier",
+  "ashby:ziina",
+  "ashby:zip",
+  "greenhouse:agency",
+  "greenhouse:albedo",
+  "greenhouse:algolia",
+  "greenhouse:alpaca",
+  "greenhouse:anthropic",
+  "greenhouse:aon3d",
+  "greenhouse:arizeai",
+  "greenhouse:assemblyai",
+  "greenhouse:astranis",
+  "greenhouse:beam",
+  "greenhouse:bitmovin",
+  "greenhouse:checkr",
+  "greenhouse:coast",
+  "greenhouse:cortex",
+  "greenhouse:cribl",
+  "greenhouse:databricks",
+  "greenhouse:faire",
+  "greenhouse:fivetran",
+  "greenhouse:generalproximity",
+  "greenhouse:givecampus",
+  "greenhouse:hackerrank",
+  "greenhouse:haven",
+  "greenhouse:hive",
+  "greenhouse:humaninterest",
+  "greenhouse:imt",
+  "greenhouse:instawork",
+  "greenhouse:lattice",
+  "greenhouse:legalist",
+  "greenhouse:lithic",
+  "greenhouse:lob",
+  "greenhouse:maymobility",
+  "greenhouse:meruhealth",
+  "greenhouse:modernhealth",
+  "greenhouse:nabis",
+  "greenhouse:niraenergy",
+  "greenhouse:novacredit",
+  "greenhouse:observeai",
+  "greenhouse:odeko",
+  "greenhouse:ophelia",
+  "greenhouse:pairteam",
+  "greenhouse:pelago",
+  "greenhouse:picnicai",
+  "greenhouse:porter",
+  "greenhouse:postscript",
+  "greenhouse:prodigal",
+  "greenhouse:prolific",
+  "greenhouse:prospa",
+  "greenhouse:qventus",
+  "greenhouse:recidiviz",
+  "greenhouse:scaleai",
+  "greenhouse:sendbird",
+  "greenhouse:stripe",
+  "greenhouse:swayable",
+  "greenhouse:workato",
+  "greenhouse:xendit",
+  "lever:Cofactr",
+  "lever:Instrumentl",
+  "lever:biorender",
+  "lever:canarytechnologies",
+  "lever:doola",
+  "lever:fampay",
+  "lever:gridware",
+  "lever:handoff",
+  "lever:multiplylabs",
+  "lever:mytos",
+  "lever:people-ai",
+  "lever:postera",
+  "lever:skyways",
+  "lever:snappr",
+  "lever:thunkable",
+  "lever:tovala",
+  "lever:tryriot",
+  "lever:vergesense",
+  "lever:voltalabs",
+  "lever:zippi",
+  "smartrecruiters:alemhealth",
+  "smartrecruiters:glean",
+  "smartrecruiters:kodo",
+  "smartrecruiters:koreai",
+  "smartrecruiters:vouch"
+ ]
+}
