@@ -167,10 +167,12 @@ leader whose background overlaps the job seeker's (shared employer, school, \
 domain, or tech). Avoid recruiters unless nobody better exists, and avoid people \
 whose role is unrelated to the job.
 
-Use web search to check candidates and to find the hiring manager when the \
-candidate list misses them: company team pages, blog posts, talks, podcasts, \
-GitHub, press. Do not use or cite LinkedIn search results as a source of facts \
-you have not seen elsewhere.
+Use web search to check candidates and to find people the candidate list misses. \
+Plain searches work well, e.g. `"<company>" "solutions engineer"` or \
+`site:linkedin.com/in "<company>" "forward deployed"`: the result titles and \
+snippets show names and current titles. Company team pages, blog posts, talks and \
+GitHub are good for an opening angle. Snippets can be out of date, so prefer people \
+who show up in more than one place.
 
 Rules:
 - Only give an email if it appears in the candidate list. Never guess or construct one; use null.
@@ -211,7 +213,7 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
     import anthropic  # imported here so scanning works without the package
 
     client = anthropic.Anthropic()
-    model = cfg.get("model", "claude-opus-5-5")
+    model = cfg.get("model", "claude-sonnet-5-5")
     candidates = json.dumps(
         [{k: p.get(k) for k in ("name", "title", "email", "seniority", "department")} for p in people],
         indent=0,
@@ -224,7 +226,7 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
         '{"picks": [{"name", "title", "email", "linkedin", "why", "angle"}]}'
     )
     tools = [{"type": "web_search_20260209", "name": "web_search",
-              "max_uses": cfg.get("max_searches", 5)}] if cfg.get("web_search", True) else []
+              "max_uses": cfg.get("max_searches", 4)}] if cfg.get("web_search", True) else []
 
     messages = [{"role": "user", "content": user}]
     try:
@@ -236,7 +238,7 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
                 messages=messages,
                 tools=tools,
                 thinking={"type": "adaptive"},
-                output_config={"effort": cfg.get("effort", "medium")},
+                output_config={"effort": cfg.get("effort", "low")},
                 betas=["server-side-fallback-2026-07-01"],
                 fallbacks="default",
             )

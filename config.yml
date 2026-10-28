@@ -41,10 +41,10 @@ Discovery:
 Contacts:
   enabled: true
   max_jobs_per_run: 8         # caps Claude + Hunter/Apollo spend per run
-  model: claude-opus-5-5
-  effort: medium
+  model: claude-sonnet-5-5    # ranking 3 people is a light task; switch to claude-opus-5-5 for deeper research
+  effort: low
   web_search: true
-  max_searches: 5
+  max_searches: 4
   hunter_email_finder: false  # spend Hunter credits to find emails for picks without one
 
 Profile: |
