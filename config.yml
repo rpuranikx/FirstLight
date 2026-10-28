@@ -18,6 +18,8 @@ Filters:
   min_salary: 115000          # drop jobs whose listed max base is below this (unlisted pay is kept)
   max_age_days: 21            # ignore postings older than this
   first_scan_alert_hours: 48  # when a company is scanned for the first time, only alert on jobs this fresh
+  max_years_required: 5       # skip postings that ask for more years of experience than this
+  exclude_title_words: [senior, sr, staff, principal, lead, head of, director, vp, vice president, chief, distinguished, iii, iv]
 
 # Auto-discover high-growth startups beyond the hand-picked list below.
 Discovery:
@@ -48,13 +50,20 @@ Contacts:
   hunter_email_finder: false  # spend Hunter credits to find emails for picks without one
 
 Profile: |
-  Software automation engineer: Python test frameworks for embedded hardware
-  (hardware-in-the-loop testing, CI for devices, test infrastructure).
-  Built Interveil (github.com/rpuranikx/Interveil), a self-hosted gateway for AI
-  agents with tracing, YAML tool-call policy enforcement and an MCP proxy.
-  Moving into AI engineering: forward deployed, solutions and applied AI roles
-  at high-growth startups. Based in Chicago, open to remote. Wants early equity
-  and real ownership. Prefers warm, specific outreach over mass cold messages.
+  Software Automation Engineer II at CNH Industrial (Jan 2023-present), Chicago.
+  Builds automation and integration layers across messy systems: embedded Android
+  displays (ADB/UIAutomator) with RS-232 and CAN peripherals, Artifactory/Polarion
+  build-validation pipelines, a watchdog across 15 hardware test benches, and a
+  compatibility layer that ran 500+ legacy scripts with zero rewrites.
+  Presales engineering co-op at Motorola Solutions (2021-2022): built a JS logic
+  engine that cut technical scoping from 3 months to 5 minutes.
+  Solo-built Interveil (rpuranikx.github.io/Interveil), an open-source policy
+  gateway that blocks prompt-injected AI agent tool calls across OpenAI, Anthropic
+  and Gemini, with Claude Code and Codex support.
+  UIUC B.S. Systems Engineering & CS (2022). Python, TypeScript, LLM APIs, MCP.
+  Switching from test automation into SE / FDE roles at high-growth startups;
+  ~4 years of experience, so mid-level rather than senior roles. Open to Chicago
+  or remote. Wants equity and ownership; prefers warm, specific outreach.
 
 Companies:
   # --- AI Agents & Workflow Orchestration ---

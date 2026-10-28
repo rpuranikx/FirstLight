@@ -281,3 +281,19 @@ def test_unrelated_functions_ranked_below_senior_generalists():
     ]
     names = [p["name"] for p in contacts.fallback_picks(people, {"title": "Forward Deployed Engineer"})]
     assert names[:2] == ["Fran FDE", "Gus General"]
+
+
+def test_level_filter_skips_senior_titles_and_big_year_asks():
+    f = {"max_years_required": 5}
+    def j(title, desc=""):
+        return {"title": title, "description": desc}
+    assert not main.matches_level(j("Senior Solutions Engineer"), f)
+    assert not main.matches_level(j("Sr. Forward Deployed Engineer"), f)
+    assert not main.matches_level(j("Staff AI Engineer"), f)
+    assert not main.matches_level(j("Solutions Engineer III"), f)
+    assert main.matches_level(j("Solutions Engineer II"), f)
+    assert main.matches_level(j("Forward Deployed Engineer"), f)
+    assert main.matches_level(j("Leadership Programs Engineer"), f)
+    assert not main.matches_level(j("Solutions Engineer", "You have 7+ years of experience in pre-sales."), f)
+    assert main.matches_level(j("Solutions Engineer", "3-5 years of relevant experience; 10 years of experience a plus"), f)
+    assert main.matches_level(j("Solutions Engineer", "Experience with Python."), f)
