@@ -149,6 +149,35 @@ def is_excluded_title(title: str) -> bool:
     return False
 
 
+DEFAULT_TOO_SENIOR = ["senior", "sr", "staff", "principal", "lead", "head of", "director",
+                      "vp", "vice president", "chief", "distinguished", "iii", "iv"]
+YEARS_RE = re.compile(
+    r"(\d{1,2})\s*\+?\s*(?:-|to|–)?\s*(?:\d{1,2}\s*)?\+?\s*years?(?:\s+of)?(?:\s+[\w/-]+){0,4}?\s+experience",
+    re.IGNORECASE,
+)
+
+
+def is_too_senior(title: str, words: list[str]) -> bool:
+    """True for titles like "Senior Solutions Engineer" or "Staff FDE"."""
+    t = title.lower()
+    return any(re.search(rf"(?<![a-z]){re.escape(w)}(?![a-z])", t) for w in words)
+
+
+def years_required(description: str) -> int | None:
+    """Smallest "N+ years ... experience" the posting asks for, if any."""
+    found = [int(m.group(1)) for m in YEARS_RE.finditer(description or "")]
+    found = [n for n in found if 0 < n < 20]
+    return min(found) if found else None
+
+
+def matches_level(job: dict, filters: dict) -> bool:
+    if is_too_senior(job["title"], filters.get("exclude_title_words", DEFAULT_TOO_SENIOR)):
+        return False
+    limit = filters.get("max_years_required")
+    need = years_required(job.get("description", ""))
+    return not (limit and need and need > limit)
+
+
 def matches_role(title: str, role_tokens: list[str]) -> bool:
     if is_excluded_title(title):
         return False
@@ -165,6 +194,31 @@ def is_chicagoland(text: str) -> bool:
     return any(tok in t for tok in tokens)
 
 
+NON_US_PLACES = [
+    "india", "bangalore", "bengaluru", "hyderabad", "pune", "mumbai", "delhi", "gurgaon", "chennai",
+    "uk", "united kingdom", "london", "dublin", "ireland", "emea", "apac", "latam", "europe",
+    "germany", "berlin", "munich", "france", "paris", "spain", "madrid", "barcelona", "portugal",
+    "lisbon", "italy", "netherlands", "amsterdam", "poland", "warsaw", "sweden", "stockholm",
+    "switzerland", "zurich", "israel", "tel aviv", "singapore", "japan", "tokyo", "korea", "seoul",
+    "china", "hong kong", "taiwan", "australia", "sydney", "melbourne", "new zealand", "canada",
+    "toronto", "vancouver", "montreal", "mexico", "brazil", "sao paulo", "argentina", "colombia",
+    "philippines", "vietnam", "uae", "dubai",
+]
+US_MARKERS = ["united states", "usa", "us", "u.s.", "u.s", "americas", "north america", "us-remote"]
+
+
+def _has_word(text: str, words: list[str]) -> bool:
+    return any(re.search(rf"(?<![a-z]){re.escape(w)}(?![a-z])", text) for w in words)
+
+
+def is_non_us(text: str) -> bool:
+    """True for locations outside the US, e.g. "IN-Bangalore-MSO" or "Remote - Canada"."""
+    t = text.lower()
+    if re.match(r"^(in|gb|uk|de|fr|ca|ie|sg|au|jp|br|mx|pl|es|nl|il)-", t):
+        return True
+    return _has_word(t, NON_US_PLACES) and not _has_word(t, US_MARKERS)
+
+
 def matches_location(job: dict) -> bool:
     """
     1) In-Office or Hybrid is cool if location is Chicago/Chicagoland.
@@ -178,14 +232,9 @@ def matches_location(job: dict) -> bool:
     if is_chicagoland(combined):
         return True
 
-    # Exclude non-US international locations unless US is also mentioned
-    international_tokens = [
-        "india", "uk", "london", "emea", "apac", "germany", "france",
-        "singapore", "japan", "australia", "canada", "brazil", "netherlands"
-    ]
-    if any(token in combined for token in international_tokens):
-        if not any(us_tok in combined for us_tok in ["united states", "usa", "us remote", "remote - us"]):
-            return False
+    # Exclude non-US locations unless the US is also mentioned
+    if is_non_us(combined):
+        return False
 
     # Otherwise, must be remote
     if is_remote is True:
@@ -574,12 +623,14 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
         # 1. Matches role & not excluded (no directors, no non-product managers)
         # 2. Chicagoland in-office/hybrid or Remote
         # 3. Compensation >= floor if provided, and posted recently
+        # 4. Not senior/staff/lead, and doesn't ask for more years than you have
         matched = [
             j for j in all_jobs
             if matches_role(j["title"], role_tokens)
             and matches_location(j)
             and matches_compensation(j, min_salary)
             and is_fresh(j, max_age)
+            and matches_level(j, filters)
         ]
 
         first_scan = board not in seeded
