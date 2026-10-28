@@ -8,6 +8,53 @@ Roles:
   - Implementation Consultant
   - Technical Consultant
   - Forward Deployed Engineer
+  - Solutions Architect
+  - Customer Engineer
+  - Implementation Engineer
+  - AI Engineer             # also matches Applied AI, LLM / agent engineer
+  - Automation Engineer     # also matches test engineer, SDET, test infra (your current skill set)
+
+Filters:
+  min_salary: 115000          # drop jobs whose listed max base is below this (unlisted pay is kept)
+  max_age_days: 21            # ignore postings older than this
+  first_scan_alert_hours: 48  # when a company is scanned for the first time, only alert on jobs this fresh
+
+# Auto-discover high-growth startups beyond the hand-picked list below.
+Discovery:
+  enabled: true
+  refresh_days: 1
+  max_probes_per_run: 400     # job-board lookups per run for newly discovered companies
+  yc:                         # YC directory via github.com/yc-oss/api (free, updated daily)
+    enabled: true
+    min_team_size: 15
+    max_team_size: 1000
+    regions: ["United States", "America / Canada", "Remote"]
+    exclude_industries: []    # e.g. ["Consumer", "Healthcare"]
+  apollo:                     # needs APOLLO_API_KEY; finds non-YC venture-backed companies
+    enabled: false
+    employee_ranges: ["11,50", "51,200", "201,500", "501,1000"]
+    keywords: ["artificial intelligence", "developer tools", "machine learning", "robotics"]
+    locations: ["United States"]
+    max_pages: 5
+
+# For each new job, rank the 3 best people to message.
+Contacts:
+  enabled: true
+  max_jobs_per_run: 8         # caps Claude + Hunter/Apollo spend per run
+  model: claude-sonnet-5-5    # ranking 3 people is a light task; switch to claude-opus-5-5 for deeper research
+  effort: low
+  web_search: true
+  max_searches: 4
+  hunter_email_finder: false  # spend Hunter credits to find emails for picks without one
+
+Profile: |
+  Software automation engineer: Python test frameworks for embedded hardware
+  (hardware-in-the-loop testing, CI for devices, test infrastructure).
+  Built Interveil (github.com/rpuranikx/Interveil), a self-hosted gateway for AI
+  agents with tracing, YAML tool-call policy enforcement and an MCP proxy.
+  Moving into AI engineering: forward deployed, solutions and applied AI roles
+  at high-growth startups. Based in Chicago, open to remote. Wants early equity
+  and real ownership. Prefers warm, specific outreach over mass cold messages.
 
 Companies:
   # --- AI Agents & Workflow Orchestration ---
