@@ -2060,6 +2060,11 @@
    "checked": 1793224195.0364485,
    "slug": "reducto"
   },
+  "Reflex": {
+   "ats": "greenhouse",
+   "checked": 1793305622.2096343,
+   "slug": "reflex"
+  },
   "Reforged Labs": {
    "ats": null,
    "checked": 1793207879.1262577,
@@ -6630,6 +6635,14 @@
     "team_size": 40
    },
    {
+    "about": "Build the software you wish existed.",
+    "domain": "reflex.dev",
+    "name": "Reflex",
+    "slug_hint": "reflex",
+    "source": "YC Winter 2023",
+    "team_size": 15
+   },
+   {
     "about": "Automate data-driven slide decks and documents with AI",
     "domain": "rollstack.com",
     "name": "Rollstack",
@@ -7059,7 +7072,7 @@
     "name": "Strada",
     "slug_hint": "strada",
     "source": "YC Summer 2023",
-    "team_size": 21
+    "team_size": 16
    },
    {
     "about": "A construction payroll and compliance platform built for specialty\u2026",
@@ -7774,7 +7787,7 @@
     "team_size": 60
    }
   ],
-  "fetched": 1793207879.1262577
+  "fetched": 1793305622.2096343
  },
  "seeded_boards": [
   "ashby:9-mothers",
@@ -8077,6 +8090,7 @@
   "greenhouse:prospa",
   "greenhouse:qventus",
   "greenhouse:recidiviz",
+  "greenhouse:reflex",
   "greenhouse:scaleai",
   "greenhouse:sendbird",
   "greenhouse:stripe",
