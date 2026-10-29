@@ -25,6 +25,7 @@ import os
 import re
 import sys
 import time
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 
@@ -202,7 +203,13 @@ NON_US_PLACES = [
     "switzerland", "zurich", "israel", "tel aviv", "singapore", "japan", "tokyo", "korea", "seoul",
     "china", "hong kong", "taiwan", "australia", "sydney", "melbourne", "new zealand", "canada",
     "toronto", "vancouver", "montreal", "mexico", "brazil", "sao paulo", "argentina", "colombia",
-    "philippines", "vietnam", "uae", "dubai",
+    "philippines", "vietnam", "uae", "dubai", "taipei", "rio de janeiro", "bogota", "buenos aires",
+    "mexico city", "cdmx", "santiago", "chile", "lima", "peru", "manila", "jakarta", "indonesia",
+    "bangkok", "thailand", "kuala lumpur", "malaysia", "beijing", "shanghai", "shenzhen", "osaka",
+    "edinburgh", "manchester", "copenhagen", "denmark", "oslo", "norway", "helsinki", "finland",
+    "vienna", "austria", "prague", "brussels", "belgium", "riyadh", "saudi", "cairo", "lagos",
+    "nairobi", "cape town", "johannesburg", "south africa", "istanbul", "turkey", "romania",
+    "bucharest", "ukraine", "kyiv", "estonia", "tallinn", "ottawa", "calgary",
 ]
 US_MARKERS = ["united states", "usa", "us", "u.s.", "u.s", "americas", "north america", "us-remote"]
 
@@ -213,7 +220,7 @@ def _has_word(text: str, words: list[str]) -> bool:
 
 def is_non_us(text: str) -> bool:
     """True for locations outside the US, e.g. "IN-Bangalore-MSO" or "Remote - Canada"."""
-    t = text.lower()
+    t = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
     if re.match(r"^(in|gb|uk|de|fr|ca|ie|sg|au|jp|br|mx|pl|es|nl|il)-", t):
         return True
     return _has_word(t, NON_US_PLACES) and not _has_word(t, US_MARKERS)

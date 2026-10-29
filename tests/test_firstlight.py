@@ -299,3 +299,10 @@ def test_level_filter_skips_senior_titles_and_big_year_asks():
     assert not main.matches_level(j("Solutions Engineer", "You have 7+ years of experience in pre-sales."), f)
     assert main.matches_level(j("Solutions Engineer", "3-5 years of relevant experience; 10 years of experience a plus"), f)
     assert main.matches_level(j("Solutions Engineer", "Experience with Python."), f)
+
+
+def test_accented_and_asian_cities_are_non_us():
+    assert main.is_non_us("São Paulo")
+    assert main.is_non_us("Taipei")
+    assert not main.is_non_us("Remote - US")
+    assert not main.is_non_us("Chicago, IL")
