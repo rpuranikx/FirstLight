@@ -119,9 +119,9 @@ def job(id_, title, hours_ago, location="Remote - US"):
             "compensation": None, "posted": iso(hours_ago), "description": ""}
 
 
-def test_first_scan_only_alerts_fresh_jobs_then_alerts_new_ones(monkeypatch):
+def test_first_scan_sends_older_matches_as_backlog_not_silently(monkeypatch):
     board = {"jobs": [
-        job("a:1", "Forward Deployed Engineer", 24 * 10),  # old: recorded silently
+        job("a:1", "Forward Deployed Engineer", 24 * 10),  # old: goes in the digest
         job("a:2", "Solutions Engineer", 3),               # fresh: alert
         job("a:3", "Account Executive", 1),                # wrong role
         job("a:4", "AI Engineer", 2, location="London, UK"),  # wrong place
@@ -132,12 +132,14 @@ def test_first_scan_only_alerts_fresh_jobs_then_alerts_new_ones(monkeypatch):
     seen, cache = set(), empty_cache()
 
     first = main.scan(targets, tokens, seen, cache, {})
-    assert [j["id"] for j in first] == ["a:2"]
+    assert {j["id"]: j["backlog"] for j in first} == {"a:1": True, "a:2": False}
     assert seen == {"a:1", "a:2"}
+    digest = main.backlog_lines([j for j in first if j["backlog"]])
+    assert "Forward Deployed Engineer" in digest and "https://x/a:1" in digest
 
     board["jobs"].append(job("a:5", "Applied AI Engineer", 0.2))
     second = main.scan(targets, tokens, seen, cache, {})
-    assert [j["id"] for j in second] == ["a:5"]
+    assert [j["id"] for j in second] == ["a:5"] and not second[0]["backlog"]
     assert second[0]["target"]["name"] == "Growthy"
 
 

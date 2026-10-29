@@ -601,9 +601,9 @@ def _fetch_board(target: dict):
 def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
          filters: dict) -> list[dict]:
     """
-    Returns new matching jobs. The first time a board is scanned its existing
-    postings are recorded silently, except ones posted in the last
-    `first_scan_alert_hours`, so adding 500 companies doesn't flood Discord.
+    Returns new matching jobs. The first time a board is scanned, matches older
+    than `first_scan_alert_hours` are flagged "backlog" so they go out as one
+    compact digest instead of a flood of full alerts. Nothing is dropped silently.
     """
     new_jobs = []
     seeded = set(cache["seeded_boards"])
@@ -638,9 +638,8 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
             if job["id"] in seen:
                 continue
             seen.add(job["id"])
-            if first_scan and not is_fresh(job, seed_hours / 24):
-                continue
             job["target"] = target
+            job["backlog"] = first_scan and not is_fresh(job, seed_hours / 24)
             new_jobs.append(job)
         if all_jobs:
             seeded.add(board)
@@ -723,6 +722,38 @@ def company_line(job: dict) -> str:
             t.get("source", "") if t.get("source") != "config.yml" else ""]
     bits = [b for b in bits if b]
     return ("\n" + " · ".join(bits)) if bits else ""
+
+
+def backlog_lines(jobs: list[dict], limit: int = 3800) -> str:
+    """One line per job, newest first, trimmed to fit a Discord embed."""
+    jobs = sorted(jobs, key=lambda j: parse_time(j.get("posted", "")) or datetime.min.replace(tzinfo=timezone.utc),
+                  reverse=True)
+    lines, size = [], 0
+    for j in jobs:
+        line = (f"**{j['company']}**: [{j['title']}]({j['url']})"
+                f" · {j.get('location') or 'Remote'} · {humanize_time(j.get('posted', ''))}")
+        if size + len(line) + 1 > limit:
+            lines.append(f"...and {len(jobs) - len(lines)} more (see the Actions log)")
+            break
+        lines.append(line)
+        size += len(line) + 1
+    return "\n".join(lines)
+
+
+def notify_discord_backlog(jobs: list[dict]) -> None:
+    """Older matches found on boards scanned for the first time, as one digest."""
+    if not DISCORD_WEBHOOK_URL:
+        return
+    embed = {
+        "title": f"📋 {len(jobs)} open role(s) already posted when FirstLight started watching",
+        "description": backlog_lines(jobs),
+        "color": 0x95A5A6,
+    }
+    try:
+        requests.post(DISCORD_WEBHOOK_URL, json={"embeds": [embed]}, timeout=REQUEST_TIMEOUT).raise_for_status()
+        time.sleep(2.1)
+    except Exception as e:
+        _p(C.RED, f"  [discord] backlog digest failed: {e}")
 
 
 def notify_discord_jobs(new_jobs: list[dict]) -> None:
@@ -817,7 +848,16 @@ def run_once(seen: set, notify: bool = False) -> list[dict]:
     targets = all_targets(cfg, cache)
     _p(C.DIM,  f"  Companies: {len(targets)} boards\n")
 
-    new_jobs = scan(targets, role_tokens, seen, cache, cfg.get("Filters") or {})
+    found = scan(targets, role_tokens, seen, cache, cfg.get("Filters") or {})
+    new_jobs = [j for j in found if not j["backlog"]]
+    backlog  = [j for j in found if j["backlog"]]
+
+    if backlog:
+        _p(C.YELLOW, f"\n  {len(backlog)} older match(es) on newly watched boards (sent as a digest)")
+        for job in backlog:
+            _p(C.DIM, f"    {job['company']}: {job['title']} ({job.get('location', '')})")
+        if notify:
+            notify_discord_backlog(backlog)
 
     if new_jobs:
         _p(C.BOLD + C.GREEN, f"\n  *** {len(new_jobs)} new job(s) found! ***\n")
