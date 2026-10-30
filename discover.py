@@ -24,6 +24,8 @@ from urllib.parse import urlparse
 
 import requests
 
+from careers import find_careers_board
+
 CACHE_PATH      = os.path.join(os.path.dirname(__file__), ".board_cache.json")
 # People data stays out of git (the repo is public); CI keeps it with actions/cache
 CONTACTS_PATH   = os.path.join(os.path.dirname(__file__), ".contacts_cache.json")
@@ -122,12 +124,16 @@ def _board_jobs(ats: str, slug: str):
 
 
 def probe_board(name: str, domain: str = "", hint: str = "") -> dict | None:
-    """Finds the company's public job board. Returns {"ats", "slug"} or None."""
+    """
+    Finds the company's jobs: a public ATS board guessed from its name, else
+    whatever its own careers page uses (embedded board, Workday, or self-hosted).
+    Returns {"ats", "slug"} or None.
+    """
     for slug in candidate_slugs(name, domain, hint):
         for ats in PROBE_ORDER:
             if _board_jobs(ats, slug) is not None:
                 return {"ats": ats, "slug": slug}
-    return None
+    return find_careers_board(domain)
 
 
 def board_alive(ats: str, slug: str) -> bool:
@@ -244,7 +250,10 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
         b = cache["boards"].get(c["name"])
         if not b:
             return True
-        return b.get("ats") is None and now - b.get("checked", 0) > NO_BOARD_RETRY_DAYS * 86400
+        if b.get("ats"):
+            return False
+        # Re-check companies looked at before career pages were searched
+        return not b.get("careers") or now - b.get("checked", 0) > NO_BOARD_RETRY_DAYS * 86400
 
     todo = [c for c in companies if needs_probe(c)][: cfg.get("max_probes_per_run", 400)]
     if todo:
@@ -252,7 +261,8 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
         with ThreadPoolExecutor(PROBE_WORKERS) as pool:
             results = pool.map(lambda c: probe_board(c["name"], c["domain"], c["slug_hint"]), todo)
             for c, found in zip(todo, results):
-                cache["boards"][c["name"]] = {**(found or {"ats": None, "slug": None}), "checked": now}
+                cache["boards"][c["name"]] = {**(found or {"ats": None, "slug": None}),
+                                              "checked": now, "careers": True}
 
     out = []
     for c in companies:

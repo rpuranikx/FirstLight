@@ -7,9 +7,13 @@ and tells you who to message at the company to get in the door.
    high-growth startups discovered automatically from the YC directory
    (active, hiring, 15–1000 people, US or remote; ~575 companies today).
    Optional: Apollo company search for non-YC venture-backed startups.
-2. **Finds each company's job board** on Ashby, Greenhouse, Lever or SmartRecruiters by probing
-   likely slugs. Results are cached in `.board_cache.json`. If a hand-picked
-   slug stops working, it is re-probed and fixed automatically (`[heal]` in the log).
+2. **Finds where each company posts jobs.** First it probes likely slugs on Ashby,
+   Greenhouse, Lever and SmartRecruiters. If none answer, it opens the company's own
+   careers page (`/careers`, `/jobs`, `careers.<domain>`, ...) and uses whatever is
+   behind it: an embedded board, a Workday site, or the company's self-hosted job
+   pages (read from the schema.org JobPosting data sites publish for Google Jobs).
+   Results are cached in `.board_cache.json`. If a hand-picked board stops working,
+   it is re-probed and fixed automatically (`[heal]` in the log).
 3. **Scans every board in parallel** and keeps jobs matching your roles,
    location (Chicagoland or remote US), pay floor and freshness.
 4. **Picks 3 people to message** for each new job, ranked: names, titles and
@@ -17,12 +21,12 @@ and tells you who to message at the company to get in the door.
    search and ranks them with a one-line reason and an opening angle each.
 5. **Sends a Discord alert** per job with the apply link and the 3 picks.
 
-The first time a company is scanned, its existing postings are recorded silently
-(except ones from the last 48h), so adding hundreds of companies doesn't flood Discord.
+The first time a company is scanned, matches older than 48h (or undated) are sent
+as one digest message instead of one alert each, so adding hundreds of companies
+doesn't flood Discord. Nothing is dropped silently.
 
-Careers pages on a company's own site are usually one of these boards embedded
-(look for `gh_jid=` / `ashby_jid=` in the URL), so they are covered too. Not covered:
-Workday, iCIMS, BambooHR and fully custom pages.
+Not covered yet: iCIMS, BambooHR, and custom career pages that only render jobs
+with JavaScript and publish no JobPosting data.
 
 ## Setup
 Repository secrets (Settings → Secrets and variables → Actions):

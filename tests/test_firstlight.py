@@ -306,3 +306,84 @@ def test_accented_and_asian_cities_are_non_us():
     assert main.is_non_us("Taipei")
     assert not main.is_non_us("Remote - US")
     assert not main.is_non_us("Chicago, IL")
+
+
+# ─────────────────────────────────────────────
+# Company career sites
+# ─────────────────────────────────────────────
+import careers
+
+
+def test_finds_board_behind_a_careers_page():
+    gh = '<script src="https://boards.greenhouse.io/embed/job_board/js?for=retool"></script>'
+    assert careers.board_in_html(gh) == {"ats": "greenhouse", "slug": "retool"}
+    assert careers.board_in_html('<a href="https://jobs.lever.co/acme/123">x</a>') == {"ats": "lever", "slug": "acme"}
+    wd = 'https://acme.wd5.myworkdayjobs.com/en-US/External_Careers/job/Chicago/SE_R123'
+    assert careers.board_in_html(wd) == {"ats": "workday", "slug": "acme|wd5|External_Careers"}
+    assert careers.board_in_html("<p>no board here</p>") is None
+
+
+LD = '''<script type="application/ld+json">{"@context":"https://schema.org","@type":"JobPosting",
+"title":"Solutions Engineer","datePosted":"2026-10-29","url":"https://acme.com/careers/se",
+"jobLocation":{"@type":"Place","address":{"addressLocality":"Chicago","addressRegion":"IL","addressCountry":"US"}},
+"baseSalary":{"@type":"MonetaryAmount","value":{"@type":"QuantitativeValue","minValue":130000,"maxValue":160000,"unitText":"YEAR"}},
+"description":"<p>Help customers.</p>"}</script>'''
+
+
+def test_self_hosted_careers_page_jobs_are_read(monkeypatch):
+    listing = ('<a href="/careers/se">Solutions Engineer</a><a href="/careers/ae">Account Executive</a>'
+               '<a href="/about">About</a>')
+    pages = {"https://acme.com/careers": listing, "https://acme.com/careers/se": LD}
+    fetched = []
+
+    def fake_html(url):
+        fetched.append(url)
+        return (url, pages[url]) if url in pages else ("", "")
+
+    monkeypatch.setattr(careers, "_html", fake_html)
+    assert careers.find_careers_board("acme.com") == {"ats": "site", "slug": "https://acme.com/careers"}
+
+    careers.ROLE_TOKENS, careers.SEEN = ["solutions engineer"], set()
+    jobs = careers.fetch_site("Acme", "https://acme.com/careers")
+    assert "https://acme.com/careers/ae" not in fetched  # wrong role: page never fetched
+    assert len(jobs) == 1
+    j = jobs[0]
+    assert (j["title"], j["location"], j["compensation"]) == ("Solutions Engineer", "Chicago, IL, US", 160000)
+    assert main.matches_location(j) and j["id"].startswith("site:acme.com:")
+
+
+def test_workday_jobs_are_read(monkeypatch):
+    class R:
+        status_code = 200
+        def __init__(self, data): self._d = data
+        def json(self): return self._d
+    calls = []
+
+    def fake_post(url, json=None, **kw):
+        calls.append((url, json["searchText"]))
+        return R({"total": 1, "jobPostings": [{"title": "Solutions Engineer",
+                  "externalPath": "/job/Chicago-IL/Solutions-Engineer_R555", "locationsText": "Chicago, IL",
+                  "postedOn": "Posted 3 Days Ago"}]})
+
+    monkeypatch.setattr(careers.requests, "post", fake_post)
+    careers.ROLE_TOKENS = ["solutions engineer"]
+    jobs = careers.fetch_workday("Acme", "acme|wd5|External")
+    assert calls[0] == ("https://acme.wd5.myworkdayjobs.com/wday/cxs/acme/External/jobs", "solutions engineer")
+    assert jobs[0]["id"] == "workday:acme:R555"
+    assert jobs[0]["url"] == "https://acme.wd5.myworkdayjobs.com/External/job/Chicago-IL/Solutions-Engineer_R555"
+    assert main.is_fresh(jobs[0], 21)
+
+
+def test_probe_falls_back_to_careers_page(monkeypatch):
+    monkeypatch.setattr(discover, "_board_jobs", lambda ats, slug: None)
+    monkeypatch.setattr(discover, "find_careers_board", lambda d: {"ats": "site", "slug": f"https://{d}/careers"})
+    assert discover.probe_board("Acme", "acme.com") == {"ats": "site", "slug": "https://acme.com/careers"}
+
+
+def test_undated_jobs_on_a_new_board_go_to_the_digest(monkeypatch):
+    j = job("s:1", "Solutions Engineer", 1)
+    j["posted"] = ""
+    monkeypatch.setitem(main.FETCHERS, "fake", lambda company, slug: [j])
+    out = main.scan([{"name": "Growthy", "ats": "fake", "slug": "g"}],
+                    main._role_tokens(["solutions engineer"]), set(), empty_cache(), {})
+    assert out[0]["backlog"]

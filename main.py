@@ -37,6 +37,7 @@ if sys.platform == "win32":
 import requests
 import yaml
 
+import careers
 from contacts import who_to_message
 from discover import board_alive, discover, load_cache, probe_board, save_cache
 from slugs import COMPANY_SLUGS
@@ -534,6 +535,8 @@ FETCHERS = {
     "workable":   fetch_workable,
     "rippling":   fetch_rippling,
     "smartrecruiters": fetch_smartrecruiters,
+    "workday":    careers.fetch_workday,
+    "site":       careers.fetch_site,   # jobs hosted on the company's own careers page
 }
 
 
@@ -551,25 +554,26 @@ def manual_targets(cfg: dict, cache: dict) -> list[dict]:
     now = time.time()
     targets = []
     for name in get_companies(cfg):
-        mapping = COMPANY_SLUGS.get(name)
-        if not mapping:
-            _p(C.DIM, f"  [skip] {name} — no slug mapping in slugs.py")
-            continue
+        mapping = COMPANY_SLUGS.get(name) or {"ats": None, "slug": "", "domain": ""}
         board = {"ats": mapping["ats"], "slug": mapping["slug"]}
         healed = cache["boards"].get(f"manual:{name}")
-        if healed and now - healed.get("checked", 0) < HEAL_CHECK_DAYS * 86400:
+        if (healed and now - healed.get("checked", 0) < HEAL_CHECK_DAYS * 86400
+                and (healed.get("ats") or healed.get("careers"))):
             if healed.get("ats"):
                 board = {"ats": healed["ats"], "slug": healed["slug"]}
         else:
-            if not board_alive(board["ats"], board["slug"]):
+            if not board["ats"] or not board_alive(board["ats"], board["slug"]):
                 found = probe_board(name, mapping.get("domain", ""), mapping["slug"])
                 if found:
                     _p(C.YELLOW, f"  [heal] {name}: {board['ats']}/{board['slug']} is dead, "
                                  f"using {found['ats']}/{found['slug']}")
                     board = found
                 else:
-                    _p(C.RED, f"  [dead] {name}: no board found at {board['ats']}/{board['slug']}")
-            cache["boards"][f"manual:{name}"] = {**board, "checked": now}
+                    _p(C.RED, f"  [dead] {name}: no job board or careers page found")
+                    board = {"ats": None, "slug": None}
+            cache["boards"][f"manual:{name}"] = {**board, "checked": now, "careers": True}
+        if not board["ats"]:
+            continue
         targets.append({
             "name":      name,
             **board,
@@ -618,6 +622,7 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
     max_age = filters.get("max_age_days", 21)
     seed_hours = filters.get("first_scan_alert_hours", 48)
 
+    careers.ROLE_TOKENS, careers.SEEN = role_tokens, seen
     with ThreadPoolExecutor(SCAN_WORKERS) as pool:
         results = list(pool.map(_fetch_board, targets))
 
@@ -646,7 +651,8 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
                 continue
             seen.add(job["id"])
             job["target"] = target
-            job["backlog"] = first_scan and not is_fresh(job, seed_hours / 24)
+            # Undated jobs (some career sites) count as old on a board's first scan
+            job["backlog"] = first_scan and (not job.get("posted") or not is_fresh(job, seed_hours / 24))
             new_jobs.append(job)
         if all_jobs:
             seeded.add(board)

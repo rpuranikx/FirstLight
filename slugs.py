@@ -2,7 +2,9 @@
 # Format: "Company Name": {"ats": "<platform>", "slug": "<board_slug>", "domain": "<site>"}
 # domain is used to look up people to message (Hunter/Apollo).
 # A wrong slug is auto-detected and re-probed; see [heal] lines in the run log.
-# ATS options: greenhouse, lever, ashby, smartrecruiters, workable, rippling
+# ATS options: greenhouse, lever, ashby, smartrecruiters, workable, rippling,
+#   workday (slug "tenant|wdN|site"), site (slug = the careers page URL, for self-hosted jobs)
+# Companies without a mapping are looked up automatically from their careers page.
 #
 # To find a slug: visit the company careers page, look at the URL.
 #   Greenhouse:  boards.greenhouse.io/<slug>
