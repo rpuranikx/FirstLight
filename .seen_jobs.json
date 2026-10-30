@@ -6,6 +6,7 @@
 "ashby:clearly-ai:65cc5d8f-616a-4a9e-88b0-7f063cc02a88",
 "ashby:fieldguide:4c43f78d-3dd0-4779-b872-dff4498345ce",
 "ashby:fieldguide:c534e61a-b52b-4fed-b27d-8e4c2d985176",
+"ashby:laminar-jobs:f6d22990-9c1e-453e-8485-1168c9edabb6",
 "ashby:middesk:6f90b4b1-c122-4f56-bb16-1773802bf148",
 "ashby:nango:87ae18c8-5bef-423e-968e-7ea6ab4f97b8",
 "ashby:openai:0ed5f6c7-3977-4da9-9961-202fe76de456",
@@ -115,5 +116,8 @@
 "lever:palantir:e82b696e-a085-4bbf-8bcb-6d2c4f8cf2f7",
 "lever:palantir:fa93a1f8-dc95-40d0-b5ca-f2aebaab0806",
 "lever:palantir:fbca0358-083a-4222-bdbb-3bd729b48382",
-"lever:palantir:ff1029bd-bb6d-4d78-a03e-5f9744d0b798"
+"lever:palantir:ff1029bd-bb6d-4d78-a03e-5f9744d0b798",
+"site:www.buildbuddy.io:d9ddd95191d2",
+"workable:weekday-1:AB4680E7F8",
+"workable:weekday-1:C217596C74"
 ]
