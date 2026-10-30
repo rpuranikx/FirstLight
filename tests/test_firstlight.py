@@ -387,3 +387,19 @@ def test_undated_jobs_on_a_new_board_go_to_the_digest(monkeypatch):
     out = main.scan([{"name": "Growthy", "ats": "fake", "slug": "g"}],
                     main._role_tokens(["solutions engineer"]), set(), empty_cache(), {})
     assert out[0]["backlog"]
+
+
+def test_site_job_without_jobposting_uses_page_heading(monkeypatch):
+    listing = '<a href="/careers/se"><div>Solutions Engineer</div><p>Full-Time, SF &amp; Remote, Remote Execution</p></a>'
+    detail = "<html><h1>Solutions Engineer</h1><p>Location: Remote (US)</p></html>"
+    pages = {"https://b.io/careers": listing, "https://b.io/careers/se": detail}
+    monkeypatch.setattr(careers, "_html", lambda u: (u, pages[u]) if u in pages else ("", ""))
+    careers.ROLE_TOKENS, careers.SEEN = ["solutions engineer"], set()
+    j = careers.fetch_site("B", "https://b.io/careers")[0]
+    assert j["title"] == "Solutions Engineer" and j["location"].startswith("Remote")
+
+
+def test_rippling_location_without_city(monkeypatch):
+    monkeypatch.setattr(main, "_get", lambda url: {"items": [{"id": 1, "name": "Solutions Engineer",
+                        "locations": [{"city": None, "name": "Remote (US)"}]}]})
+    assert main.fetch_rippling("X", "x")[0]["location"] == "Remote (US)"

@@ -481,7 +481,7 @@ def fetch_rippling(company: str, slug: str) -> list[dict]:
         return []
     jobs = []
     for j in data.get("items", []):
-        loc = ", ".join(loc.get("city", "") for loc in j.get("locations", []))
+        loc = ", ".join(l.get("city") or l.get("name") or "" for l in j.get("locations") or [])
         desc = j.get("description", "")
         comp = extract_compensation(desc)
         jobs.append({

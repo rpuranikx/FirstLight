@@ -127,7 +127,7 @@ def job_links(base: str, text: str) -> list[tuple[str, str]]:
     out, seen = [], set()
     for href, label in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', text, re.S | re.I):
         url = urljoin(base, href)
-        label = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", label)).strip()
+        label = _strip(label)
         if urlparse(url).netloc != host or not JOB_PATH_RE.search(urlparse(url).path):
             continue
         if url.rstrip("/") == base.rstrip("/") or url in seen or not label:
@@ -221,9 +221,13 @@ def fetch_site(company: str, careers_url: str) -> list[dict]:
             return posting_to_job(posts[0], company, careers_url, u)
         # No structured data: keep the listing so a human can judge it
         body = _strip(page)[:6000] if page else ""
+        h1 = re.search(r"<h1[^>]*>(.*?)</h1>", page or "", re.S | re.I)
+        title = _strip(h1.group(1)) if h1 and _strip(h1.group(1)) else label
+        if len(title) > 90:
+            title = title[:90].rsplit(" ", 1)[0] + "…"
         return {
             "id": f"site:{urlparse(careers_url).netloc}:{hashlib.sha1(u.encode()).hexdigest()[:12]}",
-            "company": company, "title": label, "url": u,
+            "company": company, "title": title, "url": u,
             "location": guess_location(body), "workplace": "", "is_remote": "remote" in body.lower()[:1500],
             "compensation": None, "posted": "", "description": body,
         }
