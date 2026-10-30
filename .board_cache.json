@@ -519,6 +519,12 @@
    "checked": 1793207879.1262577,
    "slug": "centaur"
   },
+  "Cercli": {
+   "ats": null,
+   "careers": true,
+   "checked": 1793400479.5018504,
+   "slug": null
+  },
   "Charge Robotics": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -5798,7 +5804,7 @@
     "team_size": 28
    },
    {
-    "about": "Tools & infra to build and scale high-quality blockchain applications.",
+    "about": "Infrastructure and tools to build and scale blockchain applications.",
     "domain": "quicknode.com",
     "name": "Quicknode",
     "slug_hint": "quicknode",
@@ -7110,6 +7116,14 @@
     "team_size": 29
    },
    {
+    "about": "AI powered HR and Recruitment for people teams",
+    "domain": "cercli.com",
+    "name": "Cercli",
+    "slug_hint": "cercli",
+    "source": "YC Summer 2023",
+    "team_size": 28
+   },
+   {
     "about": "Call every LLM API like it's OpenAI [100+ LLMs]",
     "domain": "litellm.ai",
     "name": "LiteLLM",
@@ -7638,12 +7652,12 @@
     "team_size": 22
    },
    {
-    "about": "Medical Record Retrieval with Zero Human Error",
+    "about": "AI-native medical record retrieval",
     "domain": "codeshealth.com",
     "name": "Codes Health",
     "slug_hint": "codes-health",
     "source": "YC Summer 2024",
-    "team_size": 35
+    "team_size": 45
    },
    {
     "about": "Corgi is building an AI financial infrastructure company",
@@ -7756,14 +7770,6 @@
     "slug_hint": "usul",
     "source": "YC Summer 2024",
     "team_size": 15
-   },
-   {
-    "about": "Apple Care-like warranty program for every retailer ",
-    "domain": "surebright.com",
-    "name": "SureBright",
-    "slug_hint": "surebright",
-    "source": "YC Summer 2024",
-    "team_size": 35
    },
    {
     "about": "Turn ideas into physical products",
@@ -8062,7 +8068,7 @@
     "team_size": 60
    }
   ],
-  "fetched": 1793305622.2096343
+  "fetched": 1793400479.5018504
  },
  "seeded_boards": [
   "ashby:9-mothers",
@@ -8125,6 +8131,7 @@
   "ashby:clearly-ai",
   "ashby:clerk",
   "ashby:clipboard",
+  "ashby:coalesce",
   "ashby:codes-health",
   "ashby:cohere",
   "ashby:coinflow",
