@@ -687,6 +687,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Corgi": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1793594488.2758,
+   "slug": "https://www.corgi.insure/careers"
+  },
   "Corgi Insurance": {
    "ats": "site",
    "careers": true,
@@ -2628,6 +2634,12 @@
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
+   "slug": null
+  },
+  "Superwall": {
+   "ats": null,
+   "careers": true,
+   "checked": 1793594488.2758,
    "slug": null
   },
   "SureBright": {
@@ -6036,6 +6048,14 @@
     "team_size": 35
    },
    {
+    "about": "Subscription infrastructure & paywall experimentation for mobile apps",
+    "domain": "superwall.com",
+    "name": "Superwall",
+    "slug_hint": "staffbar",
+    "source": "YC Summer 2021",
+    "team_size": 25
+   },
+   {
     "about": "Healthcare Price Transparency APIs and Data Products",
     "domain": "serifhealth.com",
     "name": "Serif Health",
@@ -7662,8 +7682,8 @@
    {
     "about": "Corgi is building an AI financial infrastructure company",
     "domain": "corgi.com",
-    "name": "Corgi Insurance",
-    "slug_hint": "corgi-insurance",
+    "name": "Corgi",
+    "slug_hint": "corgi",
     "source": "YC Summer 2024",
     "team_size": 250
    },
@@ -8068,7 +8088,7 @@
     "team_size": 60
    }
   ],
-  "fetched": 1793498007.1638641
+  "fetched": 1793594488.2758
  },
  "seeded_boards": [
   "ashby:9-mothers",
