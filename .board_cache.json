@@ -967,6 +967,12 @@
    "checked": 1793207879.1262577,
    "slug": "flutterflow"
   },
+  "Fondo": {
+   "ats": null,
+   "careers": true,
+   "checked": 1793705966.6783972,
+   "slug": null
+  },
   "Forage": {
    "ats": null,
    "careers": true,
@@ -988,6 +994,12 @@
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "fortuna-health"
+  },
+  "Fours": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1793705966.6783972,
+   "slug": "fours"
   },
   "Freshpaint": {
    "ats": "ashby",
@@ -2665,6 +2677,12 @@
    "checked": 1793376245.8656707,
    "slug": "swiftsku"
   },
+  "Syncly": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1793705966.6783972,
+   "slug": "https://syncly.app/careers"
+  },
   "SyntheticFi": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -2803,6 +2821,12 @@
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "runtrellis"
+  },
+  "Trexo Robotics": {
+   "ats": null,
+   "careers": true,
+   "checked": 1793705966.6783972,
+   "slug": null
   },
   "Triomics": {
    "ats": "ashby",
@@ -4336,6 +4360,14 @@
     "team_size": 25
    },
    {
+    "about": "Bookkeeping, tax, & tax credits on autopilot for 2,000+ startups",
+    "domain": "fondo.com",
+    "name": "Fondo",
+    "slug_hint": "fondo",
+    "source": "YC Winter 2018",
+    "team_size": 80
+   },
+   {
     "about": "The gold standard in cryptocurrency portfolio tracking and taxes",
     "domain": "cointracker.com",
     "name": "CoinTracker",
@@ -4688,6 +4720,14 @@
     "team_size": 40
    },
    {
+    "about": "Exoskeletons to help people walk, starting with children",
+    "domain": "trexorobotics.com",
+    "name": "Trexo Robotics",
+    "slug_hint": "trexo-robotics",
+    "source": "YC Winter 2019",
+    "team_size": 30
+   },
+   {
     "about": "1st federally regulated exchange where people can trade on events",
     "domain": "kalshi.com",
     "name": "Kalshi",
@@ -4704,7 +4744,7 @@
     "team_size": 45
    },
    {
-    "about": "The SMS revenue platform for e-commerce merchants",
+    "about": "The AI Retention Platform for Brands & Retailers",
     "domain": "postscript.io",
     "name": "Postscript",
     "slug_hint": "postscript",
@@ -6944,6 +6984,14 @@
     "team_size": 15
    },
    {
+    "about": "Social listening for the video era",
+    "domain": "syncly.app",
+    "name": "Syncly",
+    "slug_hint": "syncly",
+    "source": "YC Winter 2023",
+    "team_size": 15
+   },
+   {
     "about": "Automate data-driven slide decks and documents with AI",
     "domain": "rollstack.com",
     "name": "Rollstack",
@@ -7032,12 +7080,12 @@
     "team_size": 44
    },
    {
-    "about": "Salesforce for Cloud marketplaces on AWS, Azure, GCP",
-    "domain": "suger.io",
-    "name": "Suger",
-    "slug_hint": "suger",
+    "about": "Infrastructure for indirect revenue channels",
+    "domain": "fours.com",
+    "name": "Fours",
+    "slug_hint": "fours",
     "source": "YC Winter 2023",
-    "team_size": 50
+    "team_size": 76
    },
    {
     "about": "AI-powered care for seniors with chronic disease",
@@ -8088,7 +8136,7 @@
     "team_size": 60
    }
   ],
-  "fetched": 1793594488.2758
+  "fetched": 1793705966.6783972
  },
  "seeded_boards": [
   "ashby:9-mothers",
@@ -8188,6 +8236,7 @@
   "ashby:flutterflow",
   "ashby:formance",
   "ashby:fortuna-health",
+  "ashby:fours",
   "ashby:freshpaint",
   "ashby:furtherai",
   "ashby:garage",
