@@ -3148,77 +3148,92 @@
   },
   "manual:Adaptive Security": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "adaptivesecurity"
   },
   "manual:Aikido Security": {
-   "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "aikido"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Airbyte": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "airbyte"
   },
   "manual:Aisera": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "aisera"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Anomalo": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "anomalo"
   },
   "manual:Anthropic": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "anthropic"
   },
   "manual:Apideck": {
-   "ats": "lever",
-   "checked": 1793207724.3287258,
-   "slug": "apideck"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Arize AI": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "arizeai"
   },
   "manual:Beam AI": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "beam"
   },
   "manual:Boomi": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "boomi"
   },
   "manual:Calypso AI": {
-   "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "calypso-ai"
+   "ats": "workday",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "ffive|wd5|f5jobs"
   },
   "manual:Census": {
-   "ats": "lever",
-   "checked": 1793207724.3287258,
-   "slug": "census"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Chronosphere": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "chronosphere"
+   "ats": "workday",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "paloaltonetworks|wd5|panwexternalcareers"
   },
   "manual:Clerk": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "clerk"
   },
   "manual:Coalesce": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "coalesce"
   },
   "manual:Cogna": {
@@ -3229,113 +3244,135 @@
   },
   "manual:Cohere": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "cohere"
   },
   "manual:Coinflow": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "coinflow"
   },
   "manual:Cortex": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "cortex"
   },
   "manual:Cribl": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "cribl"
   },
   "manual:Cyera": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "cyera"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Databricks": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "databricks"
   },
   "manual:Doppel": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "doppel"
   },
   "manual:Fivetran": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "fivetran"
   },
   "manual:Glean": {
    "ats": "smartrecruiters",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "glean"
   },
   "manual:Hebbia": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "hebbia"
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "hebbia-ai"
   },
   "manual:Hex": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "hex"
   },
   "manual:Hightouch": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "hightouch"
   },
   "manual:Inngest": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "inngest"
   },
   "manual:Kore.ai": {
    "ats": "smartrecruiters",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "koreai"
   },
   "manual:LangChain": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "langchain"
   },
   "manual:Lasso Security": {
-   "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "lasso-security"
+   "ats": "site",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "https://www.lasso.security/careers"
   },
   "manual:Letta": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "letta"
   },
   "manual:Lindy AI": {
-   "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "lindy"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Lithic": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "lithic"
   },
   "manual:Meltano": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "meltano"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Merge": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "merge"
   },
   "manual:Metaplane": {
-   "ats": "lever",
-   "checked": 1793207724.3287258,
-   "slug": "metaplane"
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "Metaplane"
   },
   "manual:Middleware.io": {
    "ats": null,
@@ -3345,77 +3382,92 @@
   },
   "manual:Modern Treasury": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "moderntreasury"
   },
   "manual:Monte Carlo": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "montecarlodata"
   },
   "manual:Moveworks": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "moveworks"
+   "ats": "site",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "https://www.moveworks.com/us/en/company/careers"
   },
   "manual:Nango": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "nango"
   },
   "manual:Observe AI": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "observeai"
   },
   "manual:OpenAI": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "openai"
   },
   "manual:Paragon": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "paragon"
   },
   "manual:Port": {
-   "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "port"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Prompt Security": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "prompt"
   },
   "manual:Protect AI": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "protect-ai"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Relevance AI": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "relevanceai"
   },
   "manual:Retool": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "retool"
+   "ats": "site",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "https://retool.com/careers"
   },
   "manual:Rootly": {
-   "ats": "ashby",
-   "checked": 1793207724.3287258,
-   "slug": "rootly"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Slope": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "slope"
   },
   "manual:Snowflake": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "snowflake"
   },
   "manual:Stord": {
@@ -3426,32 +3478,38 @@
   },
   "manual:Stripe": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "stripe"
   },
   "manual:Stytch": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "stytch"
   },
   "manual:Supabase": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "supabase"
   },
   "manual:Temporal": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "temporal"
   },
   "manual:Tray.io": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "tray"
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": "tray-ai"
   },
   "manual:Trigger.dev": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "triggerdev"
   },
   "manual:Turntable": {
@@ -3462,7 +3520,8 @@
   },
   "manual:Vellum AI": {
    "ats": "ashby",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "vellum"
   },
   "manual:Vessel": {
@@ -3472,13 +3531,15 @@
    "slug": null
   },
   "manual:Weights & Biases": {
-   "ats": "greenhouse",
-   "checked": 1793207724.3287258,
-   "slug": "weights-biases"
+   "ats": null,
+   "careers": true,
+   "checked": 1793827504.643759,
+   "slug": null
   },
   "manual:Workato": {
    "ats": "greenhouse",
-   "checked": 1793207724.3287258,
+   "careers": true,
+   "checked": 1793827504.643759,
    "slug": "workato"
   },
   "mdhub": {
@@ -8267,6 +8328,7 @@
   "ashby:greptile",
   "ashby:happyrobot.ai",
   "ashby:harperinsure",
+  "ashby:hebbia-ai",
   "ashby:herondata",
   "ashby:hex",
   "ashby:hightouch",
@@ -8397,6 +8459,7 @@
   "ashby:tilt",
   "ashby:titan",
   "ashby:topline-pro",
+  "ashby:tray-ai",
   "ashby:triggerdev",
   "ashby:triomics",
   "ashby:trm-labs",
@@ -8536,6 +8599,8 @@
   "smartrecruiters:koreai",
   "smartrecruiters:vouch",
   "workable:open-252",
-  "workable:weekday-1"
+  "workable:weekday-1",
+  "workday:ffive|wd5|f5jobs",
+  "workday:paloaltonetworks|wd5|panwexternalcareers"
  ]
 }
