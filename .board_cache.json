@@ -2873,6 +2873,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Unravel Carbon": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1793804949.401632,
+   "slug": "https://www.unravelcarbon.com/careers"
+  },
   "UpCodes": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -6664,6 +6670,14 @@
     "team_size": 33
    },
    {
+    "about": "Enterprise software for companies to track & reduce their carbon\u2026",
+    "domain": "unravelcarbon.com",
+    "name": "Unravel Carbon",
+    "slug_hint": "unravel-carbon",
+    "source": "YC Winter 2022",
+    "team_size": 42
+   },
+   {
     "about": "AI powered personal finance app for Indonesia",
     "domain": "finku.id",
     "name": "Finku",
@@ -8136,7 +8150,7 @@
     "team_size": 60
    }
   ],
-  "fetched": 1793705966.6783972
+  "fetched": 1793804949.401632
  },
  "seeded_boards": [
   "ashby:9-mothers",
@@ -8187,6 +8201,7 @@
   "ashby:cambly",
   "ashby:campfire",
   "ashby:candidhealth",
+  "ashby:captivateiq",
   "ashby:casca",
   "ashby:castle",
   "ashby:charge-robotics",
@@ -8420,6 +8435,7 @@
   "greenhouse:axle",
   "greenhouse:beam",
   "greenhouse:bitmovin",
+  "greenhouse:carbonchain",
   "greenhouse:checkr",
   "greenhouse:coast",
   "greenhouse:cortex",
@@ -8510,6 +8526,7 @@
   "site:https://www.buildbuddy.io/careers/",
   "site:https://www.oway.io/careers/",
   "site:https://www.taxgpt.com/careers",
+  "site:https://www.unravelcarbon.com/careers",
   "site:https://www.ycombinator.com/companies/cekura-ai/jobs",
   "site:https://www.ycombinator.com/companies/seam/jobs",
   "site:https://www.ycombinator.com/companies/stacksync/jobs",
