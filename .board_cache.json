@@ -4507,7 +4507,7 @@
     "team_size": 180
    },
    {
-    "about": "GitHub for Investment Methodology",
+    "about": "",
     "domain": "tilt.io",
     "name": "Tilt (f.k.a. Delphia)",
     "slug_hint": "tilt-fka-delphia",
@@ -4961,14 +4961,6 @@
     "slug_hint": "inito",
     "source": "YC Winter 2019",
     "team_size": 100
-   },
-   {
-    "about": "Modern fundraising software for political campaigns and nonprofits.",
-    "domain": "numero.ai",
-    "name": "Numero",
-    "slug_hint": "numero",
-    "source": "YC Winter 2019",
-    "team_size": 15
    },
    {
     "about": "Modern spend management & concierge.",
@@ -6153,14 +6145,6 @@
     "slug_hint": "reframe",
     "source": "YC Summer 2021",
     "team_size": 35
-   },
-   {
-    "about": "Subscription infrastructure & paywall experimentation for mobile apps",
-    "domain": "superwall.com",
-    "name": "Superwall",
-    "slug_hint": "staffbar",
-    "source": "YC Summer 2021",
-    "team_size": 25
    },
    {
     "about": "Healthcare Price Transparency APIs and Data Products",
@@ -7995,14 +7979,6 @@
     "team_size": 25
    },
    {
-    "about": "AI hiring platform powered by expert recruiters",
-    "domain": "contrario.ai",
-    "name": "Contrario",
-    "slug_hint": "contrario",
-    "source": "YC Winter 2025",
-    "team_size": 20
-   },
-   {
     "about": "AI for insurance verification & billing at dental clinics",
     "domain": "toothy.ai",
     "name": "Toothy AI",
@@ -8211,7 +8187,7 @@
     "team_size": 60
    }
   ],
-  "fetched": 1793804949.401632
+  "fetched": 1793899971.5183215
  },
  "seeded_boards": [
   "ashby:9-mothers",
@@ -8578,6 +8554,7 @@
   "lever:voltalabs",
   "lever:zippi",
   "rippling:community-phone-careers",
+  "rippling:functionofbeauty",
   "rippling:just-appraised-jobs",
   "site:https://arva.ai/careers",
   "site:https://loopfour.ai/careers",
