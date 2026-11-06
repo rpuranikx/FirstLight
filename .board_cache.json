@@ -48,6 +48,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Adalat AI": {
+   "ats": null,
+   "careers": true,
+   "checked": 1793991399.9196167,
+   "slug": null
+  },
   "Afriex": {
    "ats": null,
    "careers": true,
@@ -2763,6 +2769,12 @@
    "checked": 1793224195.0364485,
    "slug": "thera"
   },
+  "Third Chair": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1793991399.9196167,
+   "slug": "https://www.ycombinator.com/companies/third-chair/jobs"
+  },
   "Thunkable": {
    "ats": "lever",
    "checked": 1793207879.1262577,
@@ -3239,7 +3251,7 @@
   "manual:Cogna": {
    "ats": "ashby",
    "careers": true,
-   "checked": 1793376224.5642478,
+   "checked": 1793991387.6881547,
    "slug": "cogna"
   },
   "manual:Cohere": {
@@ -3377,7 +3389,7 @@
   "manual:Middleware.io": {
    "ats": null,
    "careers": true,
-   "checked": 1793376224.5642478,
+   "checked": 1793991387.6881547,
    "slug": null
   },
   "manual:Modern Treasury": {
@@ -3473,7 +3485,7 @@
   "manual:Stord": {
    "ats": null,
    "careers": true,
-   "checked": 1793376224.5642478,
+   "checked": 1793991387.6881547,
    "slug": null
   },
   "manual:Stripe": {
@@ -3515,7 +3527,7 @@
   "manual:Turntable": {
    "ats": null,
    "careers": true,
-   "checked": 1793376224.5642478,
+   "checked": 1793991387.6881547,
    "slug": null
   },
   "manual:Vellum AI": {
@@ -3527,7 +3539,7 @@
   "manual:Vessel": {
    "ats": null,
    "careers": true,
-   "checked": 1793376224.5642478,
+   "checked": 1793991387.6881547,
    "slug": null
   },
   "manual:Weights & Biases": {
@@ -7616,7 +7628,7 @@
     "name": "Trellis AI",
     "slug_hint": "trellis-ai",
     "source": "YC Winter 2024",
-    "team_size": 34
+    "team_size": 55
    },
    {
     "about": "Tools for AI agents to run marketing for the world's biggest\u2026",
@@ -7899,14 +7911,6 @@
     "team_size": 15
    },
    {
-    "about": "Turn ideas into physical products",
-    "domain": "nologo.com",
-    "name": "No Logo",
-    "slug_hint": "no-logo",
-    "source": "YC Summer 2024",
-    "team_size": 15
-   },
-   {
     "about": "AI for critical banking operations",
     "domain": "arva.ai",
     "name": "Arva AI",
@@ -8067,6 +8071,14 @@
     "team_size": 17
    },
    {
+    "about": "AI-Native IP Enforcement",
+    "domain": "usethirdchair.com",
+    "name": "Third Chair",
+    "slug_hint": "third-chair",
+    "source": "YC Spring 2025",
+    "team_size": 19
+   },
+   {
     "about": "AI-Native Fresh Produce Logistics",
     "domain": "getasap.us",
     "name": "GETASAP",
@@ -8185,9 +8197,17 @@
     "slug_hint": "hub",
     "source": "YC Spring 2026",
     "team_size": 60
+   },
+   {
+    "about": "AI OS transforming courts, accelerating justice",
+    "domain": "adalat.ai",
+    "name": "Adalat AI",
+    "slug_hint": "adalat-ai",
+    "source": "YC Fall 2026",
+    "team_size": 80
    }
   ],
-  "fetched": 1793899971.5183215
+  "fetched": 1793991399.9196167
  },
  "seeded_boards": [
   "ashby:9-mothers",
