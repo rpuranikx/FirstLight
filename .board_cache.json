@@ -6591,7 +6591,7 @@
     "team_size": 25
    },
    {
-    "about": "The intelligent knowledge platform",
+    "about": "The intelligent documentation platform",
     "domain": "mintlify.com",
     "name": "Mintlify",
     "slug_hint": "mintlify",
@@ -8004,7 +8004,7 @@
     "name": "SalesPatriot",
     "slug_hint": "salespatriot",
     "source": "YC Winter 2025",
-    "team_size": 15
+    "team_size": 30
    },
    {
     "about": "AI Accountant for Accounting Firms",
@@ -8207,7 +8207,7 @@
     "team_size": 80
    }
   ],
-  "fetched": 1793991399.9196167
+  "fetched": 1794085410.348425
  },
  "seeded_boards": [
   "ashby:9-mothers",
