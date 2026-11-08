@@ -4095,7 +4095,7 @@
     "team_size": 100
    },
    {
-    "about": "The Smart Market for Institutional Investors",
+    "about": "The Smart Market Powering The Future",
     "domain": "onechronos.com",
     "name": "OneChronos",
     "slug_hint": "onechronos",
@@ -6887,14 +6887,6 @@
     "team_size": 100
    },
    {
-    "about": "Making motherhood safe, not scary",
-    "domain": "heymalama.co",
-    "name": "Malama Health",
-    "slug_hint": "malama-health",
-    "source": "YC Summer 2022",
-    "team_size": 35
-   },
-   {
     "about": "Turning the web into a structured database of real world events.",
     "domain": "newscatcherapi.com",
     "name": "NewsCatcher",
@@ -8207,7 +8199,7 @@
     "team_size": 80
    }
   ],
-  "fetched": 1794085410.348425
+  "fetched": 1794177824.8256934
  },
  "seeded_boards": [
   "ashby:9-mothers",
