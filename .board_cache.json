@@ -3364,10 +3364,11 @@
    "slug": null
   },
   "Deno": {
-   "ats": null,
+   "ats": "ashby",
    "careers": true,
-   "checked": 1794276300.9429114,
-   "slug": null
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
+   "slug": "Deno"
   },
   "Descript": {
    "ats": "greenhouse",
@@ -3384,19 +3385,22 @@
   "Devicie": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Devo": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Devtron": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Dewpoint Therapeutics": {
@@ -3546,10 +3550,11 @@
    "slug": "dubclub"
   },
   "DuckDuckGo": {
-   "ats": null,
+   "ats": "ashby",
    "careers": true,
-   "checked": 1794276300.9429114,
-   "slug": null
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
+   "slug": "duck-duck-go"
   },
   "Duckbill": {
    "ats": "ashby",
@@ -3594,7 +3599,8 @@
   "ELLKAY": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "EPAL, INC.": {
@@ -3637,7 +3643,8 @@
   "Easy Aerial": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Eclypsium": {
@@ -3698,7 +3705,8 @@
   "Element5": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Eleos Health": {
@@ -3716,7 +3724,8 @@
   "Elisity": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Ellevest": {
@@ -3831,7 +3840,8 @@
   "Epignosis": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Equals": {
@@ -3969,7 +3979,8 @@
   "Explorium": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Extra": {
@@ -4048,7 +4059,8 @@
   "FanCraze": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Faraway": {
@@ -4100,7 +4112,8 @@
   "Fermyon": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794322593.2376711,
+   "rendered_v2": true,
    "slug": null
   },
   "Ferry Health": {
@@ -31583,6 +31596,7 @@
   "ashby:drivewealth",
   "ashby:dualentry",
   "ashby:dubclub",
+  "ashby:duck-duck-go",
   "ashby:duet",
   "ashby:duffel",
   "ashby:ease-health",
