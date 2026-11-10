@@ -490,3 +490,9 @@ def test_malformed_link_does_not_crash_career_page_parsing():
     html = '<a href="http://[broken/jobs/1">Bad</a><a href="/jobs/2">Solutions Engineer</a>'
     assert careers.job_links("https://acme.test/careers", html) == [
         ("https://acme.test/jobs/2", "Solutions Engineer")]
+
+
+def test_careers_page_redirecting_off_site_is_ignored():
+    assert careers.own_site("https://careers.acme.com/jobs", "acme.com")
+    assert careers.own_site("https://www.ycombinator.com/companies/acme/jobs", "acme.com")
+    assert not careers.own_site("https://www.linkedin.com/company/acme", "acme.com")

@@ -76,6 +76,15 @@ def career_urls(domain: str) -> list[str]:
             + [f"https://careers.{domain}", f"https://jobs.{domain}", root])
 
 
+THIRD_PARTY_OK = ("ycombinator.com",)  # YC company job pages list real openings
+
+
+def own_site(url: str, domain: str) -> bool:
+    host = urlparse(url).netloc.lower().removeprefix("www.")
+    root = domain.lower().removeprefix("www.")
+    return host == root or host.endswith("." + root) or host.endswith(THIRD_PARTY_OK)
+
+
 def find_careers_board(domain: str) -> dict | None:
     """
     Finds where a company lists its jobs. Returns {"ats", "slug"}; for jobs
@@ -92,6 +101,8 @@ def find_careers_board(domain: str) -> dict | None:
             return found
         if url.endswith(domain):
             continue  # the home page only counts if it links to a board
+        if not own_site(final, domain):
+            continue  # redirected to LinkedIn, a job aggregator, etc.
         if job_postings_in(text) or len(job_links(final, text)) >= 2:
             return {"ats": "site", "slug": final}
     return None

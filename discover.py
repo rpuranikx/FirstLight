@@ -24,7 +24,7 @@ from urllib.parse import urlparse
 
 import requests
 
-from careers import find_boards_rendered, find_careers_board
+from careers import find_boards_rendered, find_careers_board, own_site
 
 CACHE_PATH      = os.path.join(os.path.dirname(__file__), ".board_cache.json")
 # People data stays out of git (the repo is public); CI keeps it with actions/cache
@@ -398,6 +398,9 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
     out = []
     for c in companies:
         b = cache["boards"].get(c["name"], {})
+        if b.get("ats") == "site" and not own_site(b.get("slug") or "", c["domain"]):
+            cache["boards"].pop(c["name"])  # e.g. a LinkedIn page cached earlier; re-probe next run
+            continue
         if b.get("ats"):
             out.append({**c, "ats": b["ats"], "slug": b["slug"]})
     return out
