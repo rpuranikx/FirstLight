@@ -483,3 +483,10 @@ def test_israel_country_code_is_not_illinois():
     assert loc("Wilmette, IL")
     assert loc("Springfield, IL, US, 62702")
     assert loc("Chicago, IL; Tel Aviv, Israel")
+
+
+def test_malformed_link_does_not_crash_career_page_parsing():
+    import careers
+    html = '<a href="http://[broken/jobs/1">Bad</a><a href="/jobs/2">Solutions Engineer</a>'
+    assert careers.job_links("https://acme.test/careers", html) == [
+        ("https://acme.test/jobs/2", "Solutions Engineer")]

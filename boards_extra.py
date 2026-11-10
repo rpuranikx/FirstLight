@@ -438,7 +438,10 @@ def page_links(base: str, text: str, href_re: re.Pattern = JOBISH_HREF) -> list[
     """(url, label) for links on a page that could be single job postings."""
     out, seen = [], set()
     for href, label in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', text, re.S | re.I):
-        url = urljoin(base, html.unescape(href))
+        try:
+            url = urljoin(base, html.unescape(href))
+        except ValueError:  # malformed href ("Invalid IPv6 URL")
+            continue
         heading = re.search(r"<h[1-4][^>]*>(.*?)</h[1-4]>", label, re.S)
         label = re.sub(r"^(Job )?Title\s+", "", _strip(heading.group(1) if heading else label))
         if (not label or len(label) < 4 or len(label) > 140 or SKIP_LABELS.match(label)

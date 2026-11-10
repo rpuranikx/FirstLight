@@ -129,9 +129,13 @@ def job_links(base: str, text: str) -> list[tuple[str, str]]:
     host = urlparse(base).netloc
     out, seen = [], set()
     for href, label in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', text, re.S | re.I):
-        url = urljoin(base, href)
+        try:
+            url = urljoin(base, href)
+            url_host = urlparse(url).netloc
+        except ValueError:  # malformed href, e.g. "http://[broken" ("Invalid IPv6 URL")
+            continue
         label = _strip(label)
-        if urlparse(url).netloc != host or not JOB_PATH_RE.search(urlparse(url).path):
+        if url_host != host or not JOB_PATH_RE.search(urlparse(url).path):
             continue
         if url.rstrip("/") == base.rstrip("/") or url in seen or not label:
             continue

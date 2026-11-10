@@ -136,6 +136,15 @@ def probe_board(name: str, domain: str = "", hint: str = "") -> dict | None:
     return find_careers_board(domain)
 
 
+def _safe_probe(c: dict) -> dict | None:
+    """One company's broken careers page must not stop the whole scan."""
+    try:
+        return probe_board(c["name"], c["domain"], c["slug_hint"])
+    except Exception as e:
+        print(f"  [discover] {c['name']}: probe failed ({e})")
+        return None
+
+
 def board_alive(ats: str, slug: str) -> bool:
     if ats not in PROBE_ORDER:
         return True  # workable/rippling: no cheap check, trust the mapping
@@ -366,7 +375,7 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
     if todo:
         print(f"  [discover] probing job boards for {len(todo)} companies...")
         with ThreadPoolExecutor(PROBE_WORKERS) as pool:
-            results = pool.map(lambda c: probe_board(c["name"], c["domain"], c["slug_hint"]), todo)
+            results = pool.map(lambda c: _safe_probe(c), todo)
             for c, found in zip(todo, results):
                 cache["boards"][c["name"]] = {**(found or {"ats": None, "slug": None}),
                                               "checked": now, "careers": True}
