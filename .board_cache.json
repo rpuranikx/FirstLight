@@ -9379,7 +9379,8 @@
   "Reco": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Recraft": {
@@ -9568,13 +9569,15 @@
   "Resolve": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Resolve Systems": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Respan": {
@@ -9787,7 +9790,8 @@
   "Rocketlane": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Rogo": {
@@ -9797,10 +9801,11 @@
    "slug": "rogo"
   },
   "Rohirrim": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "slug": null
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Rollstack": {
    "ats": "ashby",
@@ -10531,7 +10536,8 @@
   "Snappt": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Snaptrude": {
@@ -10562,7 +10568,8 @@
   "Software Defined Automation": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Sola": {
@@ -10684,7 +10691,8 @@
   "Spacelift": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Spade": {
@@ -10876,7 +10884,8 @@
   "Stampli": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Standard AI": {
@@ -11160,7 +11169,8 @@
   "Sware": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Swarm Aero": {
@@ -11196,13 +11206,15 @@
   "Swimm": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Switch Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Sword Health": {
@@ -11394,7 +11406,8 @@
   "Templafy": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794326193.4457667,
+   "rendered_v2": true,
    "slug": null
   },
   "Tempo": {
