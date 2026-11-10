@@ -1664,8 +1664,8 @@
   "Bloom Institute of Technology": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Blooming Health": {
@@ -2217,8 +2217,8 @@
   "Cashfree Payments": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Castelion": {
@@ -4341,8 +4341,8 @@
   "Fondo": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Footprint": {
@@ -4801,8 +4801,8 @@
   "GoGoGrandparent": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "GoLinks": {
@@ -5240,11 +5240,11 @@
    "slug": null
   },
   "HiOperator": {
-   "ats": null,
+   "ats": "breezy",
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
-   "slug": null
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
+   "slug": "hioperator"
   },
   "Higgsfield AI": {
    "ats": "ashby",
@@ -6282,8 +6282,8 @@
   "Ledger Investing": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Leena AI": {
@@ -6650,8 +6650,8 @@
   "MDalgorithms Inc.": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "MEDIVIS": {
@@ -7580,8 +7580,8 @@
   "Nimble": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Ninety": {
@@ -7860,11 +7860,11 @@
    "slug": "onechronos"
   },
   "OneLocal": {
-   "ats": null,
+   "ats": "bamboohr",
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
-   "slug": null
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
+   "slug": "onelocal"
   },
   "OneSchema": {
    "ats": "ashby",
@@ -8927,8 +8927,8 @@
   "Proven Group": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Provision": {
@@ -9601,8 +9601,8 @@
   "Ridecell": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Ridepanda": {
@@ -9747,8 +9747,8 @@
   "Rose Rocket": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Rove": {
@@ -10806,8 +10806,8 @@
   "Standard AI": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Standard Bots": {
@@ -12278,8 +12278,8 @@
   "Veryfi, Inc.": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Vesta": {
@@ -12576,8 +12576,8 @@
   "Women Who Code": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794293627.2183628,
+   "rendered_v2": true,
    "slug": null
   },
   "Wonderly": {
@@ -32036,8 +32036,10 @@
   "bamboohr:expedock",
   "bamboohr:magnusmedical",
   "bamboohr:nexthopai",
+  "bamboohr:onelocal",
   "bamboohr:plusonerobotics",
   "bamboohr:proscia",
+  "breezy:hioperator",
   "breezy:landmark",
   "breezy:righthand-robotics",
   "breezy:treeline",
