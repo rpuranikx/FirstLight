@@ -1,13 +1,17 @@
 name: FirstLight Job Scanner
 
+# GitHub's scheduler is best-effort and in practice fires only a few times a
+# day. So each run keeps scanning every SCAN_INTERVAL_MIN minutes for ~5.5 hours,
+# then starts the next run itself. The cron below is only a backup that
+# restarts the chain if it ever breaks.
 on:
   schedule:
-    # Every 30 minutes
     - cron: "*/30 * * * *"
   workflow_dispatch: # allow manual trigger from the Actions tab
 
 permissions:
   contents: write # needed to commit .seen_jobs.json back to the repo
+  actions: write  # lets a finished run start the next one
 
 # Never run two scans at once (they'd race on the state files)
 concurrency:
@@ -17,7 +21,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 355
 
     steps:
       - name: Checkout repo
@@ -42,24 +46,35 @@ jobs:
           key: contacts-v2-${{ github.run_id }}
           restore-keys: contacts-v2-
 
-      - name: Run FirstLight scanner
+      - name: Scan every few minutes for ~5.5 hours
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           HUNTER_API_KEY: ${{ secrets.HUNTER_API_KEY }}
           APOLLO_API_KEY: ${{ secrets.APOLLO_API_KEY }}
-        run: python main.py --notify
-
-      - name: Commit updated state
+          SCAN_INTERVAL_MIN: "15"
+          LOOP_MINUTES: "330"
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          stop=$(( $(date +%s) + LOOP_MINUTES * 60 ))
+          while :; do
+            started=$(date +%s)
+            python main.py --notify || echo "::warning::scan failed, retrying next round"
 
-          git add .seen_jobs.json .board_cache.json
-          if git diff --cached --quiet; then
-            echo "No state changes — nothing to commit"
-          else
-            git commit -m "chore: update seen jobs [skip ci]"
-            git pull --rebase origin "${GITHUB_REF_NAME}" || true
-            git push
-          fi
+            # Save state, and pick up any code pushed to main in the meantime
+            git add .seen_jobs.json .board_cache.json
+            git diff --cached --quiet || git commit -q -m "chore: update seen jobs [skip ci]"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q || echo "::warning::state push failed"
+
+            next=$(( started + SCAN_INTERVAL_MIN * 60 ))
+            [ "$next" -ge "$stop" ] && break
+            wait=$(( next - $(date +%s) ))
+            [ "$wait" -gt 0 ] && sleep "$wait"
+          done
+
+      - name: Start the next run
+        if: always() && !cancelled()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run scan.yml --ref "${GITHUB_REF_NAME}"
