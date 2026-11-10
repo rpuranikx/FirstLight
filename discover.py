@@ -384,15 +384,18 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
     if cfg.get("render_js", True):
         def needs_render(c):
             b = cache["boards"].get(c["name"]) or {}
-            return c["domain"] and b.get("careers") and not b.get("ats") and not b.get("rendered")
-        no_board = [c for c in companies if needs_render(c)][: cfg.get("max_renders_per_run", 40)]
+            return c["domain"] and b.get("careers") and not b.get("ats") and not b.get("rendered_v2")
+        no_board = [c for c in companies if needs_render(c)][: cfg.get("max_renders_per_run", 15)]
         if no_board:
-            print(f"  [discover] rendering career pages for {len(no_board)} companies...")
-            found = find_boards_rendered([c["domain"] for c in no_board])
+            print(f"  [discover] rendering career pages for up to {len(no_board)} companies...")
+            results = find_boards_rendered([c["domain"] for c in no_board])
+            found = {d: b for d, b in (results or {}).items() if b}
             for c in no_board:
-                b = found.get(c["domain"])
+                if results is None or c["domain"] not in results:
+                    continue  # not tried this round
+                b = results[c["domain"]]
                 cache["boards"][c["name"]] = {**(b or {"ats": None, "slug": None}),
-                                              "checked": now, "careers": True, "rendered": True}
+                                              "checked": now, "careers": True, "rendered_v2": True}
             print(f"  [discover] found boards for {len(found)} of them")
 
     out = []

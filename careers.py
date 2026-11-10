@@ -367,34 +367,45 @@ def fetch_breezy(company: str, slug: str) -> list[dict]:
 # ─────────────────────────────────────────────
 # JavaScript-only career pages
 # ─────────────────────────────────────────────
-def find_boards_rendered(domains: list[str], per_site_seconds: int = 20) -> dict:
+def find_boards_rendered(domains: list[str], budget_seconds: int = 90) -> dict | None:
     """
     Opens career pages in a headless browser and watches what they load, to find
     the job board behind pages that only render jobs with JavaScript.
-    Returns {domain: {"ats", "slug"}}. Needs playwright; does nothing without it.
+    Returns {domain: {"ats", "slug"}} for the domains it got to (stops after
+    budget_seconds so a scan round isn't held up), or None without playwright.
     """
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
         print("  [careers] playwright not installed, skipping JavaScript career pages")
-        return {}
-    found = {}
-    with sync_playwright() as p:
-        browser = p.chromium.launch()
-        for domain in domains:
-            for url in career_urls(domain)[:4]:
-                page = browser.new_page()
-                seen_urls = []
-                page.on("request", lambda req: seen_urls.append(req.url))
-                try:
-                    page.goto(url, timeout=per_site_seconds * 1000, wait_until="networkidle")
-                    board = board_in_html(" ".join(seen_urls) + " " + page.url + " " + page.content())
-                except Exception:
-                    board = None
-                finally:
-                    page.close()
-                if board:
-                    found[domain] = board
+        return None
+    import time as _t
+    deadline = _t.time() + budget_seconds
+    found, done = {}, []
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            for domain in domains:
+                if _t.time() > deadline:
                     break
-        browser.close()
-    return found
+                for url in career_urls(domain)[:2]:
+                    page = browser.new_page()
+                    seen_urls = []
+                    page.on("request", lambda req: seen_urls.append(req.url))
+                    try:
+                        page.goto(url, timeout=12000, wait_until="domcontentloaded")
+                        page.wait_for_timeout(2500)
+                        board = board_in_html(" ".join(seen_urls) + " " + page.url + " " + page.content())
+                    except Exception:
+                        board = None
+                    finally:
+                        page.close()
+                    if board:
+                        found[domain] = board
+                        break
+                done.append(domain)
+            browser.close()
+    except Exception as e:
+        print(f"  [careers] browser failed: {e}")
+        return None
+    return {d: found.get(d) for d in done}
