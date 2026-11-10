@@ -1531,8 +1531,8 @@
   "Biostate Ai": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Biowear": {
@@ -1763,8 +1763,8 @@
   "Borqs Technologies": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Bot MD": {
@@ -1855,8 +1855,8 @@
   "Bridgetown Research": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "BrightInsight": {
@@ -1953,15 +1953,15 @@
   "CAN Capital": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "CARTO": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "CFO.ai": {
@@ -2148,8 +2148,8 @@
   "CareStack": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Cargado": {
@@ -2179,8 +2179,8 @@
   "Cartwheel": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Casa": {
@@ -2192,8 +2192,8 @@
   "CasaOne": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Casana": {
@@ -2241,15 +2241,15 @@
   "Catalyst Software": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Catch+Release": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Cedar": {
@@ -2345,11 +2345,11 @@
    "slug": "chaidiscovery"
   },
   "Chainalysis": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
-   "slug": null
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
+   "slug": "chainalysis"
   },
   "Chainguard": {
    "ats": "greenhouse",
@@ -2376,11 +2376,11 @@
    "slug": "careers-analytics"
   },
   "Chaos": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
-   "slug": null
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
+   "slug": "chaosindustries"
   },
   "Character.AI": {
    "ats": "ashby",
@@ -2460,8 +2460,8 @@
   "Chronicle": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Cider": {
@@ -2606,8 +2606,8 @@
   "CleverTap": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "Clinikally": {
@@ -12939,8 +12939,8 @@
   "brndme.in": {
    "ats": null,
    "careers": true,
-   "checked": 1794274500.523272,
-   "rendered": true,
+   "checked": 1794304427.5581024,
+   "rendered_v2": true,
    "slug": null
   },
   "c/side": {
@@ -32099,6 +32099,7 @@
   "greenhouse:carrotfertility",
   "greenhouse:cellanome",
   "greenhouse:chainguard",
+  "greenhouse:chaosindustries",
   "greenhouse:chariotdefense",
   "greenhouse:checkr",
   "greenhouse:clear",
