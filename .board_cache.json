@@ -1,15 +1,69 @@
 {
  "boards": {
+  "100ms": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "100ms"
+  },
+  "1047 Games": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "10beauty": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "10beauty"
+  },
+  "1Mind": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "1mind"
+  },
+  "1Sharpe Capital": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "222": {
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "4M Analytics": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "9 Mothers": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "9-mothers"
+  },
+  "A.Team": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "ateam"
+  },
+  "A24": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "a24"
+  },
+  "AIM Intelligent Machines": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "aim"
   },
   "AIOS": {
    "ats": "ashby",
@@ -26,33 +80,155 @@
    "checked": 1793207879.1262577,
    "slug": "arq"
   },
+  "ASI": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "asi"
+  },
+  "Aatmunn": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://aatmunn.com/careers"
+  },
+  "Aavenir": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "Abacum": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "abacum"
+  },
+  "Abacus.AI": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "abacus"
+  },
+  "Abby Care": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "abby-care"
+  },
+  "Ably": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Abridge": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "abridge"
+  },
+  "Academia.edu": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "academia"
+  },
+  "Acalvio Technologies": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
   },
   "Accord": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "accord"
   },
+  "Accredible": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://www.accredible.com/careers"
+  },
   "Acely": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Activeloop": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "AdRoll": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://www.nextroll.com/careers"
   },
   "Adalat AI": {
    "ats": null,
    "careers": true,
    "checked": 1793991399.9196167,
    "slug": null
+  },
+  "Adentro": {
+   "ats": "workable",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "adentro"
+  },
+  "Adept AI": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Advocate": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "advocate"
+  },
+  "Adyton": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "AegisAI": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://www.aegisai.com/careers"
+  },
+  "Aerflo": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Aether Diamonds": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Affinity": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "affinity"
+  },
+  "Afresh Technologies": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "afresh"
   },
   "Afriex": {
    "ats": null,
@@ -75,10 +251,52 @@
    "checked": 1793207879.1262577,
    "slug": "agency"
   },
+  "Agora": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "AiPrise": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "aiprise"
+  },
+  "Aidoc": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "aidocmedical"
+  },
+  "Air": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "air"
+  },
+  "AirGarage": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "airgarage"
+  },
+  "AirHelp": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Airbyte": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "airbyte"
+  },
+  "Akash Systems": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
   },
   "Akiflow": {
    "ats": null,
@@ -90,6 +308,12 @@
    "ats": "greenhouse",
    "checked": 1793207879.1262577,
    "slug": "albedo"
+  },
+  "Alchemy": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "alchemy"
   },
   "AlemHealth": {
    "ats": "smartrecruiters",
@@ -118,6 +342,24 @@
    "checked": 1793207879.1262577,
    "slug": "algolia"
   },
+  "Alium": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Allbirds": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Alloy": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "alloy"
+  },
   "Alpaca": {
    "ats": "greenhouse",
    "checked": 1793207879.1262577,
@@ -126,14 +368,57 @@
   "Alpha Vantage": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "Alsym Energy": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Altitude": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "altitude"
+  },
+  "Amberbox Gunshot Detection": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Ambience Healthcare": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "ambiencehealthcare"
   },
   "Ambient.ai": {
    "ats": "ashby",
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": "ambient.ai"
+  },
+  "Ambrook": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "ambrook"
+  },
+  "Amca": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "amca"
+  },
+  "Anchorage": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "anchorage"
   },
   "Anima": {
    "ats": "ashby",
@@ -157,6 +442,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Apex Space": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "apex-technology-inc"
+  },
   "Apollo": {
    "ats": "greenhouse",
    "checked": 1793207879.1262577,
@@ -167,27 +458,70 @@
    "checked": 1793207879.1262577,
    "slug": "apollo"
   },
+  "AppDome": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "Aqua": {
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Arc": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Arch": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "arch"
+  },
+  "Arch Systems": {
+   "ats": "breezy",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "arch-systems"
+  },
   "ArchForm": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "Arena": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "arena"
   },
   "Arini": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "arini"
   },
+  "Ark Biotech": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://www.ark-biotech.com/careers"
+  },
   "Arketa": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "arketa"
+  },
+  "Armstrong Robotics": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
   },
   "Array Labs": {
    "ats": "greenhouse",
@@ -218,7 +552,8 @@
   "Aspire": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Assembly": {
@@ -252,6 +587,12 @@
    "checked": 1793207879.1262577,
    "slug": "atlas"
   },
+  "Atlys": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "atlys"
+  },
   "AtoB": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -267,10 +608,28 @@
    "checked": 1793207879.1262577,
    "slug": "atomic"
   },
+  "Atoms": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "atoms"
+  },
   "Auctor": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "auctor"
+  },
+  "Augmentir": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Augmodo": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "augmodo"
   },
   "Aurelian": {
    "ats": "ashby",
@@ -316,6 +675,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Base Power Company": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "BeGo": {
    "ats": null,
    "careers": true,
@@ -327,6 +692,12 @@
    "checked": 1793207879.1262577,
    "slug": "beacons"
   },
+  "Bedrock Ocean Exploration": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "bedrockocean"
+  },
   "BelozFi": {
    "ats": null,
    "careers": true,
@@ -337,6 +708,18 @@
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "belvo"
+  },
+  "Bem": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "bem"
+  },
+  "Benchling": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "benchling"
   },
   "Benepass": {
    "ats": "ashby",
@@ -370,6 +753,12 @@
    "checked": 1793207879.1262577,
    "slug": "bitmovin"
   },
+  "Black Crow AI": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "Bland AI": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -388,7 +777,8 @@
   "Bloom Institute of Technology": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Blue Onion": {
@@ -400,7 +790,8 @@
   "BlueCargo": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Bolna AI": {
@@ -424,6 +815,18 @@
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
+   "slug": null
+  },
+  "Braintrust": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "braintrust"
+  },
+  "Bravely": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
    "slug": null
   },
   "Bretton AI": {
@@ -452,6 +855,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Cake": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cakeai"
   },
   "Camber": {
    "ats": "ashby",
@@ -483,6 +892,12 @@
    "checked": 1793207879.1262577,
    "slug": "candidhealth"
   },
+  "Cape": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cape"
+  },
   "Capi Money": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -498,6 +913,12 @@
    "checked": 1793207879.1262577,
    "slug": "carbonchain"
   },
+  "Cargado": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cargado"
+  },
   "Casca": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -506,8 +927,15 @@
   "Cashfree Payments": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "Castelion": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://www.castelion.com/careers/"
   },
   "Castle": {
    "ats": "ashby",
@@ -545,6 +973,12 @@
    "ats": "greenhouse",
    "checked": 1793207879.1262577,
    "slug": "checkr"
+  },
+  "Cider": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
   },
   "Cifrato": {
    "ats": null,
@@ -705,6 +1139,12 @@
    "checked": 1793376245.8656707,
    "slug": "https://www.corgi.insure/careers"
   },
+  "Cowboy Space Corporation": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cowboyspace"
+  },
   "Craftwork": {
    "ats": null,
    "careers": true,
@@ -717,17 +1157,35 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Cresta": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cresta"
+  },
   "Crustdata": {
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Crux": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cruxclimate"
+  },
   "Curacel": {
    "ats": "site",
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": "https://www.curacel.co/careers"
+  },
+  "Current": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "current"
   },
   "Curri": {
    "ats": "ashby",
@@ -739,6 +1197,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Cyngn": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "cyngn"
   },
   "D-ID": {
    "ats": "workable",
@@ -756,6 +1220,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Decagon": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "decagon"
   },
   "Decoda Health": {
    "ats": "ashby",
@@ -790,6 +1260,12 @@
    "checked": 1793224195.0364485,
    "slug": "domu"
   },
+  "Doppel": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "doppel"
+  },
   "Double": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -804,13 +1280,15 @@
   "DreamCraft Entertainment, Inc.": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Drip Capital": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Duffel": {
@@ -822,6 +1300,12 @@
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "dynamo"
+  },
+  "Earnin": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "earnin"
   },
   "Eden": {
    "ats": null,
@@ -843,6 +1327,12 @@
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "electricair"
+  },
+  "EliseAI": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "eliseai"
   },
   "Ello": {
    "ats": "ashby",
@@ -866,15 +1356,39 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Envoy": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "envoy"
+  },
   "Escape": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "escape"
   },
+  "Eve": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "eve"
+  },
   "Eventual": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "eventual"
+  },
+  "Everlaw": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "everlaw"
+  },
+  "Exa": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "exa"
   },
   "Explorex": {
    "ats": null,
@@ -968,6 +1482,12 @@
    "checked": 1793376245.8656707,
    "slug": "https://www.flocksafety.com/careers"
   },
+  "Flow": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://flow.life/careers"
+  },
   "FlutterFlow": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -976,7 +1496,8 @@
   "Fondo": {
    "ats": null,
    "careers": true,
-   "checked": 1793705966.6783972,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Forage": {
@@ -996,10 +1517,22 @@
    "checked": 1793207879.1262577,
    "slug": "formance"
   },
+  "Formation Bio": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "formationbio"
+  },
   "Fortuna Health": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "fortuna-health"
+  },
+  "Forward": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "forwardnetworks"
   },
   "Fours": {
    "ats": "ashby",
@@ -1007,10 +1540,22 @@
    "checked": 1793705966.6783972,
    "slug": "fours"
   },
+  "Freenome": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "freenome"
+  },
   "Freshpaint": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "freshpaint"
+  },
+  "Function Health": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "function-health"
   },
   "Function of Beauty": {
    "ats": "rippling",
@@ -1034,6 +1579,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Gamma.app": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "gamma"
   },
   "Garage": {
    "ats": "ashby",
@@ -1059,7 +1610,8 @@
   "Gemnote": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "General Proximity": {
@@ -1097,7 +1649,8 @@
   "GoGoGrandparent": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "GoLinks": {
@@ -1108,7 +1661,8 @@
   "Goldbelly": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "GovDash": {
@@ -1175,6 +1729,12 @@
    "checked": 1793207879.1262577,
    "slug": "hackerrank"
   },
+  "Hadrian": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "hadrian-automation"
+  },
   "Hadrius": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -1219,16 +1779,35 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Hebbia": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "hebbia-ai"
+  },
   "Helloverify": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Heron": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "herondata"
+  },
+  "Heron Power": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "heron-power"
+  },
+  "Hex": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "hex"
   },
   "HeyCharge": {
    "ats": "site",
@@ -1239,7 +1818,14 @@
   "HiOperator": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
+   "slug": null
+  },
+  "Hippocratic AI": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
    "slug": null
   },
   "HitPay": {
@@ -1306,11 +1892,23 @@
    "checked": 1793224195.0364485,
    "slug": "icarus"
   },
+  "Illumio": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "illumio"
+  },
   "InEvent": {
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Inferact": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "inferact"
   },
   "Infisical": {
    "ats": "ashby",
@@ -1383,6 +1981,12 @@
    "checked": 1793376245.8656707,
    "slug": "jitxinc"
   },
+  "Jeeves": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "tryjeeves"
+  },
   "Jiga": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -1391,7 +1995,8 @@
   "Joy": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Juicebox": {
@@ -1422,6 +2027,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Kaizen Labs": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "kaizenlabs"
+  },
   "Kalshi": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -1448,6 +2059,12 @@
    "checked": 1793224195.0364485,
    "slug": "kivo-health"
   },
+  "KoBold Metals": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "koboldmetals"
+  },
   "Kobalt Labs": {
    "ats": null,
    "careers": true,
@@ -1463,6 +2080,12 @@
    "ats": "smartrecruiters",
    "checked": 1793207879.1262577,
    "slug": "kodo"
+  },
+  "Komodo Health": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "komodohealth"
   },
   "Lago": {
    "ats": null,
@@ -1513,7 +2136,8 @@
   "Ledger Investing": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Leena AI": {
@@ -1541,6 +2165,12 @@
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "lightdash"
+  },
+  "Lightfield": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "lightfield"
   },
   "LineLeap": {
    "ats": "greenhouse",
@@ -1585,6 +2215,12 @@
    "checked": 1793376245.8656707,
    "slug": "https://lugg.com/mover/jobs"
   },
+  "Luma AI": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "lumaai"
+  },
   "Luminai": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -1593,7 +2229,8 @@
   "MDalgorithms Inc.": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Mach9": {
@@ -1618,6 +2255,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Mariana Minerals": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "marianaminerals"
+  },
   "Mashgin": {
    "ats": "lever",
    "careers": true,
@@ -1627,7 +2270,8 @@
   "Mason": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "May Mobility": {
@@ -1690,6 +2334,12 @@
    "checked": 1793376245.8656707,
    "slug": "https://middleware.io/careers/"
   },
+  "Mind Robotics": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "mindrobotics"
+  },
   "MindFi": {
    "ats": null,
    "careers": true,
@@ -1701,11 +2351,24 @@
    "checked": 1793207879.1262577,
    "slug": "mintlify"
   },
+  "Mirage": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "mirage"
+  },
   "MixRank": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "Mixpanel": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "mixpanel"
   },
   "Modern Health": {
    "ats": "greenhouse",
@@ -1764,6 +2427,18 @@
    "checked": 1793207879.1262577,
    "slug": "nash"
   },
+  "Navan": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Neo": {
+   "ats": "site",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "https://www.neo.ai/careers"
+  },
   "Neodocs": {
    "ats": null,
    "careers": true,
@@ -1775,6 +2450,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": "https://nestorup.com/careers/"
+  },
+  "Netris": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "netris"
   },
   "New Story": {
    "ats": "ashby",
@@ -1793,10 +2474,17 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Nexthop": {
+   "ats": "bamboohr",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "nexthopai"
+  },
   "Nimble": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Nira Energy": {
@@ -1826,6 +2514,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": "noorahealth"
+  },
+  "Northwood Space": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "northwoodspace"
   },
   "Notabene": {
    "ats": "ashby",
@@ -1873,7 +2567,8 @@
   "OWNY": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Odeko": {
@@ -1892,6 +2587,12 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Omada Health": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "omadahealth"
+  },
   "Omnistrate": {
    "ats": null,
    "careers": true,
@@ -1906,7 +2607,8 @@
   "OneLocal": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "OneSchema": {
@@ -1917,7 +2619,8 @@
   "OneSignal": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Oneleet": {
@@ -2044,10 +2747,17 @@
    "checked": 1793207879.1262577,
    "slug": "picnicai"
   },
+  "Pindrop": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
   "Pine Park Health": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Pirros": {
@@ -2063,7 +2773,8 @@
   "PocketSuite": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Podium": {
@@ -2081,6 +2792,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Pomelo Care": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "pomelo-care"
   },
   "Popl": {
    "ats": "ashby",
@@ -2148,10 +2865,17 @@
    "checked": 1793224195.0364485,
    "slug": "prosper"
   },
+  "Protege": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "protege"
+  },
   "Proven Group": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Provision": {
@@ -2210,6 +2934,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Radiant": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "radiant"
   },
   "Rally": {
    "ats": "ashby",
@@ -2342,8 +3072,15 @@
   "Ridecell": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "Rillet": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "rillet"
   },
   "Riot": {
    "ats": "lever",
@@ -2375,7 +3112,8 @@
   "Rose Rocket": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Rove": {
@@ -2388,6 +3126,12 @@
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "runa"
+  },
+  "Rune Technologies": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "runetech"
   },
   "Runway": {
    "ats": "ashby",
@@ -2402,13 +3146,15 @@
   "SOUNDBOKS": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "SafetyWing": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "SalesPatriot": {
@@ -2421,11 +3167,23 @@
    "checked": 1793224195.0364485,
    "slug": "salient"
   },
+  "Sandbox VR": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "sandboxvr"
+  },
   "Sant\u00e9": {
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Sardine": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "sardine"
   },
   "Saturn": {
    "ats": "rippling",
@@ -2467,10 +3225,28 @@
    "checked": 1793376245.8656707,
    "slug": null
   },
+  "Senra Systems": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "senrasystems"
+  },
+  "SentiLink": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "sentilink"
+  },
   "Serif Health": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "serifhealth"
+  },
+  "Sesame": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "sesame"
   },
   "Shepherd": {
    "ats": "ashby",
@@ -2536,6 +3312,12 @@
    "checked": 1793207879.1262577,
    "slug": "snappr"
   },
+  "Socket": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "socket"
+  },
   "Solo": {
    "ats": null,
    "careers": true,
@@ -2551,7 +3333,8 @@
   "Sourcify": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Spade": {
@@ -2574,6 +3357,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Sprinter Health": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "sprinter-health"
   },
   "SpruceID": {
    "ats": "ashby",
@@ -2599,8 +3388,21 @@
   "Standard AI": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
+  },
+  "Standard Nuclear": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "standardnuclearinc"
+  },
+  "Starburst": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "starburst"
   },
   "Stayflexi": {
    "ats": null,
@@ -2634,13 +3436,20 @@
   "Streak": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Stream": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "stream"
+  },
+  "Stuut": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "stuut-ai"
   },
   "Suger": {
    "ats": "lever",
@@ -2727,6 +3536,12 @@
    "checked": 1793207879.1262577,
    "slug": "taktile"
   },
+  "Talkiatry": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "talkiatry"
+  },
   "Tamarind Bio": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -2754,6 +3569,12 @@
    "checked": 1793207879.1262577,
    "slug": "tempo"
   },
+  "Temporal": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "temporal"
+  },
   "Tennr": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
@@ -2770,10 +3591,28 @@
    "checked": 1793376245.8656707,
    "slug": "https://tryterra.co/careers"
   },
+  "Tessera Labs": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "tessera-labs"
+  },
+  "Thatch Health": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "thatch"
+  },
   "Thera": {
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "thera"
+  },
+  "Thinking Machines Lab": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "thinkingmachines"
   },
   "Third Chair": {
    "ats": "site",
@@ -2785,6 +3624,12 @@
    "ats": "lever",
    "checked": 1793207879.1262577,
    "slug": "thunkable"
+  },
+  "Thyme Care": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "thyme-care"
   },
   "Tilt (f.k.a. Delphia)": {
    "ats": "ashby",
@@ -2879,6 +3724,12 @@
    "checked": 1793224195.0364485,
    "slug": "twodots"
   },
+  "TypeSafe AI": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "typesafe-ai"
+  },
   "UNISON": {
    "ats": null,
    "careers": true,
@@ -2889,6 +3740,30 @@
    "ats": null,
    "careers": true,
    "checked": 1793376245.8656707,
+   "slug": null
+  },
+  "Ultima Genomics": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "ultimagenomics"
+  },
+  "Ulysses": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
+  },
+  "Unconventional AI": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "unconventionalinc"
+  },
+  "UnitedMasters": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
    "slug": null
   },
   "Unravel Carbon": {
@@ -2911,6 +3786,12 @@
    "ats": "ashby",
    "checked": 1793224195.0364485,
    "slug": "usul"
+  },
+  "Valon": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "valon"
   },
   "Vanta": {
    "ats": "ashby",
@@ -2960,10 +3841,17 @@
    "checked": 1793207879.1262577,
    "slug": "versemedical"
   },
+  "Very Good Security": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "verygoodsecurity"
+  },
   "Veryfi, Inc.": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Vetcove": {
@@ -2985,7 +3873,8 @@
   "Volantio": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Volta Labs, Inc.": {
@@ -3013,6 +3902,12 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "Waymark": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "waymark"
   },
   "Weave": {
    "ats": "ashby",
@@ -3044,7 +3939,8 @@
   "Wefunder": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Within": {
@@ -3056,7 +3952,8 @@
   "Women Who Code": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Wonderly": {
@@ -3064,11 +3961,23 @@
    "checked": 1793207879.1262577,
    "slug": "wonderly"
   },
+  "Wonderschool": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "wonderschool"
+  },
   "Wordware": {
    "ats": "ashby",
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": "sauna.ai"
+  },
+  "XDOF": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "xdof"
   },
   "Xendit": {
    "ats": "greenhouse",
@@ -3079,6 +3988,12 @@
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "ycombinator"
+  },
+  "Yubico": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "yubico"
   },
   "Zapier": {
    "ats": "ashby",
@@ -3094,7 +4009,8 @@
   "Zentail": {
    "ats": null,
    "careers": true,
-   "checked": 1793376245.8656707,
+   "checked": 1794270900.7265968,
+   "rendered": true,
    "slug": null
   },
   "Ziina": {
@@ -3117,6 +4033,18 @@
    "careers": true,
    "checked": 1793376245.8656707,
    "slug": null
+  },
+  "acceldata": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "acceldata"
+  },
+  "airSlate": {
+   "ats": "lever",
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": "airslate"
   },
   "arnata": {
    "ats": null,
@@ -3151,6 +4079,12 @@
    "ats": "lever",
    "checked": 1793207879.1262577,
    "slug": "doola"
+  },
+  "fal": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794270900.7265968,
+   "slug": null
   },
   "kapa.ai": {
    "ats": null,
@@ -8203,28 +9137,3189 @@
     "slug_hint": "adalat-ai",
     "source": "YC Fall 2026",
     "team_size": 80
+   },
+   {
+    "about": "100ms is a live-video infrastructure platform that provides subscription-based products to its customers. The company provides a low-code solution for companies looking to add video/audio conferencing",
+    "domain": "100ms.live",
+    "name": "100ms",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Aavenir is a Software-as-a-Service-based source-to-pay solutions provider. It revolutionizes age-old procurement processes by using the latest Machine Learning and Natural Language Processing technolo",
+    "domain": "aavenir.com",
+    "name": "Aavenir",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Acalvio is an AI-powered preemptive cybersecurity company focused on countering AI-driven identity and infrastructure intrusion. Its 360 Deception platform combines Dynamic Deception, evolving HoneyPa",
+    "domain": "acalvio.com",
+    "name": "Acalvio Technologies",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "AdRoll is a connected advertising platform built for growth-minded marketers. With powerful AI, flexible campaign tools, and seamless integrations, AdRoll helps mid-sized businesses turn complexity in",
+    "domain": "adroll.com",
+    "name": "AdRoll",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Aegis AI develops an AI-native email security platform that helps organizations detect and respond to email-based cyber threats. The platform uses coordinated AI agents to analyze email content, sende",
+    "domain": "aegisai.ai",
+    "name": "AegisAI",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Agave provides a unified API for accessing data across all construction software systems, such as Procore, BIM 360, QuickBooks Online, and others. Agave's software combines project management, financi",
+    "domain": "agaveapi.com",
+    "name": "Agave",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Aatmunn, meaning \"soul,\" is an industrial technology company with a clear mission: to revolutionize the lives of over 2 billion frontline workers globally. In 2023, over 2 million frontline workers tr",
+    "domain": "aatmunn.com",
+    "name": "Aatmunn",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Adept AI is a research and product AI lab that automates software processes for developers. It's similar to Robotic Process Automation (RPA), or software robots that use a combination of automation, c",
+    "domain": "adept.ai",
+    "name": "Adept AI",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Aidoc provides a clinical AI platform, aiOS, which unifies systems, teams, and data to improve healthcare workflows. The solutions analyze medical imaging and data to streamline processes, prioritize ",
+    "domain": "aidoc.com",
+    "name": "Aidoc",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "AIM = AI Autonomy Platform for Heavy Machinery\n\nScalable earthmoving is not optional. It\u2019s required for our civilization to flourish.\n\nCritical materials like copper, iron ore, and lithium are in shor",
+    "domain": "aim.vision",
+    "name": "AIM Intelligent Machines",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "AirSlate is a global SaaS technology company that provides no-code business process automation and document management solutions. The company's PDF editing, e-signature workflow, and business process ",
+    "domain": "airslate.com",
+    "name": "airSlate",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Investment manager focused on real estate debt and equity across the US and Europe. The 1Sharpe team has decades of experience surrounding real estate, real estate lending, and fixed income investing.",
+    "domain": "1sharpe.com",
+    "name": "1Sharpe Capital",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Abacus.AI is an artificial intelligence research and cloud services company that helps organizations design, train, and operationalize machine and deep learning models. It allows organizations to plug",
+    "domain": "abacus.ai",
+    "name": "Abacus.AI",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Abby Care focuses on supporting families by helping caregivers receive compensation through Medicaid for caring for children with disabilities or special needs. The organization aims to place families",
+    "domain": "abbycare.org",
+    "name": "Abby Care",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Academia.edu is the largest and fastest-growing platform in the world for sharing academic research. Its mission is to accelerate and democratize academic research. \n\nOver 150 million academics have s",
+    "domain": "academia.edu",
+    "name": "Academia.edu",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Advocate provides a technology-enabled platform that assists Americans in applying for federal disability benefits. It supports users in navigating the claims process by combining digital tools with s",
+    "domain": "ouradvocates.com",
+    "name": "Advocate",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Experience the brilliance of getting the basics right with AOK. The Adyton Operations Kit is secure mobile software for mission-critical work. AOK is built with the warfighter in mind, allowing secure",
+    "domain": "adyton.io",
+    "name": "Adyton",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Aether Diamonds produces the world's first and only diamonds made 100% from captured carbon. Certified B Corp. 2022 Fast Company Top 10 Most Innovative Consumer Goods Companies. 2022 \"Best for the Wor",
+    "domain": "aetherdiamonds.com",
+    "name": "Aether Diamonds",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "AirHelp is an impact organization aiming to improve passengers' rights and experience globally. Its online service helps air passengers get compensation from airlines when their flight gets canceled, ",
+    "domain": "airhelp.com",
+    "name": "AirHelp",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Akash Systems is focused on developing and supplying the next generation of small satellites (CUBESATS), satellite transmitters, and the RF Power Amplifiers. The company uses new composite material, G",
+    "domain": "akashsystems.com",
+    "name": "Akash Systems",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Splitgate is an operator of a remote video game developer studio. It was founded in 2016 and is based in Zephyr Cove, Nevada, United States.",
+    "domain": "1047games.com",
+    "name": "1047 Games",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "4M ANALYTICS is a subsurface-infrastructure geo-data company.\n\nWe developed a mapping engine for utility and infrastructure construction project life cycle, for the pre-planning and planning phase, an",
+    "domain": "4manalytics.com",
+    "name": "4M Analytics",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "A.Team builds proprietary agentic intelligence systems for consumer-facing enterprises, turning fragmented data, institutional knowledge, and historical decisions into a single self-improving intellig",
+    "domain": "a.team",
+    "name": "A.Team",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Ably is the definitive realtime experience platform. We power more WebSocket connections than any other pub/sub platform, serving over a billion devices monthly. Businesses like HubSpot, NASCAR, and W",
+    "domain": "ably.com",
+    "name": "Ably",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Founded in 2018 and headquartered in Campbell, CA, Acceldata began as the world\u2019s first enterprise data observability platform, empowering global organizations to build and operate reliable, high-perf",
+    "domain": "acceldata.io",
+    "name": "acceldata",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Afresh is an AI-powered platform founded in 2017 and headquartered in the San Francisco Bay Area, focused on transforming fresh-food operations for grocery retailers. Its Fresh Store Suite leverages m",
+    "domain": "afresh.com",
+    "name": "Afresh Technologies",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "This is Agora, the real-estate investment management software company, not a conventional real estate brokerage. Its website describes an investment-management platform for real estate firms covering ",
+    "domain": "agorareal.com",
+    "name": "Agora",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "A24 is an American independent entertainment company founded on August 20, 2012, by Daniel Katz, David Fenkel, and John Hodges and based in New York City. It specializes in film distribution, and film",
+    "domain": "a24films.com",
+    "name": "A24",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Airbyte is an open-source data integration platform that syncs data from applications, APIs, and databases to warehouses. Their platform automates data pipelines with pre-built or custom connectors, e",
+    "domain": "airbyte.com",
+    "name": "Airbyte",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Alsym Energy develops high-performance, non-flammable, low-cost sodium-ion batteries purpose-built for energy storage. Alsym\u2019s Na-Series technology eliminates thermal runaway at the chemistry level, e",
+    "domain": "alsym.com",
+    "name": "Alsym Energy",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Ambrook provides financial management software for farms and other family-run businesses. Its platform combines accounting, bookkeeping, invoicing, bill payments, expense tracking, cash flow managemen",
+    "domain": "ambrook.com",
+    "name": "Ambrook",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Base Power is a modern energy provider that combines home battery backup systems with transparent electricity plans. It installs batteries that automatically power homes during outages and offers fixe",
+    "domain": "basepowercompany.com",
+    "name": "Base Power Company",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Benchling is the modern software platform purpose-built for life science R&D. Hundreds of thousands of scientists using cutting-edge techniques like CRISPR, CAR-T immunotherapy, and genetic engineerin",
+    "domain": "benchling.com",
+    "name": "Benchling",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "1Mind is a platform that deploys GTM Superhumans for revenue teams so that Every1 Wins: your customers and buyers, your team, and your business.\n\nThe Superhuman GTM brain is made up of an AI Knowledge",
+    "domain": "1mind.com",
+    "name": "1Mind",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Alium develops a commercial intelligence platform designed for sales and marketing teams. Founded in 2020, it is based in New York, United States.",
+    "domain": "alium.io",
+    "name": "Alium",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Alloy is the global end-to-end identity risk solution that helps banks and fintechs automate and manage their decisions for onboarding, ongoing fraud & AML monitoring, and credit underwriting.",
+    "domain": "alloy.com",
+    "name": "Alloy",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "With an intelligent bioprocess platform, Ark helps today\u2019s innovators make better decisions and accelerate development timelines dramatically to bring transformational science to those who need it mos",
+    "domain": "ark-biotech.com",
+    "name": "Ark Biotech",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Bedrock Ocean Exploration is a platform for underwater vehicles. Their technology allows for the collection of seafloor data and makes ocean mapping safer, with minimal environmental impact, risk of e",
+    "domain": "bedrockocean.com",
+    "name": "Bedrock Ocean Exploration",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Black Crow AI develops a business analytics platform that delivers machine learning predictions. Its platform provides real-time insights to the business users at companies of any size, for less than ",
+    "domain": "blackcrow.ai",
+    "name": "Black Crow AI",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Bravely connects people to on-demand confidential coaching in the moments that matter across the employee experience. Access to Bravely\u2019s network of vetted professional coaches fosters well-being and ",
+    "domain": "workbravely.com",
+    "name": "Bravely",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Bundled managed open source AI infrastructure.",
+    "domain": "cake.ai",
+    "name": "Cake",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Cargado is a cross-border logistics startup.",
+    "domain": "cargado.com",
+    "name": "Cargado",
+    "slug_hint": "",
+    "source": "Primary Venture Partners portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "10Beauty, located in Burlington, MA, is building the definitive Intelligent Beauty company, leveraging robotics and automation to reimagine how people can interact with machines on a service level. We",
+    "domain": "10beauty.co",
+    "name": "10beauty",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Aerflo is a transportable method of carbonating sparkling water.",
+    "domain": "aerflo.co",
+    "name": "Aerflo",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Air is an agent for creative tasks built for creative and marketing teams. It combines a creative library, a DAM, reviews and approvals, and an AI agent that scales approved work across formats and ch",
+    "domain": "air.inc",
+    "name": "Air",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Allbirds is an apparel and fashion company that specializes in manufacturing eco-friendly wool shoes. It is dedicated to making the most sustainable footwear using premium natural materials, designed ",
+    "domain": "allbirds.com",
+    "name": "Allbirds",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Altitude is the AI-powered platform for the clinical workforce.",
+    "domain": "joinaltitude.com",
+    "name": "Altitude",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Developer of robotic dishwashers designed for commercial kitchens. The company's Artificial Intelligence-powered solution automates dish rooms, turning messy bus tubs into clean, stacked dishes.",
+    "domain": "armstrong.ai",
+    "name": "Armstrong Robotics",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "The Augmentir\u2122 founding team has been at the forefront of three of the most important software technology revolutions. In 1988, Wonderware transformed how machines run, with the introduction and mass ",
+    "domain": "augmentir.com",
+    "name": "Augmentir",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Augmodo Spatial AI enables real-time tracking of products across all stores, enhancing inventory management and shopping experiences. It discovers information through augmented reality for enhanced ex",
+    "domain": "augmodo.com",
+    "name": "Augmodo",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Affinity is a relationship intelligence platform built to expand and evolve the traditional CRM. Affinity instantly surfaces all of your team's data and shows you who is best suited to make the crucia",
+    "domain": "affinity.co",
+    "name": "Affinity",
+    "slug_hint": "",
+    "source": "Menlo Ventures portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Alloy.ai is the commerce intelligence system for consumer brands, designed to close the gap between demand signals and profitable action. By unifying data from over 450 sources\u2014including ERPs, retaile",
+    "domain": "alloy.ai",
+    "name": "Alloy",
+    "slug_hint": "",
+    "source": "Menlo Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Appdome is the industry's first mobile integration as a service company. AppDome's flagship product, the AppFusion platform, provides mobile developers and enterprise mobility professionals the abilit",
+    "domain": "appdome.com",
+    "name": "AppDome",
+    "slug_hint": "",
+    "source": "Menlo Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Arc Boats is an electric boat manufacturer offering a seamlessly connected boating experience. The boats use aerospace-inspired engineering and are designed with custom battery packs for stability, ra",
+    "domain": "arcboats.com",
+    "name": "Arc",
+    "slug_hint": "",
+    "source": "Menlo Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Arch manages private investment operations for leading investors and investment advisors, reinventing private portfolio management through a digital solution that replaces traditionally paper-based pr",
+    "domain": "arch.co",
+    "name": "Arch",
+    "slug_hint": "",
+    "source": "Menlo Ventures portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Accredible provides a digital badge and certificate platform. It is designed for creating, issuing, and managing secure digital certificates and badges.\n\nThe company was founded in 2013 and is headqua",
+    "domain": "accredible.com",
+    "name": "Accredible",
+    "slug_hint": "",
+    "source": "Uncork Capital portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Zenreach created Walk-Through Marketing to help businesses with physical locations dramatically improve customer acquisition and lifetime value by connecting digital marketing with in-store results. Z",
+    "domain": "adentro.com",
+    "name": "Adentro",
+    "slug_hint": "",
+    "source": "Uncork Capital portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Alchemy is an enterprise SaaS company that develops software to help modernize the specialty chemicals industry. It helps specialty chemical companies accelerate their formula development and commerci",
+    "domain": "alchemy.cloud",
+    "name": "Alchemy",
+    "slug_hint": "",
+    "source": "Uncork Capital portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "AmberBox provides instant gunshot detection, automating emergency processes to significantly reduce response time and remove human error, saving lives and mitigating liability.\n\nAmberBox detectors uti",
+    "domain": "amberbox.com",
+    "name": "Amberbox Gunshot Detection",
+    "slug_hint": "",
+    "source": "Uncork Capital portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Arch Systems provides an Industry 4.0 machine data and AI platform for electronics and discrete manufacturers. The company focuses on the electronics and discrete manufacturing supply chains, digitizi",
+    "domain": "archsys.io",
+    "name": "Arch Systems",
+    "slug_hint": "",
+    "source": "Uncork Capital portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "BEM is redefining how software understands the world\u2014turning messy, fragmented inputs into structured knowledge, so engineering teams can build faster, smarter, and never write another integration aga",
+    "domain": "bem.ai",
+    "name": "Bem",
+    "slug_hint": "",
+    "source": "Uncork Capital portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "",
+    "domain": "navan.com",
+    "name": "Navan",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 221
+   },
+   {
+    "about": "",
+    "domain": "talkiatry.com",
+    "name": "Talkiatry",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 811
+   },
+   {
+    "about": "",
+    "domain": "hadrian.co",
+    "name": "Hadrian",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 644
+   },
+   {
+    "about": "",
+    "domain": "atoms.co",
+    "name": "Atoms",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 884
+   },
+   {
+    "about": "",
+    "domain": "apexspace.com",
+    "name": "Apex Space",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 507
+   },
+   {
+    "about": "",
+    "domain": "decagon.ai",
+    "name": "Decagon",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 632
+   },
+   {
+    "about": "",
+    "domain": "eliseai.com",
+    "name": "EliseAI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 694
+   },
+   {
+    "about": "",
+    "domain": "castelion.com",
+    "name": "Castelion",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 280
+   },
+   {
+    "about": "",
+    "domain": "marianaminerals.com",
+    "name": "Mariana Minerals",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 57
+   },
+   {
+    "about": "",
+    "domain": "shopcider.com",
+    "name": "Cider",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 213
+   },
+   {
+    "about": "",
+    "domain": "radiantnuclear.com",
+    "name": "Radiant",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 586
+   },
+   {
+    "about": "",
+    "domain": "cresta.com",
+    "name": "Cresta",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 815
+   },
+   {
+    "about": "",
+    "domain": "temporal.io",
+    "name": "Temporal",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 644
+   },
+   {
+    "about": "",
+    "domain": "pomelocare.com",
+    "name": "Pomelo Care",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 439
+   },
+   {
+    "about": "",
+    "domain": "tryjeeves.com",
+    "name": "Jeeves",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 296
+   },
+   {
+    "about": "",
+    "domain": "cowboyspace.com",
+    "name": "Cowboy Space Corporation",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 106
+   },
+   {
+    "about": "",
+    "domain": "northwoodspace.io",
+    "name": "Northwood Space",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 187
+   },
+   {
+    "about": "",
+    "domain": "illumio.com",
+    "name": "Illumio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 914
+   },
+   {
+    "about": "",
+    "domain": "exa.ai",
+    "name": "Exa",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 232
+   },
+   {
+    "about": "",
+    "domain": "thinkingmachines.ai",
+    "name": "Thinking Machines Lab",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 238
+   },
+   {
+    "about": "",
+    "domain": "sprinterhealth.com",
+    "name": "Sprinter Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 346
+   },
+   {
+    "about": "",
+    "domain": "heronpower.com",
+    "name": "Heron Power",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 111
+   },
+   {
+    "about": "",
+    "domain": "amca.co",
+    "name": "Amca",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 45
+   },
+   {
+    "about": "",
+    "domain": "hippocraticai.com",
+    "name": "Hippocratic AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 362
+   },
+   {
+    "about": "",
+    "domain": "thymecare.com",
+    "name": "Thyme Care",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 596
+   },
+   {
+    "about": "",
+    "domain": "fal.ai",
+    "name": "fal",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 201
+   },
+   {
+    "about": "",
+    "domain": "sandboxvr.com",
+    "name": "Sandbox VR",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 515
+   },
+   {
+    "about": "",
+    "domain": "rillet.com",
+    "name": "Rillet",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 234
+   },
+   {
+    "about": "",
+    "domain": "wonderschool.com",
+    "name": "Wonderschool",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 49
+   },
+   {
+    "about": "",
+    "domain": "mixpanel.com",
+    "name": "Mixpanel",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 762
+   },
+   {
+    "about": "",
+    "domain": "nexthop.ai",
+    "name": "Nexthop",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 295
+   },
+   {
+    "about": "",
+    "domain": "sentilink.com",
+    "name": "SentiLink",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 206
+   },
+   {
+    "about": "",
+    "domain": "sardine.ai",
+    "name": "Sardine",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 379
+   },
+   {
+    "about": "",
+    "domain": "starburst.io",
+    "name": "Starburst",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 504
+   },
+   {
+    "about": "",
+    "domain": "everlaw.com",
+    "name": "Everlaw",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 543
+   },
+   {
+    "about": "",
+    "domain": "hex.tech",
+    "name": "Hex",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 274
+   },
+   {
+    "about": "",
+    "domain": "tesseralabs.ai",
+    "name": "Tessera Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
+    "domain": "airspace-intelligence.com",
+    "name": "ASI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 288
+   },
+   {
+    "about": "",
+    "domain": "functionhealth.com",
+    "name": "Function Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 524
+   },
+   {
+    "about": "",
+    "domain": "inferact.ai",
+    "name": "Inferact",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 47
+   },
+   {
+    "about": "",
+    "domain": "mindrobotics.com",
+    "name": "Mind Robotics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 89
+   },
+   {
+    "about": "",
+    "domain": "braintrust.dev",
+    "name": "Braintrust",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 173
+   },
+   {
+    "about": "",
+    "domain": "earnin.com",
+    "name": "Earnin",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 579
+   },
+   {
+    "about": "",
+    "domain": "valon.ai",
+    "name": "Valon",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 518
+   },
+   {
+    "about": "",
+    "domain": "freenome.com",
+    "name": "Freenome",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 406
+   },
+   {
+    "about": "",
+    "domain": "netris.io",
+    "name": "Netris",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
+    "domain": "koboldmetals.com",
+    "name": "KoBold Metals",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 368
+   },
+   {
+    "about": "",
+    "domain": "thatch.ai",
+    "name": "Thatch Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 263
+   },
+   {
+    "about": "",
+    "domain": "abridge.com",
+    "name": "Abridge",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 674
+   },
+   {
+    "about": "",
+    "domain": "atlys.com",
+    "name": "Atlys",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 105
+   },
+   {
+    "about": "",
+    "domain": "flow.life",
+    "name": "Flow",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 475
+   },
+   {
+    "about": "",
+    "domain": "socket.dev",
+    "name": "Socket",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 140
+   },
+   {
+    "about": "",
+    "domain": "unitedmasters.com",
+    "name": "UnitedMasters",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 672
+   },
+   {
+    "about": "",
+    "domain": "xdof.ai",
+    "name": "XDOF",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 68
+   },
+   {
+    "about": "",
+    "domain": "airgarage.com",
+    "name": "AirGarage",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 123
+   },
+   {
+    "about": "",
+    "domain": "cape.co",
+    "name": "Cape",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 193
+   },
+   {
+    "about": "",
+    "domain": "formation.bio",
+    "name": "Formation Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 189
+   },
+   {
+    "about": "",
+    "domain": "lightfield.app",
+    "name": "Lightfield",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
+   },
+   {
+    "about": "",
+    "domain": "anchorage.com",
+    "name": "Anchorage",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 727
+   },
+   {
+    "about": "",
+    "domain": "forwardnetworks.com",
+    "name": "Forward",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 279
+   },
+   {
+    "about": "",
+    "domain": "hebbia.com",
+    "name": "Hebbia",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 177
+   },
+   {
+    "about": "",
+    "domain": "kaizenlabs.co",
+    "name": "Kaizen Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 49
+   },
+   {
+    "about": "",
+    "domain": "nash.ai",
+    "name": "Nash",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 122
+   },
+   {
+    "about": "",
+    "domain": "stuut.co",
+    "name": "Stuut",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 89
+   },
+   {
+    "about": "",
+    "domain": "yubico.com",
+    "name": "Yubico",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 577
+   },
+   {
+    "about": "",
+    "domain": "cruxclimate.com",
+    "name": "Crux",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 116
+   },
+   {
+    "about": "",
+    "domain": "doppel.com",
+    "name": "Doppel",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 397
+   },
+   {
+    "about": "",
+    "domain": "unconv.ai",
+    "name": "Unconventional AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 51
+   },
+   {
+    "about": "",
+    "domain": "current.com",
+    "name": "Current",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 514
+   },
+   {
+    "about": "",
+    "domain": "eve.legal",
+    "name": "Eve",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 403
+   },
+   {
+    "about": "",
+    "domain": "pindrop.com",
+    "name": "Pindrop",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 367
+   },
+   {
+    "about": "",
+    "domain": "envoy.com",
+    "name": "Envoy",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 297
+   },
+   {
+    "about": "",
+    "domain": "gamma.app",
+    "name": "Gamma.app",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 424
+   },
+   {
+    "about": "",
+    "domain": "neo.ai",
+    "name": "Neo",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 51
+   },
+   {
+    "about": "",
+    "domain": "senrasystems.us",
+    "name": "Senra Systems",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 116
+   },
+   {
+    "about": "",
+    "domain": "waymarkcare.com",
+    "name": "Waymark",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 129
+   },
+   {
+    "about": "",
+    "domain": "arena.ai",
+    "name": "Arena",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 98
+   },
+   {
+    "about": "",
+    "domain": "cyngn.com",
+    "name": "Cyngn",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 75
+   },
+   {
+    "about": "",
+    "domain": "komodohealth.com",
+    "name": "Komodo Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 750
+   },
+   {
+    "about": "",
+    "domain": "theoceancompany.com",
+    "name": "Ulysses",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 45
+   },
+   {
+    "about": "",
+    "domain": "ambiencehealthcare.com",
+    "name": "Ambience Healthcare",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 262
+   },
+   {
+    "about": "",
+    "domain": "withprotege.ai",
+    "name": "Protege",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 93
+   },
+   {
+    "about": "",
+    "domain": "sesame.com",
+    "name": "Sesame",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 150
+   },
+   {
+    "about": "",
+    "domain": "standardnuclear.com",
+    "name": "Standard Nuclear",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 98
+   },
+   {
+    "about": "",
+    "domain": "verygoodsecurity.com",
+    "name": "Very Good Security",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 506
+   },
+   {
+    "about": "",
+    "domain": "mirage.app",
+    "name": "Mirage",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 138
+   },
+   {
+    "about": "",
+    "domain": "omadahealth.com",
+    "name": "Omada Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 976
+   },
+   {
+    "about": "",
+    "domain": "runetech.co",
+    "name": "Rune Technologies",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 67
+   },
+   {
+    "about": "",
+    "domain": "typesafe.ai",
+    "name": "TypeSafe AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 36
+   },
+   {
+    "about": "",
+    "domain": "ultimagenomics.com",
+    "name": "Ultima Genomics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 304
+   },
+   {
+    "about": "",
+    "domain": "lumalabs.ai",
+    "name": "Luma AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 493
+   },
+   {
+    "about": "",
+    "domain": "mazetx.com",
+    "name": "Maze Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 155
+   },
+   {
+    "about": "",
+    "domain": "rigetti.com",
+    "name": "Rigetti Quantum Computing",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 193
+   },
+   {
+    "about": "",
+    "domain": "town.com",
+    "name": "Town",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 53
+   },
+   {
+    "about": "",
+    "domain": "turquoise.health",
+    "name": "Turquoise Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 216
+   },
+   {
+    "about": "",
+    "domain": "bighatbio.com",
+    "name": "BigHat Biosciences",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 98
+   },
+   {
+    "about": "",
+    "domain": "exowatt.com",
+    "name": "Exowatt",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 93
+   },
+   {
+    "about": "",
+    "domain": "greenlightcard.com",
+    "name": "Greenlight",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 152
+   },
+   {
+    "about": "",
+    "domain": "lassie.ai",
+    "name": "Lassie",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 41
+   },
+   {
+    "about": "",
+    "domain": "blackforestlabs.ai",
+    "name": "Black Forest Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 122
+   },
+   {
+    "about": "",
+    "domain": "easehealth.com",
+    "name": "Ease Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 38
+   },
+   {
+    "about": "",
+    "domain": "krea.ai",
+    "name": "Krea",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 122
+   },
+   {
+    "about": "",
+    "domain": "resend.com",
+    "name": "Resend",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 76
+   },
+   {
+    "about": "",
+    "domain": "cedar.com",
+    "name": "Cedar",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 814
+   },
+   {
+    "about": "",
+    "domain": "character.ai",
+    "name": "Character.AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "withclutch.com",
+    "name": "Clutch",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 266
+   },
+   {
+    "about": "",
+    "domain": "insitro.com",
+    "name": "Insitro",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 248
+   },
+   {
+    "about": "",
+    "domain": "neighbor.com",
+    "name": "Neighbor",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 111
+   },
+   {
+    "about": "",
+    "domain": "point.com",
+    "name": "Point",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 554
+   },
+   {
+    "about": "",
+    "domain": "usevesta.com",
+    "name": "Vesta",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 117
+   },
+   {
+    "about": "",
+    "domain": "wrapbook.com",
+    "name": "Wrapbook",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 421
+   },
+   {
+    "about": "",
+    "domain": "11x.ai",
+    "name": "11x",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 101
+   },
+   {
+    "about": "",
+    "domain": "alluxio.io",
+    "name": "Alluxio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 186
+   },
+   {
+    "about": "",
+    "domain": "bayesianhealth.com",
+    "name": "Bayesian Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 43
+   },
+   {
+    "about": "",
+    "domain": "boku.com",
+    "name": "Boku",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 400
+   },
+   {
+    "about": "",
+    "domain": "counselhealth.com",
+    "name": "Counsel Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 91
+   },
+   {
+    "about": "",
+    "domain": "withmoment.com",
+    "name": "Moment",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 114
+   },
+   {
+    "about": "",
+    "domain": "planetscale.com",
+    "name": "PlanetScale",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 97
+   },
+   {
+    "about": "",
+    "domain": "raspberry.ai",
+    "name": "Raspberry AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 73
+   },
+   {
+    "about": "",
+    "domain": "comma.ai",
+    "name": "Comma.ai",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "titanvest.com",
+    "name": "Titan",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 69
+   },
+   {
+    "about": "",
+    "domain": "adaptive.build",
+    "name": "Adaptive",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 73
+   },
+   {
+    "about": "",
+    "domain": "branch.co",
+    "name": "Branch.co",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 447
+   },
+   {
+    "about": "",
+    "domain": "convex.dev",
+    "name": "Convex",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 41
+   },
+   {
+    "about": "",
+    "domain": "descript.com",
+    "name": "Descript",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 171
+   },
+   {
+    "about": "",
+    "domain": "genesis.ml",
+    "name": "Genesis Molecular AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 143
+   },
+   {
+    "about": "",
+    "domain": "labelbox.com",
+    "name": "Labelbox",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 487
+   },
+   {
+    "about": "",
+    "domain": "prismsvr.com",
+    "name": "Prisms",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 83
+   },
+   {
+    "about": "",
+    "domain": "zeromark.com",
+    "name": "ZeroMark",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "akasa.com",
+    "name": "AKASA",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 252
+   },
+   {
+    "about": "",
+    "domain": "adaptivesecurity.com",
+    "name": "Adaptive Security",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 290
+   },
+   {
+    "about": "",
+    "domain": "aktisoncology.com",
+    "name": "Aktis Oncology",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 106
+   },
+   {
+    "about": "",
+    "domain": "chariotdefense.com",
+    "name": "Chariot Defense",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 32
+   },
+   {
+    "about": "",
+    "domain": "eclypsium.com",
+    "name": "Eclypsium",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 130
+   },
+   {
+    "about": "",
+    "domain": "engflow.com",
+    "name": "EngFlow",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 60
+   },
+   {
+    "about": "",
+    "domain": "hedra.com",
+    "name": "Hedra",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 44
+   },
+   {
+    "about": "",
+    "domain": "infinitus.ai",
+    "name": "Infinitus",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 220
+   },
+   {
+    "about": "",
+    "domain": "intro.co",
+    "name": "Intro",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 31
+   },
+   {
+    "about": "",
+    "domain": "miluhealth.com",
+    "name": "Milu Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 16
+   },
+   {
+    "about": "",
+    "domain": "overtime.tv",
+    "name": "Overtime",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 624
+   },
+   {
+    "about": "",
+    "domain": "probook.ai",
+    "name": "Probook",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 74
+   },
+   {
+    "about": "",
+    "domain": "sharpperformance.com",
+    "name": "Sharp Performance",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 66
+   },
+   {
+    "about": "",
+    "domain": "snaplogic.com",
+    "name": "SnapLogic",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 295
+   },
+   {
+    "about": "",
+    "domain": "uniswap.org",
+    "name": "Uniswap",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 44
+   },
+   {
+    "about": "",
+    "domain": "asimov.com",
+    "name": "Asimov",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 115
+   },
+   {
+    "about": "",
+    "domain": "braveheart.bio",
+    "name": "Braveheart",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 51
+   },
+   {
+    "about": "",
+    "domain": "method.security",
+    "name": "Method Security",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "midstream.health",
+    "name": "Midstream Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 35
+   },
+   {
+    "about": "",
+    "domain": "mirelo.ai",
+    "name": "Mirelo AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 34
+   },
+   {
+    "about": "",
+    "domain": "openevidence.com",
+    "name": "OpenEvidence",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 111
+   },
+   {
+    "about": "",
+    "domain": "petual.ai",
+    "name": "Petual",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "plix.ai",
+    "name": "Plix",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
+    "domain": "protocol.ai",
+    "name": "Protocol Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 90
+   },
+   {
+    "about": "",
+    "domain": "setpoint.io",
+    "name": "Setpoint.io",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 160
+   },
+   {
+    "about": "",
+    "domain": "worldlabs.ai",
+    "name": "World Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 88
+   },
+   {
+    "about": "",
+    "domain": "zushealth.com",
+    "name": "Zus Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 87
+   },
+   {
+    "about": "",
+    "domain": "favorited.com",
+    "name": "favorited",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 56
+   },
+   {
+    "about": "",
+    "domain": "concourse.co",
+    "name": "Concourse",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "inceptive.life",
+    "name": "Inceptive",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 51
+   },
+   {
+    "about": "",
+    "domain": "palmstreet.app",
+    "name": "Palmstreet",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 42
+   },
+   {
+    "about": "",
+    "domain": "pearlhealth.com",
+    "name": "Pearl Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 204
+   },
+   {
+    "about": "",
+    "domain": "sleeper.com",
+    "name": "Sleeper",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 244
+   },
+   {
+    "about": "",
+    "domain": "sola.ai",
+    "name": "Sola",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 76
+   },
+   {
+    "about": "",
+    "domain": "sourcegraph.com",
+    "name": "Sourcegraph",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 133
+   },
+   {
+    "about": "",
+    "domain": "truemed.com",
+    "name": "Truemed",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 113
+   },
+   {
+    "about": "",
+    "domain": "vantage.sh",
+    "name": "Vantage",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 54
+   },
+   {
+    "about": "",
+    "domain": "backstory.ai",
+    "name": "Backstory",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 84
+   },
+   {
+    "about": "",
+    "domain": "conductorai.co",
+    "name": "ConductorAI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "inductive.bio",
+    "name": "Inductive Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 41
+   },
+   {
+    "about": "",
+    "domain": "infinitemachine.com",
+    "name": "Infinite Machine",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "keycard.ai",
+    "name": "Keycard",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 39
+   },
+   {
+    "about": "",
+    "domain": "motherduck.com",
+    "name": "Motherduck",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 144
+   },
+   {
+    "about": "",
+    "domain": "phylo.bio",
+    "name": "Phylo",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 27
+   },
+   {
+    "about": "",
+    "domain": "pinecone.io",
+    "name": "Pinecone",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 127
+   },
+   {
+    "about": "",
+    "domain": "propel.app",
+    "name": "Propel",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 109
+   },
+   {
+    "about": "",
+    "domain": "vals.ai",
+    "name": "Vals AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 35
+   },
+   {
+    "about": "",
+    "domain": "getzuma.com",
+    "name": "Zuma",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 22
+   },
+   {
+    "about": "",
+    "domain": "gooddata.ai",
+    "name": "gooddata.ai",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 281
+   },
+   {
+    "about": "",
+    "domain": "pryzm.io",
+    "name": "Belisar",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 36
+   },
+   {
+    "about": "",
+    "domain": "agebold.com",
+    "name": "Bold",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
+   },
+   {
+    "about": "",
+    "domain": "cx2.com",
+    "name": "CX2",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 64
+   },
+   {
+    "about": "",
+    "domain": "flockhomes.com",
+    "name": "Flock Homes",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 52
+   },
+   {
+    "about": "",
+    "domain": "imply.io",
+    "name": "Imply",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 183
+   },
+   {
+    "about": "",
+    "domain": "material.security",
+    "name": "Material Security",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 76
+   },
+   {
+    "about": "",
+    "domain": "modernfi.com",
+    "name": "ModernFi",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 56
+   },
+   {
+    "about": "",
+    "domain": "netlify.com",
+    "name": "Netlify",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 204
+   },
+   {
+    "about": "",
+    "domain": "octant.bio",
+    "name": "Octant Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 65
+   },
+   {
+    "about": "",
+    "domain": "patch.io",
+    "name": "Patch",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 90
+   },
+   {
+    "about": "",
+    "domain": "rezotx.com",
+    "name": "Rezo Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 45
+   },
+   {
+    "about": "",
+    "domain": "slingshot.xyz",
+    "name": "Slingshot AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 49
+   },
+   {
+    "about": "",
+    "domain": "supersonik.ai",
+    "name": "Supersonik",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 43
+   },
+   {
+    "about": "",
+    "domain": "treeline.ai",
+    "name": "Treeline",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 33
+   },
+   {
+    "about": "",
+    "domain": "belonghome.com",
+    "name": "Belong",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 196
+   },
+   {
+    "about": "",
+    "domain": "cartography.bio",
+    "name": "Cartography Biosciences",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 64
+   },
+   {
+    "about": "",
+    "domain": "chestnutfi.com",
+    "name": "Chestnut",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 20
+   },
+   {
+    "about": "",
+    "domain": "cluely.com",
+    "name": "Cluely",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 71
+   },
+   {
+    "about": "",
+    "domain": "flyhomes.com",
+    "name": "FlyHomes",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 191
+   },
+   {
+    "about": "",
+    "domain": "highstock.com",
+    "name": "Highstock",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 20
+   },
+   {
+    "about": "",
+    "domain": "livekindred.com",
+    "name": "Kindred",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 273
+   },
+   {
+    "about": "",
+    "domain": "knownwell.co",
+    "name": "Knownwell",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 130
+   },
+   {
+    "about": "",
+    "domain": "offerup.com",
+    "name": "OfferUp",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 333
+   },
+   {
+    "about": "",
+    "domain": "shef.com",
+    "name": "Shef",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 112
+   },
+   {
+    "about": "",
+    "domain": "sprig.com",
+    "name": "Sprig",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 104
+   },
+   {
+    "about": "",
+    "domain": "upstash.com",
+    "name": "Upstash",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
+    "domain": "workboard.com",
+    "name": "WorkBoard",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 87
+   },
+   {
+    "about": "",
+    "domain": "untitled.stream",
+    "name": "[untitled]",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 69
+   },
+   {
+    "about": "",
+    "domain": "a9oncology.com",
+    "name": "Alpha-9 Oncology",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 76
+   },
+   {
+    "about": "",
+    "domain": "bioagelabs.com",
+    "name": "BioAge Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 91
+   },
+   {
+    "about": "",
+    "domain": "runway.cfo.ai",
+    "name": "CFO.ai",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 48
+   },
+   {
+    "about": "",
+    "domain": "camp4tx.com",
+    "name": "Camp4",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 58
+   },
+   {
+    "about": "",
+    "domain": "charthop.com",
+    "name": "Charthop",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
+   },
+   {
+    "about": "",
+    "domain": "crossbeam.com",
+    "name": "Crossbeam",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 175
+   },
+   {
+    "about": "",
+    "domain": "earli.com",
+    "name": "Earli",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 33
+   },
+   {
+    "about": "",
+    "domain": "ferry.health",
+    "name": "Ferry Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "fly.io",
+    "name": "Fly.io",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 52
+   },
+   {
+    "about": "",
+    "domain": "hipcamp.com",
+    "name": "Hipcamp",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 155
+   },
+   {
+    "about": "",
+    "domain": "longeye.com",
+    "name": "Longeye",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 16
+   },
+   {
+    "about": "",
+    "domain": "maven.com",
+    "name": "Maven",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 140
+   },
+   {
+    "about": "",
+    "domain": "nx.app",
+    "name": "NX",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 59
+   },
+   {
+    "about": "",
+    "domain": "orchestra.bio",
+    "name": "Orchestra Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 16
+   },
+   {
+    "about": "",
+    "domain": "promisestudios.com",
+    "name": "Promise",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 26
+   },
+   {
+    "about": "",
+    "domain": "rasa.com",
+    "name": "Rasa",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 185
+   },
+   {
+    "about": "",
+    "domain": "rigup.com",
+    "name": "Rigup",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 460
+   },
+   {
+    "about": "",
+    "domain": "instabase.com",
+    "name": "SuperApp",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 153
+   },
+   {
+    "about": "",
+    "domain": "upsmith.com",
+    "name": "UpSmith",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 25
+   },
+   {
+    "about": "",
+    "domain": "valarlabs.com",
+    "name": "Valar Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "bigscreenvr.com",
+    "name": "BigScreen",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "cygnvs.com",
+    "name": "CYGNVS",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 109
+   },
+   {
+    "about": "",
+    "domain": "clerk.com",
+    "name": "Clerk",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 199
+   },
+   {
+    "about": "",
+    "domain": "diode.computer",
+    "name": "Diode",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 16
+   },
+   {
+    "about": "",
+    "domain": "inngest.com",
+    "name": "Inngest",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 27
+   },
+   {
+    "about": "",
+    "domain": "larridin.com",
+    "name": "Larridin",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 21
+   },
+   {
+    "about": "",
+    "domain": "shoplocale.com",
+    "name": "Locale",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 90
+   },
+   {
+    "about": "",
+    "domain": "mem.ai",
+    "name": "Mem",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "moov.io",
+    "name": "Moov",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 221
+   },
+   {
+    "about": "",
+    "domain": "mux.com",
+    "name": "Mux",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 162
+   },
+   {
+    "about": "",
+    "domain": "robotogames.com",
+    "name": "Roboto Games",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 19
+   },
+   {
+    "about": "",
+    "domain": "voldex.com",
+    "name": "Voldex",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 122
+   },
+   {
+    "about": "",
+    "domain": "anyroad.com",
+    "name": "AnyRoad",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 328
+   },
+   {
+    "about": "",
+    "domain": "azragames.com",
+    "name": "Azra Games",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 108
+   },
+   {
+    "about": "",
+    "domain": "backflip.ai",
+    "name": "Backflip AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "believer.gg",
+    "name": "Believer",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 68
+   },
+   {
+    "about": "",
+    "domain": "bonfirestudios.com",
+    "name": "Bonfire Studios",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 89
+   },
+   {
+    "about": "",
+    "domain": "gobrightside.com",
+    "name": "Brightside",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 184
+   },
+   {
+    "about": "",
+    "domain": "capitolis.com",
+    "name": "Capitolis",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 201
+   },
+   {
+    "about": "",
+    "domain": "dynotx.com",
+    "name": "Dyno Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 89
+   },
+   {
+    "about": "",
+    "domain": "filmhub.com",
+    "name": "Filmhub",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 95
+   },
+   {
+    "about": "",
+    "domain": "formation.dev",
+    "name": "Formation",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 281
+   },
+   {
+    "about": "",
+    "domain": "gymclassvr.com",
+    "name": "Gym Class VR",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 108
+   },
+   {
+    "about": "",
+    "domain": "incrediblehealth.com",
+    "name": "Incredible Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 101
+   },
+   {
+    "about": "",
+    "domain": "kinter.ai",
+    "name": "Kinter",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 24
+   },
+   {
+    "about": "",
+    "domain": "ltse.com",
+    "name": "LTSE Services, Inc.",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 47
+   },
+   {
+    "about": "",
+    "domain": "macro.com",
+    "name": "Macro",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 60
+   },
+   {
+    "about": "",
+    "domain": "mana.bio",
+    "name": "Mana Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 17
+   },
+   {
+    "about": "",
+    "domain": "markerlearning.com",
+    "name": "Marker Learning",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 47
+   },
+   {
+    "about": "",
+    "domain": "matik.io",
+    "name": "Matik",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 37
+   },
+   {
+    "about": "",
+    "domain": "payall.com",
+    "name": "Payall",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 44
+   },
+   {
+    "about": "",
+    "domain": "theorycraftgames.com",
+    "name": "Theorycraft Games",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 34
+   },
+   {
+    "about": "",
+    "domain": "trufflesecurity.com",
+    "name": "Truffle Security",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 60
+   },
+   {
+    "about": "",
+    "domain": "wingspan.app",
+    "name": "Wingspan",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 131
+   },
+   {
+    "about": "",
+    "domain": "x.build",
+    "name": "XBuild",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "amber.bio",
+    "name": "Amber",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 21
+   },
+   {
+    "about": "",
+    "domain": "apeel.com",
+    "name": "Apeel Sciences",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 134
+   },
+   {
+    "about": "",
+    "domain": "axoni.com",
+    "name": "Axoni",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 20
+   },
+   {
+    "about": "",
+    "domain": "californiaforever.com",
+    "name": "California Forever",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "carbonated.com",
+    "name": "Carbonated",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 17
+   },
+   {
+    "about": "",
+    "domain": "chia.net",
+    "name": "Chia",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 63
+   },
+   {
+    "about": "",
+    "domain": "civitai.com",
+    "name": "Civitai",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 16
+   },
+   {
+    "about": "",
+    "domain": "coactive.ai",
+    "name": "Coactive",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 44
+   },
+   {
+    "about": "",
+    "domain": "codi.com",
+    "name": "Codi",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 52
+   },
+   {
+    "about": "",
+    "domain": "cmdzero.io",
+    "name": "Command Zero",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 37
+   },
+   {
+    "about": "",
+    "domain": "deepcell.com",
+    "name": "Deepcell",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 27
+   },
+   {
+    "about": "",
+    "domain": "donotpay.com",
+    "name": "DoNotPay",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "epal.gg",
+    "name": "EPAL, INC.",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 59
+   },
+   {
+    "about": "",
+    "domain": "elegenbio.com",
+    "name": "Elegen",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 53
+   },
+   {
+    "about": "",
+    "domain": "equals.app",
+    "name": "Equals",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
+    "domain": "erebor.bank",
+    "name": "Erebor Bank",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 130
+   },
+   {
+    "about": "",
+    "domain": "faraway.gg",
+    "name": "Faraway",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 43
+   },
+   {
+    "about": "",
+    "domain": "foursquare.com",
+    "name": "Foursquare",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 657
+   },
+   {
+    "about": "",
+    "domain": "gatebio.com",
+    "name": "Gate Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 37
+   },
+   {
+    "about": "",
+    "domain": "grepr.ai",
+    "name": "Grepr",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "hilberts.ai",
+    "name": "Hilbert",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 68
+   },
+   {
+    "about": "",
+    "domain": "ifttt.com",
+    "name": "IFTTT",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 41
+   },
+   {
+    "about": "",
+    "domain": "kaedim3d.com",
+    "name": "Kaedim",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 74
+   },
+   {
+    "about": "",
+    "domain": "lightup.ai",
+    "name": "Lightup",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "lumosidentity.com",
+    "name": "Lumos",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 158
+   },
+   {
+    "about": "",
+    "domain": "gomega.ai",
+    "name": "MEGA",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 167
+   },
+   {
+    "about": "",
+    "domain": "mayvenn.com",
+    "name": "Mayvenn",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 148
+   },
+   {
+    "about": "",
+    "domain": "withmedley.com",
+    "name": "Medley",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 105
+   },
+   {
+    "about": "",
+    "domain": "mosaic.us",
+    "name": "Mosaic",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 20
+   },
+   {
+    "about": "",
+    "domain": "nationbuilder.com",
+    "name": "NationBuilder",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 95
+   },
+   {
+    "about": "",
+    "domain": "onemoregame.com",
+    "name": "One More Game",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "opensea.io",
+    "name": "OpenSea",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 841
+   },
+   {
+    "about": "",
+    "domain": "orderful.com",
+    "name": "Orderful",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 87
+   },
+   {
+    "about": "",
+    "domain": "pietrastudio.com",
+    "name": "Pietra",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 28
+   },
+   {
+    "about": "",
+    "domain": "polychain.capital",
+    "name": "Polychain",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 62
+   },
+   {
+    "about": "",
+    "domain": "preset.io",
+    "name": "Preset",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 42
+   },
+   {
+    "about": "",
+    "domain": "q.bio",
+    "name": "Q Bio, Inc.",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 28
+   },
+   {
+    "about": "",
+    "domain": "quiver.ai",
+    "name": "QuiverAI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 17
+   },
+   {
+    "about": "",
+    "domain": "forte.io",
+    "name": "RLY Network",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 34
+   },
+   {
+    "about": "",
+    "domain": "raidbase.com",
+    "name": "Raid Base",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 34
+   },
+   {
+    "about": "",
+    "domain": "relay.app",
+    "name": "Relay",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 25
+   },
+   {
+    "about": "",
+    "domain": "rive.app",
+    "name": "Rive",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 80
+   },
+   {
+    "about": "",
+    "domain": "rutterapi.com",
+    "name": "Rutter",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 38
+   },
+   {
+    "about": "",
+    "domain": "ssi.inc",
+    "name": "Safe Superintelligence",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 34
+   },
+   {
+    "about": "",
+    "domain": "santaanabio.com",
+    "name": "Santa Ana Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 32
+   },
+   {
+    "about": "",
+    "domain": "scribetx.com",
+    "name": "Scribe Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 87
+   },
+   {
+    "about": "",
+    "domain": "series.inc",
+    "name": "Series Entertainment",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 46
+   },
+   {
+    "about": "",
+    "domain": "skysafe.io",
+    "name": "SkySafe",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
+   },
+   {
+    "about": "",
+    "domain": "skylight.health",
+    "name": "Skylight Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
+    "domain": "smartcar.com",
+    "name": "Smartcar",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 120
+   },
+   {
+    "about": "",
+    "domain": "snackpass.co",
+    "name": "Snackpass",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 77
+   },
+   {
+    "about": "",
+    "domain": "stipple.bio",
+    "name": "Stipple Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 19
+   },
+   {
+    "about": "",
+    "domain": "superevilmegacorp.com",
+    "name": "Super Evil MegaCorp",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 95
+   },
+   {
+    "about": "",
+    "domain": "swell.life",
+    "name": "Swell",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 93
+   },
+   {
+    "about": "",
+    "domain": "synapsefi.com",
+    "name": "Synapse",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "",
+    "domain": "teespring.com",
+    "name": "Teespring",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 218
+   },
+   {
+    "about": "",
+    "domain": "tellusapp.com",
+    "name": "Tellus",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 71
+   },
+   {
+    "about": "",
+    "domain": "thirdarcbio.com",
+    "name": "Third Arc Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 40
+   },
+   {
+    "about": "",
+    "domain": "tigrisdata.com",
+    "name": "Tigris Data",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
+    "domain": "tlon.io",
+    "name": "Tlon",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 19
+   },
+   {
+    "about": "",
+    "domain": "toma.com",
+    "name": "Toma",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 60
+   },
+   {
+    "about": "",
+    "domain": "tomorrowhealth.com",
+    "name": "Tomorrow Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 29
+   },
+   {
+    "about": "",
+    "domain": "jointopo.com",
+    "name": "Topography Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 26
+   },
+   {
+    "about": "",
+    "domain": "tradeblock.com",
+    "name": "Tradeblock",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 26
+   },
+   {
+    "about": "",
+    "domain": "trucksmarter.com",
+    "name": "TruckSmarter",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 40
+   },
+   {
+    "about": "",
+    "domain": "trunk.io",
+    "name": "Trunk",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 56
+   },
+   {
+    "about": "",
+    "domain": "ventustx.com",
+    "name": "Ventus Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 56
+   },
+   {
+    "about": "",
+    "domain": "vitally.io",
+    "name": "Vitally",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 133
+   },
+   {
+    "about": "",
+    "domain": "westmag.com",
+    "name": "Westmag",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 17
+   },
+   {
+    "about": "",
+    "domain": "yuga.com",
+    "name": "Yuga Labs (BAYC)",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 109
+   },
+   {
+    "about": "",
+    "domain": "dydx.exchange",
+    "name": "dYdX",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 69
    }
   ],
-  "fetched": 1794269101.1266963
+  "fetched": 1794270900.7265968,
+  "sources": [
+   "vc",
+   "yc"
+  ]
  },
  "seeded_boards": [
+  "ashby:1mind",
   "ashby:9-mothers",
   "ashby:Axel",
   "ashby:InscribeAI",
   "ashby:abacum",
+  "ashby:abby-care",
+  "ashby:abridge",
+  "ashby:academia",
   "ashby:accord",
   "ashby:adaptivesecurity",
   "ashby:afterquery",
   "ashby:agave",
+  "ashby:aim",
   "ashby:aios",
   "ashby:aiprise",
   "ashby:airbyte",
+  "ashby:airgarage",
+  "ashby:alchemy",
   "ashby:aleph",
   "ashby:alexai",
+  "ashby:alloy",
+  "ashby:ambiencehealthcare",
   "ashby:ambient.ai",
+  "ashby:ambrook",
   "ashby:anima",
   "ashby:anomalo",
   "ashby:anthrogen",
+  "ashby:apex-technology-inc",
+  "ashby:arch",
+  "ashby:arena",
   "ashby:arini",
   "ashby:arketa",
   "ashby:arq",
@@ -8233,21 +12328,28 @@
   "ashby:ashby",
   "ashby:assembly",
   "ashby:astro-mechanica",
+  "ashby:ateam",
   "ashby:atlas",
+  "ashby:atlys",
   "ashby:atob",
   "ashby:atomic",
   "ashby:auctor",
+  "ashby:augmodo",
   "ashby:aurelian",
   "ashby:authzed",
   "ashby:avoca",
   "ashby:axle-health",
+  "ashby:bedrockocean",
   "ashby:belvo",
+  "ashby:bem",
+  "ashby:benchling",
   "ashby:benepass",
   "ashby:beyondreachlabs",
   "ashby:bland",
   "ashby:blee",
   "ashby:blissway",
   "ashby:bolna",
+  "ashby:braintrust",
   "ashby:brettonai",
   "ashby:broccoli",
   "ashby:bunkerhillhealth",
@@ -8256,7 +12358,9 @@
   "ashby:cambly",
   "ashby:campfire",
   "ashby:candidhealth",
+  "ashby:cape",
   "ashby:captivateiq",
+  "ashby:cargado",
   "ashby:casca",
   "ashby:castle",
   "ashby:charge-robotics",
@@ -8277,8 +12381,11 @@
   "ashby:concourse",
   "ashby:conduit",
   "ashby:confido",
+  "ashby:cowboyspace",
+  "ashby:cruxclimate",
   "ashby:curri",
   "ashby:datafold",
+  "ashby:decagon",
   "ashby:decodahealth",
   "ashby:deepgram",
   "ashby:domu",
@@ -8288,11 +12395,14 @@
   "ashby:eightsleep",
   "ashby:ekho",
   "ashby:electricair",
+  "ashby:eliseai",
   "ashby:ello",
   "ashby:emberai",
   "ashby:enode",
+  "ashby:envoy",
   "ashby:escape",
   "ashby:eventual",
+  "ashby:exa",
   "ashby:f2-ai",
   "ashby:fieldguide",
   "ashby:finch",
@@ -8305,10 +12415,12 @@
   "ashby:flint",
   "ashby:flutterflow",
   "ashby:formance",
+  "ashby:formationbio",
   "ashby:fortuna-health",
   "ashby:fours",
   "ashby:freshpaint",
   "ashby:furtherai",
+  "ashby:gamma",
   "ashby:garage",
   "ashby:gecko-robotics",
   "ashby:gigaml",
@@ -8320,9 +12432,11 @@
   "ashby:greatquestion",
   "ashby:greenboard",
   "ashby:greptile",
+  "ashby:hadrian-automation",
   "ashby:happyrobot.ai",
   "ashby:harperinsure",
   "ashby:hebbia-ai",
+  "ashby:heron-power",
   "ashby:herondata",
   "ashby:hex",
   "ashby:hightouch",
@@ -8331,6 +12445,8 @@
   "ashby:humaans",
   "ashby:humanarchive",
   "ashby:hyperbound",
+  "ashby:illumio",
+  "ashby:inferact",
   "ashby:infisical",
   "ashby:influxdata",
   "ashby:inkeep",
@@ -8340,6 +12456,7 @@
   "ashby:jiga",
   "ashby:juicebox",
   "ashby:junction",
+  "ashby:kaizenlabs",
   "ashby:kalshi",
   "ashby:kastle",
   "ashby:kingdom",
@@ -8351,19 +12468,24 @@
   "ashby:legora",
   "ashby:letta",
   "ashby:lightdash",
+  "ashby:lightfield",
   "ashby:litellm",
   "ashby:liveflow",
   "ashby:lucis",
+  "ashby:lumaai",
   "ashby:luminai",
   "ashby:mach9",
   "ashby:magic",
+  "ashby:marianaminerals",
   "ashby:mednet",
   "ashby:merge",
   "ashby:metal",
   "ashby:method",
   "ashby:metriport",
   "ashby:middesk",
+  "ashby:mindrobotics",
   "ashby:mintlify",
+  "ashby:mirage",
   "ashby:moderntreasury",
   "ashby:momentic",
   "ashby:montecarlodata",
@@ -8371,6 +12493,7 @@
   "ashby:nango",
   "ashby:nash",
   "ashby:nomic",
+  "ashby:northwoodspace",
   "ashby:notabene",
   "ashby:novig",
   "ashby:nox-metals",
@@ -8389,18 +12512,21 @@
   "ashby:pirros",
   "ashby:pocket",
   "ashby:pointone",
+  "ashby:pomelo-care",
   "ashby:popl",
   "ashby:posthog",
   "ashby:prelim",
   "ashby:probablygenetic",
   "ashby:promise",
   "ashby:prompt",
+  "ashby:protege",
   "ashby:provision",
   "ashby:pulse",
   "ashby:pylon",
   "ashby:quicknode",
   "ashby:quindar",
   "ashby:radar",
+  "ashby:radiant",
   "ashby:rallyuxr",
   "ashby:reach",
   "ashby:ready",
@@ -8413,15 +12539,20 @@
   "ashby:rescale",
   "ashby:retell-ai",
   "ashby:revenuecat",
+  "ashby:rillet",
   "ashby:roboflow",
   "ashby:rollstack",
   "ashby:runa",
+  "ashby:runetech",
   "ashby:runtrellis",
   "ashby:runway",
   "ashby:salespatriot",
   "ashby:salient",
+  "ashby:sardine",
   "ashby:sauna.ai",
+  "ashby:sentilink",
   "ashby:serifhealth",
+  "ashby:sesame",
   "ashby:shepherd",
   "ashby:shortstory",
   "ashby:sieve",
@@ -8430,26 +12561,33 @@
   "ashby:slope",
   "ashby:snapmagic",
   "ashby:snowflake",
+  "ashby:socket",
   "ashby:spade",
   "ashby:speak",
   "ashby:spellbrush",
+  "ashby:sprinter-health",
   "ashby:spruceid",
   "ashby:spur",
   "ashby:stable",
   "ashby:stepful",
   "ashby:stradahq",
   "ashby:stream",
+  "ashby:stuut-ai",
   "ashby:supabase",
   "ashby:syntheticfi",
   "ashby:tailor",
   "ashby:taktile",
+  "ashby:talkiatry",
   "ashby:tamarindbio",
   "ashby:tavus",
   "ashby:tempo",
   "ashby:temporal",
   "ashby:tennr",
   "ashby:terminal",
+  "ashby:tessera-labs",
   "ashby:thera",
+  "ashby:thinkingmachines",
+  "ashby:thyme-care",
   "ashby:tilt",
   "ashby:titan",
   "ashby:topline-pro",
@@ -8458,9 +12596,11 @@
   "ashby:triomics",
   "ashby:trm-labs",
   "ashby:turion-space",
+  "ashby:typesafe-ai",
   "ashby:upcodes",
   "ashby:uplane",
   "ashby:usul",
+  "ashby:valon",
   "ashby:vanta",
   "ashby:vapi",
   "ashby:vector",
@@ -8475,11 +12615,18 @@
   "ashby:webflow",
   "ashby:within.ai",
   "ashby:wonderly",
+  "ashby:xdof",
   "ashby:ycombinator",
   "ashby:zapier",
   "ashby:ziina",
   "ashby:zip",
+  "bamboohr:nexthopai",
+  "greenhouse:10beauty",
+  "greenhouse:a24",
+  "greenhouse:abacus",
   "greenhouse:agency",
+  "greenhouse:aidocmedical",
+  "greenhouse:air",
   "greenhouse:albedo",
   "greenhouse:algolia",
   "greenhouse:alpaca",
@@ -8487,19 +12634,29 @@
   "greenhouse:aon3d",
   "greenhouse:arizeai",
   "greenhouse:array",
+  "greenhouse:asi",
   "greenhouse:assemblyai",
   "greenhouse:astranis",
+  "greenhouse:atoms",
   "greenhouse:axle",
   "greenhouse:beam",
   "greenhouse:bitmovin",
+  "greenhouse:cakeai",
   "greenhouse:carbonchain",
   "greenhouse:checkr",
   "greenhouse:coast",
   "greenhouse:cortex",
+  "greenhouse:cresta",
   "greenhouse:cribl",
+  "greenhouse:current",
   "greenhouse:databricks",
+  "greenhouse:earnin",
+  "greenhouse:eve",
+  "greenhouse:everlaw",
   "greenhouse:faire",
   "greenhouse:fivetran",
+  "greenhouse:forwardnetworks",
+  "greenhouse:freenome",
   "greenhouse:generalproximity",
   "greenhouse:givecampus",
   "greenhouse:hackerrank",
@@ -8509,18 +12666,22 @@
   "greenhouse:icarus",
   "greenhouse:imt",
   "greenhouse:instawork",
+  "greenhouse:koboldmetals",
+  "greenhouse:komodohealth",
   "greenhouse:lattice",
   "greenhouse:legalist",
   "greenhouse:lithic",
   "greenhouse:lob",
   "greenhouse:maymobility",
   "greenhouse:meruhealth",
+  "greenhouse:mixpanel",
   "greenhouse:modernhealth",
   "greenhouse:nabis",
   "greenhouse:niraenergy",
   "greenhouse:novacredit",
   "greenhouse:observeai",
   "greenhouse:odeko",
+  "greenhouse:omadahealth",
   "greenhouse:ophelia",
   "greenhouse:pairteam",
   "greenhouse:pelago",
@@ -8536,16 +12697,30 @@
   "greenhouse:reflex",
   "greenhouse:scaleai",
   "greenhouse:sendbird",
+  "greenhouse:senrasystems",
   "greenhouse:si",
+  "greenhouse:standardnuclearinc",
+  "greenhouse:starburst",
   "greenhouse:stripe",
   "greenhouse:swayable",
+  "greenhouse:thatch",
   "greenhouse:tintai",
+  "greenhouse:ultimagenomics",
+  "greenhouse:unconventionalinc",
   "greenhouse:usenourish",
+  "greenhouse:waymark",
+  "greenhouse:wonderschool",
   "greenhouse:workato",
   "greenhouse:xendit",
+  "greenhouse:yubico",
+  "lever:100ms",
   "lever:Cofactr",
   "lever:CollectlyInc",
   "lever:Instrumentl",
+  "lever:acceldata",
+  "lever:advocate",
+  "lever:airslate",
+  "lever:anchorage",
   "lever:biorender",
   "lever:bolster",
   "lever:canarytechnologies",
@@ -8562,13 +12737,16 @@
   "lever:postera",
   "lever:prosper",
   "lever:quartzy",
+  "lever:sandboxvr",
   "lever:skyways",
   "lever:snappr",
   "lever:thunkable",
   "lever:tovala",
+  "lever:tryjeeves",
   "lever:tryriot",
   "lever:twodots",
   "lever:vergesense",
+  "lever:verygoodsecurity",
   "lever:voltalabs",
   "lever:zippi",
   "rippling:community-phone-careers",
@@ -8581,7 +12759,10 @@
   "site:https://retool.com/careers",
   "site:https://topkey.io/careers",
   "site:https://tryterra.co/careers",
+  "site:https://www.aegisai.com/careers",
   "site:https://www.buildbuddy.io/careers/",
+  "site:https://www.castelion.com/careers/",
+  "site:https://www.neo.ai/careers",
   "site:https://www.oway.io/careers/",
   "site:https://www.taxgpt.com/careers",
   "site:https://www.unravelcarbon.com/careers",
