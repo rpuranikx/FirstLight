@@ -38,9 +38,12 @@ ATS_PATTERNS = [
     ("workable",   r"apply\.workable\.com/([A-Za-z0-9_-]+)"),
     ("smartrecruiters", r"(?:jobs|careers)\.smartrecruiters\.com/([A-Za-z0-9_-]+)"),
     ("rippling",   r"ats\.rippling\.com/([A-Za-z0-9_-]+)"),
+    ("bamboohr",   r"([A-Za-z0-9-]+)\.bamboohr\.com/(?:careers|jobs)"),
+    ("recruitee",  r"([A-Za-z0-9-]+)\.recruitee\.com"),
+    ("breezy",     r"([A-Za-z0-9-]+)\.breezy\.hr"),
 ]
 WORKDAY_RE = re.compile(r"([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)")
-IGNORED_SLUGS = {"embed", "js", "v1", "api", "jobs", "job_board", "en-us", "careers"}
+IGNORED_SLUGS = {"embed", "js", "v1", "api", "jobs", "job_board", "en-us", "careers", "www", "app", "assets", "cdn"}
 
 
 def _html(url: str) -> tuple[str, str]:
@@ -298,3 +301,85 @@ def fetch_workday(company: str, slug: str) -> list[dict]:
             if len(posts) < 20 or offset + 20 >= data.get("total", 0):
                 break
     return jobs
+
+
+# ─────────────────────────────────────────────
+# More hosted boards (public JSON)
+# ─────────────────────────────────────────────
+def _json(url: str):
+    try:
+        r = requests.get(url, timeout=REQUEST_TIMEOUT, headers={**HEADERS, "Accept": "application/json"})
+        return r.json() if r.status_code == 200 else None
+    except Exception:
+        return None
+
+
+def _job(ats, slug, company, jid, title, url, loc, remote, posted="", desc=""):
+    return {"id": f"{ats}:{slug}:{jid}", "company": company, "title": title or "", "url": url,
+            "location": loc or "", "workplace": "Remote" if remote else "", "is_remote": bool(remote),
+            "compensation": None, "posted": posted or "", "description": _strip(desc)[:6000]}
+
+
+def fetch_bamboohr(company: str, slug: str) -> list[dict]:
+    data = _json(f"https://{slug}.bamboohr.com/careers/list") or {}
+    out = []
+    for j in data.get("result") or []:
+        l = j.get("location") or {}
+        loc = ", ".join(x for x in [l.get("city"), l.get("state")] if x)
+        out.append(_job("bamboohr", slug, company, j.get("id"), j.get("jobOpeningName"),
+                        f"https://{slug}.bamboohr.com/careers/{j.get('id')}", loc, j.get("isRemote")))
+    return out
+
+
+def fetch_recruitee(company: str, slug: str) -> list[dict]:
+    data = _json(f"https://{slug}.recruitee.com/api/offers/") or {}
+    return [_job("recruitee", slug, company, j.get("id"), j.get("title"), j.get("careers_url"),
+                 j.get("location"), j.get("remote"), j.get("published_at", "").replace(" UTC", "Z").replace(" ", "T"),
+                 j.get("description"))
+            for j in data.get("offers") or []]
+
+
+def fetch_breezy(company: str, slug: str) -> list[dict]:
+    data = _json(f"https://{slug}.breezy.hr/json") or []
+    out = []
+    for j in data if isinstance(data, list) else []:
+        l = j.get("location") or {}
+        out.append(_job("breezy", slug, company, j.get("id"), j.get("name"), j.get("url"),
+                        l.get("name"), l.get("is_remote"), j.get("published_date")))
+    return out
+
+
+# ─────────────────────────────────────────────
+# JavaScript-only career pages
+# ─────────────────────────────────────────────
+def find_boards_rendered(domains: list[str], per_site_seconds: int = 20) -> dict:
+    """
+    Opens career pages in a headless browser and watches what they load, to find
+    the job board behind pages that only render jobs with JavaScript.
+    Returns {domain: {"ats", "slug"}}. Needs playwright; does nothing without it.
+    """
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        print("  [careers] playwright not installed, skipping JavaScript career pages")
+        return {}
+    found = {}
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        for domain in domains:
+            for url in career_urls(domain)[:4]:
+                page = browser.new_page()
+                seen_urls = []
+                page.on("request", lambda req: seen_urls.append(req.url))
+                try:
+                    page.goto(url, timeout=per_site_seconds * 1000, wait_until="networkidle")
+                    board = board_in_html(" ".join(seen_urls) + " " + page.url + " " + page.content())
+                except Exception:
+                    board = None
+                finally:
+                    page.close()
+                if board:
+                    found[domain] = board
+                    break
+        browser.close()
+    return found

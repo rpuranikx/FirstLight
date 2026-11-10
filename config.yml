@@ -25,13 +25,39 @@ Filters:
 Discovery:
   enabled: true
   refresh_days: 1
-  max_probes_per_run: 400     # job-board lookups per run for newly discovered companies
+  max_probes_per_run: 150     # job-board lookups per run for newly discovered companies
   yc:                         # YC directory via github.com/yc-oss/api (free, updated daily)
     enabled: true
     min_team_size: 15
     max_team_size: 1000
     regions: ["United States", "America / Canada", "Remote"]
     exclude_industries: []    # e.g. ["Consumer", "Healthcare"]
+  vc:                         # portfolio companies of top VCs, from their public job boards (free)
+    enabled: true
+    min_team_size: 15
+    max_team_size: 1000
+    a16z: true
+    boards:                   # Getro-powered portfolio boards; add any jobs.<vc>.com that runs on Getro
+      - jobs.accel.com
+      - jobs.generalcatalyst.com
+      - jobs.khoslaventures.com
+      - jobs.insightpartners.com
+      - jobs.thrivecap.com
+      - jobs.greylock.com
+      - jobs.amplifypartners.com
+      - jobs.boldstart.vc
+      - jobs.primary.vc
+      - jobs.lererhippeau.com
+      - jobs.costanoa.vc
+      - jobs.cowboy.vc
+      - jobs.foundationcap.com
+      - jobs.menlovc.com
+      - jobs.redpoint.com
+      - jobs.crv.com
+      - jobs.matrix.vc
+      - jobs.northzone.com
+      - jobs.uncorkcapital.com
+      - jobs.workbench.vc
   apollo:                     # needs APOLLO_API_KEY; finds non-YC venture-backed companies
     enabled: false
     employee_ranges: ["11,50", "51,200", "201,500", "501,1000"]

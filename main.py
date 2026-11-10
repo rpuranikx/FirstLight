@@ -536,6 +536,9 @@ FETCHERS = {
     "rippling":   fetch_rippling,
     "smartrecruiters": fetch_smartrecruiters,
     "workday":    careers.fetch_workday,
+    "bamboohr":   careers.fetch_bamboohr,
+    "recruitee":  careers.fetch_recruitee,
+    "breezy":     careers.fetch_breezy,
     "site":       careers.fetch_site,   # jobs hosted on the company's own careers page
 }
 

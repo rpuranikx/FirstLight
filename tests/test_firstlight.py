@@ -403,3 +403,71 @@ def test_rippling_location_without_city(monkeypatch):
     monkeypatch.setattr(main, "_get", lambda url: {"items": [{"id": 1, "name": "Solutions Engineer",
                         "locations": [{"city": None, "name": "Remote (US)"}]}]})
     assert main.fetch_rippling("X", "x")[0]["location"] == "Remote (US)"
+
+
+# ─────────────────────────────────────────────
+# VC portfolio sources
+# ─────────────────────────────────────────────
+class FakeResp:
+    def __init__(self, text="", data=None):
+        self.text, self._d = text, data
+    def json(self):
+        return self._d
+
+
+def test_getro_portfolio_companies(monkeypatch):
+    page = ('<script id="__NEXT_DATA__" type="application/json">'
+            '{"props":{"pageProps":{"network":{"id":"8672","label":"accel","legal":{"name":"Accel"}}}}}</script>')
+    rows = [
+        {"name": "Mid", "domain": "mid.com", "head_count": 3, "stage": "series_b", "locations": ["San Francisco, CA, USA"]},
+        {"name": "Tiny", "domain": "tiny.com", "head_count": 1, "stage": "seed", "locations": []},
+        {"name": "Huge", "domain": "huge.com", "head_count": 6, "stage": "series_h", "locations": []},
+        {"name": "Bought", "domain": "b.com", "head_count": 3, "stage": "acquisition", "locations": []},
+        {"name": "Abroad", "domain": "a.in", "head_count": 3, "stage": "series_a", "locations": ["Bengaluru, India"]},
+    ]
+    monkeypatch.setattr(discover.requests, "get", lambda *a, **k: FakeResp(page))
+    monkeypatch.setattr(discover.requests, "post", lambda *a, **k: FakeResp(data={"results": {"companies": rows}}))
+    out = discover.from_getro({"boards": ["jobs.accel.com"]})
+    assert [(c["name"], c["domain"], c["source"]) for c in out] == [("Mid", "mid.com", "Accel portfolio")]
+
+
+def test_a16z_portfolio_companies(monkeypatch):
+    page = ('x{\\"id\\":\\"n1\\",\\"slug\\":\\"acme\\",\\"name\\":\\"Acme\\",\\"logoUrl\\":\\"u\\",\\"domain\\":\\"acme.com\\",'
+            '\\"description\\":\\"d\\",\\"location\\":\\"Chicago, United States\\",\\"headcount\\":120},'
+            '{\\"id\\":\\"n2\\",\\"slug\\":\\"big\\",\\"name\\":\\"Big\\",\\"domain\\":\\"big.com\\",'
+            '\\"location\\":\\"Costa Mesa, United States\\",\\"headcount\\":10026}')
+    monkeypatch.setattr(discover.requests, "get", lambda *a, **k: FakeResp(page))
+    out = discover.from_a16z({})
+    assert [(c["name"], c["domain"], c["team_size"]) for c in out] == [("Acme", "acme.com", 120)]
+
+
+def test_discover_dedupes_companies_across_sources(monkeypatch):
+    monkeypatch.setattr(discover, "from_yc", lambda cfg: [{"name": "Acme", "domain": "acme.com", "slug_hint": "acme"}])
+    monkeypatch.setattr(discover, "from_getro", lambda cfg: [{"name": "Acme Inc", "domain": "acme.com", "slug_hint": ""},
+                                                             {"name": "Beta", "domain": "beta.com", "slug_hint": ""}])
+    monkeypatch.setattr(discover, "from_a16z", lambda cfg: [])
+    monkeypatch.setattr(discover, "probe_board", lambda n, d, h: {"ats": "ashby", "slug": n.lower()})
+    out = discover.discover({}, empty_cache(), now=1)
+    assert [c["name"] for c in out] == ["Acme", "Beta"]
+
+
+def test_js_career_pages_rendered_once_for_companies_without_a_board(monkeypatch):
+    rendered = []
+    monkeypatch.setattr(discover, "from_yc", lambda cfg: [{"name": "Jsco", "domain": "jsco.com", "slug_hint": ""}])
+    monkeypatch.setattr(discover, "probe_board", lambda n, d, h: None)
+    monkeypatch.setattr(discover, "find_boards_rendered",
+                        lambda domains: rendered.extend(domains) or {"jsco.com": {"ats": "bamboohr", "slug": "jsco"}})
+    cache = empty_cache()
+    out = discover.discover({"vc": {"enabled": False}}, cache, now=1)
+    assert rendered == ["jsco.com"] and out[0]["ats"] == "bamboohr"
+    discover.discover({"vc": {"enabled": False}}, cache, now=2)
+    assert rendered == ["jsco.com"]  # not rendered again
+
+
+def test_more_hosted_boards_detected_and_read(monkeypatch):
+    assert careers.board_in_html("https://acme.bamboohr.com/careers/12") == {"ats": "bamboohr", "slug": "acme"}
+    assert careers.board_in_html("fetch('https://acme.recruitee.com/api/offers')") == {"ats": "recruitee", "slug": "acme"}
+    monkeypatch.setattr(careers, "_json", lambda url: {"result": [{"id": 7, "jobOpeningName": "Solutions Engineer",
+                        "location": {"city": "Chicago", "state": "Illinois"}, "isRemote": False}]})
+    j = careers.fetch_bamboohr("Acme", "acme")[0]
+    assert (j["id"], j["location"], j["url"]) == ("bamboohr:acme:7", "Chicago, Illinois", "https://acme.bamboohr.com/careers/7")

@@ -6,7 +6,9 @@ and tells you who to message at the company to get in the door.
 1. **Builds the company list.** Your hand-picked companies in `config.yml`, plus
    high-growth startups discovered automatically from the YC directory
    (active, hiring, 15–1000 people, US or remote; ~575 companies today).
-   Optional: Apollo company search for non-YC venture-backed startups.
+   Plus portfolio companies of top VCs (a16z, Accel, General Catalyst, Khosla,
+   Insight, Thrive, ...) read from their public portfolio job boards.
+   Optional: Apollo company search.
 2. **Finds where each company posts jobs.** First it probes likely slugs on Ashby,
    Greenhouse, Lever and SmartRecruiters. If none answer, it opens the company's own
    careers page (`/careers`, `/jobs`, `careers.<domain>`, ...) and uses whatever is
@@ -25,8 +27,10 @@ The first time a company is scanned, matches older than 48h (or undated) are sen
 as one digest message instead of one alert each, so adding hundreds of companies
 doesn't flood Discord. Nothing is dropped silently.
 
-Not covered yet: iCIMS, BambooHR, and custom career pages that only render jobs
-with JavaScript and publish no JobPosting data.
+Career pages that only load jobs with JavaScript are opened once in a headless
+browser to see which job board they call (BambooHR, Recruitee and Breezy are
+supported too). Not covered yet: iCIMS, and custom pages that render their own
+jobs with JavaScript and publish no JobPosting data.
 
 ## Setup
 Repository secrets (Settings → Secrets and variables → Actions):

@@ -24,7 +24,7 @@ from urllib.parse import urlparse
 
 import requests
 
-from careers import find_careers_board
+from careers import find_boards_rendered, find_careers_board
 
 CACHE_PATH      = os.path.join(os.path.dirname(__file__), ".board_cache.json")
 # People data stays out of git (the repo is public); CI keeps it with actions/cache
@@ -181,6 +181,93 @@ def filter_yc(rows: list[dict], cfg: dict) -> list[dict]:
     return out
 
 
+GETRO_HEADCOUNT = {1: 5, 2: 30, 3: 125, 4: 600, 5: 3000, 6: 10000}  # bucket -> rough size
+US_HINTS = ("usa", "united states", "remote")
+
+
+def _us_based(locations) -> bool:
+    locs = [l.lower() for l in (locations or []) if isinstance(l, str)]
+    return not locs or any(h in l for l in locs for h in US_HINTS)
+
+
+def _getro_board(host: str) -> tuple[str, str] | None:
+    """(collection id, VC name) for a Getro-powered portfolio job board."""
+    try:
+        r = requests.get(f"https://{host}/companies", timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', r.text, re.S)
+        net = json.loads(m.group(1))["props"]["pageProps"]["network"]
+        return str(net["id"]), (net.get("legal") or {}).get("name") or net.get("label") or host
+    except Exception:
+        return None
+
+
+def from_getro(cfg: dict) -> list[dict]:
+    """Portfolio companies of VCs whose job boards run on Getro (Accel, General Catalyst, ...)."""
+    lo, hi = cfg.get("min_team_size", 15), cfg.get("max_team_size", 1000)
+    skip_stages = set(cfg.get("exclude_stages", ["acquisition", "ipo", "private_equity"]))
+    out = []
+    for host in cfg.get("boards", []):
+        board = _getro_board(host)
+        if not board:
+            print(f"  [discover] {host}: not a Getro board or unreachable")
+            continue
+        cid, vc = board
+        found = 0
+        for page in range(0, 50):
+            try:
+                r = requests.post(f"https://api.getro.com/api/v2/collections/{cid}/search/companies",
+                                  json={"hitsPerPage": 100, "page": page, "filters": "", "query": ""},
+                                  headers={"User-Agent": "Mozilla/5.0", "accept": "application/json"}, timeout=30)
+                rows = (r.json().get("results") or {}).get("companies") or []
+            except Exception as e:
+                print(f"  [discover] {host} page {page} failed: {e}")
+                break
+            for c in rows:
+                size = GETRO_HEADCOUNT.get(c.get("head_count") or c.get("headCount"))
+                if not c.get("domain") or not size or not (lo <= size <= hi * 1.5):
+                    continue
+                if c.get("stage") in skip_stages or not _us_based(c.get("locations")):
+                    continue
+                found += 1
+                out.append({
+                    "name":      c["name"],
+                    "domain":    domain_of(c["domain"]),
+                    "slug_hint": "",
+                    "team_size": size,
+                    "about":     (c.get("description") or "")[:200],
+                    "source":    f"{vc} portfolio",
+                })
+            if len(rows) < 100:
+                break
+        print(f"  [discover] {vc}: {found} companies")
+    return out
+
+
+def from_a16z(cfg: dict) -> list[dict]:
+    """a16z portfolio companies, from jobs.a16z.com/companies."""
+    lo, hi = cfg.get("min_team_size", 15), cfg.get("max_team_size", 1000)
+    try:
+        page = requests.get("https://jobs.a16z.com/companies", timeout=30,
+                            headers={"User-Agent": "Mozilla/5.0"}).text.replace('\\"', '"')
+    except Exception as e:
+        print(f"  [discover] a16z unavailable: {e}")
+        return []
+    out = []
+    for chunk in page.split('{"id":"')[1:]:
+        name = re.search(r'"name":"([^"]+)"', chunk)
+        domain = re.search(r'"domain":"([^"]+)"', chunk)
+        size = re.search(r'"headcount":(\d+)', chunk)
+        loc = re.search(r'"location":"([^"]*)"', chunk)
+        if not (name and domain and size and '"slug":' in chunk[:120]):
+            continue
+        size = int(size.group(1))
+        if lo <= size <= hi and _us_based([loc.group(1)] if loc else []):
+            out.append({"name": name.group(1), "domain": domain_of(domain.group(1)), "slug_hint": "",
+                        "team_size": size, "about": "", "source": "a16z portfolio"})
+    print(f"  [discover] a16z: {len(out)} companies")
+    return out
+
+
 def from_apollo(cfg: dict) -> list[dict]:
     key = os.environ.get("APOLLO_API_KEY", "")
     if not key:
@@ -234,15 +321,32 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
     disc = cache["discovered"]
     refresh = cfg.get("refresh_days", 1) * 86400
 
-    if not disc.get("companies") or now - disc.get("fetched", 0) > refresh:
+    sources = sorted(k for k in ("yc", "vc", "apollo") if (cfg.get(k) or {}).get("enabled", k != "apollo"))
+    if (not disc.get("companies") or now - disc.get("fetched", 0) > refresh
+            or disc.get("sources") != sources):
         companies = []
         if cfg.get("yc", {}).get("enabled", True):
             companies += from_yc(cfg.get("yc", {}))
+        vc = cfg.get("vc", {})
+        if vc.get("enabled", True):
+            vc_cfg = {"min_team_size": 15, "max_team_size": 1000, **vc}
+            companies += from_getro(vc_cfg)
+            if vc.get("a16z", True):
+                companies += from_a16z(vc_cfg)
         if cfg.get("apollo", {}).get("enabled", False):
             companies += from_apollo(cfg.get("apollo", {}))
         if companies:
+            # Same company from two sources: keep the first (YC has the best data)
+            unique, names = [], set()
+            for c in companies:
+                key = c["domain"] or c["name"].lower()
+                if key not in names:
+                    names.add(key)
+                    unique.append(c)
+            companies = unique
             disc["companies"] = companies
             disc["fetched"] = now
+            disc["sources"] = sources
     companies = disc.get("companies", [])
 
     # Probe boards for companies we haven't resolved (or that had none a while ago)
@@ -263,6 +367,21 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
             for c, found in zip(todo, results):
                 cache["boards"][c["name"]] = {**(found or {"ats": None, "slug": None}),
                                               "checked": now, "careers": True}
+
+    # Career pages that only show jobs with JavaScript: render them in a browser
+    if cfg.get("render_js", True):
+        def needs_render(c):
+            b = cache["boards"].get(c["name"]) or {}
+            return c["domain"] and b.get("careers") and not b.get("ats") and not b.get("rendered")
+        no_board = [c for c in companies if needs_render(c)][: cfg.get("max_renders_per_run", 40)]
+        if no_board:
+            print(f"  [discover] rendering career pages for {len(no_board)} companies...")
+            found = find_boards_rendered([c["domain"] for c in no_board])
+            for c in no_board:
+                b = found.get(c["domain"])
+                cache["boards"][c["name"]] = {**(b or {"ats": None, "slug": None}),
+                                              "checked": now, "careers": True, "rendered": True}
+            print(f"  [discover] found boards for {len(found)} of them")
 
     out = []
     for c in companies:

@@ -37,7 +37,10 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt playwright
+          # Headless browser for career pages that only show jobs with JavaScript
+          python -m playwright install --with-deps chromium || echo "::warning::no browser; JS career pages skipped"
 
       - name: Restore contacts cache (kept out of git)
         uses: actions/cache@v4
