@@ -4283,7 +4283,8 @@
   "Flank": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Fleek": {
@@ -4547,7 +4548,8 @@
   "Frontegg": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Function Health": {
@@ -4859,10 +4861,11 @@
    "slug": null
   },
   "Golden Analytics": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "slug": null
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Goldenset Collective": {
    "ats": null,
@@ -4936,10 +4939,11 @@
    "slug": "greatquestion"
   },
   "GreenLite Technologies": {
-   "ats": null,
+   "ats": "ashby",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "slug": null
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
+   "slug": "greenlitecareers"
   },
   "Greenboard": {
    "ats": "ashby",
@@ -5505,7 +5509,8 @@
   "IVIX": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Icarus": {
@@ -5528,7 +5533,8 @@
   "ImmuneBridge": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Imply": {
@@ -5590,7 +5596,8 @@
   "Incredibuild": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Inductive Bio": {
@@ -5776,7 +5783,8 @@
   "Iterative Scopes": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Ivo": {
@@ -6046,7 +6054,8 @@
   "Kintsugi": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Kirusa": {
@@ -6159,13 +6168,15 @@
   "Kubit": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "LIBLAB": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "LOLA": {
@@ -6274,7 +6285,8 @@
   "LaunchNotes": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Launchpoint": {
@@ -6549,7 +6561,8 @@
   "Logixboard": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "Logz.io": {
@@ -6622,10 +6635,11 @@
    "slug": null
   },
   "Luciq": {
-   "ats": null,
+   "ats": "bamboohr",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "slug": null
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
+   "slug": "instabug"
   },
   "Lucis": {
    "ats": "ashby",
@@ -13127,7 +13141,8 @@
   "iFoodDS": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794323494.137434,
+   "rendered_v2": true,
    "slug": null
   },
   "incident.io": {
@@ -31673,6 +31688,7 @@
   "ashby:govwell",
   "ashby:greatquestion",
   "ashby:greenboard",
+  "ashby:greenlitecareers",
   "ashby:greptile",
   "ashby:hadrian-automation",
   "ashby:happyrobot.ai",
@@ -32088,6 +32104,7 @@
   "bamboohr:bitrise",
   "bamboohr:brandingbrand",
   "bamboohr:expedock",
+  "bamboohr:instabug",
   "bamboohr:magnusmedical",
   "bamboohr:nexthopai",
   "bamboohr:onelocal",
