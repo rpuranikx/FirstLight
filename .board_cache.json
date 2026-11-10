@@ -1980,8 +1980,8 @@
   "CTRL Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "CX2": {
@@ -2939,11 +2939,11 @@
    "slug": "cookunity"
   },
   "Cooper": {
-   "ats": null,
+   "ats": "ashby",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
-   "slug": null
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
+   "slug": "cooper-ai"
   },
   "Copado": {
    "ats": "rippling",
@@ -2978,8 +2978,8 @@
   "Corvia Medical": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Cosmo Tech": {
@@ -2997,8 +2997,8 @@
   "Couchsurfing": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Counsel Health": {
@@ -3010,15 +3010,15 @@
   "Coval": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Cover": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Cover Technologies": {
@@ -3146,11 +3146,11 @@
    "slug": "https://www.curacel.co/careers"
   },
   "Curai Health": {
-   "ats": null,
+   "ats": "lever",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
-   "slug": null
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
+   "slug": "curai"
   },
   "Cure Hydration": {
    "ats": null,
@@ -3374,8 +3374,8 @@
   "Dewpoint Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Digbi Health": {
@@ -3414,8 +3414,8 @@
   "Disclo": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "DoNotPay": {
@@ -3640,8 +3640,8 @@
   "Eightfold": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Ekho": {
@@ -3650,11 +3650,11 @@
    "slug": "ekho"
   },
   "Eleanor Health": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
-   "slug": null
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Electric Air": {
    "ats": "ashby",
@@ -3712,8 +3712,8 @@
   "Elysium": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Ema Unlimited": {
@@ -3921,8 +3921,8 @@
   "Expanso": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Expedock": {
@@ -3984,8 +3984,8 @@
   "Fabric": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
    "slug": null
   },
   "Facilio": {
@@ -4030,11 +4030,11 @@
    "slug": null
   },
   "Faro Health": {
-   "ats": null,
+   "ats": "workable",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
-   "slug": null
+   "checked": 1794310892.8955953,
+   "rendered_v2": true,
+   "slug": "j"
   },
   "Farther Finance": {
    "ats": "greenhouse",
@@ -31518,6 +31518,7 @@
   "ashby:conduit",
   "ashby:confido",
   "ashby:convex-dev",
+  "ashby:cooper-ai",
   "ashby:counsel",
   "ashby:covera-health",
   "ashby:cowboyspace",
@@ -32376,6 +32377,7 @@
   "lever:charmindustrial",
   "lever:circadiahealth",
   "lever:clarifyhealth",
+  "lever:curai",
   "lever:cx2",
   "lever:delfidiagnostics",
   "lever:doola",
