@@ -324,7 +324,7 @@ def discover(cfg: dict, cache: dict, now: float | None = None) -> list[dict]:
     disc = cache["discovered"]
     refresh = cfg.get("refresh_days", 1) * 86400
 
-    sources = sorted(k for k in ("yc", "vc", "apollo") if (cfg.get(k) or {}).get("enabled", k != "apollo"))
+    sources = sorted(k for k in ("yc", "vc", "apollo") if (cfg.get(k) or {}).get("enabled", k != "apollo")) + ["v2"]
     if (not disc.get("companies") or now - disc.get("fetched", 0) > refresh
             or disc.get("sources") != sources):
         companies = []
