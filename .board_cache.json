@@ -79,7 +79,8 @@
   "AILY LABS": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "AIM Intelligent Machines": {
@@ -590,7 +591,8 @@
   "Anaconda": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Anagram": {
@@ -625,7 +627,8 @@
   "Anjuna": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Ankr Health": {
@@ -744,10 +747,11 @@
    "slug": null
   },
   "Apricot": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794276300.9429114,
-   "slug": null
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Aptly": {
    "ats": null,
@@ -966,7 +970,8 @@
   "Asylon Robotics": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Athelas": {
@@ -1095,7 +1100,8 @@
   "Autobahn Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Automox": {
@@ -1127,7 +1133,8 @@
   "Averna Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Aviatrix": {
@@ -1203,7 +1210,8 @@
   "Ayar Labs": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Ayr Energy": {
@@ -1291,7 +1299,8 @@
   "Bardeen": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Base Power Company": {
@@ -1303,7 +1312,8 @@
   "Basking Biosciences": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "BaubleBar": {
@@ -1357,7 +1367,8 @@
   "Beewise": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "Believer": {
@@ -1471,7 +1482,8 @@
   "BigPanda": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794320793.3000433,
+   "rendered_v2": true,
    "slug": null
   },
   "BigScreen": {
