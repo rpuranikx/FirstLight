@@ -472,3 +472,14 @@ def test_more_hosted_boards_detected_and_read(monkeypatch):
                         "location": {"city": "Chicago", "state": "Illinois"}, "isRemote": False}]})
     j = careers.fetch_bamboohr("Acme", "acme")[0]
     assert (j["id"], j["location"], j["url"]) == ("bamboohr:acme:7", "Chicago, Illinois", "https://acme.bamboohr.com/careers/7")
+
+
+def test_israel_country_code_is_not_illinois():
+    def loc(text, remote=False):
+        return main.matches_location({"location": text, "workplace": "", "is_remote": remote})
+    assert not loc("Tel Aviv-Yafo, Tel Aviv District, IL")
+    assert not loc("Herzliya, IL")
+    assert not loc("Tel Aviv / Remote", remote=True)
+    assert loc("Wilmette, IL")
+    assert loc("Springfield, IL, US, 62702")
+    assert loc("Chicago, IL; Tel Aviv, Israel")

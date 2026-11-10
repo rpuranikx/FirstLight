@@ -225,9 +225,16 @@ LOCAL_PLACES = [
 ]
 
 
+# "IL" is also Israel's country code ("Tel Aviv-Yafo, Tel Aviv District, IL"),
+# so the bare state abbreviation only counts when nothing else says non-US.
+STATE_ONLY_PLACES = {", il", " il "}
+
+
 def is_chicagoland(text: str) -> bool:
     t = text.lower()
-    return any(tok in t for tok in LOCAL_PLACES)
+    if any(tok in t for tok in LOCAL_PLACES if tok not in STATE_ONLY_PLACES):
+        return True
+    return any(tok in t for tok in LOCAL_PLACES if tok in STATE_ONLY_PLACES) and not is_non_us(t)
 
 
 NON_US_PLACES = [
@@ -235,7 +242,8 @@ NON_US_PLACES = [
     "uk", "united kingdom", "london", "dublin", "ireland", "emea", "apac", "latam", "europe",
     "germany", "berlin", "munich", "france", "paris", "spain", "madrid", "barcelona", "portugal",
     "lisbon", "italy", "netherlands", "amsterdam", "poland", "warsaw", "sweden", "stockholm",
-    "switzerland", "zurich", "israel", "tel aviv", "singapore", "japan", "tokyo", "korea", "seoul",
+    "switzerland", "zurich", "israel", "tel aviv", "tel aviv-yafo", "herzliya", "jerusalem", "haifa",
+    "ramat gan", "petah tikva", "tel aviv district", "central district", "singapore", "japan", "tokyo", "korea", "seoul",
     "china", "hong kong", "taiwan", "australia", "sydney", "melbourne", "new zealand", "canada",
     "toronto", "vancouver", "montreal", "mexico", "brazil", "sao paulo", "argentina", "colombia",
     "philippines", "vietnam", "uae", "dubai", "taipei", "rio de janeiro", "bogota", "buenos aires",
