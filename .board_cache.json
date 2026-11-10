@@ -6764,7 +6764,8 @@
   "MOTORMIA": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Mach Industries": {
@@ -7491,7 +7492,8 @@
   "Nacelle": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Names & Faces": {
@@ -8225,7 +8227,8 @@
   "OwnLocal": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Oxygen": {
@@ -8311,7 +8314,8 @@
   "Pando": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Panorama Education": {
@@ -8661,10 +8665,11 @@
    "slug": "planted"
   },
   "Plantible Foods": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794290927.8234248,
-   "slug": null
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
+   "slug": "plantiblefoods"
   },
   "Platform9": {
    "ats": null,
@@ -8835,7 +8840,8 @@
   "PowerToFly": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Pragma": {
@@ -9346,7 +9352,8 @@
   "Raydiant": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Reach": {
@@ -9440,7 +9447,8 @@
   "Recyclops": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Redback Industries": {
@@ -9470,7 +9478,8 @@
   "Refinery29": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Reflex": {
@@ -9543,7 +9552,8 @@
   "Remedy Logic": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Remesh": {
@@ -10340,7 +10350,8 @@
   "Shortcut": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Shuttle Central": {
@@ -10477,7 +10488,8 @@
   "Skiplagged": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "SkySafe": {
@@ -10671,7 +10683,8 @@
   "Sonoro": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Sonrai Security": {
@@ -10754,7 +10767,8 @@
   "Spatial": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794330881.095384,
+   "rendered_v2": true,
    "slug": null
   },
   "Speak": {
@@ -32651,6 +32665,7 @@
   "rippling:lawvu-careers",
   "rippling:longeye",
   "rippling:nutrient",
+  "rippling:plantiblefoods",
   "rippling:quotapath",
   "rippling:rudderstack-careers",
   "rippling:sanas",
