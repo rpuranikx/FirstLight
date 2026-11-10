@@ -1448,6 +1448,12 @@
    "checked": 1793224195.0364485,
    "slug": "kivo-health"
   },
+  "Kobalt Labs": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794269101.1266963,
+   "slug": null
+  },
   "Kodex": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -7399,14 +7405,6 @@
     "team_size": 18
    },
    {
-    "about": "Make more $$$ with SEO and AEO",
-    "domain": "maintouch.com",
-    "name": "Maintouch",
-    "slug_hint": "maintouch",
-    "source": "YC Summer 2023",
-    "team_size": 15
-   },
-   {
     "about": "AI-native operations for the banks",
     "domain": "bretton.com",
     "name": "Bretton AI",
@@ -7429,6 +7427,14 @@
     "slug_hint": "letter-ai",
     "source": "YC Summer 2023",
     "team_size": 70
+   },
+   {
+    "about": "AI-powered risk and compliance for financial institutions",
+    "domain": "kobaltlabs.com",
+    "name": "Kobalt Labs",
+    "slug_hint": "kobalt-labs",
+    "source": "YC Summer 2023",
+    "team_size": 15
    },
    {
     "about": "AI Powered All-In-One Payroll, HR + Recruiting ",
@@ -8199,7 +8205,7 @@
     "team_size": 80
    }
   ],
-  "fetched": 1794177824.8256934
+  "fetched": 1794269101.1266963
  },
  "seeded_boards": [
   "ashby:9-mothers",
