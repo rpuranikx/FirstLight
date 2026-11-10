@@ -1110,8 +1110,8 @@
   "Avant-garde Health": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Aven": {
@@ -1205,8 +1205,8 @@
   "Ayr Energy": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Azara Healthcare": {
@@ -1273,8 +1273,8 @@
   "Bandana": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Baraka": {
@@ -1485,8 +1485,8 @@
   "Bilt Rewards": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Binks": {
@@ -1550,8 +1550,8 @@
   "Birches Health": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Bird": {
@@ -1584,11 +1584,11 @@
    "slug": null
   },
   "Bitwise Asset Management": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
-   "slug": null
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Bizzabo": {
    "ats": null,
@@ -1633,8 +1633,8 @@
   "Blidz": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Blissway": {
@@ -1655,11 +1655,11 @@
    "slug": "blockdaemon"
   },
   "Bloom & Wild": {
-   "ats": null,
+   "ats": "lever",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
-   "slug": null
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
+   "slug": "bloomon"
   },
   "Bloom Institute of Technology": {
    "ats": null,
@@ -1862,8 +1862,8 @@
   "BrightInsight": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Brightside": {
@@ -1973,8 +1973,8 @@
   "CHARM Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "CTRL Therapeutics": {
@@ -1999,8 +1999,8 @@
   "Cadence Solutions": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Caelux Corporation": {
@@ -2199,8 +2199,8 @@
   "Casana": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Casap": {
@@ -2485,8 +2485,8 @@
   "CipherOwl": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Circadia Health": {
@@ -2655,8 +2655,8 @@
   "CoachUp": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Coactive": {
@@ -2777,8 +2777,8 @@
   "Color": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794309992.1470034,
+   "rendered_v2": true,
    "slug": null
   },
   "Comma.ai": {
@@ -32369,6 +32369,7 @@
   "lever:anomali",
   "lever:autofi",
   "lever:biorender",
+  "lever:bloomon",
   "lever:bolster",
   "lever:canarytechnologies",
   "lever:certik",
