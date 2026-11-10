@@ -9989,8 +9989,8 @@
   "Scuba": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Seal": {
@@ -10033,8 +10033,8 @@
   "Seeking Alpha": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Seeq": {
@@ -10052,8 +10052,8 @@
   "Selency": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Semgrep": {
@@ -10089,8 +10089,8 @@
   "Sense": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Sensi.AI": {
@@ -10194,11 +10194,11 @@
    "slug": "shippo"
   },
   "Shogun": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
-   "slug": null
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
+   "slug": "getshogun"
   },
   "ShopMy": {
    "ats": "greenhouse",
@@ -10281,8 +10281,8 @@
   "Silna": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "SilverRail": {
@@ -10294,8 +10294,8 @@
   "Simplismart": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "SimplyInsured": {
@@ -10338,8 +10338,8 @@
   "Skeps": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Skild AI": {
@@ -10461,8 +10461,8 @@
   "Snaptrude": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Socket": {
@@ -10511,8 +10511,8 @@
   "Soma": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Somethings": {
@@ -10594,15 +10594,15 @@
   "Space Runners": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Spacejoy": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Spacelift": {
@@ -10666,8 +10666,8 @@
   "Spendflo": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Spenmo": {
@@ -10692,8 +10692,8 @@
   "SplashLearn": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
-   "rendered": true,
+   "checked": 1794308191.9270346,
+   "rendered_v2": true,
    "slug": null
   },
   "Splice": {
