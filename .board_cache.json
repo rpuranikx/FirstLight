@@ -675,8 +675,8 @@
   "Apero Health": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Apex Space": {
@@ -1317,8 +1317,8 @@
   "BeGo": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Beacon Biosignals": {
@@ -1492,8 +1492,8 @@
   "Binks": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Binocs ": {
@@ -3953,8 +3953,8 @@
   "Eze": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "F2": {
@@ -5032,11 +5032,11 @@
    "slug": null
   },
   "Handle": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
-   "slug": null
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Handoff": {
    "ats": "lever",
@@ -5517,8 +5517,8 @@
   "InEvent": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "InStride Health": {
@@ -5606,8 +5606,8 @@
   "Inito": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Inkeep": {
@@ -5885,8 +5885,8 @@
   "JuziBot": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "K Health": {
@@ -7825,8 +7825,8 @@
   "Okteto": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Omada Health": {
@@ -8122,8 +8122,8 @@
   "Oxygen": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "PNO\u0112": {
@@ -11222,8 +11222,8 @@
   "Taiv": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Taktile": {
@@ -11734,8 +11734,8 @@
   "Trexo Robotics": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
-   "rendered": true,
+   "checked": 1794295427.9897888,
+   "rendered_v2": true,
    "slug": null
   },
   "Triomics": {
