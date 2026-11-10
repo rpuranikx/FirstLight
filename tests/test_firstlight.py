@@ -426,7 +426,8 @@ def test_getro_portfolio_companies(monkeypatch):
         {"name": "Abroad", "domain": "a.in", "head_count": 3, "stage": "series_a", "locations": ["Bengaluru, India"]},
     ]
     monkeypatch.setattr(discover.requests, "get", lambda *a, **k: FakeResp(page))
-    monkeypatch.setattr(discover.requests, "post", lambda *a, **k: FakeResp(data={"results": {"companies": rows}}))
+    monkeypatch.setattr(discover.requests, "post", lambda *a, json=None, **k: FakeResp(
+        data={"results": {"companies": rows if json["page"] == 0 else []}}))
     out = discover.from_getro({"boards": ["jobs.accel.com"]})
     assert [(c["name"], c["domain"], c["source"]) for c in out] == [("Mid", "mid.com", "Accel portfolio")]
 

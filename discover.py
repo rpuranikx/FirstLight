@@ -222,10 +222,13 @@ def from_getro(cfg: dict) -> list[dict]:
             except Exception as e:
                 print(f"  [discover] {host} page {page} failed: {e}")
                 break
+            if page == 0 and rows:
+                print(f"  [discover] {host} fields: {sorted(rows[0].keys())}")
             for c in rows:
-                size = GETRO_HEADCOUNT.get(c.get("head_count") or c.get("headCount"))
-                if not c.get("domain") or not size or not (lo <= size <= hi * 1.5):
-                    continue
+                bucket = c.get("head_count") or c.get("headCount") or c.get("headcount")
+                size = GETRO_HEADCOUNT.get(bucket)
+                if not c.get("domain") or (size and not (lo <= size <= hi * 1.5)):
+                    continue  # unknown size is kept; the job filters still apply
                 if c.get("stage") in skip_stages or not _us_based(c.get("locations")):
                     continue
                 found += 1
@@ -237,7 +240,7 @@ def from_getro(cfg: dict) -> list[dict]:
                     "about":     (c.get("description") or "")[:200],
                     "source":    f"{vc} portfolio",
                 })
-            if len(rows) < 100:
+            if not rows:
                 break
         print(f"  [discover] {vc}: {found} companies")
     return out
