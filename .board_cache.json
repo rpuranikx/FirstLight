@@ -787,7 +787,8 @@
   "Arc": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Arca Wealth": {
@@ -1083,7 +1084,8 @@
   "Aurascape AI": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Aurelian": {
@@ -1596,7 +1598,8 @@
   "BitSight": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Bitmovin": {
@@ -1732,10 +1735,11 @@
    "slug": null
   },
   "BlueVine": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794290927.8234248,
-   "slug": null
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
+   "slug": "bluevineus"
   },
   "Board": {
    "ats": null,
@@ -2346,7 +2350,8 @@
   "Cequence Security": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Cercli": {
@@ -2730,7 +2735,8 @@
   "CodeSignal": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Coder": {
@@ -3148,7 +3154,8 @@
   "Crosswise": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Crowdanalytix": {
@@ -3813,7 +3820,8 @@
   "Encoded Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Endgame": {
@@ -7046,7 +7054,8 @@
   "Menlo Ventures": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Menten AI": {
@@ -8676,7 +8685,8 @@
   "Platform9": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "PlayPlay": {
@@ -9542,7 +9552,8 @@
   "Relyance AI": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Remarcable": {
@@ -10484,7 +10495,8 @@
   "Skild AI": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Skiplagged": {
@@ -12111,7 +12123,8 @@
   "Unagi Scooters": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Unconventional AI": {
@@ -12172,7 +12185,8 @@
   "Unravel Data": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "Unstructured": {
@@ -13044,7 +13058,8 @@
   "Zylo": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794332680.4746299,
+   "rendered_v2": true,
    "slug": null
   },
   "[untitled]": {
@@ -32283,6 +32298,7 @@
   "greenhouse:bitmovin",
   "greenhouse:blankstreet",
   "greenhouse:blockrenovation",
+  "greenhouse:bluevineus",
   "greenhouse:boku",
   "greenhouse:bonfirestudiosinc",
   "greenhouse:branch",
