@@ -559,7 +559,8 @@
   "Amberbox Gunshot Detection": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Ambience Healthcare": {
@@ -674,7 +675,8 @@
   "Anything": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Apeel Sciences": {
@@ -1504,10 +1506,11 @@
    "slug": null
   },
   "Bigfinite Inc.": {
-   "ats": null,
+   "ats": "lever",
    "careers": true,
-   "checked": 1794290927.8234248,
-   "slug": null
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
+   "slug": "aizon"
   },
   "Bilt Rewards": {
    "ats": null,
@@ -1565,7 +1568,8 @@
   "Biowear": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Birchbox": {
@@ -1950,7 +1954,8 @@
   "Buildcheck": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Builder.ai": {
@@ -3098,7 +3103,8 @@
   "Craft": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Craftwork": {
@@ -3953,7 +3959,8 @@
   "Evos": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Evvy": {
@@ -5016,7 +5023,8 @@
   "Groq": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "GroveMed": {
@@ -6185,7 +6193,8 @@
   "Koobz": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Kouper": {
@@ -6540,7 +6549,8 @@
   "LiquiDonate": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Liquid": {
@@ -8277,7 +8287,8 @@
   "Packsmith": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Pactum Ai": {
@@ -8332,7 +8343,8 @@
   "Panorama Education": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Pantomath": {
@@ -8599,7 +8611,8 @@
   "Pienso": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "Pietra": {
@@ -8894,7 +8907,8 @@
   "Presso": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "PrimaryIO": {
@@ -13142,7 +13156,8 @@
   "c/side": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
+   "checked": 1794333580.4780598,
+   "rendered_v2": true,
    "slug": null
   },
   "castform.com": {
@@ -32575,6 +32590,7 @@
   "lever:acceldata",
   "lever:advocate",
   "lever:airslate",
+  "lever:aizon",
   "lever:alluxio",
   "lever:anagramsecurity",
   "lever:anchorage",
