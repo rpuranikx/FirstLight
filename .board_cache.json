@@ -1579,7 +1579,8 @@
   "Bit": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "BitSight": {
@@ -1594,10 +1595,11 @@
    "slug": "bitmovin"
   },
   "Bitrise": {
-   "ats": null,
+   "ats": "bamboohr",
    "careers": true,
-   "checked": 1794276300.9429114,
-   "slug": null
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
+   "slug": "bitrise"
   },
   "Bitwise Asset Management": {
    "ats": "rippling",
@@ -1609,7 +1611,8 @@
   "Bizzabo": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "Black Crow AI": {
@@ -1713,7 +1716,8 @@
   "BlueOcean": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "BlueVine": {
@@ -2524,7 +2528,8 @@
   "Cirsium Biosciences": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "Cityblock Health": {
@@ -2647,7 +2652,8 @@
   "CloudBolt": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "CloudTrucks": {
@@ -2806,7 +2812,8 @@
   "Command Zero": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "CommerceIQ": {
@@ -2842,7 +2849,8 @@
   "ComplianceQuest": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "Complif": {
@@ -3001,7 +3009,8 @@
   "Cosmo Tech": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "Cotopaxi": {
@@ -3046,7 +3055,8 @@
   "CoverForce": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "Covera Health": {
@@ -3234,7 +3244,8 @@
   "DEM Biopharma": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "DNAnexus": {
@@ -3348,7 +3359,8 @@
   "Demostack": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794321693.237935,
+   "rendered_v2": true,
    "slug": null
   },
   "Deno": {
@@ -32059,6 +32071,7 @@
   "ashby:zeromark",
   "ashby:ziina",
   "ashby:zip",
+  "bamboohr:bitrise",
   "bamboohr:brandingbrand",
   "bamboohr:expedock",
   "bamboohr:magnusmedical",
