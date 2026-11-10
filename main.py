@@ -948,7 +948,7 @@ def main():
     parser.add_argument("--notify",   action="store_true",
                         help="Send Discord notification when new jobs are found")
     parser.add_argument("--profile",
-                        help="Run profiles/<name>.yml with its own state and webhook (e.g. buddy)")
+                        help="Run profiles/<name>.yml with its own state and webhook (e.g. environmental)")
     args = parser.parse_args()
     if args.profile:
         use_profile(args.profile)

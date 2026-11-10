@@ -1,9 +1,12 @@
-# FirstLight profile for an environmental / water / civil job search.
-# Run with: python main.py --profile buddy [--notify]
-# State lives in profiles/buddy/, alerts go to the webhook in BUDDY_DISCORD_WEBHOOK_URL.
-
-Notify:
-  webhook_env: BUDDY_DISCORD_WEBHOOK_URL
+# FirstLight profile for an environmental / water / civil job search in the Chicago area.
+# Run with: python main.py --profile environmental [--notify]
+# In a fork, set the repo variable FIRSTLIGHT_PROFILE=environmental and the
+# DISCORD_WEBHOOK_URL secret. State lives in profiles/environmental/.
+#
+# Secrets this profile uses (Settings -> Secrets and variables -> Actions):
+#   DISCORD_WEBHOOK_URL   required, where alerts go
+#   USAJOBS_API_KEY       optional, federal EPA jobs (free at developer.usajobs.gov)
+#   USAJOBS_EMAIL         optional, the email that key was issued to
 
 # Matched anywhere in the job title (lowercase substrings)
 Roles:

@@ -45,17 +45,20 @@ Repository secrets (Settings → Secrets and variables → Actions):
 Tune everything else in `config.yml`: `Roles`, `Filters`, `Discovery`, `Contacts`, and
 `Profile` (what Claude knows about you when choosing who to message).
 
-## More than one person
-Each file in `profiles/` is a separate search with its own state (`profiles/<name>/`)
-and Discord webhook. `profiles/buddy.yml` watches environmental, water and civil roles
-at ~40 engineering firms, utilities and Chicago-area governments:
+## Running it for someone else
+A friend can fork this repo and run their own search with their own config and secrets:
 
-```
-python main.py --profile buddy            # one scan, print results
-```
+1. Fork the repo and turn on Actions in the fork (Actions tab).
+2. Add a config in `profiles/<name>.yml`, or use an existing one such as
+   `profiles/environmental.yml` (environmental, water and civil roles at ~40 Chicago-area
+   engineering firms, utilities and governments).
+3. Settings → Secrets and variables → Actions: add the variable `FIRSTLIGHT_PROFILE` set to
+   that name, and the secrets the profile lists at its top (at least `DISCORD_WEBHOOK_URL`).
+   Keys never go in the YAML, since the repo is public.
 
-Its workflow (`scan-buddy.yml`) runs hourly and needs the `BUDDY_DISCORD_WEBHOOK_URL`
-secret; `USAJOBS_API_KEY` + `USAJOBS_EMAIL` (free at developer.usajobs.gov) add federal EPA jobs.
+With no `FIRSTLIGHT_PROFILE` the scanner runs `config.yml` as before. A profile keeps its own
+state in `profiles/<name>/`. Locally: `python main.py --profile environmental`.
+
 In a profile, a company can name its board directly, which is how employers on Oracle,
 UKG/UltiPro, iCIMS, Phenom, Paylocity, GovernmentJobs, Taleo, SuccessFactors,
 DirectEmployers (.jobs) and Jibe sites are covered (`boards_extra.py`), plus `page` for

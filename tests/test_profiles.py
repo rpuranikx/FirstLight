@@ -26,8 +26,8 @@ def fake_get(pages: dict):
 # ─────────────────────────────────────────────
 # Profiles
 # ─────────────────────────────────────────────
-def test_buddy_profile_loads_and_every_board_has_a_fetcher():
-    with open(os.path.join(ROOT, "profiles", "buddy.yml"), encoding="utf-8") as f:
+def test_environmental_profile_loads_and_every_board_has_a_fetcher():
+    with open(os.path.join(ROOT, "profiles", "environmental.yml"), encoding="utf-8") as f:
         cfg = yaml.safe_load(f)
     pinned = main.pinned_boards(cfg)
     assert len(pinned) >= 30
@@ -37,15 +37,15 @@ def test_buddy_profile_loads_and_every_board_has_a_fetcher():
 
 
 def test_use_profile_moves_state_and_webhook(monkeypatch, tmp_path):
-    monkeypatch.setenv("BUDDY_DISCORD_WEBHOOK_URL", "https://discord.test/buddy")
+    monkeypatch.setenv("DISCORD_WEBHOOK_URL", "https://discord.test/env")
     saved = (main.CONFIG_PATH, main.SEEN_PATH, main.DISCORD_WEBHOOK_URL,
              discover.CACHE_PATH, discover.CONTACTS_PATH)
     try:
-        main.use_profile("buddy")
-        assert main.CONFIG_PATH.endswith(os.path.join("profiles", "buddy.yml"))
-        assert main.SEEN_PATH.endswith(os.path.join("profiles", "buddy", ".seen_jobs.json"))
-        assert discover.CACHE_PATH.endswith(os.path.join("profiles", "buddy", ".board_cache.json"))
-        assert main.DISCORD_WEBHOOK_URL == "https://discord.test/buddy"
+        main.use_profile("environmental")
+        assert main.CONFIG_PATH.endswith(os.path.join("profiles", "environmental.yml"))
+        assert main.SEEN_PATH.endswith(os.path.join("profiles", "environmental", ".seen_jobs.json"))
+        assert discover.CACHE_PATH.endswith(os.path.join("profiles", "environmental", ".board_cache.json"))
+        assert main.DISCORD_WEBHOOK_URL == "https://discord.test/env"
     finally:
         (main.CONFIG_PATH, main.SEEN_PATH, main.DISCORD_WEBHOOK_URL,
          discover.CACHE_PATH, discover.CONTACTS_PATH) = saved
