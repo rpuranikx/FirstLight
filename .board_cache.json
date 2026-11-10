@@ -5767,15 +5767,15 @@
   "JADU": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "JEH Aerospace": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "JITX": {
@@ -5810,8 +5810,8 @@
   "Jigso": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "JobToday": {
@@ -5955,11 +5955,11 @@
    "slug": null
   },
   "Kick": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
-   "slug": null
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Kiddom": {
    "ats": "ashby",
@@ -6483,8 +6483,8 @@
   "Local Kitchens": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Locale": {
@@ -6623,8 +6623,8 @@
   "Lunos": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "LuxWall": {
@@ -6643,8 +6643,8 @@
   "MD Ally": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "MDalgorithms Inc.": {
@@ -6775,8 +6775,8 @@
   "Maribel Health": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Mark43": {
@@ -6806,8 +6806,8 @@
   "Martian": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Mashgin": {
@@ -6851,8 +6851,8 @@
   "Maum Capital Group": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Maven": {
@@ -7031,8 +7031,8 @@
   "Microverse": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Middesk": {
@@ -7135,8 +7135,8 @@
   "Mirvie": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Misfits Market": {
@@ -7167,8 +7167,8 @@
   "Moda": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Modal Labs": {
@@ -7444,8 +7444,8 @@
   "Native Security": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "Navan": {
@@ -13546,8 +13546,8 @@
   "mostik.ai": {
    "ats": null,
    "careers": true,
-   "checked": 1794278100.6976204,
-   "rendered": true,
+   "checked": 1794312693.468933,
+   "rendered_v2": true,
    "slug": null
   },
   "nTop": {
