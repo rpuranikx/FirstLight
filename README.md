@@ -45,6 +45,22 @@ Repository secrets (Settings → Secrets and variables → Actions):
 Tune everything else in `config.yml`: `Roles`, `Filters`, `Discovery`, `Contacts`, and
 `Profile` (what Claude knows about you when choosing who to message).
 
+## More than one person
+Each file in `profiles/` is a separate search with its own state (`profiles/<name>/`)
+and Discord webhook. `profiles/buddy.yml` watches environmental, water and civil roles
+at ~40 engineering firms, utilities and Chicago-area governments:
+
+```
+python main.py --profile buddy            # one scan, print results
+```
+
+Its workflow (`scan-buddy.yml`) runs hourly and needs the `BUDDY_DISCORD_WEBHOOK_URL`
+secret; `USAJOBS_API_KEY` + `USAJOBS_EMAIL` (free at developer.usajobs.gov) add federal EPA jobs.
+In a profile, a company can name its board directly, which is how employers on Oracle,
+UKG/UltiPro, iCIMS, Phenom, Paylocity, GovernmentJobs, Taleo, SuccessFactors,
+DirectEmployers (.jobs) and Jibe sites are covered (`boards_extra.py`), plus `page` for
+small sites that just list job links.
+
 ## Run locally
 ```
 pip install -r requirements.txt

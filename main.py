@@ -37,7 +37,9 @@ if sys.platform == "win32":
 import requests
 import yaml
 
+import boards_extra
 import careers
+import discover as _discover
 from contacts import who_to_message
 from discover import board_alive, discover, load_cache, probe_board, save_cache
 from slugs import COMPANY_SLUGS
@@ -73,6 +75,24 @@ def _p(color, *args):
 # ─────────────────────────────────────────────
 # Seen-jobs persistence (deduplication)
 # ─────────────────────────────────────────────
+def use_profile(name: str) -> None:
+    """
+    Points FirstLight at profiles/<name>.yml with its own state files, so one
+    repo can run alerts for several people. Alerts go to the webhook named by
+    Notify.webhook_env in that file (default DISCORD_WEBHOOK_URL).
+    """
+    global CONFIG_PATH, SEEN_PATH, DISCORD_WEBHOOK_URL
+    root = os.path.dirname(os.path.abspath(__file__))
+    CONFIG_PATH = os.path.join(root, "profiles", f"{name}.yml")
+    state = os.path.join(root, "profiles", name)
+    os.makedirs(state, exist_ok=True)
+    SEEN_PATH = os.path.join(state, ".seen_jobs.json")
+    _discover.CACHE_PATH = os.path.join(state, ".board_cache.json")
+    _discover.CONTACTS_PATH = os.path.join(state, ".contacts_cache.json")
+    env = (load_config().get("Notify") or {}).get("webhook_env", "DISCORD_WEBHOOK_URL")
+    DISCORD_WEBHOOK_URL = os.environ.get(env, "")
+
+
 def load_seen() -> set:
     if os.path.exists(SEEN_PATH):
         with open(SEEN_PATH, "r") as f:
@@ -104,7 +124,19 @@ def get_companies(cfg: dict) -> list[str]:
     for item in raw:
         if isinstance(item, str):
             cleaned.append(item.split("#")[0].strip())
+        elif isinstance(item, dict) and item.get("name"):
+            cleaned.append(item["name"])
     return cleaned
+
+
+def pinned_boards(cfg: dict) -> list[dict]:
+    """
+    Companies listed with their board spelled out, e.g.
+      - {name: GHD, ats: oracle, slug: "ejov.fa.ca2.oraclecloud.com|CX", location: "Chicago, IL"}
+    These are scanned as given (no probing). `location` is used for jobs that
+    don't say where they are, which is common on small employers' pages.
+    """
+    return [c for c in cfg.get("Companies", []) if isinstance(c, dict) and c.get("ats") and c.get("slug")]
 
 
 # ─────────────────────────────────────────────
@@ -187,13 +219,15 @@ def matches_role(title: str, role_tokens: list[str]) -> bool:
     return any(t in title_lower for t in role_tokens)
 
 
+LOCAL_PLACES = [
+    "chicago", "chicagoland", "illinois", ", il", " il ",
+    "naperville", "evanston", "schaumburg", "oak brook", "downers grove"
+]
+
+
 def is_chicagoland(text: str) -> bool:
     t = text.lower()
-    tokens = [
-        "chicago", "chicagoland", "illinois", ", il", " il ",
-        "naperville", "evanston", "schaumburg", "oak brook", "downers grove"
-    ]
-    return any(tok in t for tok in tokens)
+    return any(tok in t for tok in LOCAL_PLACES)
 
 
 NON_US_PLACES = [
@@ -540,6 +574,7 @@ FETCHERS = {
     "recruitee":  careers.fetch_recruitee,
     "breezy":     careers.fetch_breezy,
     "site":       careers.fetch_site,   # jobs hosted on the company's own careers page
+    **boards_extra.FETCHERS,            # Oracle, UKG, iCIMS, government portals, plain pages, ...
 }
 
 
@@ -556,7 +591,14 @@ def manual_targets(cfg: dict, cache: dict) -> list[dict]:
     """
     now = time.time()
     targets = []
+    pinned = {c["name"] for c in pinned_boards(cfg)}
+    for c in pinned_boards(cfg):
+        targets.append({"name": c["name"], "ats": c["ats"], "slug": c["slug"],
+                        "domain": c.get("domain", ""), "about": "", "team_size": None,
+                        "source": "config.yml", "location": c.get("location", "")})
     for name in get_companies(cfg):
+        if name in pinned:
+            continue
         mapping = COMPANY_SLUGS.get(name) or {"ats": None, "slug": "", "domain": ""}
         board = {"ats": mapping["ats"], "slug": mapping["slug"]}
         healed = cache["boards"].get(f"manual:{name}")
@@ -626,6 +668,8 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
     seed_hours = filters.get("first_scan_alert_hours", 48)
 
     careers.ROLE_TOKENS, careers.SEEN = role_tokens, seen
+    boards_extra.ROLE_TOKENS = role_tokens
+    boards_extra.SEARCH_LOCATION = filters.get("search_location", "")
     with ThreadPoolExecutor(SCAN_WORKERS) as pool:
         results = list(pool.map(_fetch_board, targets))
 
@@ -634,6 +678,10 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
         if err:
             _p(C.RED, f"  [error] {target['name']} ({board}): {err}")
             continue
+
+        for j in all_jobs:
+            if not j.get("location") and target.get("location"):
+                j["location"] = target["location"]
 
         # 1. Matches role & not excluded (no directors, no non-product managers)
         # 2. Chicagoland in-office/hybrid or Remote
@@ -851,7 +899,9 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
 # Entry point
 # ─────────────────────────────────────────────
 def run_once(seen: set, notify: bool = False) -> list[dict]:
+    global LOCAL_PLACES
     cfg         = load_config()
+    LOCAL_PLACES = [p.lower() for p in (cfg.get("Filters") or {}).get("local_places") or LOCAL_PLACES]
     roles       = get_roles(cfg)
     role_tokens = _role_tokens(roles)
     cache       = load_cache()
@@ -897,7 +947,11 @@ def main():
                         help="Seconds between polls in --watch mode (default: 300)")
     parser.add_argument("--notify",   action="store_true",
                         help="Send Discord notification when new jobs are found")
+    parser.add_argument("--profile",
+                        help="Run profiles/<name>.yml with its own state and webhook (e.g. buddy)")
     args = parser.parse_args()
+    if args.profile:
+        use_profile(args.profile)
 
     # Enable ANSI escape codes on Windows
     if sys.platform == "win32":

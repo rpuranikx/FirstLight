@@ -1,0 +1,109 @@
+# FirstLight profile for an environmental / water / civil job search.
+# Run with: python main.py --profile buddy [--notify]
+# State lives in profiles/buddy/, alerts go to the webhook in BUDDY_DISCORD_WEBHOOK_URL.
+
+Notify:
+  webhook_env: BUDDY_DISCORD_WEBHOOK_URL
+
+# Matched anywhere in the job title (lowercase substrings)
+Roles:
+  - environmental
+  - water
+  - wastewater
+  - stormwater
+  - watershed
+  - hydrolog
+  - hydrogeolog
+  - geolog
+  - ecolog
+  - natural resource
+  - conservation
+  - restoration
+  - wetland
+  - sustainab
+  - remediation
+  - compliance
+  - air quality
+  - industrial hygien
+  - ehs
+  - gis analyst
+  - gis specialist
+  - gis technician
+  - field technician
+  - civil engineer
+  - staff engineer
+  - project engineer
+  - water resources
+  - scientist
+
+Filters:
+  min_salary: 0               # keep everything; government pay is often hourly
+  max_age_days: 30
+  first_scan_alert_hours: 48  # older matches on the first scan go out as one digest
+  max_years_required: 0       # 0 = don't filter on years of experience
+  exclude_title_words: [senior, sr, principal, lead, leader, director, vp, vice president, chief, intern, internship, co-op]
+  search_location: Illinois   # big national boards are searched here (plus once for remote jobs)
+  # Illinois (default places list) or remote. Uncomment to stick to Chicagoland only:
+  # local_places: [chicago, evanston, skokie, wilmette, glenview, niles, northbrook, des plaines, lombard, naperville, downers grove, oak brook, schaumburg, elgin, joliet, aurora, wheaton, lemont, cook county]
+
+Discovery:
+  enabled: false              # only the employers below
+
+Contacts:
+  enabled: false              # no Hunter/Apollo/Claude spend for this profile
+
+Profile: ""
+
+# Each employer with the job board it uses. ats/slug formats are in boards_extra.py.
+# `location` fills in jobs that don't say where they are (small local employers).
+Companies:
+  # --- Government: water, environment, natural resources ---
+  - {name: MWRD, ats: page, slug: "https://www.jobapscloud.com/MWRD/", location: "Chicago, IL"}
+  - {name: Illinois Department of Natural Resources, ats: jobs2web, slug: "https://illinois.jobs2web.com/search/?q=&optionsFacetsDD_customfield3=Department+of+Natural+Resources"}
+  - {name: Illinois EPA, ats: jobs2web, slug: "https://illinois.jobs2web.com/search/?q=&optionsFacetsDD_customfield3=Environmental+Protection+Agency"}
+  - {name: EPA, ats: usajobs, slug: "Environmental Protection Agency"}   # needs USAJOBS_API_KEY + USAJOBS_EMAIL
+  - {name: Argonne National Laboratory, ats: workday, slug: "argonne|wd1|Argonne_Careers"}
+  - {name: City of Chicago, ats: taleo, slug: "chicago|100", location: "Chicago, IL"}
+  - {name: City of Chicago, ats: taleo, slug: "chicago|200", location: "Chicago, IL"}
+  - {name: Village of Winnetka, ats: neogov, slug: winnetka, location: "Winnetka, IL"}
+  - {name: Village of Glenview, ats: paylocity, slug: 4613d940-6f51-4acd-83f5-17186d98204a, location: "Glenview, IL"}
+  - {name: Village of Lincolnwood, ats: paylocity, slug: f7e797f9-5593-447d-a590-c84f34081050, location: "Lincolnwood, IL"}
+  - {name: Village of Wilmette, ats: page, slug: "https://wilmette.munisselfservice.com/ess/employmentopportunities/default.aspx", location: "Wilmette, IL"}
+  - {name: Village of Niles, ats: page, slug: "https://vniles.com/Jobs.aspx", location: "Niles, IL"}
+  - {name: Village of Northfield, ats: page, slug: "https://www.northfieldil.org/189/Employment-Opportunities", location: "Northfield, IL"}
+  - {name: Village of Morton Grove, ats: page, slug: "https://mortongroveil.org/government/employment/", location: "Morton Grove, IL"}
+
+  # --- Consulting and engineering firms ---
+  - {name: AECOM, ats: jobsyn, slug: aecom.jobs}
+  - {name: Jacobs, ats: jobsyn, slug: jacobs.jobs}
+  - {name: Burns & McDonnell, ats: jobsyn, slug: burnsmcd.jobs}
+  - {name: WSP, ats: jobsyn, slug: wspgroup.dejobs.org}
+  - {name: Sargent & Lundy, ats: icims, slug: careers-sargentlundy}
+  - {name: Geosyntec, ats: icims, slug: careers-geosyntec}
+  - {name: SWCA Environmental Consultants, ats: icims, slug: careers-swca}
+  - {name: GHD, ats: oracle, slug: "ejov.fa.ca2.oraclecloud.com|CX"}
+  - {name: GZA GeoEnvironmental, ats: ukg, slug: "recruiting.ultipro.com/GZA1000GZAE/JobBoard/4e8d2f3c-fad9-4c18-aa44-0e2f64a9bc41"}
+  - {name: Brown and Caldwell, ats: ukg, slug: "recruiting2.ultipro.com/BRO1018BRACA/JobBoard/a06992cf-10e7-4e24-8932-26d607a3049e"}
+  - {name: TRC, ats: jibe, slug: careers.trccompanies.com}
+  - {name: ERM, ats: workday, slug: "erm|wd3|ERM_Careers"}
+  - {name: Ramboll, ats: smartrecruiters, slug: Ramboll3}
+  - {name: AEI Consultants, ats: smartrecruiters, slug: AEIConsultants}
+  - {name: Carnow Conibear & Associates, ats: page, slug: "https://www.ccaltd.com/careers/", location: "Chicago, IL"}
+  - {name: Pizzo Group, ats: bamboohr, slug: pizzo}
+
+  # --- Waste, water and energy companies ---
+  - {name: Waste Management, ats: oracle, slug: "emcm.fa.us2.oraclecloud.com|WMCareers"}
+  - {name: Clean Harbors, ats: oracle, slug: "epyc.fa.us2.oraclecloud.com|CLH-US"}
+  - {name: Republic Services, ats: phenom, slug: jobs.republicservices.com/us/en}
+  - {name: Waste Connections, ats: phenom, slug: careers.wasteconnections.com/us/en}
+  - {name: Veolia, ats: jobsyn, slug: "dejobs.org|Veolia North America"}
+  - {name: Invenergy, ats: workday, slug: "invenergyllc|wd1|invenergycareers"}
+  - {name: Culligan, ats: ukg, slug: "recruiting2.ultipro.com/CUL1000CULL2/JobBoard/9217c0e2-98b3-4f21-948e-368c4434d618"}
+  - {name: S&C Electric Company, ats: oracle, slug: "ejia.fa.us6.oraclecloud.com|CX_1001"}
+
+  # Not covered yet (job pages need a login, a browser, or have no listings online):
+  # Will-South Cook SWCD, Kane-DuPage SWCD, North Cook SWCD, Illinois State Water Survey,
+  # Terracon, Tetra Tech, Weaver Consultants, Arcadis, Trinity Consultants, Mostardi Platt,
+  # SCS Engineers, Aqua Illinois, Pioneer Engineering, Conservice, Toeroek, Sterling Labs,
+  # SCS Global Services, Environmental Protection Network, City of Evanston, Village of Skokie,
+  # Village of Kenilworth, Village of Glencoe
