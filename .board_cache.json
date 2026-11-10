@@ -11397,7 +11397,8 @@
   "Synapse": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "Synchron": {
@@ -11536,7 +11537,8 @@
   "Teespring": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "Teleport": {
@@ -11554,7 +11556,8 @@
   "Tellus": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "Templafy": {
@@ -11722,7 +11725,8 @@
   "Third Arc Bio": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "Third Chair": {
@@ -11792,7 +11796,8 @@
   "Tlon": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "Together AI": {
@@ -11911,7 +11916,8 @@
   "Tradeblock": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "TradingView": {
@@ -12985,10 +12991,11 @@
    "slug": "yubico"
   },
   "Yuga Labs (BAYC)": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794291827.1586816,
-   "slug": null
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
+   "slug": "yugalabs"
   },
   "Yuzu": {
    "ats": "site",
@@ -13253,7 +13260,8 @@
   "dYdX": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794338980.5282233,
+   "rendered_v2": true,
    "slug": null
   },
   "digi": {
