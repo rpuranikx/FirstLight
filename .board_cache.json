@@ -397,7 +397,8 @@
   "Aktis Oncology": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Akto ": {
@@ -1405,7 +1406,8 @@
   "Belong": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "BelozFi": {
@@ -1537,7 +1539,8 @@
   "BioAge Labs": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "BioConsortia": {
@@ -1860,10 +1863,11 @@
    "slug": "brandingbrand"
   },
   "Braveheart": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794271800.5026355,
-   "slug": null
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
+   "slug": "braveheartbio"
   },
   "Bravely": {
    "ats": null,
@@ -2109,7 +2113,8 @@
   "Camp4": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Campaign Monitor": {
@@ -2216,10 +2221,11 @@
    "slug": "cartesia"
   },
   "Cartography Biosciences": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794271800.5026355,
-   "slug": null
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Cartwheel": {
    "ats": null,
@@ -3687,7 +3693,8 @@
   "Eclypsium": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Ecosoul ": {
@@ -4406,7 +4413,8 @@
   "FlyHomes": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Flyfin": {
@@ -5378,10 +5386,11 @@
    "slug": "hilberts"
   },
   "Hipcamp": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794271800.5026355,
-   "slug": null
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Hippocractic AI": {
    "ats": null,
@@ -7185,7 +7194,8 @@
   "Milu Health": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Mimic": {
@@ -7486,7 +7496,8 @@
   "NX": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "NYMBUS": {
@@ -8221,7 +8232,8 @@
   "Overtime": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Overture Life": {
@@ -8716,7 +8728,8 @@
   "Plix": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Pluang ": {
@@ -10324,7 +10337,8 @@
   "Shef": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "Shelf": {
@@ -13092,7 +13106,8 @@
   "[untitled]": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794335380.4421222,
+   "rendered_v2": true,
    "slug": null
   },
   "acceldata": {
@@ -32333,6 +32348,7 @@
   "greenhouse:boku",
   "greenhouse:bonfirestudiosinc",
   "greenhouse:branch",
+  "greenhouse:braveheartbio",
   "greenhouse:bringg",
   "greenhouse:buildkite",
   "greenhouse:cakeai",
