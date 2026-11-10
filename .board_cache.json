@@ -6812,7 +6812,8 @@
   "Marble Law": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Marco Polo": {
@@ -6849,13 +6850,15 @@
   "Marketing Evolution": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Markt Pilot": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Martian": {
@@ -7365,7 +7368,8 @@
   "Motorq": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Multiply Labs": {
@@ -7422,7 +7426,8 @@
   "NYMBUS": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Nabis": {
@@ -7458,7 +7463,8 @@
   "NanoMosaic": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "NanoNets": {
@@ -7640,10 +7646,11 @@
    "slug": null
   },
   "Ninety": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "slug": null
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Nira Energy": {
    "ats": "greenhouse",
@@ -7789,7 +7796,8 @@
   "Numetric": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Numos": {
@@ -7978,7 +7986,8 @@
   "OpenEyes": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "OpenFX": {
@@ -8009,7 +8018,8 @@
   "OpenWeb": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Ophelia": {
@@ -8020,7 +8030,8 @@
   "Optibus": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Orbital": {
@@ -8075,7 +8086,8 @@
   "Ory Corp": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "Osana": {
@@ -13617,14 +13629,16 @@
   "nTop": {
    "ats": null,
    "careers": true,
-   "checked": 1794277200.7004457,
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
    "slug": null
   },
   "nfinite": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794277200.7004457,
-   "slug": null
+   "checked": 1794324393.8062947,
+   "rendered_v2": true,
+   "slug": "nfinite"
   },
   "nimble-robotics": {
    "ats": "greenhouse",
