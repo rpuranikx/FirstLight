@@ -430,8 +430,8 @@
   "AlgoUniversity": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Algolia": {
@@ -755,8 +755,8 @@
   "Aqua": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Aqua Security": {
@@ -1078,8 +1078,8 @@
   "Authologic": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "AutoFi": {
@@ -1280,8 +1280,8 @@
   "Baraka": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Bardeen": {
@@ -1946,8 +1946,8 @@
   "BusinessOnBot": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "CAN Capital": {
@@ -3388,8 +3388,8 @@
   "DigiBuild": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Dili (Yc S23)": {
@@ -4354,8 +4354,8 @@
   "Forage": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Force Therapeutics": {
@@ -5902,11 +5902,11 @@
    "slug": null
   },
   "KaiPod Learning": {
-   "ats": null,
+   "ats": "breezy",
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
-   "slug": null
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
+   "slug": "kaipod-learning"
   },
   "Kaizen Labs": {
    "ats": "ashby",
@@ -6154,8 +6154,8 @@
   "Lago": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Lamar Health": {
@@ -7092,8 +7092,8 @@
   "MindFi": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Mindtickle": {
@@ -7481,8 +7481,8 @@
   "Neodocs": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Neon": {
@@ -9740,8 +9740,8 @@
   "Rootly": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Rose Rocket": {
@@ -9963,8 +9963,8 @@
   "Scispot": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Scotch ": {
@@ -10843,8 +10843,8 @@
   "Stayflexi": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Stellar Health": {
@@ -11869,8 +11869,8 @@
   "Turing College": {
    "ats": null,
    "careers": true,
-   "checked": 1794272700.2152052,
-   "rendered": true,
+   "checked": 1794298127.3482451,
+   "rendered_v2": true,
    "slug": null
   },
   "Turion Space": {
@@ -32040,6 +32040,7 @@
   "bamboohr:plusonerobotics",
   "bamboohr:proscia",
   "breezy:hioperator",
+  "breezy:kaipod-learning",
   "breezy:landmark",
   "breezy:righthand-robotics",
   "breezy:treeline",
