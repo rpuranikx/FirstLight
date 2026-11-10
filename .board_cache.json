@@ -16,7 +16,8 @@
   "1047 Games": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "10beauty": {
@@ -52,10 +53,11 @@
    "slug": null
   },
   "4M Analytics": {
-   "ats": null,
+   "ats": "ashby",
    "careers": true,
-   "checked": 1794270900.7265968,
-   "slug": null
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
+   "slug": "4M"
   },
   "9 Mothers": {
    "ats": "ashby",
@@ -156,10 +158,11 @@
    "slug": "abby-care"
   },
   "Ably": {
-   "ats": null,
+   "ats": "greenhouse",
    "careers": true,
-   "checked": 1794270900.7265968,
-   "slug": null
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
+   "slug": "ably30"
   },
   "Abridge": {
    "ats": "ashby",
@@ -320,7 +323,8 @@
   "Agora": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "AiPrise": {
@@ -11703,8 +11707,8 @@
   "Travera": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
-   "rendered": true,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Tray": {
@@ -11783,7 +11787,8 @@
   "TrueAccord": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Truemed": {
@@ -11924,13 +11929,15 @@
   "Uhnder": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Ukko": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Ultima Genomics": {
@@ -12020,7 +12027,8 @@
   "Up&Up": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "UpCodes": {
@@ -12089,7 +12097,8 @@
   "Vahan.ai": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Valar Labs": {
@@ -12250,7 +12259,8 @@
   "Verdagy": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Verge Genomics": {
@@ -12369,7 +12379,8 @@
   "Vitara Biomedical": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Vivid Vision": {
@@ -12773,7 +12784,8 @@
   "Zendar": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "Zenlytic": {
@@ -13637,7 +13649,8 @@
   "wajo.ai": {
    "ats": null,
    "careers": true,
-   "checked": 1794276300.9429114,
+   "checked": 1794319894.0899868,
+   "rendered_v2": true,
    "slug": null
   },
   "weavix": {
@@ -31351,6 +31364,7 @@
  },
  "seeded_boards": [
   "ashby:1mind",
+  "ashby:4M",
   "ashby:9-mothers",
   "ashby:Axel",
   "ashby:C1",
@@ -32048,6 +32062,7 @@
   "greenhouse:10beauty",
   "greenhouse:a24",
   "greenhouse:abacus",
+  "greenhouse:ably30",
   "greenhouse:agebold",
   "greenhouse:agency",
   "greenhouse:aidocmedical",
