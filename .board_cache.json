@@ -40,8 +40,8 @@
   "1Sharpe Capital": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "222": {
@@ -259,8 +259,8 @@
   "Adyton": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "AegisAI": {
@@ -279,8 +279,8 @@
   "Aether Diamonds": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Affinity": {
@@ -376,8 +376,8 @@
   "Akash Systems": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Akiflow": {
@@ -448,15 +448,15 @@
   "AliveCor": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "All Day Kitchens": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Allbirds": {
@@ -1012,8 +1012,8 @@
   "AttackIQ": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Attentive.ai": {
@@ -11746,8 +11746,8 @@
   "Triumph": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Tropic": {
@@ -11838,8 +11838,8 @@
   "Truvian Sciences": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Tula Technology": {
@@ -12308,8 +12308,8 @@
   "Vevo Therapeutics": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Viagogo": {
@@ -12321,8 +12321,8 @@
   "Vial": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "ViewFi": {
@@ -12426,8 +12426,8 @@
   "Vroom": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Vulcan Technologies": {
@@ -12722,11 +12722,11 @@
    "slug": "https://yuzu.health/careers"
   },
   "ZAGENO": {
-   "ats": null,
+   "ats": "bamboohr",
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
-   "slug": null
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
+   "slug": "zageno"
   },
   "ZBiotics Company": {
    "ats": "greenhouse",
@@ -12832,8 +12832,8 @@
   "Zip Security": {
    "ats": null,
    "careers": true,
-   "checked": 1794290927.8234248,
-   "rendered": true,
+   "checked": 1794315393.615356,
+   "rendered_v2": true,
    "slug": null
   },
   "Zippi": {
