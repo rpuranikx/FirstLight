@@ -670,7 +670,8 @@
   "AnyRoad": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Anything": {
@@ -1210,7 +1211,8 @@
   "Axoni": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Axonius": {
@@ -1505,7 +1507,8 @@
   "BigScreen": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Bigfinite Inc.": {
@@ -1915,10 +1918,11 @@
    "slug": null
   },
   "Brightside": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794271800.5026355,
-   "slug": null
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Bringg": {
    "ats": "greenhouse",
@@ -4477,7 +4481,8 @@
   "Formation": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Formation Bio": {
@@ -5073,7 +5078,8 @@
   "Gym Class VR": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "H1": {
@@ -6319,7 +6325,8 @@
   "Larridin": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Lassie": {
@@ -6607,7 +6614,8 @@
   "Locale": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Lockchain": {
@@ -6814,7 +6822,8 @@
   "Macro": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Magic": {
@@ -6863,7 +6872,8 @@
   "Mana Bio": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Manifest o.s.": {
@@ -7064,7 +7074,8 @@
   "Mem": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Menlo Security": {
@@ -7412,10 +7423,11 @@
    "slug": null
   },
   "Moov": {
-   "ats": null,
+   "ats": "rippling",
    "careers": true,
-   "checked": 1794271800.5026355,
-   "slug": null
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
+   "slug": "cdn-cgi"
   },
   "Morty": {
    "ats": "greenhouse",
@@ -8464,7 +8476,8 @@
   "Payall": {
    "ats": null,
    "careers": true,
-   "checked": 1794291827.1586816,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Payflow": {
@@ -9878,7 +9891,8 @@
   "Roboto Games": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "RocketSDR": {
@@ -12314,7 +12328,8 @@
   "Valar Labs": {
    "ats": null,
    "careers": true,
-   "checked": 1794271800.5026355,
+   "checked": 1794336280.2946053,
+   "rendered_v2": true,
    "slug": null
   },
   "Valdera": {
