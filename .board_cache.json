@@ -3489,8 +3489,8 @@
   "Drip Capital": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "DriveWealth": {
@@ -4671,8 +4671,8 @@
   "Gemnote": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Genalyte": {
@@ -4813,8 +4813,8 @@
   "Goldbelly": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Golden Analytics": {
@@ -5830,8 +5830,8 @@
   "Joy": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Judi Health": {
@@ -6819,8 +6819,8 @@
   "Mason": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Material Bank": {
@@ -7148,8 +7148,8 @@
   "MixRank": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Mixpanel": {
@@ -7874,8 +7874,8 @@
   "OneSignal": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Onebrief": {
@@ -8602,8 +8602,8 @@
   "PocketSuite": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Podium": {
@@ -9822,11 +9822,11 @@
    "slug": "sfox"
   },
   "SOUNDBOKS": {
-   "ats": null,
+   "ats": "recruitee",
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
-   "slug": null
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
+   "slug": "soundboks"
   },
   "SPARETECH": {
    "ats": "greenhouse",
@@ -10915,8 +10915,8 @@
   "Streak": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Stream": {
@@ -12393,8 +12393,8 @@
   "Volantio": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Voldex": {
@@ -12503,8 +12503,8 @@
   "Wefunder": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "WellTheory": {
@@ -12785,8 +12785,8 @@
   "Zentail": {
    "ats": null,
    "careers": true,
-   "checked": 1794270900.7265968,
-   "rendered": true,
+   "checked": 1794292727.5634265,
+   "rendered_v2": true,
    "slug": null
   },
   "Zephyr Cloud": {
@@ -32460,6 +32460,7 @@
   "lever:zippi",
   "lever:zushealth",
   "recruitee:qualifyzegmbh",
+  "recruitee:soundboks",
   "rippling:ares-interactive-careers",
   "rippling:bamboo-health-careers",
   "rippling:community-phone-careers",
