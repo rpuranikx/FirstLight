@@ -496,3 +496,30 @@ def test_careers_page_redirecting_off_site_is_ignored():
     assert careers.own_site("https://careers.acme.com/jobs", "acme.com")
     assert careers.own_site("https://www.ycombinator.com/companies/acme/jobs", "acme.com")
     assert not careers.own_site("https://www.linkedin.com/company/acme", "acme.com")
+
+
+def test_ashby_hybrid_city_roles_are_not_remote(monkeypatch):
+    data = {"jobs": [
+        {"id": "1", "title": "Forward Deployed Engineer - NYC", "location": "New York City", "workplaceType": "Hybrid",
+         "isRemote": True, "address": {"postalAddress": {"addressCountry": "United States"}}},
+        {"id": "2", "title": "Solutions Engineer (Central)", "location": "Austin", "workplaceType": "Remote", "isRemote": True,
+         "secondaryLocations": [{"location": "Chicago"}, {"location": "Denver"}]},
+        {"id": "3", "title": "Forward Deployed Engineer", "location": "Munich, Germany", "workplaceType": "Remote",
+         "isRemote": True, "address": {"postalAddress": {"addressCountry": "Germany"}}},
+    ]}
+    monkeypatch.setattr(main, "_get", lambda url: data)
+    jobs = {j["id"].split(":")[-1]: j for j in main.fetch_ashby("X", "x")}
+    assert not main.matches_location(jobs["1"])
+    assert jobs["2"]["location"] == "Austin; Chicago; Denver" and main.matches_location(jobs["2"])
+    assert not main.matches_location(jobs["3"])
+
+
+def test_role_words_that_are_not_the_job():
+    tokens = main._role_tokens(["forward deployed engineer", "solutions consultant", "ai engineer"])
+    assert main.matches_role("Forward Deployed Engineer (FDE) - NYC", tokens)
+    assert main.matches_role("Associate Solution Consultant", tokens)
+    assert main.matches_role("Partner Applied AI Engineer, Google Cloud", tokens)
+    for t in ["Forward Deployed Creative", "Forward Deployed UX Designer", "Forward Deployed Product Manager",
+              "Dental Consultant- Periodontist (FL)", "P2P Finance Consultant", "Applied AI Researcher",
+              "SAP Solutions Consultant (Accounting Experience)"]:
+        assert not main.matches_role(t, tokens), t

@@ -4,7 +4,7 @@ Roles:
   - Solutions Engineer
   - Sales Engineer
   - Pre-Sales Engineer
-  - Consultant
+  - Solutions Consultant
   - Implementation Consultant
   - Technical Consultant
   - Forward Deployed Engineer
@@ -19,6 +19,10 @@ Filters:
   max_age_days: 21            # ignore postings older than this
   first_scan_alert_hours: 48  # when a company is scanned for the first time, only alert on jobs this fresh
   max_years_required: 5       # skip postings that ask for more years of experience than this
+  # titles that contain a role word but aren't the job (e.g. "Forward Deployed Creative")
+  exclude_role_words: [designer, creative, product manager, researcher, scientist, recruiter, dental,
+                       accountant, accounting, receivable, payable, finance, p2p, sap, oracle, marketing,
+                       account executive, attorney, paralegal, intern]
   exclude_title_words: [senior, sr, staff, principal, lead, head of, director, vp, vice president, chief, distinguished, iii, iv]
 
 # Auto-discover high-growth startups beyond the hand-picked list below.

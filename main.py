@@ -149,16 +149,17 @@ ROLE_ALIASES = {
     "solutions engineer":        ["solutions engineer", "solutions eng"],
     "sales engineer":            ["sales engineer", "sales eng"],
     "pre-sales engineer":        ["pre-sales", "presales"],
-    "consultant":                ["consultant"],
+    "solutions consultant":      ["solutions consultant", "solution consultant", "domain consultant"],
     "implementation consultant": ["implementation consultant", "implementation eng"],
     "technical consultant":      ["technical consultant", "tech consultant"],
-    "forward deployed engineer": ["forward deployed", "fde", "field engineer",
+    "forward deployed engineer": ["forward deployed engineer", "forward deployed software",
+                                   "forward deployed ai", "(fde)", " fde", "field engineer",
                                    "deployment engineer"],
     "solutions architect":       ["solutions architect", "solution architect"],
     "customer engineer":         ["customer engineer", "customer success engineer"],
     "implementation engineer":   ["implementation engineer", "integration engineer",
                                    "onboarding engineer"],
-    "ai engineer":               ["ai engineer", "applied ai", "llm engineer",
+    "ai engineer":               ["ai engineer", "applied ai engineer", "applied ai architect", "llm engineer",
                                    "agent engineer", "engineer, ai", "ai solutions"],
     "automation engineer":       ["automation engineer", "test engineer", "sdet",
                                    "test infrastructure", "quality engineer"],
@@ -212,8 +213,16 @@ def matches_level(job: dict, filters: dict) -> bool:
     return not (limit and need and need > limit)
 
 
+# Matches a role word but isn't the job ("Forward Deployed Creative", "Dental Consultant")
+DEFAULT_NOT_TECHNICAL = ["designer", "creative", "product manager", "researcher", "scientist",
+                         "recruiter", "dental", "accountant", "accounting", "receivable", "payable",
+                         "finance", "p2p", "sap", "oracle", "marketing", "account executive",
+                         "attorney", "paralegal", "intern"]
+NOT_TECHNICAL = list(DEFAULT_NOT_TECHNICAL)
+
+
 def matches_role(title: str, role_tokens: list[str]) -> bool:
-    if is_excluded_title(title):
+    if is_excluded_title(title) or _has_word(title.lower(), NOT_TECHNICAL):
         return False
     title_lower = title.lower()
     return any(t in title_lower for t in role_tokens)
@@ -253,6 +262,10 @@ NON_US_PLACES = [
     "vienna", "austria", "prague", "brussels", "belgium", "riyadh", "saudi", "cairo", "lagos",
     "nairobi", "cape town", "johannesburg", "south africa", "istanbul", "turkey", "romania",
     "bucharest", "ukraine", "kyiv", "estonia", "tallinn", "ottawa", "calgary",
+    "greece", "athens", "espoo", "cyprus", "hungary", "budapest", "czech", "croatia", "serbia",
+    "bulgaria", "lithuania", "vilnius", "latvia", "riga", "egypt", "pakistan", "bangladesh",
+    "sri lanka", "nigeria", "kenya", "morocco", "costa rica", "guatemala", "uruguay", "ecuador",
+    "abu dhabi", "qatar", "doha", "south korea", "luxembourg", "slovakia", "slovenia", "iceland",
 ]
 US_MARKERS = ["united states", "usa", "us", "u.s.", "u.s", "americas", "north america", "us-remote"]
 
@@ -472,7 +485,12 @@ def fetch_ashby(company: str, slug: str) -> list[dict]:
     for j in data.get("jobs", []):
         if j.get("isListed") is False:
             continue
-        loc = j.get("location", "")
+        # Other offices the role can sit in (e.g. "Austin; Chicago; Denver")
+        places = [j.get("location", "")] + [s.get("location", "") for s in j.get("secondaryLocations") or []]
+        loc = "; ".join(p for p in places if p)
+        country = ((j.get("address") or {}).get("postalAddress") or {}).get("addressCountry") or ""
+        if country and country.lower() not in loc.lower():
+            loc += f" ({country})"
         workplace = j.get("workplaceType", "") or ""
         jobs.append({
             "id":           f"ashby:{slug}:{j.get('id')}",
@@ -481,7 +499,9 @@ def fetch_ashby(company: str, slug: str) -> list[dict]:
             "url":          j.get("jobUrl", ""),
             "location":     loc,
             "workplace":    workplace,
-            "is_remote":    j.get("isRemote") is True or "remote" in loc.lower(),
+            # Ashby sets isRemote on hybrid roles too, so go by the workplace type
+            "is_remote":    workplace == "Remote" or (not workplace and j.get("isRemote") is True)
+                            or "remote" in loc.lower(),
             "compensation": ashby_comp(j),
             "posted":       j.get("publishedAt", ""),
             "description":  plain_text(j.get("descriptionPlain", "")),
@@ -671,6 +691,7 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
     """
     new_jobs = []
     seeded = set(cache["seeded_boards"])
+    NOT_TECHNICAL[:] = filters.get("exclude_role_words", DEFAULT_NOT_TECHNICAL)
     min_salary = filters.get("min_salary", 115000)
     max_age = filters.get("max_age_days", 21)
     seed_hours = filters.get("first_scan_alert_hours", 48)
