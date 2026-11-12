@@ -186,10 +186,12 @@ def is_excluded_title(title: str) -> bool:
 
 DEFAULT_TOO_SENIOR = ["senior", "sr", "staff", "principal", "lead", "head of", "director",
                       "vp", "vice president", "chief", "distinguished", "iii", "iv"]
-YEARS_RE = re.compile(
-    r"(\d{1,2})\s*\+?\s*(?:-|to|–)?\s*(?:\d{1,2}\s*)?\+?\s*years?(?:\s+of)?(?:\s+[\w/-]+){0,4}?\s+experience",
-    re.IGNORECASE,
-)
+# "5+ years of experience", "6+ years in solutions architecture", "Min 4 years experience",
+# "3-5 years supporting customers", "at least 3 years of ..."
+YEARS_RE = re.compile(r"(?<![\d.$])(\d{1,2})\s*\+?\s*(?:(?:-|–|to)\s*\d{1,2}\s*\+?\s*)?years?\b(?!\s+(?:old|ago))",
+                      re.IGNORECASE)
+NOT_A_REQUIREMENT = re.compile(r"founded|company|history|in business|track record|over the (?:past|last)|"
+                               r"for (?:the )?(?:past|last)|since|anniversary|customers for", re.IGNORECASE)
 
 
 def is_too_senior(title: str, words: list[str]) -> bool:
@@ -199,9 +201,16 @@ def is_too_senior(title: str, words: list[str]) -> bool:
 
 
 def years_required(description: str) -> int | None:
-    """Smallest "N+ years ... experience" the posting asks for, if any."""
-    found = [int(m.group(1)) for m in YEARS_RE.finditer(description or "")]
-    found = [n for n in found if 0 < n < 20]
+    """Smallest "N+ years" the posting asks for, if any (ignores "founded 10 years ago" and the like)."""
+    text = description or ""
+    found = []
+    for m in YEARS_RE.finditer(text):
+        before = text[max(0, m.start() - 35):m.start()]
+        if NOT_A_REQUIREMENT.search(before):
+            continue
+        n = int(m.group(1))
+        if 0 < n < 20:
+            found.append(n)
     return min(found) if found else None
 
 
@@ -675,6 +684,26 @@ def all_targets(cfg: dict, cache: dict) -> list[dict]:
 # ─────────────────────────────────────────────
 # Core scan
 # ─────────────────────────────────────────────
+def add_description(job: dict) -> None:
+    """Fills in the description for boards whose list API leaves it out."""
+    ats, slug, jid = (job["id"].split(":", 2) + ["", ""])[:3]
+    try:
+        if ats == "smartrecruiters":
+            data = _get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings/{jid}") or {}
+            sections = ((data.get("jobAd") or {}).get("sections") or {}).values()
+            job["description"] = plain_text(" ".join(s.get("text", "") for s in sections if isinstance(s, dict)))
+        elif ats == "workday":
+            tenant_site = job["url"].split(".myworkdayjobs.com/", 1)
+            if len(tenant_site) == 2:
+                host = tenant_site[0] + ".myworkdayjobs.com"
+                tenant = host.split("//", 1)[-1].split(".", 1)[0]
+                site, path = tenant_site[1].split("/", 1)
+                data = _get(f"{host}/wday/cxs/{tenant}/{site}/{path}") or {}
+                job["description"] = plain_text((data.get("jobPostingInfo") or {}).get("jobDescription", ""))
+    except Exception:
+        pass
+
+
 def _fetch_board(target: dict):
     try:
         return target, FETCHERS[target["ats"]](target["name"], target["slug"]), None
@@ -722,8 +751,11 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
             and matches_location(j)
             and matches_compensation(j, min_salary)
             and is_fresh(j, max_age)
-            and matches_level(j, filters)
         ]
+        for j in matched:
+            if j["id"] not in seen and not j.get("description"):
+                add_description(j)  # some boards only send it on the job's own page
+        matched = [j for j in matched if matches_level(j, filters)]
 
         first_scan = board not in seeded
         for job in matched:

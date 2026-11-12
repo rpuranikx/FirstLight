@@ -523,3 +523,20 @@ def test_role_words_that_are_not_the_job():
               "Dental Consultant- Periodontist (FL)", "P2P Finance Consultant", "Applied AI Researcher",
               "SAP Solutions Consultant (Accounting Experience)"]:
         assert not main.matches_role(t, tokens), t
+
+
+def test_years_required_phrasings():
+    f = main.years_required
+    assert f("What We Look For 6+ years in solutions architecture, data engineering") == 6
+    assert f("Min 4 years experience in DS, ML, AI") == 4
+    assert f("3-5 years of relevant experience; 10 years of experience a plus") == 3
+    assert f("Founded 12 years ago, we now serve thousands") is None
+    assert f("Extensive years of hands-on industry experience") is None
+
+
+def test_smartrecruiters_description_fetched_for_level_check(monkeypatch):
+    monkeypatch.setattr(main, "_get", lambda url: {"jobAd": {"sections": {
+        "qualifications": {"text": "<li>8+ years in pre-sales</li>"}}}})
+    j = {"id": "smartrecruiters:Acme:123", "url": "", "description": ""}
+    main.add_description(j)
+    assert main.years_required(j["description"]) == 8
