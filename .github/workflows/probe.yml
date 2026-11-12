@@ -1,0 +1,10 @@
+name: probe
+on:
+  push:
+    branches: [probe-vc]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -r requirements.txt && python tools/probe_vc.py
