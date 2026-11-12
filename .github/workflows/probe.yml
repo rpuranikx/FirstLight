@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: pip install -r requirements.txt && python tools/probe_vc.py
+      - run: pip install -r requirements.txt && PYTHONPATH=. python tools/probe_vc.py
