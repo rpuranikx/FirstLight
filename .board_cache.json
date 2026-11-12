@@ -674,6 +674,13 @@
    "rendered_v2": true,
    "slug": null
   },
+  "Anyfin": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794446633.2273276,
+   "rendered_v2": true,
+   "slug": null
+  },
   "Anything": {
    "ats": null,
    "careers": true,
@@ -5513,6 +5520,13 @@
    "rendered_v2": true,
    "slug": null
   },
+  "Hub Labs": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794446633.2273276,
+   "rendered_v2": true,
+   "slug": null
+  },
   "Humaans": {
    "ats": "ashby",
    "checked": 1793207879.1262577,
@@ -6244,6 +6258,13 @@
    "careers": true,
    "checked": 1794271800.5026355,
    "slug": "krea"
+  },
+  "Kry": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794446633.2273276,
+   "rendered_v2": true,
+   "slug": null
   },
   "Kubit": {
    "ats": null,
@@ -7103,6 +7124,13 @@
    "ats": null,
    "careers": true,
    "checked": 1794332680.4746299,
+   "rendered_v2": true,
+   "slug": null
+  },
+  "Mentari Therapeutics": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794446633.2273276,
    "rendered_v2": true,
    "slug": null
   },
@@ -8755,6 +8783,12 @@
    "careers": true,
    "checked": 1794277200.7004457,
    "slug": "playplay"
+  },
+  "Pleo": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794446633.2273276,
+   "slug": "pleo"
   },
   "Plix": {
    "ats": null,
@@ -16296,14 +16330,6 @@
     "team_size": 70
    },
    {
-    "about": "Live online courses that turn learners into builders",
-    "domain": "coderhouse.com",
-    "name": "Coderhouse",
-    "slug_hint": "coderhouse",
-    "source": "YC Winter 2021",
-    "team_size": 70
-   },
-   {
     "about": "Generative AI powered Shopify for home service professionals",
     "domain": "toplinepro.com",
     "name": "Topline Pro",
@@ -16758,14 +16784,6 @@
     "slug_hint": "coast",
     "source": "YC Summer 2021",
     "team_size": 35
-   },
-   {
-    "about": "Full-stack payments infrastructure for growing APAC businesses",
-    "domain": "hitpayapp.com",
-    "name": "HitPay",
-    "slug_hint": "hitpay",
-    "source": "YC Summer 2021",
-    "team_size": 42
    },
    {
     "about": "The platform for buying, selling and managing residential construction",
@@ -17960,12 +17978,12 @@
     "team_size": 30
    },
    {
-    "about": "Marketplace for America's most essential assets",
+    "about": "America's marketplace for mission-critical assets.",
     "domain": "shopgarage.com",
     "name": "Garage",
     "slug_hint": "garage-2",
     "source": "YC Winter 2024",
-    "team_size": 35
+    "team_size": 45
    },
    {
     "about": "AI Time Platform for Law Firms",
@@ -18576,12 +18594,12 @@
     "team_size": 15
    },
    {
-    "about": "Real-world training data for frontier AI labs and robotics.",
-    "domain": "hub.xyz",
-    "name": "Hub",
-    "slug_hint": "hub",
+    "about": "Deployment and data infrastructure for Embodied AI.",
+    "domain": "hublabs.com",
+    "name": "Hub Labs",
+    "slug_hint": "hub-labs",
     "source": "YC Spring 2026",
-    "team_size": 60
+    "team_size": 50
    },
    {
     "about": "AI OS transforming courts, accelerating justice",
@@ -18704,6 +18722,14 @@
     "team_size": 600
    },
    {
+    "about": "We want to help as many as possible to the best possible financial situation. Using new technology, we develop fair, simple, and smart services that help you get more from your finances. So that you c",
+    "domain": "anyfin.com",
+    "name": "Anyfin",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
     "about": "Appbrew empowers brands to build and scale high conversion mobile apps through a no-code platform. We are backed by Accel Partners, prominent DTC, and SaaS founders.",
     "domain": "appbrew.tech",
     "name": "Appbrew",
@@ -18776,7 +18802,7 @@
     "team_size": 30
    },
    {
-    "about": "Away is a modern travel and lifestyle brand. The company is a vertically integrated company offering beautiful, high-quality luggage at an affordable price point.\n\nAway designs special objects for mod",
+    "about": "Away is a modern travel and lifestyle brand. The company is a vertically-integrated company offering beautiful, high-quality luggage at an affordable price point.\n\nAway designs special objects for mod",
     "domain": "awaytravel.com",
     "name": "Away",
     "slug_hint": "",
@@ -19648,6 +19674,14 @@
     "team_size": 125
    },
    {
+    "about": "Kry is Europe\u2019s largest digital healthcare provider, allowing patients to see a doctor, nurse, or psychologist through video consultations within minutes. We\u2019ve delivered 11+ million patient appointme",
+    "domain": "kry.se",
+    "name": "Kry",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
     "about": "Laravel is a web application framework with expressive, elegant syntax. They believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out",
     "domain": "laravel.com",
     "name": "Laravel",
@@ -19731,14 +19765,6 @@
     "about": "Merge is one API to add hundreds of integrations to your product. Merge\u2019s platform makes secure data access easy by offering Unified APIs across key software categories, including HRIS, accounting, CR",
     "domain": "merge.dev",
     "name": "Merge",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Mihup specializes in providing a real-time AI platform designed to transform contact centers. The company offers products such as Mihup Agent Assist, Mihup Interaction Analytics, and Mihup Automated V",
-    "domain": "mihup.com",
-    "name": "Mihup",
     "slug_hint": "",
     "source": "Accel portfolio",
     "team_size": 125
@@ -19992,7 +20018,7 @@
     "team_size": 30
    },
    {
-    "about": "Propeller is a global leader in drone-mapping and analytics solutions that give worksites the power to measure and manage themselves. Headquartered in Sydney, Australia, with a North American office i",
+    "about": "Propeller is a global leader in drone-mapping and analytics solutions that give worksites the power to measure and manage themselves.\n\nHeadquartered in Sydney, Australia, with a North American office ",
     "domain": "propelleraero.com",
     "name": "Propeller",
     "slug_hint": "",
@@ -21448,7 +21474,7 @@
     "team_size": 30
    },
    {
-    "about": "We are a fast-growing international new space company with employees from over 45 countries united by the same values and vision.\n\nICEYE delivers unmatched persistent monitoring capabilities for any l",
+    "about": "ICEYE is a space technology company that develops and operates a constellation of synthetic aperture radar (SAR) satellites used for Earth observation and persistent monitoring. The company provides s",
     "domain": "iceye.com",
     "name": "ICEYE",
     "slug_hint": "",
@@ -21744,7 +21770,7 @@
     "team_size": 30
    },
    {
-    "about": "Microverse is an online school for remote software developers. Microverse's mission is to educate and connect 1 million people with remote opportunities by 2030. \n\nAt Microverse, students from all aro",
+    "about": "Microverse is an online school for remote software developers. Microverse's mission is to educate and connect 1 million people with remote opportunities by 2030.\n\nAt Microverse, students from all arou",
     "domain": "microverse.org",
     "name": "Microverse",
     "slug_hint": "",
@@ -22299,14 +22325,6 @@
     "about": "Sonar, the industry standard for code verification and automated code review, helps reduce outages, improve security, and lower risks associated with AI and agentic coding. As an independent verificat",
     "domain": "sonarsource.com",
     "name": "SonarSource",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "SonderMind is a mental health care provider that offers both online and in-person therapy and psychiatric services. Founded in 2014 and based in Denver, the company has expanded its reach to all 50 st",
-    "domain": "sondermind.com",
-    "name": "SonderMind",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 600
@@ -23240,7 +23258,7 @@
     "team_size": 125
    },
    {
-    "about": "Vista.ai is an artificial intelligence that offers clinicians the ability to conduct MRI studies. Vista.ai was founded in 2012 and was headquartered in Palo Alto, California.",
+    "about": "Vista.ai is an artificial intelligence that offers clinicians the ability to conduct MRI studies. \n\nVista.ai was founded in 2012 and was headquartered in Palo Alto, California.",
     "domain": "vista.ai",
     "name": "HeartVista, inc.",
     "slug_hint": "",
@@ -23381,7 +23399,7 @@
     "name": "Kiddom",
     "slug_hint": "",
     "source": "Khosla Ventures portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Kognitos is an AI platform that automates business operations through neurosymbolic AI. It provides pre-built AI agents that analyze data and extract key information without requiring coding skills. U",
@@ -23856,7 +23874,7 @@
     "team_size": null
    },
    {
-    "about": "Rightway is a leading technology and services company radically simplifying healthcare for clients and members. Its Care Navigation and new-to-the-world PBM platform reimagine the member experience, g",
+    "about": "Rightway is a leading technology and services company that simplifies healthcare for clients and members. Its Care Navigation and new-to-the-world PBM platform reimagines the member experience, genera",
     "domain": "rightwayhealthcare.com",
     "name": "Rightway",
     "slug_hint": "",
@@ -24368,7 +24386,7 @@
     "team_size": 125
    },
    {
-    "about": "Apprentice is the Manufacturing AI Company. Since 2014, we've built intelligent, mission-critical systems that empower teams to automate workflows they never thought possible. Our proprietary AI model",
+    "about": "Apprentice is The Manufacturing AI Company. Since 2014, we've built intelligent, mission-critical systems that empower teams to automate workflows they never thought possible. Our proprietary AI model",
     "domain": "apprentice.io",
     "name": "Apprentice",
     "slug_hint": "",
@@ -24477,7 +24495,7 @@
     "name": "Ayar Labs",
     "slug_hint": "",
     "source": "insight portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Azara Healthcare is a leading provider of data-driven reporting and analytics for the Community Health marketplace.",
@@ -24872,7 +24890,7 @@
     "team_size": 125
    },
    {
-    "about": "Doxel is an AI software solution that automates progress and schedule tracking for all trades using cameras. \n\nUsing a 360 camera, our AI reports percent complete against schedule and tracks productio",
+    "about": "Doxel is an AI software solution that automates progress and schedule tracking for all trades using cameras. Using a 360 camera, our AI reports percent complete against schedule and tracks production ",
     "domain": "doxel.ai",
     "name": "Doxel",
     "slug_hint": "",
@@ -25064,14 +25082,6 @@
     "team_size": 30
    },
    {
-    "about": "Flank is pioneering autonomous AI agents to transform enterprise legal, compliance, and security operations.\n\nThe Berlin-based company addresses a core challenge for many organizations: the significan",
-    "domain": "flank.ai",
-    "name": "Flank",
-    "slug_hint": "",
-    "source": "insight portfolio",
-    "team_size": 30
-   },
-   {
     "about": "FloQast provides a cloud-based accounting transformation platform that automates workflow and close management processes, enabling accounting departments to efficiently centralize tasks and documentat",
     "domain": "floqast.com",
     "name": "FloQast",
@@ -25205,7 +25215,7 @@
     "name": "HawkEye 360",
     "slug_hint": "",
     "source": "insight portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Higharc is the all-in-one web platform that simplifies, connects, and improves each step of design, construction, and sales for home building. It enables builders to design, sell in 3D, and get permit",
@@ -25302,14 +25312,6 @@
     "slug_hint": "",
     "source": "insight portfolio",
     "team_size": 125
-   },
-   {
-    "about": "Island is a cybersecurity and enterprise software company that develops an enterprise browser and related technologies for securing and managing digital work environments. Its Enterprise Browser integ",
-    "domain": "island.io",
-    "name": "Island",
-    "slug_hint": "",
-    "source": "insight portfolio",
-    "team_size": 600
    },
    {
     "about": "Iterative Health is a healthcare technology and services company that focuses on accelerating clinical research to improve patient outcomes through innovative approaches. The company transforms gastro",
@@ -25613,7 +25615,7 @@
     "name": "NYMBUS",
     "slug_hint": "",
     "source": "insight portfolio",
-    "team_size": 600
+    "team_size": 125
    },
    {
     "about": "OpenEyes offers commercial automotive insurance aiming to reduce the risk of an accident and aggressive lawsuits. It leverages innovative technology to reduce the extremely high commercial automotive ",
@@ -25632,7 +25634,7 @@
     "team_size": 600
    },
    {
-    "about": "Founded in 2014, Optibus is a unified software platform that brings much-needed innovation to the public transportation industry. The platform leverages artificial intelligence (AI), advanced optimiza",
+    "about": "Founded in 2014, Optibus is a unified software platform that brings much-needed innovation to the public transportation industry. The platform leverages Artificial Intelligence (AI), advanced optimiza",
     "domain": "optibus.com",
     "name": "Optibus",
     "slug_hint": "",
@@ -26552,7 +26554,7 @@
     "team_size": 125
    },
    {
-    "about": "Workit Health is the industry-leading provider of clinically proven telemedicine treatment for Substance Use Disorder, offering online therapy, medication-assisted treatment, psychiatric support, and ",
+    "about": "Workit Health is the industry-leading provider of clinically proven telemedicine treatment for substance use disorder, offering online therapy, medication-assisted treatment, psychiatric support, and ",
     "domain": "workithealth.com",
     "name": "Workit Health",
     "slug_hint": "",
@@ -26880,6 +26882,14 @@
     "team_size": 125
    },
    {
+    "about": "Centralise your business spending for complete financial efficiency and balance the books effortlessly with Europe\u2019s most loved and trusted spend management platform. Expenses, reimbursements, invoice",
+    "domain": "pleo.io",
+    "name": "Pleo",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 600
+   },
+   {
     "about": "Rent App provides a digital platform designed to streamline rental payments and tenant management processes. The company enables tenants to make bank transfers directly to landlords without transactio",
     "domain": "rent.app",
     "name": "Rent App",
@@ -26928,7 +26938,7 @@
     "team_size": 125
    },
    {
-    "about": "Real time physical intelligence. Deploy anywhere, detect anything. Specter builds and deploys long range sensing networks for high bandwidth perception.",
+    "about": "Find art you love. Get out and see it!",
     "domain": "specter.co",
     "name": "Specter",
     "slug_hint": "",
@@ -26992,7 +27002,7 @@
     "team_size": 30
    },
    {
-    "about": "Alloy is the global end-to-end identity risk solution that helps banks and fintechs automate and manage their decisions for onboarding, ongoing fraud & AML monitoring, and credit underwriting.",
+    "about": "Alloy (also known as First Mile Group) is a company that develops an identity risk management platform for the banks and fintech sectors. It offers onboarding, ongoing fraud monitoring, disaster recov",
     "domain": "alloy.com",
     "name": "Alloy",
     "slug_hint": "",
@@ -27176,7 +27186,7 @@
     "team_size": 600
    },
    {
-    "about": "Stay ahead of workplace risks with workers' comp insurance and smart safety solutions built for industries like parcel delivery, manufacturing, and transportation. \n\nWith Kinetic, policyholders and se",
+    "about": "Stay ahead of workplace risks with Workers' Comp Insurance and smart safety solutions built for industries like parcel delivery, manufacturing, and transportation.\n\nWith Kinetic, policyholders and sel",
     "domain": "wearkinetic.com",
     "name": "Kinetic",
     "slug_hint": "",
@@ -27952,7 +27962,7 @@
     "team_size": null
    },
    {
-    "about": "Sequencing is building the lifelong home for every genome on Earth and the foundational platform for the AI-native genomic era.\n\nThe Human Genome is the world\u2019s most valuable untapped resource and one",
+    "about": "Sequencing is building the lifelong home for every genome on Earth and the foundational platform for the AI-native genomic era.\n\nThe human genome is the world\u2019s most valuable untapped resource and one",
     "domain": "sequencing.com",
     "name": "Sequencing",
     "slug_hint": "",
@@ -28464,7 +28474,7 @@
     "team_size": 600
    },
    {
-    "about": "We are on a mission to create a single source of truth for the physical world.\n\nPowered by deep learning and computer vision, Hover transforms smartphone photos of any property into an accurate, inter",
+    "about": "Hover is making the homeowner journey easy, transparent, and fun. Starting with the home improvement industry, we\u2019re answering age-old questions like, \u201cWhat is it going to look like?\u201d and \u201cWhat is it ",
     "domain": "hover.to",
     "name": "HOVER",
     "slug_hint": "",
@@ -28936,7 +28946,7 @@
     "team_size": 30
    },
    {
-    "about": "Aizon (also known as Bigfinite) provides solutions to the analysis and control of complex needs of industrial processes in Biotech and Pharma.",
+    "about": "Aizon (also known as Bigfinite) provides solutions to the analysis and control of complex needs of industrial processes in biotech and pharma.",
     "domain": "bigfinite.com",
     "name": "Bigfinite Inc.",
     "slug_hint": "",
@@ -29048,7 +29058,7 @@
     "team_size": 30
    },
    {
-    "about": "Focal Systems uses AI to automate and optimize brick-and-mortar retail.",
+    "about": "Focal Systems uses AI to automate and optimize Brick and Mortar Retail.",
     "domain": "focal.systems",
     "name": "Focal Systems",
     "slug_hint": "",
@@ -29421,7 +29431,7 @@
     "name": "Atoms",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 884
+    "team_size": 883
    },
    {
     "about": "",
@@ -29441,19 +29451,19 @@
    },
    {
     "about": "",
-    "domain": "shopcider.com",
-    "name": "Cider",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 213
-   },
-   {
-    "about": "",
     "domain": "radiantnuclear.com",
     "name": "Radiant",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 586
+   },
+   {
+    "about": "",
+    "domain": "shopcider.com",
+    "name": "Cider",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 213
    },
    {
     "about": "",
@@ -29537,6 +29547,14 @@
    },
    {
     "about": "",
+    "domain": "sandboxvr.com",
+    "name": "Sandbox VR",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 515
+   },
+   {
+    "about": "",
     "domain": "fal.ai",
     "name": "fal",
     "slug_hint": "",
@@ -29550,22 +29568,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 596
-   },
-   {
-    "about": "",
-    "domain": "sandboxvr.com",
-    "name": "Sandbox VR",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 515
-   },
-   {
-    "about": "",
-    "domain": "rillet.com",
-    "name": "Rillet",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 234
    },
    {
     "about": "",
@@ -29590,6 +29592,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 295
+   },
+   {
+    "about": "",
+    "domain": "rillet.com",
+    "name": "Rillet",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 234
    },
    {
     "about": "",
@@ -29633,14 +29643,6 @@
    },
    {
     "about": "",
-    "domain": "tesseralabs.ai",
-    "name": "Tessera Labs",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 23
-   },
-   {
-    "about": "",
     "domain": "inferact.ai",
     "name": "Inferact",
     "slug_hint": "",
@@ -29654,6 +29656,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 89
+   },
+   {
+    "about": "",
+    "domain": "tesseralabs.ai",
+    "name": "Tessera Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
    },
    {
     "about": "",
@@ -29697,14 +29707,6 @@
    },
    {
     "about": "",
-    "domain": "atlys.com",
-    "name": "Atlys",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 105
-   },
-   {
-    "about": "",
     "domain": "earnin.com",
     "name": "Earnin",
     "slug_hint": "",
@@ -29713,19 +29715,11 @@
    },
    {
     "about": "",
-    "domain": "abridge.com",
-    "name": "Abridge",
+    "domain": "atlys.com",
+    "name": "Atlys",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 674
-   },
-   {
-    "about": "",
-    "domain": "lightfield.app",
-    "name": "Lightfield",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 55
+    "team_size": 105
    },
    {
     "about": "",
@@ -29742,6 +29736,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 475
+   },
+   {
+    "about": "",
+    "domain": "abridge.com",
+    "name": "Abridge",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 674
    },
    {
     "about": "",
@@ -29774,6 +29776,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 177
+   },
+   {
+    "about": "",
+    "domain": "lightfield.app",
+    "name": "Lightfield",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
    },
    {
     "about": "",
@@ -29817,11 +29827,27 @@
    },
    {
     "about": "",
+    "domain": "pindrop.com",
+    "name": "Pindrop",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 367
+   },
+   {
+    "about": "",
     "domain": "neo.ai",
     "name": "Neo",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 51
+   },
+   {
+    "about": "",
+    "domain": "typesafe.ai",
+    "name": "TypeSafe AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 36
    },
    {
     "about": "",
@@ -29833,35 +29859,11 @@
    },
    {
     "about": "",
-    "domain": "arena.ai",
-    "name": "Arena",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 98
-   },
-   {
-    "about": "",
     "domain": "cyngn.com",
     "name": "Cyngn",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 75
-   },
-   {
-    "about": "",
-    "domain": "pindrop.com",
-    "name": "Pindrop",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 367
-   },
-   {
-    "about": "",
-    "domain": "theoceancompany.com",
-    "name": "Ulysses",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 45
    },
    {
     "about": "",
@@ -29878,6 +29880,22 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 93
+   },
+   {
+    "about": "",
+    "domain": "theoceancompany.com",
+    "name": "Ulysses",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 45
+   },
+   {
+    "about": "",
+    "domain": "arena.ai",
+    "name": "Arena",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 98
    },
    {
     "about": "",
@@ -29926,14 +29944,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 150
-   },
-   {
-    "about": "",
-    "domain": "typesafe.ai",
-    "name": "TypeSafe AI",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 36
    },
    {
     "about": "",
@@ -29989,7 +29999,7 @@
     "name": "Ease Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 40
+    "team_size": 41
    },
    {
     "about": "",
@@ -30001,27 +30011,11 @@
    },
    {
     "about": "",
-    "domain": "point.com",
-    "name": "Point",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 554
-   },
-   {
-    "about": "",
     "domain": "resend.com",
     "name": "Resend",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 76
-   },
-   {
-    "about": "",
-    "domain": "turquoise.health",
-    "name": "Turquoise Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 216
    },
    {
     "about": "",
@@ -30057,11 +30051,19 @@
    },
    {
     "about": "",
-    "domain": "11x.ai",
-    "name": "11x",
+    "domain": "point.com",
+    "name": "Point",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 101
+    "team_size": 554
+   },
+   {
+    "about": "",
+    "domain": "turquoise.health",
+    "name": "Turquoise Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 216
    },
    {
     "about": "",
@@ -30089,14 +30091,6 @@
    },
    {
     "about": "",
-    "domain": "counselhealth.com",
-    "name": "Counsel Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 91
-   },
-   {
-    "about": "",
     "domain": "withmoment.com",
     "name": "Moment",
     "slug_hint": "",
@@ -30121,11 +30115,27 @@
    },
    {
     "about": "",
+    "domain": "11x.ai",
+    "name": "11x",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 101
+   },
+   {
+    "about": "",
     "domain": "comma.ai",
     "name": "Comma.ai",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 29
+    "team_size": 31
+   },
+   {
+    "about": "",
+    "domain": "counselhealth.com",
+    "name": "Counsel Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 91
    },
    {
     "about": "",
@@ -30158,14 +30168,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 41
-   },
-   {
-    "about": "",
-    "domain": "descript.com",
-    "name": "Descript",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 171
    },
    {
     "about": "",
@@ -30241,6 +30243,14 @@
    },
    {
     "about": "",
+    "domain": "descript.com",
+    "name": "Descript",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 171
+   },
+   {
+    "about": "",
     "domain": "engflow.com",
     "name": "EngFlow",
     "slug_hint": "",
@@ -30273,14 +30283,6 @@
    },
    {
     "about": "",
-    "domain": "knownwell.co",
-    "name": "Knownwell",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 130
-   },
-   {
-    "about": "",
     "domain": "miluhealth.com",
     "name": "Milu Health",
     "slug_hint": "",
@@ -30293,7 +30295,7 @@
     "name": "Overtime",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 624
+    "team_size": 626
    },
    {
     "about": "",
@@ -30337,6 +30339,14 @@
    },
    {
     "about": "",
+    "domain": "knownwell.co",
+    "name": "Knownwell",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 130
+   },
+   {
+    "about": "",
     "domain": "midstream.health",
     "name": "Midstream Health",
     "slug_hint": "",
@@ -30373,7 +30383,15 @@
     "name": "Protocol Labs",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 90
+    "team_size": 91
+   },
+   {
+    "about": "",
+    "domain": "truemed.com",
+    "name": "Truemed",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 113
    },
    {
     "about": "",
@@ -30441,14 +30459,6 @@
    },
    {
     "about": "",
-    "domain": "truemed.com",
-    "name": "Truemed",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 113
-   },
-   {
-    "about": "",
     "domain": "vantage.sh",
     "name": "Vantage",
     "slug_hint": "",
@@ -30469,7 +30479,7 @@
     "name": "Backstory",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 84
+    "team_size": 83
    },
    {
     "about": "",
@@ -30613,7 +30623,7 @@
     "name": "Slingshot AI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 48
+    "team_size": 49
    },
    {
     "about": "",
@@ -30622,14 +30632,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 43
-   },
-   {
-    "about": "",
-    "domain": "treeline.ai",
-    "name": "Treeline",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 33
    },
    {
     "about": "",
@@ -30661,7 +30663,7 @@
     "name": "FlyHomes",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 191
+    "team_size": 190
    },
    {
     "about": "",
@@ -30701,7 +30703,7 @@
     "name": "Upstash",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 23
+    "team_size": 25
    },
    {
     "about": "",
@@ -30781,7 +30783,7 @@
     "name": "Longeye",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 16
+    "team_size": 15
    },
    {
     "about": "",
@@ -30789,7 +30791,7 @@
     "name": "Maven",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 140
+    "team_size": 144
    },
    {
     "about": "",
@@ -30829,7 +30831,15 @@
     "name": "SuperApp",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 153
+    "team_size": 150
+   },
+   {
+    "about": "",
+    "domain": "treeline.ai",
+    "name": "Treeline",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 33
    },
    {
     "about": "",
@@ -31001,14 +31011,6 @@
    },
    {
     "about": "",
-    "domain": "incrediblehealth.com",
-    "name": "Incredible Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 101
-   },
-   {
-    "about": "",
     "domain": "kinter.ai",
     "name": "Kinter",
     "slug_hint": "",
@@ -31037,7 +31039,7 @@
     "name": "Mana Bio",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 17
+    "team_size": 18
    },
    {
     "about": "",
@@ -31053,7 +31055,7 @@
     "name": "Payall",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 44
+    "team_size": 46
    },
    {
     "about": "",
@@ -31109,7 +31111,7 @@
     "name": "Axoni",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 20
+    "team_size": 21
    },
    {
     "about": "",
@@ -31141,7 +31143,7 @@
     "name": "Chia",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 63
+    "team_size": 64
    },
    {
     "about": "",
@@ -31165,7 +31167,7 @@
     "name": "Codi",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 52
+    "team_size": 53
    },
    {
     "about": "",
@@ -31173,7 +31175,7 @@
     "name": "Deepcell",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 27
+    "team_size": 28
    },
    {
     "about": "",
@@ -31213,7 +31215,7 @@
     "name": "Erebor Bank",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 130
+    "team_size": 124
    },
    {
     "about": "",
@@ -31245,7 +31247,7 @@
     "name": "Grepr",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 18
+    "team_size": 16
    },
    {
     "about": "",
@@ -31254,6 +31256,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 68
+   },
+   {
+    "about": "",
+    "domain": "incrediblehealth.com",
+    "name": "Incredible Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 101
    },
    {
     "about": "",
@@ -31305,11 +31315,19 @@
    },
    {
     "about": "",
+    "domain": "mentaritx.com",
+    "name": "Mentari Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
+   },
+   {
+    "about": "",
     "domain": "mosaic.us",
     "name": "Mosaic",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 20
+    "team_size": 18
    },
    {
     "about": "",
@@ -31349,7 +31367,7 @@
     "name": "Pietra",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 28
+    "team_size": 27
    },
    {
     "about": "",
@@ -31365,7 +31383,7 @@
     "name": "Preset",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 42
+    "team_size": 43
    },
    {
     "about": "",
@@ -31373,7 +31391,7 @@
     "name": "QuiverAI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 17
+    "team_size": 18
    },
    {
     "about": "",
@@ -31381,7 +31399,7 @@
     "name": "RLY Network",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 34
+    "team_size": 31
    },
    {
     "about": "",
@@ -31461,7 +31479,7 @@
     "name": "Skylight Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 15
+    "team_size": 16
    },
    {
     "about": "",
@@ -31469,7 +31487,7 @@
     "name": "Smartcar",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 120
+    "team_size": 121
    },
    {
     "about": "",
@@ -31501,7 +31519,7 @@
     "name": "Teespring",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 218
+    "team_size": 220
    },
    {
     "about": "",
@@ -31509,7 +31527,7 @@
     "name": "Tellus",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 71
+    "team_size": 70
    },
    {
     "about": "",
@@ -31541,7 +31559,7 @@
     "name": "Tomorrow Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 29
+    "team_size": 25
    },
    {
     "about": "",
@@ -31581,7 +31599,7 @@
     "name": "Ventus Therapeutics",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 56
+    "team_size": 57
    },
    {
     "about": "",
@@ -31616,7 +31634,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1794359766.6118214,
+  "fetched": 1794446633.2273276,
   "sources": [
    "vc",
    "yc",
@@ -32085,6 +32103,7 @@
   "ashby:pirros",
   "ashby:pivot",
   "ashby:planted",
+  "ashby:pleo",
   "ashby:pocket",
   "ashby:point-one-navigation",
   "ashby:pointfive",
