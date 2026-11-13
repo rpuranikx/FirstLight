@@ -1124,6 +1124,12 @@
    "rendered_v2": true,
    "slug": null
   },
+  "Automat": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794533381.673592,
+   "slug": "automat"
+  },
   "Automox": {
    "ats": "greenhouse",
    "careers": true,
@@ -6512,6 +6518,13 @@
    "ats": "ashby",
    "checked": 1793207879.1262577,
    "slug": "lightdash"
+  },
+  "Lighter": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794533381.673592,
+   "rendered_v2": true,
+   "slug": null
   },
   "Lightfield": {
    "ats": "ashby",
@@ -16978,14 +16991,6 @@
     "team_size": 58
    },
    {
-    "about": "AI agent that helps consumers lower the cost of debt automatically",
-    "domain": "gauss.money",
-    "name": "Gauss",
-    "slug_hint": "gauss",
-    "source": "YC Winter 2022",
-    "team_size": 16
-   },
-   {
     "about": "Self-hosted data lakehouse platform",
     "domain": "iomete.com",
     "name": "IOMETE",
@@ -18794,14 +18799,6 @@
     "team_size": null
    },
    {
-    "about": "August AI is a healthcare technology company building an AI-powered health companion designed to support people between doctor visits. It helps users interpret medical reports, understand symptoms, an",
-    "domain": "meetaugust.ai",
-    "name": "August Ai",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
     "about": "Away is a modern travel and lifestyle brand. The company is a vertically-integrated company offering beautiful, high-quality luggage at an affordable price point.\n\nAway designs special objects for mod",
     "domain": "awaytravel.com",
     "name": "Away",
@@ -19266,12 +19263,12 @@
     "team_size": 125
    },
    {
-    "about": "Facilio Inc. is an enterprise SaaS company that offers a unified cloud platform to make buildings operationally efficient. Its IoT and AI-driven property operations and facilities management platform ",
+    "about": "Facilio is the agentic platform for facilities management. It combines a CMMS built for facilities with Atom, a family of AI agents that run the operations and maintenance of real estate.\n\nFacilio Con",
     "domain": "facilio.com",
     "name": "Facilio",
     "slug_hint": "",
     "source": "Accel portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "FalconX is a digital assets prime brokerage that provides trading, financing, and custody services tailored for financial institutions. The company focuses on facilitating access to global liquidity i",
@@ -19863,7 +19860,7 @@
     "name": "nimble-robotics",
     "slug_hint": "",
     "source": "Accel portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "",
@@ -19927,7 +19924,7 @@
     "name": "Perplexity",
     "slug_hint": "",
     "source": "Accel portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "PharmaCCX operates a market access platform with a simple and configurable infrastructure for planning, negotiating, and managing deals. The company's software increases the capacity of market access ",
@@ -19935,7 +19932,7 @@
     "name": "PharmaCCX",
     "slug_hint": "",
     "source": "Accel portfolio",
-    "team_size": 30
+    "team_size": 125
    },
    {
     "about": "PhaseV offers AI-driven solutions that enhance clinical development for biopharma sponsors and Contract Research Organizations (CROs). The company focuses on utilizing machine learning to streamline c",
@@ -20058,16 +20055,16 @@
     "team_size": 125
    },
    {
-    "about": "Radar is a location data infrastructure platform that helps growth and product teams to build location-aware app experiences. It provides a location platform for mobile applications. The platform has ",
-    "domain": "radar.com",
+    "about": "Radar specializes in providing location data infrastructure and tools for app developers to integrate location-based services in their applications. The platform offers geofencing, location tracking, ",
+    "domain": "radar.io",
     "name": "Radar",
     "slug_hint": "",
     "source": "Accel portfolio",
     "team_size": 125
    },
    {
-    "about": "Radar specializes in providing location data infrastructure and tools for app developers to integrate location-based services in their applications. The platform offers geofencing, location tracking, ",
-    "domain": "radar.io",
+    "about": "Radar is a location data infrastructure platform that helps growth and product teams to build location-aware app experiences. It provides a location platform for mobile applications. The platform has ",
+    "domain": "radar.com",
     "name": "Radar",
     "slug_hint": "",
     "source": "Accel portfolio",
@@ -20594,14 +20591,6 @@
     "team_size": 125
    },
    {
-    "about": "Applied Intuition is an American software company specializing in products for creating autonomous vehicles (AVs) and advanced driver-assistance systems (ADAS). They develop tools for the development,",
-    "domain": "appliedintuition.com",
-    "name": "Applied Intuition",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 600
-   },
-   {
     "about": "Arca is an AI-native wealth management company redefining how personalized financial services are delivered. We empower expert advisors with an integrated agentic platform to provide proactive plannin",
     "domain": "arcawealth.com",
     "name": "Arca Wealth",
@@ -20874,14 +20863,6 @@
     "team_size": 600
    },
    {
-    "about": "Campus is an accredited online two-year college that provides online learning services. It offers an online educational platform that prioritizes student success by providing live online and in-person",
-    "domain": "campus.edu",
-    "name": "Campus",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 600
-   },
-   {
     "about": "Cartesia provides real-time multimodal intelligence for all devices. Its objective is to develop the next generation of AI: pervasive, interactive intelligence that operates everywhere.",
     "domain": "cartesia.ai",
     "name": "Cartesia",
@@ -21026,7 +21007,7 @@
     "team_size": 600
    },
    {
-    "about": "Civic Roundtable is an AI-powered government operations platform built to help public servants coordinate mission-critical work across agencies, programs, and partner organizations. \n\nTrusted by publi",
+    "about": "Civic Roundtable is an AI-powered government operations platform built to help public servants coordinate mission-critical work across agencies, programs, and partner organizations. Trusted by public ",
     "domain": "civicroundtable.com",
     "name": "Civic Roundtable",
     "slug_hint": "",
@@ -21362,16 +21343,16 @@
     "team_size": 600
    },
    {
-    "about": "Goodstack is a SaaS and FinTech platform for managing charitable donations.",
-    "domain": "goodstack.io",
+    "about": "\ud83c\udf0e Goodstack is on a mission to revolutionize how the world does good by connecting companies, employees, and customers to causes through the largest purpose-driven network on the planet. \ud83c\udf0e\r\n\r\nWe\u2019re bu",
+    "domain": "goodstack.org",
     "name": "Goodstack",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 125
    },
    {
-    "about": "\ud83c\udf0e Goodstack is on a mission to revolutionize how the world does good by connecting companies, employees, and customers to causes through the largest purpose-driven network on the planet. \ud83c\udf0e\r\n\r\nWe\u2019re bu",
-    "domain": "goodstack.org",
+    "about": "Goodstack is a SaaS and FinTech platform for managing charitable donations.",
+    "domain": "goodstack.io",
     "name": "Goodstack",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
@@ -21536,14 +21517,6 @@
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 125
-   },
-   {
-    "about": "Jigso\u2019s Business Observability Platform is an AI solution that aggregates and mines business applications and data hosted within an organization to provide employees with vital information at the clic",
-    "domain": "jigso.io",
-    "name": "Jigso",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 30
    },
    {
     "about": "Karius is a life sciences company focused on generating genomic insights for infectious diseases with a liquid biopsy for infectious diseases. The Karius Test helps clinicians make rapid treatment dec",
@@ -21783,7 +21756,7 @@
     "name": "MinIO",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Generate and edit talking videos with AI.",
@@ -21879,7 +21852,7 @@
     "name": "Nirvana Insurance",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Nominal develops software platforms that support hardware engineering teams with testing, monitoring, and analysis of operational data. The company provides products such as Nominal Core and Nominal C",
@@ -22186,14 +22159,6 @@
     "team_size": null
    },
    {
-    "about": "Ro distributes prescriptive and over-the-counter medical products addressing weight management, sexual wellness, fertility, hair restoration, dermatology, and general health needs. Patients access cus",
-    "domain": "ro.co",
-    "name": "Ro",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 600
-   },
-   {
     "about": "Rox provides an artificial intelligence software platform that supports sales teams with account research, engagement planning, and monitoring of customer activity. The platform uses a system of AI ag",
     "domain": "rox.com",
     "name": "Rox",
@@ -22250,7 +22215,7 @@
     "team_size": 125
    },
    {
-    "about": "Senra Systems designs and manufactures wire harnesses for Aerospace, Defense, and other industries while integrating software with engineering and production workflows. The company provides wire harne",
+    "about": "Senra Systems is an operator of a wire harness manufacturing platform intended to transform traditional manufacturing into a modern, efficient process. The company provides wire harness design support",
     "domain": "senrasystems.us",
     "name": "Senra Systems",
     "slug_hint": "",
@@ -22527,7 +22492,7 @@
     "name": "Together AI",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Traba is building a world where the global supply chain operates at peak efficiency. We connect industrial businesses with reliable workers to fill open shifts and empower both businesses and workers ",
@@ -22832,6 +22797,14 @@
     "slug_hint": "",
     "source": "Khosla Ventures portfolio",
     "team_size": 125
+   },
+   {
+    "about": "Automat is building the infrastructure for agentic work. AI agents that don't just follow scripts but reason about goals, adapt to changing conditions, and operate any computer application autonomousl",
+    "domain": "runautomat.com",
+    "name": "Automat",
+    "slug_hint": "",
+    "source": "Khosla Ventures portfolio",
+    "team_size": 30
    },
    {
     "about": "Ava develops a live captioning platform that uses AI to transcribe what people say. It is committed to total accessibility for the 466M deaf/hard of hearing worldwide.",
@@ -23258,7 +23231,7 @@
     "team_size": 125
    },
    {
-    "about": "Vista.ai is an artificial intelligence that offers clinicians the ability to conduct MRI studies. \n\nVista.ai was founded in 2012 and was headquartered in Palo Alto, California.",
+    "about": "Vista.ai is an artificial intelligence that offers clinicians the ability to conduct MRI studies. Vista.ai was founded in 2012 and was headquartered in Palo Alto, California.",
     "domain": "vista.ai",
     "name": "HeartVista, inc.",
     "slug_hint": "",
@@ -24898,7 +24871,7 @@
     "team_size": 125
    },
    {
-    "about": "Dragonboat is the Product Portfolio Layer for agentic enterprise to achieve product outcomes at AI speed and strategic cohesion.\n\nIt brings together:\n\n* An elastic ontology-based foundation \u2014 encoded ",
+    "about": "Dragonboat powers the Agentic Product Enterprise.\n\nAn active ontology-powered operating plane to orchestrate strategy, investments, and execution across the PDLC \u2014 where executives, teams, and AI agen",
     "domain": "dragonboat.io",
     "name": "dragonboat",
     "slug_hint": "",
@@ -26743,7 +26716,7 @@
     "name": "Imprint",
     "slug_hint": "",
     "source": "Thrive Capital Management, LLC portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Operator of a clothing brand intended to offer modern clothing collections. The company aims to redefine clothing through edited collections by collaborating with other famous brands and global design",
@@ -27066,7 +27039,7 @@
     "team_size": 30
    },
    {
-    "about": "Casap's Copilot & Collaboration platform can fully automate disputes end-to-end. We empower institutions and fintechs to intelligently tackle first-party fraud while transforming disputes into an oppo",
+    "about": "Casap is an AI-powered platform that helps financial institutions automate disputes and reduce fraud. The company's platform offers a copilot and collaboration tool to streamline the dispute process, ",
     "domain": "casaphq.com",
     "name": "Casap",
     "slug_hint": "",
@@ -27746,7 +27719,7 @@
     "team_size": 30
    },
    {
-    "about": "Lockchain.ai operates as an AI to manage risk in Crypto.",
+    "about": "Lockchain.ai operates as an AI to manage risk in crypto.",
     "domain": "lockchain.ai",
     "name": "Lockchain",
     "slug_hint": "",
@@ -28151,7 +28124,7 @@
     "name": "Updater",
     "slug_hint": "",
     "source": "Lerer Hippeau Ventures Management LLC portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Urban Sky is developing the first-ever reusable 'micro-sat' version of a near-space balloon, armed with sensors that collect high-value Earth observation data over entire cities, serving a multi-billi",
@@ -28562,7 +28535,7 @@
     "team_size": 125
    },
    {
-    "about": "Numeric is an ai accounting automation platform, built to take manual work off accountants' plates so they can focus on what\u2019s impactful. Numeric is currently used by hundreds of private and public co",
+    "about": "Numeric is an AI-native accounting automation platform that accelerates the month-end close. It centralizes financial data from ERPs, bank feeds, and files, and uses AI to automate reconciliations, jo",
     "domain": "numeric.io",
     "name": "Numeric",
     "slug_hint": "",
@@ -28695,7 +28668,7 @@
     "name": "Semgrep",
     "slug_hint": "",
     "source": "Menlo Ventures portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "ShopMy is a creator-centric ecosystem that links top brands with influential creators to facilitate partnerships. The platform offers tools for creating digital shops, managing affiliate links, and bu",
@@ -28711,7 +28684,7 @@
     "name": "Sidecar Health",
     "slug_hint": "",
     "source": "Menlo Ventures portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Signifyd provides comprehensive eCommerce fraud protection services, including revenue protection, abuse prevention, and payment compliance, with a financial guarantee for online retailers to grow con",
@@ -29499,19 +29472,19 @@
    },
    {
     "about": "",
-    "domain": "cowboyspace.com",
-    "name": "Cowboy Space Corporation",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 106
-   },
-   {
-    "about": "",
     "domain": "northwoodspace.io",
     "name": "Northwood Space",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 187
+   },
+   {
+    "about": "",
+    "domain": "cowboyspace.com",
+    "name": "Cowboy Space Corporation",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 106
    },
    {
     "about": "",
@@ -29523,19 +29496,19 @@
    },
    {
     "about": "",
-    "domain": "thinkingmachines.ai",
-    "name": "Thinking Machines Lab",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 238
-   },
-   {
-    "about": "",
     "domain": "heronpower.com",
     "name": "Heron Power",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 111
+   },
+   {
+    "about": "",
+    "domain": "thinkingmachines.ai",
+    "name": "Thinking Machines Lab",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 238
    },
    {
     "about": "",
@@ -29571,11 +29544,11 @@
    },
    {
     "about": "",
-    "domain": "sentilink.com",
-    "name": "SentiLink",
+    "domain": "rillet.com",
+    "name": "Rillet",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 206
+    "team_size": 234
    },
    {
     "about": "",
@@ -29587,19 +29560,19 @@
    },
    {
     "about": "",
+    "domain": "sentilink.com",
+    "name": "SentiLink",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 206
+   },
+   {
+    "about": "",
     "domain": "nexthop.ai",
     "name": "Nexthop",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 295
-   },
-   {
-    "about": "",
-    "domain": "rillet.com",
-    "name": "Rillet",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 234
    },
    {
     "about": "",
@@ -29611,19 +29584,19 @@
    },
    {
     "about": "",
-    "domain": "starburst.io",
-    "name": "Starburst",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 504
-   },
-   {
-    "about": "",
     "domain": "hex.tech",
     "name": "Hex",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 274
+   },
+   {
+    "about": "",
+    "domain": "starburst.io",
+    "name": "Starburst",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 504
    },
    {
     "about": "",
@@ -29647,7 +29620,7 @@
     "name": "Inferact",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 48
+    "team_size": 49
    },
    {
     "about": "",
@@ -29655,7 +29628,7 @@
     "name": "Mind Robotics",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 89
+    "team_size": 90
    },
    {
     "about": "",
@@ -29679,7 +29652,7 @@
     "name": "Valon",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 518
+    "team_size": 519
    },
    {
     "about": "",
@@ -29699,6 +29672,14 @@
    },
    {
     "about": "",
+    "domain": "atlys.com",
+    "name": "Atlys",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 105
+   },
+   {
+    "about": "",
     "domain": "koboldmetals.com",
     "name": "KoBold Metals",
     "slug_hint": "",
@@ -29715,14 +29696,6 @@
    },
    {
     "about": "",
-    "domain": "atlys.com",
-    "name": "Atlys",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 105
-   },
-   {
-    "about": "",
     "domain": "cape.co",
     "name": "Cape",
     "slug_hint": "",
@@ -29736,14 +29709,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 475
-   },
-   {
-    "about": "",
-    "domain": "abridge.com",
-    "name": "Abridge",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 674
    },
    {
     "about": "",
@@ -29779,14 +29744,6 @@
    },
    {
     "about": "",
-    "domain": "lightfield.app",
-    "name": "Lightfield",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 55
-   },
-   {
-    "about": "",
     "domain": "nash.ai",
     "name": "Nash",
     "slug_hint": "",
@@ -29795,19 +29752,11 @@
    },
    {
     "about": "",
-    "domain": "yubico.com",
-    "name": "Yubico",
+    "domain": "omadahealth.com",
+    "name": "Omada Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 577
-   },
-   {
-    "about": "",
-    "domain": "doppel.com",
-    "name": "Doppel",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 397
+    "team_size": 976
    },
    {
     "about": "",
@@ -29819,11 +29768,35 @@
    },
    {
     "about": "",
+    "domain": "abridge.com",
+    "name": "Abridge",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 674
+   },
+   {
+    "about": "",
+    "domain": "lightfield.app",
+    "name": "Lightfield",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
+   },
+   {
+    "about": "",
     "domain": "current.com",
     "name": "Current",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 514
+   },
+   {
+    "about": "",
+    "domain": "doppel.com",
+    "name": "Doppel",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 397
    },
    {
     "about": "",
@@ -29835,6 +29808,22 @@
    },
    {
     "about": "",
+    "domain": "typesafe.ai",
+    "name": "TypeSafe AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 36
+   },
+   {
+    "about": "",
+    "domain": "yubico.com",
+    "name": "Yubico",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 577
+   },
+   {
+    "about": "",
     "domain": "neo.ai",
     "name": "Neo",
     "slug_hint": "",
@@ -29843,11 +29832,11 @@
    },
    {
     "about": "",
-    "domain": "typesafe.ai",
-    "name": "TypeSafe AI",
+    "domain": "theoceancompany.com",
+    "name": "Ulysses",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 36
+    "team_size": 45
    },
    {
     "about": "",
@@ -29867,35 +29856,11 @@
    },
    {
     "about": "",
-    "domain": "omadahealth.com",
-    "name": "Omada Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 976
-   },
-   {
-    "about": "",
     "domain": "withprotege.ai",
     "name": "Protege",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 93
-   },
-   {
-    "about": "",
-    "domain": "theoceancompany.com",
-    "name": "Ulysses",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 45
-   },
-   {
-    "about": "",
-    "domain": "arena.ai",
-    "name": "Arena",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 98
    },
    {
     "about": "",
@@ -29907,14 +29872,6 @@
    },
    {
     "about": "",
-    "domain": "verygoodsecurity.com",
-    "name": "Very Good Security",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 506
-   },
-   {
-    "about": "",
     "domain": "ambiencehealthcare.com",
     "name": "Ambience Healthcare",
     "slug_hint": "",
@@ -29923,11 +29880,19 @@
    },
    {
     "about": "",
-    "domain": "komodohealth.com",
-    "name": "Komodo Health",
+    "domain": "arena.ai",
+    "name": "Arena",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 750
+    "team_size": 98
+   },
+   {
+    "about": "",
+    "domain": "verygoodsecurity.com",
+    "name": "Very Good Security",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 506
    },
    {
     "about": "",
@@ -29944,6 +29909,22 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 150
+   },
+   {
+    "about": "",
+    "domain": "greenlightcard.com",
+    "name": "Greenlight",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 152
+   },
+   {
+    "about": "",
+    "domain": "komodohealth.com",
+    "name": "Komodo Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 750
    },
    {
     "about": "",
@@ -29979,35 +29960,11 @@
    },
    {
     "about": "",
-    "domain": "greenlightcard.com",
-    "name": "Greenlight",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 152
-   },
-   {
-    "about": "",
     "domain": "lassie.ai",
     "name": "Lassie",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 41
-   },
-   {
-    "about": "",
-    "domain": "easehealth.com",
-    "name": "Ease Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 41
-   },
-   {
-    "about": "",
-    "domain": "krea.ai",
-    "name": "Krea",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 122
    },
    {
     "about": "",
@@ -30035,11 +29992,27 @@
    },
    {
     "about": "",
+    "domain": "easehealth.com",
+    "name": "Ease Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 41
+   },
+   {
+    "about": "",
     "domain": "insitro.com",
     "name": "Insitro",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 248
+   },
+   {
+    "about": "",
+    "domain": "krea.ai",
+    "name": "Krea",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 122
    },
    {
     "about": "",
@@ -30056,14 +30029,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 554
-   },
-   {
-    "about": "",
-    "domain": "turquoise.health",
-    "name": "Turquoise Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 216
    },
    {
     "about": "",
@@ -30139,11 +30104,11 @@
    },
    {
     "about": "",
-    "domain": "titanvest.com",
-    "name": "Titan",
+    "domain": "turquoise.health",
+    "name": "Turquoise Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 69
+    "team_size": 216
    },
    {
     "about": "",
@@ -30160,6 +30125,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 447
+   },
+   {
+    "about": "",
+    "domain": "chariotdefense.com",
+    "name": "Chariot Defense",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 32
    },
    {
     "about": "",
@@ -30203,22 +30176,6 @@
    },
    {
     "about": "",
-    "domain": "akasa.com",
-    "name": "AKASA",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 252
-   },
-   {
-    "about": "",
-    "domain": "adaptive.build",
-    "name": "Adaptive",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 73
-   },
-   {
-    "about": "",
     "domain": "adaptivesecurity.com",
     "name": "Adaptive Security",
     "slug_hint": "",
@@ -30232,14 +30189,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 115
-   },
-   {
-    "about": "",
-    "domain": "chariotdefense.com",
-    "name": "Chariot Defense",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 32
    },
    {
     "about": "",
@@ -30323,11 +30272,35 @@
    },
    {
     "about": "",
+    "domain": "titanvest.com",
+    "name": "Titan",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 69
+   },
+   {
+    "about": "",
     "domain": "uniswap.org",
     "name": "Uniswap",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 44
+   },
+   {
+    "about": "",
+    "domain": "akasa.com",
+    "name": "AKASA",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 252
+   },
+   {
+    "about": "",
+    "domain": "adaptive.build",
+    "name": "Adaptive",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 73
    },
    {
     "about": "",
@@ -30427,6 +30400,14 @@
    },
    {
     "about": "",
+    "domain": "octant.bio",
+    "name": "Octant Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 65
+   },
+   {
+    "about": "",
     "domain": "palmstreet.app",
     "name": "Palmstreet",
     "slug_hint": "",
@@ -30459,6 +30440,14 @@
    },
    {
     "about": "",
+    "domain": "vals.ai",
+    "name": "Vals AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 35
+   },
+   {
+    "about": "",
     "domain": "vantage.sh",
     "name": "Vantage",
     "slug_hint": "",
@@ -30467,11 +30456,11 @@
    },
    {
     "about": "",
-    "domain": "zushealth.com",
-    "name": "Zus Health",
+    "domain": "gooddata.ai",
+    "name": "gooddata.ai",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 87
+    "team_size": 281
    },
    {
     "about": "",
@@ -30479,7 +30468,7 @@
     "name": "Backstory",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 83
+    "team_size": 84
    },
    {
     "about": "",
@@ -30523,14 +30512,6 @@
    },
    {
     "about": "",
-    "domain": "octant.bio",
-    "name": "Octant Bio",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 65
-   },
-   {
-    "about": "",
     "domain": "phylo.bio",
     "name": "Phylo",
     "slug_hint": "",
@@ -30547,14 +30528,6 @@
    },
    {
     "about": "",
-    "domain": "vals.ai",
-    "name": "Vals AI",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 35
-   },
-   {
-    "about": "",
     "domain": "getzuma.com",
     "name": "Zuma",
     "slug_hint": "",
@@ -30563,11 +30536,11 @@
    },
    {
     "about": "",
-    "domain": "gooddata.ai",
-    "name": "gooddata.ai",
+    "domain": "zushealth.com",
+    "name": "Zus Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 281
+    "team_size": 87
    },
    {
     "about": "",
@@ -30835,14 +30808,6 @@
    },
    {
     "about": "",
-    "domain": "treeline.ai",
-    "name": "Treeline",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 33
-   },
-   {
-    "about": "",
     "domain": "upsmith.com",
     "name": "UpSmith",
     "slug_hint": "",
@@ -30895,7 +30860,7 @@
     "name": "Larridin",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 21
+    "team_size": 20
    },
    {
     "about": "",
@@ -30920,6 +30885,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 19
+   },
+   {
+    "about": "",
+    "domain": "treeline.ai",
+    "name": "Treeline",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 33
    },
    {
     "about": "",
@@ -31008,6 +30981,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 108
+   },
+   {
+    "about": "",
+    "domain": "incrediblehealth.com",
+    "name": "Incredible Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 101
    },
    {
     "about": "",
@@ -31259,19 +31240,19 @@
    },
    {
     "about": "",
-    "domain": "incrediblehealth.com",
-    "name": "Incredible Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 101
-   },
-   {
-    "about": "",
     "domain": "kaedim3d.com",
     "name": "Kaedim",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 74
+   },
+   {
+    "about": "",
+    "domain": "lighter.xyz",
+    "name": "Lighter",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 19
    },
    {
     "about": "",
@@ -31634,7 +31615,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1794446633.2273276,
+  "fetched": 1794533381.673592,
   "sources": [
    "vc",
    "yc",
@@ -31716,6 +31697,7 @@
   "ashby:august-health",
   "ashby:aurelian",
   "ashby:authzed",
+  "ashby:automat",
   "ashby:aven",
   "ashby:avoca",
   "ashby:away",
