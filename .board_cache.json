@@ -323,6 +323,12 @@
    "checked": 1793207879.1262577,
    "slug": "agency"
   },
+  "AgentMail (YC S25)": {
+   "ats": "ashby",
+   "careers": true,
+   "checked": 1794707123.0448263,
+   "slug": "agentmail"
+  },
   "Agora": {
    "ats": null,
    "careers": true,
@@ -4822,6 +4828,12 @@
    "careers": true,
    "checked": 1794274500.523272,
    "slug": "generalintuition-medal"
+  },
+  "General Matter": {
+   "ats": "greenhouse",
+   "careers": true,
+   "checked": 1794707123.0448263,
+   "slug": "generalmatter"
   },
   "General Proximity": {
    "ats": "greenhouse",
@@ -15986,14 +15998,6 @@
     "team_size": 50
    },
    {
-    "about": "All your tasks and calendars into an AI-powered productivity app",
-    "domain": "akiflow.com",
-    "name": "Akiflow",
-    "slug_hint": "akiflow",
-    "source": "YC Summer 2020",
-    "team_size": 18
-   },
-   {
     "about": "The CRM powering iconic musicians and events",
     "domain": "laylo.com",
     "name": "Laylo",
@@ -16200,14 +16204,6 @@
     "slug_hint": "signoz",
     "source": "YC Winter 2021",
     "team_size": 38
-   },
-   {
-    "about": "AI workers for the logistics industry. ",
-    "domain": "arnata.com",
-    "name": "arnata",
-    "slug_hint": "arnata",
-    "source": "YC Winter 2021",
-    "team_size": 15
    },
    {
     "about": "Telehealth dietitians covered by insurance",
@@ -17490,12 +17486,12 @@
     "team_size": 15
    },
    {
-    "about": "Medical language models to automate healthcare operations",
+    "about": "Clinical AI that gets life-changing medicine to the people who need it",
     "domain": "latenthealth.com",
     "name": "Latent",
     "slug_hint": "latent",
     "source": "YC Winter 2023",
-    "team_size": 50
+    "team_size": 140
    },
    {
     "about": "The AI-native sales tax solution.",
@@ -18434,14 +18430,6 @@
     "team_size": 30
    },
    {
-    "about": "AI Accountant for Accounting Firms",
-    "domain": "cifrato.ai",
-    "name": "Cifrato",
-    "slug_hint": "cifrato",
-    "source": "YC Winter 2025",
-    "team_size": 17
-   },
-   {
     "about": "Platform and marketplace for RL environments and AI data",
     "domain": "hud.ai",
     "name": "HUD",
@@ -18531,11 +18519,11 @@
    },
    {
     "about": "Supplying America's Industrial Base",
-    "domain": "noxmetals.co",
+    "domain": "noxmetals.com",
     "name": "Nox Metals",
     "slug_hint": "nox-metals",
     "source": "YC Summer 2025",
-    "team_size": 52
+    "team_size": 64
    },
    {
     "about": "The AI platform for private markets investors",
@@ -20066,16 +20054,16 @@
     "team_size": 125
    },
    {
-    "about": "Radar is a location data infrastructure platform that helps growth and product teams to build location-aware app experiences. It provides a location platform for mobile applications. The platform has ",
-    "domain": "radar.com",
+    "about": "Radar specializes in providing location data infrastructure and tools for app developers to integrate location-based services in their applications. The platform offers geofencing, location tracking, ",
+    "domain": "radar.io",
     "name": "Radar",
     "slug_hint": "",
     "source": "Accel portfolio",
     "team_size": 125
    },
    {
-    "about": "Radar specializes in providing location data infrastructure and tools for app developers to integrate location-based services in their applications. The platform offers geofencing, location tracking, ",
-    "domain": "radar.io",
+    "about": "Radar is a location data infrastructure platform that helps growth and product teams to build location-aware app experiences. It provides a location platform for mobile applications. The platform has ",
+    "domain": "radar.com",
     "name": "Radar",
     "slug_hint": "",
     "source": "Accel portfolio",
@@ -20178,302 +20166,6 @@
     "team_size": 125
    },
    {
-    "about": "Scratchpad is a workspace built for sales to update Salesforce and take sales notes and daily to-dos. \n\nThe software can be installed as a Google Chrome plugin or as a web application. It connects to ",
-    "domain": "scratchpad.com",
-    "name": "Scratchpad",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Scuba is a United States-based artificial intelligence software company headquartered in New York City, specializing in collaborative knowledge management, organizational memory, and AI-powered produc",
-    "domain": "scuba.app",
-    "name": "Scuba",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": null
-   },
-   {
-    "about": "SeatGeek is a ticket search engine that aggregates ticket listings for live sports, concerts, and theater events. Its data engine helps consumers identify various ticket deals.\n\nThe site has a feature",
-    "domain": "seatgeek.com",
-    "name": "SeatGeek",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Securden is a Windows Privilege Management Software. We help organizations prevent malware, insider threats, and cyberattacks leveraging the power of ML & AI. The IT security sphere has always been sy",
-    "domain": "securden.com",
-    "name": "Securden",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Seeking Alpha is the premier website for actionable stock market opinion and analysis, and vibrant, intelligent finance discussion. \n\nSeeking Alpha provides a community of the nation's most savvy and ",
-    "domain": "seekingalpha.com",
-    "name": "Seeking Alpha",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Selency is the first label of furniture and decoration used. More specifically, they are a community and specialized platform for second-hand furniture and decorative accessories.\n\nAmateur of unique p",
-    "domain": "selency.fr",
-    "name": "Selency",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Sense is a smart talent engagement and communication platform built for the staffing industry. It helps reduce turnover, increases re-deployment rates, and gives a real-time 360 view of the pulse of c",
-    "domain": "sensehq.com",
-    "name": "Sense",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Sentry is an open-source platform for workflow productivity, aggregating data from errors and crashes across the stack. The company's tool shows every crash in the stack as it happens, with the detail",
-    "domain": "sentry.io",
-    "name": "SENTRY",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Shift Technology delivers AI-native decision automation and optimization solutions built specifically for the global insurance industry. Addressing several critical processes across the insurance poli",
-    "domain": "shift-technology.com",
-    "name": "Shift Technology",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Shogun is an E-commerce platform that helps brands create unique buying experiences and optimize their online stores. It specializes in the fields of E-commerce, Shopify, BigCommerce, web development,",
-    "domain": "getshogun.com",
-    "name": "Shogun",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Silna Health builds proactive tools that handle all prior authorizations, benefit checks, and insurance monitoring upfront to make sure patients are actually clear to receive care.",
-    "domain": "silnahealth.com",
-    "name": "Silna",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "SilverRail is an information technology company that specializes in the fields of passenger rail ticketing, travel distribution technology, and global rail access. SilverRail's technology is purpose-b",
-    "domain": "silverrailtech.com",
-    "name": "SilverRail",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Simplismart is an AI infrastructure and MLOps technology company focused on making the deployment and operation of generative AI models faster, more scalable, and cost-efficient. Its platform provides",
-    "domain": "simplismart.ai",
-    "name": "Simplismart",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "SingleStore helps businesses adapt more quickly, embrace diverse data, and accelerate digital innovation by operationalizing all data through one platform for all of their moments that matter. These c",
-    "domain": "memsql.com",
-    "name": "SingleStore",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Skeps is a modular suite of products that can be used by merchants or lenders to help identify the potential credit solutions for their customers with the highest likelihood of conversion. Skeps produ",
-    "domain": "skeps.com",
-    "name": "Skeps",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Skydio is a drone manufacturer that uses artificial intelligence to create flying drones that are used by consumers, enterprises, and government customers.\n\nIt develops AI-powered drones to deliver th",
-    "domain": "skydio.com",
-    "name": "Skydio",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Smallstep develops an identity authority for Dev/Sec/Ops teams that integrate with delivery pipelines, making code identity-aware to secure connected apps across clouds, containers, serverless, and de",
-    "domain": "smallstep.com",
-    "name": "Smallstep",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Snaptrude is a cloud-based collaborative 3D building design tool that enhances teamwork and productivity in architectural design. The company allows users to link program data directly to 3D models, e",
-    "domain": "snaptrude.com",
-    "name": "Snaptrude",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Socure develops predictive analytics and machine learning systems to automate consumer and business onboarding, identity verification, synthetic fraud detection, and sanctions screening. Commercial en",
-    "domain": "socure.com",
-    "name": "Socure",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Soma is a platform that offers insurance services tailored to your business and your needs.",
-    "domain": "somainsure.com",
-    "name": "Soma",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": null
-   },
-   {
-    "about": "Sorare is a global fantasy football game where managers can trade official digital collectibles. It is on a mission to make crypto fun and accessible to all through fantasy football. Based in Paris, S",
-    "domain": "sorare.com",
-    "name": "Sorare",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Space Runners is the first Metaverse Fashion brand focused on cross-chain/interoperable fashion items that can be plugged into any Web3.0 Metaverse and games.\n\nOur belief is that there are many player",
-    "domain": "spacerunners.com",
-    "name": "Space Runners",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Spacejoy is an immersive design/commerce platform that is on a mission to make home and commercial space designing and decorating a joyful experience.",
-    "domain": "spacejoy.com",
-    "name": "Spacejoy",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Spendflo is an AI-native procurement platform that helps fast-growing and enterprise companies bring structure, visibility, and control to how they buy and manage vendors. By orchestrating procurement",
-    "domain": "spendflo.com",
-    "name": "Spendflo",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "SplashLearn is an EdTech startup company providing game-based math and reading courses to students in pre-kindergarten to grade five. It is available across platforms the Web, App Store, and Play Stor",
-    "domain": "splashlearn.com",
-    "name": "SplashLearn",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Spreadshirt acts as a custom merchandise partner that helps to customize products for gifts, teams, individuals, and more. They provide personalized clothing and accessories. They offer T-shirts, swea",
-    "domain": "spreadshirt.com",
-    "name": "Spreadshirt",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Sprig is the product development lifecycle research platform with a mission to make experiences that matter. Companies use Sprig\u2019s Concept and Usability Testing and In-Product Surveys to get research ",
-    "domain": "sprig.com",
-    "name": "Sprig",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Sprinter Health is a mobile healthcare provider that combines technology and a full-stack medical practice to reimagine care at home. We partner with healthcare organizations to drive engagement with ",
-    "domain": "sprinterhealth.com",
-    "name": "Sprinter Health",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Sprinto is a security compliance automation platform that integrates with cloud setups to automate risk assessments, control mapping, and compliance evidence collection for various security standards.",
-    "domain": "sprinto.com",
-    "name": "Sprinto ",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 600
-   },
-   {
-    "about": "Stacklok enables you to trust and empower knowledge workers with AI agents that are connected to your sensitive systems and data. It is a self-hosted, Kubernetes native platform for AI agent governanc",
-    "domain": "stacklok.com",
-    "name": "Stacklok",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "Stairwell is a cybersecurity company that provides automated threat intelligence and security solutions to help organizations detect, investigate, and respond to cyber threats.",
-    "domain": "stairwell.com",
-    "name": "Stairwell",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Strapi is an open-source software helping developers to easily build, deploy, and manage APIs. Its open-source headless CMS provides backend functionality for applications and gives developers the fre",
-    "domain": "strapi.io",
-    "name": "Strapi",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Sumeria provides digital banking services, online accounts, interest features, and secure transactions for personal finance.",
-    "domain": "sumeria.eu",
-    "name": "Sumeria",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": null
-   },
-   {
-    "about": "Supabase provides an open source backend platform for application development, centered around a managed PostgreSQL database and complementary tools. It offers built-in user authentication, real-time ",
-    "domain": "supabase.com",
-    "name": "Supabase",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Superfuel is an AI employee for Amazon sellers. It handles day-to-day tasks with human-like reasoning, interaction, and execution. \r\n\r\nTry out its tasks like Reduce Wasteful Ad Spends, Improve Organic",
-    "domain": "superfuel.io",
-    "name": "Superfuel AI",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
-    "about": "SureWaves is a technology-driven media solution organization by 2nd generation entrepreneurs who have built successful start-up ventures earlier in the field of digital video, networking, and mobile t",
-    "domain": "surewaves.com",
-    "name": "SureWaves",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 125
-   },
-   {
-    "about": "Surf AI aims to help enterprise security teams continuously identify and close security exposure gaps through an AI-driven operations platform. Surf applies agentic AI to operationalize your security ",
-    "domain": "surf.ai",
-    "name": "Surf AI",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": 30
-   },
-   {
     "about": "1001 AI is a deep-tech artificial intelligence startup that develops AI infrastructure and decision-automation platforms for large-scale industries. The company focuses on using AI to help organizatio",
     "domain": "1001.ai",
     "name": "1001 AI",
@@ -20493,6 +20185,14 @@
     "about": "Adept AI is a research and product AI lab that automates software processes for developers. It's similar to Robotic Process Automation (RPA), or software robots that use a combination of automation, c",
     "domain": "adept.ai",
     "name": "Adept AI",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "AgentMail provides an API-first email platform that enables AI agents to send, receive, and manage emails with automation and analytics.",
+    "domain": "agentmail.to",
+    "name": "AgentMail (YC S25)",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 30
@@ -21607,7 +21307,7 @@
     "name": "Lila Sciences",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
-    "team_size": 125
+    "team_size": 600
    },
    {
     "about": "Liquid is a decentralized trading platform that offers non-custodial crypto trading options.",
@@ -22250,6 +21950,14 @@
     "team_size": 125
    },
    {
+    "about": "Shift Technology delivers AI-native decision automation and optimization solutions built specifically for the global insurance industry. Addressing several critical processes across the insurance poli",
+    "domain": "shift-technology.com",
+    "name": "Shift Technology",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 600
+   },
+   {
     "about": "Signal Advisors is a new tech-enabled distributor of annuities and life insurance. Their end-to-end platform for financial advisors and insurance producers simplifies licensing and contracting, new bu",
     "domain": "signaladvisors.com",
     "name": "Signal Advisors",
@@ -22274,7 +21982,7 @@
     "team_size": 125
    },
    {
-    "about": "Slide provides a business continuity and disaster recovery platform for Managed Service Providers.",
+    "about": "Slide provides a Business Continuity and Disaster Recovery platform for Managed Service Providers.",
     "domain": "slide.tech",
     "name": "Slide",
     "slug_hint": "",
@@ -22328,6 +22036,14 @@
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 30
+   },
+   {
+    "about": "Sprinter Health is a mobile healthcare provider that combines technology and a full-stack medical practice to reimagine care at home. We partner with healthcare organizations to drive engagement with ",
+    "domain": "sprinterhealth.com",
+    "name": "Sprinter Health",
+    "slug_hint": "",
+    "source": "General Catalyst Partners  portfolio",
+    "team_size": 125
    },
    {
     "about": "Stacks is a software platform that helps accounting teams automate and manage the financial close process with AI-driven tools that handle tasks like reconciliations, journal entries, variance analysi",
@@ -23871,7 +23587,7 @@
     "name": "Ripple Foods",
     "slug_hint": "",
     "source": "Khosla Ventures portfolio",
-    "team_size": 125
+    "team_size": 30
    },
    {
     "about": "Roam is the platform for affordable home ownership. Roam helps homebuyers purchase their next home with a low-interest rate mortgage included.",
@@ -26066,6 +25782,14 @@
     "team_size": 125
    },
    {
+    "about": "Shogun is an E-commerce platform that helps brands create unique buying experiences and optimize their online stores. It specializes in the fields of E-commerce, Shopify, BigCommerce, web development,",
+    "domain": "getshogun.com",
+    "name": "Shogun",
+    "slug_hint": "",
+    "source": "insight portfolio",
+    "team_size": 125
+   },
+   {
     "about": "Sift is helping people trust the internet and empowering online business across the world. Sift believes trust and safety are fundamental to every online interaction. As the pioneers of Digital Trust ",
     "domain": "sift.com",
     "name": "Sift",
@@ -26706,6 +26430,14 @@
     "team_size": 600
    },
    {
+    "about": "General Matter focuses on producing enriched uranium fuel for nuclear energy applications, supplying forms of uranium used in power generation and advanced reactors. It provides uranium enrichment ser",
+    "domain": "generalmatter.com",
+    "name": "General Matter",
+    "slug_hint": "",
+    "source": "Thrive Capital Management, LLC portfolio",
+    "team_size": 30
+   },
+   {
     "about": "Glossier is a direct-to-consumer beauty company that leverages content and community to power a superior shopping experience. Their skincare, makeup, body, and fragrance products are sold in the Unite",
     "domain": "glossier.com",
     "name": "Glossier",
@@ -27074,7 +26806,7 @@
     "team_size": 30
    },
    {
-    "about": "Crosswalk Health designs programs that connect first responder agencies, community clinicians, and payors to deliver pre-hospital care aligned to individual needs. The organization builds and runs car",
+    "about": "Crosswalk Health designs programs that connect First Responder agencies, community clinicians, and payors to deliver pre-hospital care aligned to individual needs. The organization builds and runs car",
     "domain": "crosswalk.health",
     "name": "Crosswalk Health",
     "slug_hint": "",
@@ -27962,6 +27694,14 @@
     "team_size": null
    },
    {
+    "about": "SeatGeek is a ticket search engine that aggregates ticket listings for live sports, concerts, and theater events. Its data engine helps consumers identify various ticket deals.\n\nThe site has a feature",
+    "domain": "seatgeek.com",
+    "name": "SeatGeek",
+    "slug_hint": "",
+    "source": "Lerer Hippeau Ventures Management LLC portfolio",
+    "team_size": 600
+   },
+   {
     "about": "Sequencing is building the lifelong home for every genome on Earth and the foundational platform for the AI-native genomic era.\n\nThe human genome is the world\u2019s most valuable untapped resource and one",
     "domain": "sequencing.com",
     "name": "Sequencing",
@@ -28463,7 +28203,7 @@
     "name": "Gimlet Labs",
     "slug_hint": "",
     "source": "Menlo Ventures portfolio",
-    "team_size": 125
+    "team_size": 30
    },
    {
     "about": "HomeLight is a real estate platform that helps you to purchase and sell homes. Their platform can help you find a real estate agent based on local market data. Their suite of innovative products enabl",
@@ -29463,7 +29203,7 @@
     "name": "Radiant",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 586
+    "team_size": 587
    },
    {
     "about": "",
@@ -29479,7 +29219,7 @@
     "name": "Cresta",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 815
+    "team_size": 812
    },
    {
     "about": "",
@@ -29495,7 +29235,7 @@
     "name": "Jeeves",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 296
+    "team_size": 294
    },
    {
     "about": "",
@@ -29503,7 +29243,7 @@
     "name": "Pomelo Care",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 439
+    "team_size": 437
    },
    {
     "about": "",
@@ -29527,7 +29267,7 @@
     "name": "Northwood Space",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 187
+    "team_size": 188
    },
    {
     "about": "",
@@ -29559,7 +29299,7 @@
     "name": "fal",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 201
+    "team_size": 200
    },
    {
     "about": "",
@@ -29575,7 +29315,7 @@
     "name": "Rillet",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 234
+    "team_size": 239
    },
    {
     "about": "",
@@ -29591,7 +29331,7 @@
     "name": "Nexthop",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 295
+    "team_size": 294
    },
    {
     "about": "",
@@ -29599,7 +29339,7 @@
     "name": "Sandbox VR",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 515
+    "team_size": 514
    },
    {
     "about": "",
@@ -29607,7 +29347,7 @@
     "name": "SentiLink",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 206
+    "team_size": 208
    },
    {
     "about": "",
@@ -29639,7 +29379,7 @@
     "name": "ASI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 288
+    "team_size": 287
    },
    {
     "about": "",
@@ -29687,7 +29427,7 @@
     "name": "Valon",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 519
+    "team_size": 520
    },
    {
     "about": "",
@@ -29695,7 +29435,7 @@
     "name": "Atlys",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 105
+    "team_size": 107
    },
    {
     "about": "",
@@ -29835,11 +29575,19 @@
    },
    {
     "about": "",
+    "domain": "arena.ai",
+    "name": "Arena",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 98
+   },
+   {
+    "about": "",
     "domain": "current.com",
     "name": "Current",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 514
+    "team_size": 513
    },
    {
     "about": "",
@@ -29875,14 +29623,6 @@
    },
    {
     "about": "",
-    "domain": "arena.ai",
-    "name": "Arena",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 98
-   },
-   {
-    "about": "",
     "domain": "pindrop.com",
     "name": "Pindrop",
     "slug_hint": "",
@@ -29895,7 +29635,7 @@
     "name": "Protege",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 93
+    "team_size": 94
    },
    {
     "about": "",
@@ -29935,7 +29675,7 @@
     "name": "Rune Technologies",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 67
+    "team_size": 69
    },
    {
     "about": "",
@@ -29951,7 +29691,7 @@
     "name": "Greenlight",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 152
+    "team_size": 150
    },
    {
     "about": "",
@@ -29983,7 +29723,7 @@
     "name": "Exowatt",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 93
+    "team_size": 94
    },
    {
     "about": "",
@@ -30015,7 +29755,7 @@
     "name": "BigHat Biosciences",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 98
+    "team_size": 101
    },
    {
     "about": "",
@@ -30047,7 +29787,7 @@
     "name": "Krea",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 122
+    "team_size": 127
    },
    {
     "about": "",
@@ -30119,7 +29859,7 @@
     "name": "Boku",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 400
+    "team_size": 402
    },
    {
     "about": "",
@@ -30175,7 +29915,7 @@
     "name": "Chariot Defense",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 32
+    "team_size": 33
    },
    {
     "about": "",
@@ -30191,7 +29931,7 @@
     "name": "Eclypsium",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 130
+    "team_size": 129
    },
    {
     "about": "",
@@ -30255,7 +29995,7 @@
     "name": "Infinitus",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 220
+    "team_size": 219
    },
    {
     "about": "",
@@ -30263,7 +30003,7 @@
     "name": "Intro",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 31
+    "team_size": 32
    },
    {
     "about": "",
@@ -30271,7 +30011,7 @@
     "name": "Milu Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 16
+    "team_size": 17
    },
    {
     "about": "",
@@ -30287,7 +30027,7 @@
     "name": "Sharp Performance",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 66
+    "team_size": 68
    },
    {
     "about": "",
@@ -30327,7 +30067,7 @@
     "name": "Adaptive",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 73
+    "team_size": 74
    },
    {
     "about": "",
@@ -30351,7 +30091,7 @@
     "name": "Midstream Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 35
+    "team_size": 34
    },
    {
     "about": "",
@@ -30359,7 +30099,7 @@
     "name": "Mirelo AI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 34
+    "team_size": 35
    },
    {
     "about": "",
@@ -30419,6 +30159,14 @@
    },
    {
     "about": "",
+    "domain": "octant.bio",
+    "name": "Octant Bio",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 65
+   },
+   {
+    "about": "",
     "domain": "palmstreet.app",
     "name": "Palmstreet",
     "slug_hint": "",
@@ -30431,7 +30179,7 @@
     "name": "Pearl Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 204
+    "team_size": 203
    },
    {
     "about": "",
@@ -30479,7 +30227,7 @@
     "name": "gooddata.ai",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 281
+    "team_size": 280
    },
    {
     "about": "",
@@ -30539,14 +30287,6 @@
    },
    {
     "about": "",
-    "domain": "octant.bio",
-    "name": "Octant Bio",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 65
-   },
-   {
-    "about": "",
     "domain": "phylo.bio",
     "name": "Phylo",
     "slug_hint": "",
@@ -30567,15 +30307,7 @@
     "name": "Zuma",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 22
-   },
-   {
-    "about": "",
-    "domain": "zushealth.com",
-    "name": "Zus Health",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 87
+    "team_size": 16
    },
    {
     "about": "",
@@ -30599,7 +30331,7 @@
     "name": "Material Security",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 76
+    "team_size": 77
    },
    {
     "about": "",
@@ -30643,11 +30375,27 @@
    },
    {
     "about": "",
+    "domain": "sprig.com",
+    "name": "Sprig",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 104
+   },
+   {
+    "about": "",
     "domain": "supersonik.ai",
     "name": "Supersonik",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 43
+   },
+   {
+    "about": "",
+    "domain": "zushealth.com",
+    "name": "Zus Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 87
    },
    {
     "about": "",
@@ -30711,7 +30459,7 @@
     "name": "Shef",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 112
+    "team_size": 110
    },
    {
     "about": "",
@@ -30735,7 +30483,7 @@
     "name": "BioAge Labs",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 91
+    "team_size": 90
    },
    {
     "about": "",
@@ -30927,7 +30675,7 @@
     "name": "Treeline",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 33
+    "team_size": 59
    },
    {
     "about": "",
@@ -31055,7 +30803,7 @@
     "name": "Mana Bio",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 18
+    "team_size": 19
    },
    {
     "about": "",
@@ -31071,7 +30819,7 @@
     "name": "Payall",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 46
+    "team_size": 47
    },
    {
     "about": "",
@@ -31255,7 +31003,7 @@
     "name": "Gate Bio",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 37
+    "team_size": 36
    },
    {
     "about": "",
@@ -31343,7 +31091,7 @@
     "name": "Mosaic",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 18
+    "team_size": 19
    },
    {
     "about": "",
@@ -31383,7 +31131,7 @@
     "name": "Pietra",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 27
+    "team_size": 26
    },
    {
     "about": "",
@@ -31407,7 +31155,7 @@
     "name": "QuiverAI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 18
+    "team_size": 17
    },
    {
     "about": "",
@@ -31503,7 +31251,7 @@
     "name": "Smartcar",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 121
+    "team_size": 122
    },
    {
     "about": "",
@@ -31575,7 +31323,7 @@
     "name": "Tomorrow Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 25
+    "team_size": 23
    },
    {
     "about": "",
@@ -31650,7 +31398,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1794620267.0392318,
+  "fetched": 1794707123.0448263,
   "sources": [
    "vc",
    "yc",
@@ -31682,6 +31430,7 @@
   "ashby:afterquery",
   "ashby:agave",
   "ashby:agent",
+  "ashby:agentmail",
   "ashby:aim",
   "ashby:aios",
   "ashby:aiprise",
@@ -32469,6 +32218,7 @@
   "greenhouse:freenome",
   "greenhouse:gametimeunited",
   "greenhouse:garnerhealth",
+  "greenhouse:generalmatter",
   "greenhouse:generalproximity",
   "greenhouse:givecampus",
   "greenhouse:glossier",
