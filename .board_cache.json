@@ -17310,14 +17310,6 @@
     "team_size": 22
    },
    {
-    "about": "Ironclad for construction",
-    "domain": "provision.com",
-    "name": "Provision",
-    "slug_hint": "provision",
-    "source": "YC Summer 2022",
-    "team_size": 15
-   },
-   {
     "about": "AI-Native Finance OS",
     "domain": "getthera.com",
     "name": "Thera",
@@ -18607,7 +18599,7 @@
    },
    {
     "about": "Deployment and data infrastructure for Embodied AI.",
-    "domain": "hublabs.com",
+    "domain": "hub.xyz",
     "name": "Hub Labs",
     "slug_hint": "hub-labs",
     "source": "YC Spring 2026",
@@ -18796,14 +18788,6 @@
     "slug_hint": "",
     "source": "Accel portfolio",
     "team_size": 125
-   },
-   {
-    "about": "Atlas' methodology combines embedded AI technologies, digital growth capabilities, and operational infrastructure to let businesses serve more clients without increasing manpower. We're redefining acc",
-    "domain": "theatlas.ai",
-    "name": "Atlas",
-    "slug_hint": "",
-    "source": "Accel portfolio",
-    "team_size": null
    },
    {
     "about": "Away is a modern travel and lifestyle brand. The company is a vertically-integrated company offering beautiful, high-quality luggage at an affordable price point.\n\nAway designs special objects for mod",
@@ -20164,6 +20148,302 @@
     "slug_hint": "",
     "source": "Accel portfolio",
     "team_size": 125
+   },
+   {
+    "about": "Scratchpad is a workspace built for sales to update Salesforce and take sales notes and daily to-dos. \n\nThe software can be installed as a Google Chrome plugin or as a web application. It connects to ",
+    "domain": "scratchpad.com",
+    "name": "Scratchpad",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Scuba is a United States-based artificial intelligence software company headquartered in New York City, specializing in collaborative knowledge management, organizational memory, and AI-powered produc",
+    "domain": "scuba.app",
+    "name": "Scuba",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": null
+   },
+   {
+    "about": "SeatGeek is a ticket search engine that aggregates ticket listings for live sports, concerts, and theater events. Its data engine helps consumers identify various ticket deals.\n\nThe site has a feature",
+    "domain": "seatgeek.com",
+    "name": "SeatGeek",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Securden is a Windows Privilege Management Software. We help organizations prevent malware, insider threats, and cyberattacks leveraging the power of ML & AI. The IT security sphere has always been sy",
+    "domain": "securden.com",
+    "name": "Securden",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Seeking Alpha is the premier website for actionable stock market opinion and analysis, and vibrant, intelligent finance discussion. \n\nSeeking Alpha provides a community of the nation's most savvy and ",
+    "domain": "seekingalpha.com",
+    "name": "Seeking Alpha",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Selency is the first label of furniture and decoration used. More specifically, they are a community and specialized platform for second-hand furniture and decorative accessories.\n\nAmateur of unique p",
+    "domain": "selency.fr",
+    "name": "Selency",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Sense is a smart talent engagement and communication platform built for the staffing industry. It helps reduce turnover, increases re-deployment rates, and gives a real-time 360 view of the pulse of c",
+    "domain": "sensehq.com",
+    "name": "Sense",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Sentry is an open-source platform for workflow productivity, aggregating data from errors and crashes across the stack. The company's tool shows every crash in the stack as it happens, with the detail",
+    "domain": "sentry.io",
+    "name": "SENTRY",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Shift Technology delivers AI-native decision automation and optimization solutions built specifically for the global insurance industry. Addressing several critical processes across the insurance poli",
+    "domain": "shift-technology.com",
+    "name": "Shift Technology",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Shogun is an E-commerce platform that helps brands create unique buying experiences and optimize their online stores. It specializes in the fields of E-commerce, Shopify, BigCommerce, web development,",
+    "domain": "getshogun.com",
+    "name": "Shogun",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Silna Health builds proactive tools that handle all prior authorizations, benefit checks, and insurance monitoring upfront to make sure patients are actually clear to receive care.",
+    "domain": "silnahealth.com",
+    "name": "Silna",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "SilverRail is an information technology company that specializes in the fields of passenger rail ticketing, travel distribution technology, and global rail access. SilverRail's technology is purpose-b",
+    "domain": "silverrailtech.com",
+    "name": "SilverRail",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Simplismart is an AI infrastructure and MLOps technology company focused on making the deployment and operation of generative AI models faster, more scalable, and cost-efficient. Its platform provides",
+    "domain": "simplismart.ai",
+    "name": "Simplismart",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "SingleStore helps businesses adapt more quickly, embrace diverse data, and accelerate digital innovation by operationalizing all data through one platform for all of their moments that matter. These c",
+    "domain": "memsql.com",
+    "name": "SingleStore",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Skeps is a modular suite of products that can be used by merchants or lenders to help identify the potential credit solutions for their customers with the highest likelihood of conversion. Skeps produ",
+    "domain": "skeps.com",
+    "name": "Skeps",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Skydio is a drone manufacturer that uses artificial intelligence to create flying drones that are used by consumers, enterprises, and government customers.\n\nIt develops AI-powered drones to deliver th",
+    "domain": "skydio.com",
+    "name": "Skydio",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Smallstep develops an identity authority for Dev/Sec/Ops teams that integrate with delivery pipelines, making code identity-aware to secure connected apps across clouds, containers, serverless, and de",
+    "domain": "smallstep.com",
+    "name": "Smallstep",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Snaptrude is a cloud-based collaborative 3D building design tool that enhances teamwork and productivity in architectural design. The company allows users to link program data directly to 3D models, e",
+    "domain": "snaptrude.com",
+    "name": "Snaptrude",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Socure develops predictive analytics and machine learning systems to automate consumer and business onboarding, identity verification, synthetic fraud detection, and sanctions screening. Commercial en",
+    "domain": "socure.com",
+    "name": "Socure",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Soma is a platform that offers insurance services tailored to your business and your needs.",
+    "domain": "somainsure.com",
+    "name": "Soma",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": null
+   },
+   {
+    "about": "Sorare is a global fantasy football game where managers can trade official digital collectibles. It is on a mission to make crypto fun and accessible to all through fantasy football. Based in Paris, S",
+    "domain": "sorare.com",
+    "name": "Sorare",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Space Runners is the first Metaverse Fashion brand focused on cross-chain/interoperable fashion items that can be plugged into any Web3.0 Metaverse and games.\n\nOur belief is that there are many player",
+    "domain": "spacerunners.com",
+    "name": "Space Runners",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Spacejoy is an immersive design/commerce platform that is on a mission to make home and commercial space designing and decorating a joyful experience.",
+    "domain": "spacejoy.com",
+    "name": "Spacejoy",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Spendflo is an AI-native procurement platform that helps fast-growing and enterprise companies bring structure, visibility, and control to how they buy and manage vendors. By orchestrating procurement",
+    "domain": "spendflo.com",
+    "name": "Spendflo",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "SplashLearn is an EdTech startup company providing game-based math and reading courses to students in pre-kindergarten to grade five. It is available across platforms the Web, App Store, and Play Stor",
+    "domain": "splashlearn.com",
+    "name": "SplashLearn",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Spreadshirt acts as a custom merchandise partner that helps to customize products for gifts, teams, individuals, and more. They provide personalized clothing and accessories. They offer T-shirts, swea",
+    "domain": "spreadshirt.com",
+    "name": "Spreadshirt",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Sprig is the product development lifecycle research platform with a mission to make experiences that matter. Companies use Sprig\u2019s Concept and Usability Testing and In-Product Surveys to get research ",
+    "domain": "sprig.com",
+    "name": "Sprig",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Sprinter Health is a mobile healthcare provider that combines technology and a full-stack medical practice to reimagine care at home. We partner with healthcare organizations to drive engagement with ",
+    "domain": "sprinterhealth.com",
+    "name": "Sprinter Health",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Sprinto is a security compliance automation platform that integrates with cloud setups to automate risk assessments, control mapping, and compliance evidence collection for various security standards.",
+    "domain": "sprinto.com",
+    "name": "Sprinto ",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 600
+   },
+   {
+    "about": "Stacklok enables you to trust and empower knowledge workers with AI agents that are connected to your sensitive systems and data. It is a self-hosted, Kubernetes native platform for AI agent governanc",
+    "domain": "stacklok.com",
+    "name": "Stacklok",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "Stairwell is a cybersecurity company that provides automated threat intelligence and security solutions to help organizations detect, investigate, and respond to cyber threats.",
+    "domain": "stairwell.com",
+    "name": "Stairwell",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Strapi is an open-source software helping developers to easily build, deploy, and manage APIs. Its open-source headless CMS provides backend functionality for applications and gives developers the fre",
+    "domain": "strapi.io",
+    "name": "Strapi",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Sumeria provides digital banking services, online accounts, interest features, and secure transactions for personal finance.",
+    "domain": "sumeria.eu",
+    "name": "Sumeria",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": null
+   },
+   {
+    "about": "Supabase provides an open source backend platform for application development, centered around a managed PostgreSQL database and complementary tools. It offers built-in user authentication, real-time ",
+    "domain": "supabase.com",
+    "name": "Supabase",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Superfuel is an AI employee for Amazon sellers. It handles day-to-day tasks with human-like reasoning, interaction, and execution. \r\n\r\nTry out its tasks like Reduce Wasteful Ad Spends, Improve Organic",
+    "domain": "superfuel.io",
+    "name": "Superfuel AI",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
+   },
+   {
+    "about": "SureWaves is a technology-driven media solution organization by 2nd generation entrepreneurs who have built successful start-up ventures earlier in the field of digital video, networking, and mobile t",
+    "domain": "surewaves.com",
+    "name": "SureWaves",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 125
+   },
+   {
+    "about": "Surf AI aims to help enterprise security teams continuously identify and close security exposure gaps through an AI-driven operations platform. Surf applies agentic AI to operationalize your security ",
+    "domain": "surf.ai",
+    "name": "Surf AI",
+    "slug_hint": "",
+    "source": "Accel portfolio",
+    "team_size": 30
    },
    {
     "about": "1001 AI is a deep-tech artificial intelligence startup that develops AI infrastructure and decision-automation platforms for large-scale industries. The company focuses on using AI to help organizatio",
@@ -21950,14 +22230,6 @@
     "team_size": 125
    },
    {
-    "about": "Shift Technology delivers AI-native decision automation and optimization solutions built specifically for the global insurance industry. Addressing several critical processes across the insurance poli",
-    "domain": "shift-technology.com",
-    "name": "Shift Technology",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 600
-   },
-   {
     "about": "Signal Advisors is a new tech-enabled distributor of annuities and life insurance. Their end-to-end platform for financial advisors and insurance producers simplifies licensing and contracting, new bu",
     "domain": "signaladvisors.com",
     "name": "Signal Advisors",
@@ -22036,14 +22308,6 @@
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 30
-   },
-   {
-    "about": "Sprinter Health is a mobile healthcare provider that combines technology and a full-stack medical practice to reimagine care at home. We partner with healthcare organizations to drive engagement with ",
-    "domain": "sprinterhealth.com",
-    "name": "Sprinter Health",
-    "slug_hint": "",
-    "source": "General Catalyst Partners  portfolio",
-    "team_size": 125
    },
    {
     "about": "Stacks is a software platform that helps accounting teams automate and manage the financial close process with AI-driven tools that handle tasks like reconciliations, journal entries, variance analysi",
@@ -25782,14 +26046,6 @@
     "team_size": 125
    },
    {
-    "about": "Shogun is an E-commerce platform that helps brands create unique buying experiences and optimize their online stores. It specializes in the fields of E-commerce, Shopify, BigCommerce, web development,",
-    "domain": "getshogun.com",
-    "name": "Shogun",
-    "slug_hint": "",
-    "source": "insight portfolio",
-    "team_size": 125
-   },
-   {
     "about": "Sift is helping people trust the internet and empowering online business across the world. Sift believes trust and safety are fundamental to every online interaction. As the pioneers of Digital Trust ",
     "domain": "sift.com",
     "name": "Sift",
@@ -27694,14 +27950,6 @@
     "team_size": null
    },
    {
-    "about": "SeatGeek is a ticket search engine that aggregates ticket listings for live sports, concerts, and theater events. Its data engine helps consumers identify various ticket deals.\n\nThe site has a feature",
-    "domain": "seatgeek.com",
-    "name": "SeatGeek",
-    "slug_hint": "",
-    "source": "Lerer Hippeau Ventures Management LLC portfolio",
-    "team_size": 600
-   },
-   {
     "about": "Sequencing is building the lifelong home for every genome on Earth and the foundational platform for the AI-native genomic era.\n\nThe human genome is the world\u2019s most valuable untapped resource and one",
     "domain": "sequencing.com",
     "name": "Sequencing",
@@ -28918,7 +29166,7 @@
     "team_size": 30
    },
    {
-    "about": "AI agent observability & monitoring",
+    "about": "Moda offers software that analyzes AI conversation data to cluster usage patterns, explain failures, and replay agent workflows.",
     "domain": "modaflows.com",
     "name": "Moda",
     "slug_hint": "",
@@ -29343,19 +29591,19 @@
    },
    {
     "about": "",
-    "domain": "sentilink.com",
-    "name": "SentiLink",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 208
-   },
-   {
-    "about": "",
     "domain": "sardine.ai",
     "name": "Sardine",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 379
+   },
+   {
+    "about": "",
+    "domain": "sentilink.com",
+    "name": "SentiLink",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 208
    },
    {
     "about": "",
@@ -29403,7 +29651,7 @@
     "name": "UnitedMasters",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 672
+    "team_size": 673
    },
    {
     "about": "",
@@ -29503,6 +29751,14 @@
    },
    {
     "about": "",
+    "domain": "unconv.ai",
+    "name": "Unconventional AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 51
+   },
+   {
+    "about": "",
     "domain": "airgarage.com",
     "name": "AirGarage",
     "slug_hint": "",
@@ -29547,7 +29803,7 @@
     "name": "Lightfield",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 55
+    "team_size": 57
    },
    {
     "about": "",
@@ -29556,14 +29812,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 36
-   },
-   {
-    "about": "",
-    "domain": "unconv.ai",
-    "name": "Unconventional AI",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 51
    },
    {
     "about": "",
@@ -30195,7 +30443,7 @@
     "name": "SnapLogic",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 295
+    "team_size": 296
    },
    {
     "about": "",
@@ -30228,14 +30476,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 280
-   },
-   {
-    "about": "",
-    "domain": "backstory.ai",
-    "name": "Backstory",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 84
    },
    {
     "about": "",
@@ -30311,6 +30551,14 @@
    },
    {
     "about": "",
+    "domain": "backstory.ai",
+    "name": "Backstory",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 84
+   },
+   {
+    "about": "",
     "domain": "pryzm.io",
     "name": "Belisar",
     "slug_hint": "",
@@ -30375,14 +30623,6 @@
    },
    {
     "about": "",
-    "domain": "sprig.com",
-    "name": "Sprig",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 104
-   },
-   {
-    "about": "",
     "domain": "supersonik.ai",
     "name": "Supersonik",
     "slug_hint": "",
@@ -30403,7 +30643,7 @@
     "name": "Belong",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 196
+    "team_size": 195
    },
    {
     "about": "",
@@ -30939,7 +31179,7 @@
     "name": "Deepcell",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 28
+    "team_size": 27
    },
    {
     "about": "",
@@ -30979,7 +31219,7 @@
     "name": "Erebor Bank",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 124
+    "team_size": 123
    },
    {
     "about": "",
@@ -31398,7 +31638,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1794707123.0448263,
+  "fetched": 1794793863.077757,
   "sources": [
    "vc",
    "yc",
