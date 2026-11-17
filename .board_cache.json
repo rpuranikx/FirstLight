@@ -6053,6 +6053,13 @@
    "checked": 1793376245.8656707,
    "slug": "just-appraised-jobs"
   },
+  "JustAI": {
+   "ats": null,
+   "careers": true,
+   "checked": 1794880679.2552996,
+   "rendered_v2": true,
+   "slug": null
+  },
   "JuziBot": {
    "ats": null,
    "careers": true,
@@ -18110,6 +18117,14 @@
     "team_size": 25
    },
    {
+    "about": "Agentic Marketing Platform",
+    "domain": "getjust.ai",
+    "name": "JustAI",
+    "slug_hint": "justai",
+    "source": "YC Winter 2024",
+    "team_size": 15
+   },
+   {
     "about": "Real-time and two-way sync between CRMs and Databases",
     "domain": "stacksync.com",
     "name": "Stacksync",
@@ -18262,12 +18277,12 @@
     "team_size": 15
    },
    {
-    "about": "AI employee for consumer lending",
+    "about": "AI FTE for regulated finance",
     "domain": "kastle.ai",
     "name": "Kastle",
     "slug_hint": "kastle",
     "source": "YC Summer 2024",
-    "team_size": 15
+    "team_size": 17
    },
    {
     "about": "Automate security and privacy reviews",
@@ -18574,7 +18589,7 @@
     "team_size": 19
    },
    {
-    "about": "Physical AI data lab",
+    "about": "Infrastructure for Training, Evaluating, and Deploying Physical AI",
     "domain": "humanarchive.ai",
     "name": "Human Archive",
     "slug_hint": "human-archive",
@@ -29427,7 +29442,7 @@
     "name": "Atoms",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 883
+    "team_size": 882
    },
    {
     "about": "",
@@ -29527,19 +29542,19 @@
    },
    {
     "about": "",
-    "domain": "amca.co",
-    "name": "Amca",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 45
-   },
-   {
-    "about": "",
     "domain": "thinkingmachines.ai",
     "name": "Thinking Machines Lab",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 238
+   },
+   {
+    "about": "",
+    "domain": "amca.co",
+    "name": "Amca",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 45
    },
    {
     "about": "",
@@ -29567,19 +29582,27 @@
    },
    {
     "about": "",
-    "domain": "mixpanel.com",
-    "name": "Mixpanel",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 762
-   },
-   {
-    "about": "",
     "domain": "nexthop.ai",
     "name": "Nexthop",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 294
+   },
+   {
+    "about": "",
+    "domain": "sentilink.com",
+    "name": "SentiLink",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 208
+   },
+   {
+    "about": "",
+    "domain": "mixpanel.com",
+    "name": "Mixpanel",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 762
    },
    {
     "about": "",
@@ -29599,14 +29622,6 @@
    },
    {
     "about": "",
-    "domain": "sentilink.com",
-    "name": "SentiLink",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 208
-   },
-   {
-    "about": "",
     "domain": "hex.tech",
     "name": "Hex",
     "slug_hint": "",
@@ -29615,11 +29630,11 @@
    },
    {
     "about": "",
-    "domain": "starburst.io",
-    "name": "Starburst",
+    "domain": "tesseralabs.ai",
+    "name": "Tessera Labs",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 504
+    "team_size": 23
    },
    {
     "about": "",
@@ -29631,11 +29646,19 @@
    },
    {
     "about": "",
-    "domain": "tesseralabs.ai",
-    "name": "Tessera Labs",
+    "domain": "starburst.io",
+    "name": "Starburst",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 23
+    "team_size": 504
+   },
+   {
+    "about": "",
+    "domain": "inferact.ai",
+    "name": "Inferact",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 50
    },
    {
     "about": "",
@@ -29652,14 +29675,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 673
-   },
-   {
-    "about": "",
-    "domain": "inferact.ai",
-    "name": "Inferact",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 49
    },
    {
     "about": "",
@@ -29687,14 +29702,6 @@
    },
    {
     "about": "",
-    "domain": "freenome.com",
-    "name": "Freenome",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 406
-   },
-   {
-    "about": "",
     "domain": "koboldmetals.com",
     "name": "KoBold Metals",
     "slug_hint": "",
@@ -29711,19 +29718,19 @@
    },
    {
     "about": "",
+    "domain": "freenome.com",
+    "name": "Freenome",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 406
+   },
+   {
+    "about": "",
     "domain": "earnin.com",
     "name": "Earnin",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 579
-   },
-   {
-    "about": "",
-    "domain": "abridge.com",
-    "name": "Abridge",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 675
    },
    {
     "about": "",
@@ -29751,22 +29758,6 @@
    },
    {
     "about": "",
-    "domain": "unconv.ai",
-    "name": "Unconventional AI",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 51
-   },
-   {
-    "about": "",
-    "domain": "airgarage.com",
-    "name": "AirGarage",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 123
-   },
-   {
-    "about": "",
     "domain": "cape.co",
     "name": "Cape",
     "slug_hint": "",
@@ -29791,6 +29782,22 @@
    },
    {
     "about": "",
+    "domain": "unconv.ai",
+    "name": "Unconventional AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 51
+   },
+   {
+    "about": "",
+    "domain": "abridge.com",
+    "name": "Abridge",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 675
+   },
+   {
+    "about": "",
     "domain": "cruxclimate.com",
     "name": "Crux",
     "slug_hint": "",
@@ -29807,11 +29814,11 @@
    },
    {
     "about": "",
-    "domain": "typesafe.ai",
-    "name": "TypeSafe AI",
+    "domain": "pindrop.com",
+    "name": "Pindrop",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 36
+    "team_size": 367
    },
    {
     "about": "",
@@ -29823,19 +29830,19 @@
    },
    {
     "about": "",
+    "domain": "airgarage.com",
+    "name": "AirGarage",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 123
+   },
+   {
+    "about": "",
     "domain": "arena.ai",
     "name": "Arena",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 98
-   },
-   {
-    "about": "",
-    "domain": "current.com",
-    "name": "Current",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 513
    },
    {
     "about": "",
@@ -29855,6 +29862,14 @@
    },
    {
     "about": "",
+    "domain": "typesafe.ai",
+    "name": "TypeSafe AI",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 36
+   },
+   {
+    "about": "",
     "domain": "theoceancompany.com",
     "name": "Ulysses",
     "slug_hint": "",
@@ -29863,19 +29878,11 @@
    },
    {
     "about": "",
-    "domain": "waymarkcare.com",
-    "name": "Waymark",
+    "domain": "current.com",
+    "name": "Current",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 129
-   },
-   {
-    "about": "",
-    "domain": "pindrop.com",
-    "name": "Pindrop",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 367
+    "team_size": 513
    },
    {
     "about": "",
@@ -29884,6 +29891,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 94
+   },
+   {
+    "about": "",
+    "domain": "waymarkcare.com",
+    "name": "Waymark",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 129
    },
    {
     "about": "",
@@ -29903,14 +29918,6 @@
    },
    {
     "about": "",
-    "domain": "standardnuclear.com",
-    "name": "Standard Nuclear",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 97
-   },
-   {
-    "about": "",
     "domain": "verygoodsecurity.com",
     "name": "Very Good Security",
     "slug_hint": "",
@@ -29927,11 +29934,11 @@
    },
    {
     "about": "",
-    "domain": "sesame.com",
-    "name": "Sesame",
+    "domain": "standardnuclear.com",
+    "name": "Standard Nuclear",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 150
+    "team_size": 97
    },
    {
     "about": "",
@@ -29951,19 +29958,19 @@
    },
    {
     "about": "",
-    "domain": "mazetx.com",
-    "name": "Maze Therapeutics",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 155
-   },
-   {
-    "about": "",
     "domain": "rigetti.com",
     "name": "Rigetti Quantum Computing",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 193
+   },
+   {
+    "about": "",
+    "domain": "sesame.com",
+    "name": "Sesame",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 150
    },
    {
     "about": "",
@@ -29983,6 +29990,14 @@
    },
    {
     "about": "",
+    "domain": "mazetx.com",
+    "name": "Maze Therapeutics",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 155
+   },
+   {
+    "about": "",
     "domain": "easehealth.com",
     "name": "Ease Health",
     "slug_hint": "",
@@ -29991,19 +30006,19 @@
    },
    {
     "about": "",
-    "domain": "resend.com",
-    "name": "Resend",
+    "domain": "insitro.com",
+    "name": "Insitro",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 76
+    "team_size": 250
    },
    {
     "about": "",
-    "domain": "bighatbio.com",
-    "name": "BigHat Biosciences",
+    "domain": "krea.ai",
+    "name": "Krea",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 101
+    "team_size": 127
    },
    {
     "about": "",
@@ -30023,27 +30038,27 @@
    },
    {
     "about": "",
-    "domain": "insitro.com",
-    "name": "Insitro",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 248
-   },
-   {
-    "about": "",
-    "domain": "krea.ai",
-    "name": "Krea",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 127
-   },
-   {
-    "about": "",
     "domain": "neighbor.com",
     "name": "Neighbor",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 111
+   },
+   {
+    "about": "",
+    "domain": "resend.com",
+    "name": "Resend",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 76
+   },
+   {
+    "about": "",
+    "domain": "usevesta.com",
+    "name": "Vesta",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 117
    },
    {
     "about": "",
@@ -30060,6 +30075,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 43
+   },
+   {
+    "about": "",
+    "domain": "bighatbio.com",
+    "name": "BigHat Biosciences",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 101
    },
    {
     "about": "",
@@ -30084,14 +30107,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 73
-   },
-   {
-    "about": "",
-    "domain": "usevesta.com",
-    "name": "Vesta",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 117
    },
    {
     "about": "",
@@ -30123,7 +30138,7 @@
     "name": "Counsel Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 91
+    "team_size": 90
    },
    {
     "about": "",
@@ -30140,14 +30155,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 216
-   },
-   {
-    "about": "",
-    "domain": "aktisoncology.com",
-    "name": "Aktis Oncology",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 106
    },
    {
     "about": "",
@@ -30207,6 +30214,14 @@
    },
    {
     "about": "",
+    "domain": "aktisoncology.com",
+    "name": "Aktis Oncology",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 106
+   },
+   {
+    "about": "",
     "domain": "asimov.com",
     "name": "Asimov",
     "slug_hint": "",
@@ -30252,6 +30267,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 32
+   },
+   {
+    "about": "",
+    "domain": "knownwell.co",
+    "name": "Knownwell",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 130
    },
    {
     "about": "",
@@ -30324,14 +30347,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 51
-   },
-   {
-    "about": "",
-    "domain": "knownwell.co",
-    "name": "Knownwell",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 130
    },
    {
     "about": "",
@@ -30431,6 +30446,14 @@
    },
    {
     "about": "",
+    "domain": "propel.app",
+    "name": "Propel",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 109
+   },
+   {
+    "about": "",
     "domain": "setpoint.io",
     "name": "Setpoint.io",
     "slug_hint": "",
@@ -30455,14 +30478,6 @@
    },
    {
     "about": "",
-    "domain": "vals.ai",
-    "name": "Vals AI",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 35
-   },
-   {
-    "about": "",
     "domain": "vantage.sh",
     "name": "Vantage",
     "slug_hint": "",
@@ -30479,27 +30494,19 @@
    },
    {
     "about": "",
+    "domain": "cx2.com",
+    "name": "CX2",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 64
+   },
+   {
+    "about": "",
     "domain": "conductorai.co",
     "name": "ConductorAI",
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 29
-   },
-   {
-    "about": "",
-    "domain": "inductive.bio",
-    "name": "Inductive Bio",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 41
-   },
-   {
-    "about": "",
-    "domain": "infinitemachine.com",
-    "name": "Infinite Machine",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 15
    },
    {
     "about": "",
@@ -30535,11 +30542,11 @@
    },
    {
     "about": "",
-    "domain": "propel.app",
-    "name": "Propel",
+    "domain": "vals.ai",
+    "name": "Vals AI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 109
+    "team_size": 35
    },
    {
     "about": "",
@@ -30567,11 +30574,19 @@
    },
    {
     "about": "",
-    "domain": "cx2.com",
-    "name": "CX2",
+    "domain": "inductive.bio",
+    "name": "Inductive Bio",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 64
+    "team_size": 41
+   },
+   {
+    "about": "",
+    "domain": "infinitemachine.com",
+    "name": "Infinite Machine",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 15
    },
    {
     "about": "",
@@ -30619,7 +30634,7 @@
     "name": "Slingshot AI",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 50
+    "team_size": 52
    },
    {
     "about": "",
@@ -30787,7 +30802,7 @@
     "name": "Maven",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 144
+    "team_size": 146
    },
    {
     "about": "",
@@ -30847,14 +30862,6 @@
    },
    {
     "about": "",
-    "domain": "charthop.com",
-    "name": "Charthop",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 55
-   },
-   {
-    "about": "",
     "domain": "diode.computer",
     "name": "Diode",
     "slug_hint": "",
@@ -30891,7 +30898,7 @@
     "name": "Mem",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 15
+    "team_size": 16
    },
    {
     "about": "",
@@ -30975,6 +30982,14 @@
    },
    {
     "about": "",
+    "domain": "charthop.com",
+    "name": "Charthop",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 55
+   },
+   {
+    "about": "",
     "domain": "dynotx.com",
     "name": "Dyno Therapeutics",
     "slug_hint": "",
@@ -31011,7 +31026,7 @@
     "name": "Incredible Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 101
+    "team_size": 100
    },
    {
     "about": "",
@@ -31531,7 +31546,7 @@
     "name": "Tellus",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 70
+    "team_size": 66
    },
    {
     "about": "",
@@ -31603,7 +31618,7 @@
     "name": "Ventus Therapeutics",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 57
+    "team_size": 56
    },
    {
     "about": "",
@@ -31627,7 +31642,7 @@
     "name": "Yuga Labs (BAYC)",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 109
+    "team_size": 110
    },
    {
     "about": "",
@@ -31638,7 +31653,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1794793863.077757,
+  "fetched": 1794880679.2552996,
   "sources": [
    "vc",
    "yc",
