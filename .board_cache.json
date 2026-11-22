@@ -14291,14 +14291,6 @@
     "team_size": 100
    },
    {
-    "about": "Marketing automation for event promoters (email, sms, ads, CRM)",
-    "domain": "hive.co",
-    "name": "Hive",
-    "slug_hint": "hive",
-    "source": "YC Summer 2014",
-    "team_size": 65
-   },
-   {
     "about": "We automate operations for hospitals and health systems",
     "domain": "qventus.com",
     "name": "Qventus",
@@ -21379,16 +21371,16 @@
     "team_size": 600
    },
    {
-    "about": "\ud83c\udf0e Goodstack is on a mission to revolutionize how the world does good by connecting companies, employees, and customers to causes through the largest purpose-driven network on the planet. \ud83c\udf0e\r\n\r\nWe\u2019re bu",
-    "domain": "goodstack.org",
+    "about": "Goodstack is a SaaS and FinTech platform for managing charitable donations.",
+    "domain": "goodstack.io",
     "name": "Goodstack",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
     "team_size": 125
    },
    {
-    "about": "Goodstack is a SaaS and FinTech platform for managing charitable donations.",
-    "domain": "goodstack.io",
+    "about": "\ud83c\udf0e Goodstack is on a mission to revolutionize how the world does good by connecting companies, employees, and customers to causes through the largest purpose-driven network on the planet. \ud83c\udf0e\r\n\r\nWe\u2019re bu",
+    "domain": "goodstack.org",
     "name": "Goodstack",
     "slug_hint": "",
     "source": "General Catalyst Partners  portfolio",
@@ -29464,7 +29456,7 @@
     "name": "Talkiatry",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 811
+    "team_size": 810
    },
    {
     "about": "",
@@ -29472,7 +29464,7 @@
     "name": "Hadrian",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 644
+    "team_size": 643
    },
    {
     "about": "",
@@ -29480,7 +29472,7 @@
     "name": "Atoms",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 882
+    "team_size": 883
    },
    {
     "about": "",
@@ -29488,7 +29480,7 @@
     "name": "Apex Space",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 507
+    "team_size": 506
    },
    {
     "about": "",
@@ -29496,7 +29488,7 @@
     "name": "Radiant",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 587
+    "team_size": 588
    },
    {
     "about": "",
@@ -29528,7 +29520,7 @@
     "name": "Cresta",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 812
+    "team_size": 813
    },
    {
     "about": "",
@@ -29536,7 +29528,7 @@
     "name": "Jeeves",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 294
+    "team_size": 296
    },
    {
     "about": "",
@@ -29584,7 +29576,7 @@
     "name": "Thinking Machines Lab",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 238
+    "team_size": 239
    },
    {
     "about": "",
@@ -29600,15 +29592,7 @@
     "name": "fal",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 200
-   },
-   {
-    "about": "",
-    "domain": "sentilink.com",
-    "name": "SentiLink",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 208
+    "team_size": 198
    },
    {
     "about": "",
@@ -29616,7 +29600,15 @@
     "name": "Rillet",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 239
+    "team_size": 243
+   },
+   {
+    "about": "",
+    "domain": "sentilink.com",
+    "name": "SentiLink",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 207
    },
    {
     "about": "",
@@ -29632,7 +29624,7 @@
     "name": "Nexthop",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 294
+    "team_size": 297
    },
    {
     "about": "",
@@ -29640,7 +29632,7 @@
     "name": "Mixpanel",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 762
+    "team_size": 761
    },
    {
     "about": "",
@@ -29652,14 +29644,6 @@
    },
    {
     "about": "",
-    "domain": "tesseralabs.ai",
-    "name": "Tessera Labs",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 23
-   },
-   {
-    "about": "",
     "domain": "hex.tech",
     "name": "Hex",
     "slug_hint": "",
@@ -29668,11 +29652,19 @@
    },
    {
     "about": "",
+    "domain": "tesseralabs.ai",
+    "name": "Tessera Labs",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 23
+   },
+   {
+    "about": "",
     "domain": "sandboxvr.com",
     "name": "Sandbox VR",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 514
+    "team_size": 512
    },
    {
     "about": "",
@@ -29704,7 +29696,7 @@
     "name": "Atlys",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 107
+    "team_size": 110
    },
    {
     "about": "",
@@ -29720,7 +29712,7 @@
     "name": "Inferact",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 53
+    "team_size": 52
    },
    {
     "about": "",
@@ -29788,14 +29780,6 @@
    },
    {
     "about": "",
-    "domain": "cruxclimate.com",
-    "name": "Crux",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 116
-   },
-   {
-    "about": "",
     "domain": "freenome.com",
     "name": "Freenome",
     "slug_hint": "",
@@ -29804,11 +29788,11 @@
    },
    {
     "about": "",
-    "domain": "omadahealth.com",
-    "name": "Omada Health",
+    "domain": "cruxclimate.com",
+    "name": "Crux",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 976
+    "team_size": 116
    },
    {
     "about": "",
@@ -29832,7 +29816,15 @@
     "name": "Kaizen",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 49
+    "team_size": 50
+   },
+   {
+    "about": "",
+    "domain": "omadahealth.com",
+    "name": "Omada Health",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 976
    },
    {
     "about": "",
@@ -29840,7 +29832,7 @@
     "name": "AirGarage",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 123
+    "team_size": 122
    },
    {
     "about": "",
@@ -29864,7 +29856,7 @@
     "name": "Arena",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 98
+    "team_size": 99
    },
    {
     "about": "",
@@ -29992,7 +29984,7 @@
     "name": "Exowatt",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 94
+    "team_size": 96
    },
    {
     "about": "",
@@ -30064,7 +30056,7 @@
     "name": "Krea",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 127
+    "team_size": 122
    },
    {
     "about": "",
@@ -30076,19 +30068,11 @@
    },
    {
     "about": "",
-    "domain": "usevesta.com",
-    "name": "Vesta",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 117
-   },
-   {
-    "about": "",
     "domain": "bighatbio.com",
     "name": "BigHat Biosciences",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 101
+    "team_size": 104
    },
    {
     "about": "",
@@ -30097,6 +30081,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 18
+   },
+   {
+    "about": "",
+    "domain": "labelbox.com",
+    "name": "Labelbox",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 484
    },
    {
     "about": "",
@@ -30113,6 +30105,14 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 76
+   },
+   {
+    "about": "",
+    "domain": "usevesta.com",
+    "name": "Vesta",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 117
    },
    {
     "about": "",
@@ -30140,14 +30140,6 @@
    },
    {
     "about": "",
-    "domain": "labelbox.com",
-    "name": "Labelbox",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 487
-   },
-   {
-    "about": "",
     "domain": "neighbor.com",
     "name": "Neighbor",
     "slug_hint": "",
@@ -30168,7 +30160,7 @@
     "name": "Rigetti Quantum Computing",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 193
+    "team_size": 194
    },
    {
     "about": "",
@@ -30184,7 +30176,7 @@
     "name": "Boku",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 402
+    "team_size": 404
    },
    {
     "about": "",
@@ -30376,7 +30368,7 @@
     "name": "Adaptive",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 74
+    "team_size": 77
    },
    {
     "about": "",
@@ -30436,6 +30428,14 @@
    },
    {
     "about": "",
+    "domain": "snaplogic.com",
+    "name": "SnapLogic",
+    "slug_hint": "",
+    "source": "a16z portfolio",
+    "team_size": 296
+   },
+   {
+    "about": "",
     "domain": "turquoise.health",
     "name": "Turquoise Health",
     "slug_hint": "",
@@ -30448,7 +30448,7 @@
     "name": "World Labs",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 88
+    "team_size": 89
    },
    {
     "about": "",
@@ -30496,7 +30496,7 @@
     "name": "ModernFi",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 56
+    "team_size": 57
    },
    {
     "about": "",
@@ -30505,14 +30505,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 160
-   },
-   {
-    "about": "",
-    "domain": "snaplogic.com",
-    "name": "SnapLogic",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 296
    },
    {
     "about": "",
@@ -30528,7 +30520,7 @@
     "name": "Titan",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 69
+    "team_size": 70
    },
    {
     "about": "",
@@ -30536,7 +30528,7 @@
     "name": "Vantage",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 54
+    "team_size": 52
    },
    {
     "about": "",
@@ -30568,7 +30560,7 @@
     "name": "Material Security",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 77
+    "team_size": 78
    },
    {
     "about": "",
@@ -30601,14 +30593,6 @@
     "slug_hint": "",
     "source": "a16z portfolio",
     "team_size": 35
-   },
-   {
-    "about": "",
-    "domain": "getzuma.com",
-    "name": "Zuma",
-    "slug_hint": "",
-    "source": "a16z portfolio",
-    "team_size": 16
    },
    {
     "about": "",
@@ -30648,7 +30632,7 @@
     "name": "Infinite Machine",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 15
+    "team_size": 16
    },
    {
     "about": "",
@@ -30776,7 +30760,7 @@
     "name": "Shef",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 110
+    "team_size": 109
    },
    {
     "about": "",
@@ -30784,7 +30768,7 @@
     "name": "Upstash",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 25
+    "team_size": 24
    },
    {
     "about": "",
@@ -30840,7 +30824,7 @@
     "name": "Hipcamp",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 155
+    "team_size": 154
    },
    {
     "about": "",
@@ -31024,7 +31008,7 @@
     "name": "Believer",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 68
+    "team_size": 67
    },
    {
     "about": "",
@@ -31120,7 +31104,7 @@
     "name": "Mana Bio",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 19
+    "team_size": 20
    },
    {
     "about": "",
@@ -31128,7 +31112,7 @@
     "name": "Payall",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 47
+    "team_size": 49
    },
    {
     "about": "",
@@ -31144,7 +31128,7 @@
     "name": "Truffle Security",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 60
+    "team_size": 62
    },
    {
     "about": "",
@@ -31216,7 +31200,7 @@
     "name": "Chia",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 64
+    "team_size": 63
    },
    {
     "about": "",
@@ -31256,7 +31240,7 @@
     "name": "DoNotPay",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 15
+    "team_size": 16
    },
    {
     "about": "",
@@ -31400,7 +31384,7 @@
     "name": "Mosaic",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 19
+    "team_size": 16
    },
    {
     "about": "",
@@ -31440,7 +31424,7 @@
     "name": "Pietra",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 26
+    "team_size": 25
    },
    {
     "about": "",
@@ -31496,7 +31480,7 @@
     "name": "Rive",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 80
+    "team_size": 79
    },
    {
     "about": "",
@@ -31632,7 +31616,7 @@
     "name": "Tomorrow Health",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 23
+    "team_size": 22
    },
    {
     "about": "",
@@ -31707,7 +31691,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1795228264.1477525,
+  "fetched": 1795315024.9665794,
   "sources": [
    "vc",
    "yc",
