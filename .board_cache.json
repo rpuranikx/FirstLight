@@ -29520,7 +29520,7 @@
     "name": "Cresta",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 813
+    "team_size": 814
    },
    {
     "about": "",
@@ -29600,7 +29600,7 @@
     "name": "Rillet",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 243
+    "team_size": 242
    },
    {
     "about": "",
@@ -29848,7 +29848,7 @@
     "name": "Forward",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 279
+    "team_size": 277
    },
    {
     "about": "",
@@ -29888,7 +29888,7 @@
     "name": "Lightfield",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 57
+    "team_size": 61
    },
    {
     "about": "",
@@ -30016,7 +30016,7 @@
     "name": "Greenlight",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 150
+    "team_size": 151
    },
    {
     "about": "",
@@ -30048,7 +30048,7 @@
     "name": "Insitro",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 250
+    "team_size": 248
    },
    {
     "about": "",
@@ -30096,7 +30096,7 @@
     "name": "Maze Therapeutics",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 155
+    "team_size": 156
    },
    {
     "about": "",
@@ -30128,7 +30128,7 @@
     "name": "Alluxio",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 186
+    "team_size": 178
    },
    {
     "about": "",
@@ -30144,7 +30144,7 @@
     "name": "Neighbor",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 111
+    "team_size": 114
    },
    {
     "about": "",
@@ -30288,7 +30288,7 @@
     "name": "Braveheart",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 51
+    "team_size": 55
    },
    {
     "about": "",
@@ -30432,7 +30432,7 @@
     "name": "SnapLogic",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 296
+    "team_size": 295
    },
    {
     "about": "",
@@ -30664,7 +30664,7 @@
     "name": "Rezo Therapeutics",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 45
+    "team_size": 44
    },
    {
     "about": "",
@@ -30840,7 +30840,7 @@
     "name": "Maven",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 146
+    "team_size": 147
    },
    {
     "about": "",
@@ -31272,7 +31272,7 @@
     "name": "Erebor Bank",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 123
+    "team_size": 122
    },
    {
     "about": "",
@@ -31328,7 +31328,7 @@
     "name": "Lighter",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 20
+    "team_size": 16
    },
    {
     "about": "",
@@ -31568,7 +31568,7 @@
     "name": "Synapse",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 125
+    "team_size": 124
    },
    {
     "about": "",
@@ -31656,7 +31656,7 @@
     "name": "Ventus Therapeutics",
     "slug_hint": "",
     "source": "a16z portfolio",
-    "team_size": 56
+    "team_size": 57
    },
    {
     "about": "",
@@ -31691,7 +31691,7 @@
     "team_size": 69
    }
   ],
-  "fetched": 1795315024.9665794,
+  "fetched": 1795401666.651794,
   "sources": [
    "vc",
    "yc",
