@@ -44,7 +44,7 @@ PICK_SCHEMA = {
                 "additionalProperties": False,
             },
         },
-        "fit":     {"type": ["string", "null"], "enum": ["strong", "maybe", "skip", None]},
+        "fit":     {"type": ["string", "null"], "enum": ["ringer", "stretch", "stepping", "meh", None]},
         "gap":     {"type": ["string", "null"]},
         "project": {"type": ["string", "null"]},
         "message": {"type": ["string", "null"]},
@@ -191,14 +191,14 @@ PITCH_PROMPT = """
 
 The job seeker also wants three more things for this job.
 
-"fit": "strong", "maybe" or "skip". Judge it like a blunt friend who knows the \
-hiring bar: does their real background clear what the posting actually asks for? \
-"skip" when a hard requirement clearly fails (years in a specific function such as \
-presales or quota-carrying sales, a domain they have never touched, a clearance, \
-on-site in a city they won't move to). Don't skip over nice-to-haves.
+"fit": which tier of <taste> this job falls in: "ringer", "stretch", "stepping" or \
+"meh". Taste decides the tier, not odds: a role they love but are underqualified for \
+is "stretch", not "meh". Judge by the job's real duties, not just its title (a \
+"Solutions Engineer" that is really tier-2 support is "meh").
 
-"gap": one short sentence naming the single biggest gap a screener would flag, or \
-null if there is none worth naming. No softening.
+"gap": one short sentence naming the single biggest gap a screener would flag \
+(years in a specific function, a domain, a skill), or null if there is none worth \
+naming. Be blunt; it decides how hard the outreach has to work.
 
 "project": the name of the one project from <projects> that this company's people \
 would care about most, or null if none is relevant.
@@ -269,11 +269,13 @@ def research(job: dict, company: dict, people: list[dict], cfg: dict) -> dict:
         indent=0,
     ) if people else "[] (no candidates found; use web search)"
     projects = projects_text(cfg.get("projects"))
+    taste = (cfg.get("taste") or "").strip()
     shape = '{"picks": [{"name", "title", "email", "linkedin", "why", "angle"}]'
     shape += ', "fit", "gap", "project", "message"}' if projects else "}"
     user = (
         f"<job_seeker>\n{cfg.get('profile', '').strip()}\n</job_seeker>\n\n"
         + (f"<projects>\n{projects}\n</projects>\n\n" if projects else "")
+        + (f"<taste>\n{taste}\n</taste>\n\n" if projects and taste else "")
         + f"<job>\n{_job_brief(job, company)}\n</job>\n\n"
         f"<candidates>\n{candidates}\n</candidates>\n\n"
         f"Research, then end your reply with the result as JSON in a ```json block: {shape}"
@@ -350,6 +352,9 @@ BANNED = re.compile(r"\b(leverag\w*|passionate|synergy|cutting[- ]edge|thrilled|
                     r"hope this (?:finds|message)|i came across|reaching out)\b", re.I)
 
 
+FIT_TIERS = ("ringer", "stretch", "stepping", "meh")
+
+
 def clean_pitch(data: dict, projects: list[dict] | None) -> dict:
     """Validates fit/project and flags (never rewrites) messages with stock phrases."""
     fit = (data.get("fit") or "").lower() or None
@@ -357,7 +362,7 @@ def clean_pitch(data: dict, projects: list[dict] | None) -> dict:
     project = names.get((data.get("project") or "").lower())
     message = (data.get("message") or "").strip().replace("\u2014", ",").replace(" \u2013 ", ", ") or None
     return {
-        "fit": fit if fit in ("strong", "maybe", "skip") else None,
+        "fit": fit if fit in FIT_TIERS else None,
         "gap": (data.get("gap") or "").strip() or None,
         "project": project,
         "message": message,

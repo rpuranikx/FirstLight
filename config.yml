@@ -9,6 +9,8 @@ Roles:
   - Technical Consultant
   - Forward Deployed Engineer
   - Solutions Architect
+  - Technical Delivery      # delivery engineer/consultant, deployment strategist
+  - Technical Product Manager  # PM lane: technical, associate and AI PM titles only
   - Customer Engineer
   - Implementation Engineer
   - AI Engineer             # also matches Applied AI, LLM / agent engineer
@@ -19,6 +21,7 @@ Filters:
   max_age_days: 21            # ignore postings older than this
   first_scan_alert_hours: 48  # when a company is scanned for the first time, only alert on jobs this fresh
   max_years_required: 5       # skip postings that ask for more years of experience than this
+  relocate_places: [san francisco, new york, nyc, brooklyn]  # on-site/hybrid here still shows, tagged 🧳
   # titles that contain a role word but aren't the job (e.g. "Forward Deployed Creative")
   exclude_role_words: [designer, creative, product manager, researcher, scientist, recruiter, dental,
                        accountant, accounting, receivable, payable, finance, p2p, sap, oracle, marketing,
@@ -95,6 +98,27 @@ Profile: |
   Moving into SE / FDE / AI engineering roles at high-growth startups;
   ~4 years of experience, so mid-level rather than senior roles. Open to Chicago
   or remote. Wants equity and ownership; prefers warm, specific outreach.
+
+# How much you'd want each kind of job. Learned from 20 sample jobs (2026-11-23).
+# The tier decides the effort: ringer = everything, stretch = outreach first,
+# stepping = quick apply, meh = digest only (no ping).
+Taste: |
+  ringer: presales Solutions Engineer / Solutions Architect / Solutions Consultant /
+    Sales Engineer at a venture-backed tech company, any industry (security, payments,
+    martech, crypto, data, AI all good). Remote or Chicago, roughly $125k+ base.
+    Commission, OTE or a shared team quota is fine.
+  stretch: roles he really wants but may be underqualified for: Forward Deployed
+    Engineer, applied AI / AI engineer (even RAG-heavy), Associate or Technical PM at
+    an AI or dev tools startup, customer engineer needing a specific stack he lacks, and
+    ringer roles that ask for more years than he has (e.g. 5+ yrs presales). Also any
+    good role that would mean moving to SF or NYC (open to discussing a move).
+  stepping: fine but not exciting: implementation / onboarding consultant, deployment
+    or integration engineer (robotics, industrial IoT), technical PM in agriculture,
+    automotive or embedded hardware (his current industry), field engineer roles.
+    Up to ~50% travel is tolerable here.
+  meh: account management / TAM, technical support (even tier 2), consulting with
+    travel most weeks (Chicago means nothing if he's on the road), base under ~$120k
+    with no equity, and stepping-stone roles that would require moving.
 
 # What FirstLight pitches with. For each job it picks the one project this company
 # would care about most and drafts a short message to your #1 contact sharing it.

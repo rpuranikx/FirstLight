@@ -149,7 +149,15 @@ ROLE_ALIASES = {
     "solutions engineer":        ["solutions engineer", "solutions eng"],
     "sales engineer":            ["sales engineer", "sales eng"],
     "pre-sales engineer":        ["pre-sales", "presales"],
-    "solutions consultant":      ["solutions consultant", "solution consultant", "domain consultant"],
+    "solutions consultant":      ["solutions consultant", "solution consultant", "domain consultant",
+                                   "solutions specialist", "solutions developer", "technical solutions",
+                                   "ai solutions"],
+    "technical delivery":        ["technical delivery", "delivery engineer", "delivery consultant",
+                                   "deployment strategist", "solutions delivery"],
+    # PM lane: only technical / AI / associate PM titles, never plain "Product Manager"
+    "technical product manager": ["technical product manager", "associate product manager",
+                                   "ai product manager", "product manager, ai", "product manager - ai",
+                                   "product manager, platform", "product manager, developer"],
     "implementation consultant": ["implementation consultant", "implementation eng"],
     "technical consultant":      ["technical consultant", "tech consultant"],
     "forward deployed engineer": ["forward deployed engineer", "forward deployed software",
@@ -231,7 +239,10 @@ NOT_TECHNICAL = list(DEFAULT_NOT_TECHNICAL)
 
 
 def matches_role(title: str, role_tokens: list[str]) -> bool:
-    if is_excluded_title(title) or _has_word(title.lower(), NOT_TECHNICAL):
+    not_technical = NOT_TECHNICAL
+    if any(t in title.lower() for t in ROLE_ALIASES["technical product manager"] if t in role_tokens):
+        not_technical = [w for w in NOT_TECHNICAL if w != "product manager"]
+    if is_excluded_title(title) or _has_word(title.lower(), not_technical):
         return False
     title_lower = title.lower()
     return any(t in title_lower for t in role_tokens)
@@ -291,6 +302,17 @@ def is_non_us(text: str) -> bool:
     return _has_word(t, NON_US_PLACES) and not _has_word(t, US_MARKERS)
 
 
+RELOCATE_PLACES: list[str] = []  # Filters.relocate_places: cities worth a look if the role is great
+
+
+def relocation_city(job: dict) -> str | None:
+    """The relocate_places city an on-site/hybrid job is in, if that's the only reason it matched."""
+    combined = f"{job.get('location', '')} {job.get('workplace', '')}".lower()
+    if is_chicagoland(combined) or job.get("is_remote") is True or "remote" in combined:
+        return None
+    return next((p for p in RELOCATE_PLACES if _has_word(combined, [p])), None)
+
+
 def matches_location(job: dict) -> bool:
     """
     1) In-Office or Hybrid is cool if location is Chicago/Chicagoland.
@@ -302,6 +324,8 @@ def matches_location(job: dict) -> bool:
 
     combined = f"{loc} {workplace}".lower()
     if is_chicagoland(combined):
+        return True
+    if RELOCATE_PLACES and _has_word(combined, RELOCATE_PLACES):
         return True
 
     # Exclude non-US locations unless the US is also mentioned
@@ -763,6 +787,8 @@ def scan(targets: list[dict], role_tokens: list[str], seen: set, cache: dict,
                 continue
             seen.add(job["id"])
             job["target"] = target
+            if relocation_city(job):
+                job["relocate"] = relocation_city(job)
             # Undated jobs (some career sites) count as old on a board's first scan
             job["backlog"] = first_scan and (not job.get("posted") or not is_fresh(job, seed_hours / 24))
             new_jobs.append(job)
@@ -785,6 +811,7 @@ def add_contacts(new_jobs: list[dict], cfg: dict, cache: dict):
         return
     c_cfg.setdefault("profile", cfg.get("Profile", ""))
     c_cfg.setdefault("projects", cfg.get("Projects") or [])
+    c_cfg.setdefault("taste", cfg.get("Taste", ""))
     for job in new_jobs[: c_cfg.get("max_jobs_per_run", 8)]:
         try:
             out = assess_job(job, job["target"], c_cfg, cache)
@@ -815,7 +842,8 @@ def print_job(job: dict):
         _p(C.CYAN,        f"      Send ({job.get('project') or 'no project'}): {job['message']}")
 
 
-FIT_BADGE = {"strong": "🟢 Strong fit", "maybe": "🟡 Maybe", "skip": "🔴 Skip"}
+FIT_BADGE = {"ringer": "🎯 Dead ringer", "stretch": "🚀 Stretch: lead with outreach",
+             "stepping": "🪜 Stepping stone: quick apply", "meh": "💤 Meh"}
 
 
 def fit_text(job: dict) -> str:
@@ -918,9 +946,9 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
         _p(C.DIM, "  [discord] DISCORD_WEBHOOK_URL not set -- skipping notification")
         return
 
-    skips = [j for j in new_jobs if j.get("fit") == "skip"]
+    skips = [j for j in new_jobs if j.get("fit") == "meh"]
     for job in new_jobs:
-        if job.get("fit") == "skip":
+        if job.get("fit") == "meh":
             continue  # listed in the summary with the reason instead of pinging
         location     = job.get("location") or "Remote / Not specified"
         human_posted = humanize_time(job.get("posted", ""))
@@ -971,6 +999,7 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
             "url":         apply_url,
             "color":       DISCORD_COLOR_NEW_JOB,
             "description": (f"{fit_text(job)}\n" if job.get("fit") else "")
+                           + (f"🧳 Would mean moving to {job['relocate'].title()}\n" if job.get("relocate") else "")
                            + f"**{job['company']}**\n📍 {location}" + company_line(job),
             "fields":      fields,
             "footer":      {"text": "FirstLight Job Scanner"},
@@ -989,11 +1018,11 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
     summary_lines = "\n".join(
         f"- {fit_emoji(j) + ' ' if j.get('fit') else ''}"
         f"[{j['title']} @ {j['company']}]({j['url']}) ({humanize_time(j.get('posted', ''))})"
-        + (f": {j['gap']}" if j.get("fit") == "skip" and j.get("gap") else "")
+        + (f": {j['gap']}" if j.get("fit") == "meh" and j.get("gap") else "")
         for j in new_jobs
     )
     if skips:
-        summary_lines += f"\n\n{len(skips)} marked 🔴 Skip were not pinged separately."
+        summary_lines += f"\n\n{len(skips)} marked 💤 Meh were not pinged separately."
     summary_embed = {
         "title":       f"FirstLight: {len(new_jobs)} new job(s) found",
         "color":       DISCORD_COLOR_SUMMARY,
@@ -1008,9 +1037,10 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
 # Entry point
 # ─────────────────────────────────────────────
 def run_once(seen: set, notify: bool = False) -> list[dict]:
-    global LOCAL_PLACES
+    global LOCAL_PLACES, RELOCATE_PLACES
     cfg         = load_config()
     LOCAL_PLACES = [p.lower() for p in (cfg.get("Filters") or {}).get("local_places") or LOCAL_PLACES]
+    RELOCATE_PLACES = [p.lower() for p in (cfg.get("Filters") or {}).get("relocate_places") or []]
     roles       = get_roles(cfg)
     role_tokens = _role_tokens(roles)
     cache       = load_cache()

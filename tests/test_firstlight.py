@@ -546,7 +546,7 @@ def test_research_returns_fit_project_and_message(monkeypatch):
     import anthropic
     reply = SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text=(
         '```json\n{"picks": [{"name": "Sam Solutions", "title": "Head of SE", "email": "sam@g.ai", '
-        '"linkedin": null, "why": "Runs the team.", "angle": "Saw your talk."}], "fit": "Strong", '
+        '"linkedin": null, "why": "Runs the team.", "angle": "Saw your talk."}], "fit": "Ringer", '
         '"gap": null, "project": "interveil", "message": "Hey Sam, I built Interveil \\u2014 it traces '
         'agent tool calls. Excited to chat about the SE role."}\n```'))])
     calls = []
@@ -564,10 +564,11 @@ def test_research_returns_fit_project_and_message(monkeypatch):
     monkeypatch.setattr(anthropic, "Anthropic", FakeClient)
     projects = [{"name": "Interveil", "link": "https://x", "pitch": "p", "best_for": "b"}]
     out = contacts.research(job("a:3", "Solutions Engineer", 1), {"domain": "g.ai"}, PEOPLE,
-                            {"profile": "me", "projects": projects})
-    assert out["fit"] == "strong" and out["project"] == "Interveil"
+                            {"profile": "me", "projects": projects, "taste": "ringer: SE roles"})
+    assert out["fit"] == "ringer" and out["project"] == "Interveil"
     assert "—" not in out["message"] and out["message_flags"] == ["excited to"]
     assert "<projects>" in calls[0]["messages"][0]["content"] and '"message"' in calls[0]["system"]
+    assert "<taste>" in calls[0]["messages"][0]["content"]
 
 
 def test_no_projects_keeps_plain_contact_prompt(monkeypatch):
@@ -581,11 +582,33 @@ def test_skip_jobs_are_summarized_not_pinged(monkeypatch):
     monkeypatch.setattr(main, "DISCORD_WEBHOOK_URL", "https://hook")
     monkeypatch.setattr(main, "_discord_post", lambda payload: posts.append(payload) or True)
     monkeypatch.setattr(main.time, "sleep", lambda s: None)
-    good = dict(job("a:5", "Solutions Engineer", 1), fit="strong", project="Interveil",
+    good = dict(job("a:5", "Solutions Engineer", 1), fit="ringer", project="Interveil",
                 message="Hey Sam, short note.", contacts=[{"name": "Sam", "title": "SE", "why": "w"}])
-    bad = dict(job("a:6", "Solutions Architect", 1), fit="skip", gap="Wants 5+ yrs presales.")
+    bad = dict(job("a:6", "Technical Account Manager", 1), fit="meh", gap="Mostly renewals.")
     main.notify_discord_jobs([good, bad])
     assert len(posts) == 2  # one alert + summary
     fields = {f["name"]: f["value"] for f in posts[0]["embeds"][0]["fields"]}
     assert "Hey Sam, short note." in fields["✉️ Send this"]
-    assert "Wants 5+ yrs presales." in posts[1]["embeds"][0]["description"]
+    assert "Mostly renewals." in posts[1]["embeds"][0]["description"]
+
+
+def test_relocation_cities_pass_and_get_tagged(monkeypatch):
+    monkeypatch.setattr(main, "RELOCATE_PLACES", ["san francisco", "new york"])
+    sf = {"location": "San Francisco, CA", "workplace": "Hybrid", "is_remote": False}
+    assert main.matches_location(sf) and main.relocation_city(sf) == "san francisco"
+    remote = {"location": "Remote - US; San Francisco, CA", "is_remote": True}
+    assert main.relocation_city(remote) is None
+    assert not main.matches_location({"location": "Austin, TX", "is_remote": False})
+    monkeypatch.setattr(main, "RELOCATE_PLACES", [])
+    assert not main.matches_location(sf)
+
+
+def test_pm_lane_only_takes_technical_pm_titles():
+    tokens = main._role_tokens(["solutions consultant", "technical product manager", "technical delivery"])
+    assert main.matches_role("Technical Product Manager, Agents", tokens)
+    assert main.matches_role("Associate Product Manager", tokens)
+    assert not main.matches_role("Product Manager, Growth", tokens)
+    assert main.matches_role("Deployment Strategist", tokens)
+    assert main.matches_role("Solutions Specialist, AI", tokens)
+    plain = main._role_tokens(["solutions engineer"])
+    assert not main.matches_role("Technical Product Manager", plain)
