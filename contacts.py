@@ -44,6 +44,10 @@ PICK_SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "fit":     {"type": ["string", "null"], "enum": ["strong", "maybe", "skip", None]},
+        "gap":     {"type": ["string", "null"]},
+        "project": {"type": ["string", "null"]},
+        "message": {"type": ["string", "null"]},
     },
     "required": ["picks"],
     "additionalProperties": False,
@@ -183,6 +187,35 @@ Rules:
 (a post they wrote, a shared background, a product launch) tied to the job seeker's experience.
 - If you are unsure someone still works there, say so in "why"."""
 
+PITCH_PROMPT = """
+
+The job seeker also wants three more things for this job.
+
+"fit": "strong", "maybe" or "skip". Judge it like a blunt friend who knows the \
+hiring bar: does their real background clear what the posting actually asks for? \
+"skip" when a hard requirement clearly fails (years in a specific function such as \
+presales or quota-carrying sales, a domain they have never touched, a clearance, \
+on-site in a city they won't move to). Don't skip over nice-to-haves.
+
+"gap": one short sentence naming the single biggest gap a screener would flag, or \
+null if there is none worth naming. No softening.
+
+"project": the name of the one project from <projects> that this company's people \
+would care about most, or null if none is relevant.
+
+"message": a message the job seeker sends to your #1 pick, sharing that project. \
+It has to read like a real person typed it on their phone, in their voice:
+- 2 to 4 short sentences, under 70 words. First name greeting ("Hey Sam,").
+- Say what the project does in plain words and why it touches what this company \
+does, using one concrete detail about the company or the person you actually found.
+- Include the project's link exactly as given. Mention the open role and ask for a \
+quick chat. Energetic and direct is good; gushing is not.
+- No buzzwords (leverage, passionate, synergy, cutting-edge, excited to, thrilled), \
+no flattery, no "I came across", no "hope this finds you well", no em dashes, no \
+"not X but Y" or "X, which is exactly what you do" style lines, no bullet points.
+- Never claim anything about the job seeker that isn't in <job_seeker> or <projects>.
+If project is null, write the message about the job seeker's most relevant real work instead."""
+
 
 def _job_brief(job: dict, company: dict) -> str:
     lines = [
@@ -207,10 +240,25 @@ def _extract_json(text: str) -> dict | None:
     return data if isinstance(data.get("picks"), list) else None
 
 
+def projects_text(projects: list[dict]) -> str:
+    return "\n".join(
+        f"- {p['name']} ({p.get('link', '')}): {p.get('pitch', '').strip()} Best for: {p.get('best_for', '').strip()}"
+        for p in projects or [] if p.get("name"))
+
+
 def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> list[dict]:
     """Returns up to 3 picks: {name, title, email, linkedin, why, angle}."""
+    return research(job, company, people, cfg)["picks"]
+
+
+def research(job: dict, company: dict, people: list[dict], cfg: dict) -> dict:
+    """
+    Picks + (when cfg has projects) a fit verdict, the project to lead with and a
+    ready-to-send message: {picks, fit, gap, project, message}.
+    """
+    empty = {"fit": None, "gap": None, "project": None, "message": None}
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        return fallback_picks(people, job)
+        return {"picks": fallback_picks(people, job), **empty}
 
     import anthropic  # imported here so scanning works without the package
 
@@ -220,13 +268,17 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
         [{k: p.get(k) for k in ("name", "title", "email", "seniority", "department")} for p in people],
         indent=0,
     ) if people else "[] (no candidates found; use web search)"
+    projects = projects_text(cfg.get("projects"))
+    shape = '{"picks": [{"name", "title", "email", "linkedin", "why", "angle"}]'
+    shape += ', "fit", "gap", "project", "message"}' if projects else "}"
     user = (
         f"<job_seeker>\n{cfg.get('profile', '').strip()}\n</job_seeker>\n\n"
-        f"<job>\n{_job_brief(job, company)}\n</job>\n\n"
+        + (f"<projects>\n{projects}\n</projects>\n\n" if projects else "")
+        + f"<job>\n{_job_brief(job, company)}\n</job>\n\n"
         f"<candidates>\n{candidates}\n</candidates>\n\n"
-        "Research, then end your reply with the top 3 as JSON in a ```json block: "
-        '{"picks": [{"name", "title", "email", "linkedin", "why", "angle"}]}'
+        f"Research, then end your reply with the result as JSON in a ```json block: {shape}"
     )
+    system = SYSTEM_PROMPT + (PITCH_PROMPT if projects else "")
     tools = [{"type": "web_search_20260209", "name": "web_search",
               "max_uses": cfg.get("max_searches", 4)}] if cfg.get("web_search", True) else []
 
@@ -236,7 +288,7 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
             resp = client.beta.messages.create(
                 model=model,
                 max_tokens=16000,
-                system=SYSTEM_PROMPT,
+                system=system,
                 messages=messages,
                 tools=tools,
                 thinking={"type": "adaptive"},
@@ -249,15 +301,15 @@ def rank_contacts(job: dict, company: dict, people: list[dict], cfg: dict) -> li
             messages = [messages[0], {"role": "assistant", "content": resp.content}]
     except anthropic.APIError as e:
         print(f"  [contacts] Claude call failed: {e}")
-        return fallback_picks(people, job)
+        return {"picks": fallback_picks(people, job), **empty}
 
     if resp.stop_reason == "refusal":
-        return fallback_picks(people, job)
+        return {"picks": fallback_picks(people, job), **empty}
     text = "".join(b.text for b in resp.content if b.type == "text")
     data = _extract_json(text) or _structure(client, model, text)
     if not data:
-        return fallback_picks(people, job)
-    return clean_picks(data["picks"], people)
+        return {"picks": fallback_picks(people, job), **empty}
+    return {"picks": clean_picks(data["picks"], people), **clean_pitch(data, cfg.get("projects"))}
 
 
 def _structure(client, model: str, text: str) -> dict | None:
@@ -269,7 +321,8 @@ def _structure(client, model: str, text: str) -> dict | None:
             model=model,
             max_tokens=4000,
             output_config={"effort": "low", "format": {"type": "json_schema", "schema": PICK_SCHEMA}},
-            messages=[{"role": "user", "content": "Extract the ranked top 3 contacts from this research:\n\n" + text}],
+            messages=[{"role": "user", "content": "Extract the ranked top 3 contacts (and fit, gap, project, "
+                       "message if present) from this research:\n\n" + text}],
         )
         return json.loads(next(b.text for b in resp.content if b.type == "text"))
     except Exception:
@@ -291,6 +344,25 @@ def clean_picks(picks: list[dict], people: list[dict]) -> list[dict]:
             "angle":    p.get("angle", "").strip(),
         })
     return [p for p in out if p["name"]]
+
+
+BANNED = re.compile(r"\b(leverag\w*|passionate|synergy|cutting[- ]edge|thrilled|excited to|"
+                    r"hope this (?:finds|message)|i came across|reaching out)\b", re.I)
+
+
+def clean_pitch(data: dict, projects: list[dict] | None) -> dict:
+    """Validates fit/project and flags (never rewrites) messages with stock phrases."""
+    fit = (data.get("fit") or "").lower() or None
+    names = {p["name"].lower(): p["name"] for p in projects or [] if p.get("name")}
+    project = names.get((data.get("project") or "").lower())
+    message = (data.get("message") or "").strip().replace("\u2014", ",").replace(" \u2013 ", ", ") or None
+    return {
+        "fit": fit if fit in ("strong", "maybe", "skip") else None,
+        "gap": (data.get("gap") or "").strip() or None,
+        "project": project,
+        "message": message,
+        "message_flags": sorted({m.group(0).lower() for m in BANNED.finditer(message or "")}),
+    }
 
 
 SENIORITY_ORDER = ["founder", "owner", "c_suite", "executive", "vp", "head", "director", "manager", "senior"]
@@ -344,12 +416,17 @@ def fallback_picks(people: list[dict], job: dict | None = None) -> list[dict]:
 # ─────────────────────────────────────────────
 # Entry point
 # ─────────────────────────────────────────────
-def who_to_message(job: dict, company: dict, cfg: dict, cache: dict) -> list[dict]:
+def assess_job(job: dict, company: dict, cfg: dict, cache: dict) -> dict:
+    """{picks, fit, gap, project, message} for one job."""
     domain = company.get("domain", "")
     people = candidates_for(domain, cache) if domain else []
-    picks = rank_contacts(job, company, people, cfg)
+    out = research(job, company, people, cfg)
     if cfg.get("hunter_email_finder", False):
-        for p in picks:
+        for p in out["picks"]:
             if not p["email"]:
                 p["email"] = hunter_find_email(p["name"], domain)
-    return picks
+    return out
+
+
+def who_to_message(job: dict, company: dict, cfg: dict, cache: dict) -> list[dict]:
+    return assess_job(job, company, cfg, cache)["picks"]

@@ -84,16 +84,41 @@ Profile: |
   Builds automation and integration layers across messy systems: embedded Android
   displays (ADB/UIAutomator) with RS-232 and CAN peripherals, Artifactory/Polarion
   build-validation pipelines, a watchdog across 15 hardware test benches, and a
-  compatibility layer that ran 500+ legacy scripts with zero rewrites.
+  compatibility layer that ran 6,600+ legacy test cases with zero rewrites.
   Presales engineering co-op at Motorola Solutions (2021-2022): built a JS logic
   engine that cut technical scoping from 3 months to 5 minutes.
   Solo-built Interveil (rpuranikx.github.io/Interveil), an open-source policy
   gateway that blocks prompt-injected AI agent tool calls across OpenAI, Anthropic
   and Gemini, with Claude Code and Codex support.
   UIUC B.S. Systems Engineering & CS (2022). Python, TypeScript, LLM APIs, MCP.
-  Switching from test automation into SE / FDE roles at high-growth startups;
+  Also built NightShift (rpuranikx.github.io/NightShift) on Databricks.
+  Moving into SE / FDE / AI engineering roles at high-growth startups;
   ~4 years of experience, so mid-level rather than senior roles. Open to Chicago
   or remote. Wants equity and ownership; prefers warm, specific outreach.
+
+# What FirstLight pitches with. For each job it picks the one project this company
+# would care about most and drafts a short message to your #1 contact sharing it.
+Projects:
+  - name: Interveil
+    link: https://rpuranikx.github.io/Interveil
+    pitch: >-
+      Open-source, self-hosted gateway that traces every AI agent model call and tool
+      call and blocks risky tool calls with YAML policies before they run. Works as an
+      OpenAI/Anthropic-compatible proxy and an MCP proxy; Claude Code and Codex can
+      run through it. Solo-built, ~450 tests.
+    best_for: >-
+      agent platforms, LLM observability and evals, AI security and governance,
+      dev tools, MCP and AI infra companies.
+  - name: NightShift
+    link: https://rpuranikx.github.io/NightShift
+    pitch: >-
+      Databricks project built from his real hardware test lab work: overnight
+      test-bench logs flow through Delta bronze/silver/gold tables into a dashboard,
+      an MLflow model classifies each failure, and an agent writes the morning triage
+      report so engineers start the day knowing what broke and why. Has a 50s video.
+    best_for: >-
+      data platforms, data/ML observability, Databricks ecosystem, analytics, MLOps,
+      manufacturing/industrial/hardware and robotics companies.
 
 Companies:
   # --- AI Agents & Workflow Orchestration ---

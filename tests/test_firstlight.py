@@ -540,3 +540,52 @@ def test_smartrecruiters_description_fetched_for_level_check(monkeypatch):
     j = {"id": "smartrecruiters:Acme:123", "url": "", "description": ""}
     main.add_description(j)
     assert main.years_required(j["description"]) == 8
+
+
+def test_research_returns_fit_project_and_message(monkeypatch):
+    import anthropic
+    reply = SimpleNamespace(stop_reason="end_turn", content=[SimpleNamespace(type="text", text=(
+        '```json\n{"picks": [{"name": "Sam Solutions", "title": "Head of SE", "email": "sam@g.ai", '
+        '"linkedin": null, "why": "Runs the team.", "angle": "Saw your talk."}], "fit": "Strong", '
+        '"gap": null, "project": "interveil", "message": "Hey Sam, I built Interveil \\u2014 it traces '
+        'agent tool calls. Excited to chat about the SE role."}\n```'))])
+    calls = []
+
+    class FakeMessages:
+        def create(self, **kw):
+            calls.append(kw)
+            return reply
+
+    class FakeClient:
+        def __init__(self):
+            self.beta = SimpleNamespace(messages=FakeMessages())
+
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "test")
+    monkeypatch.setattr(anthropic, "Anthropic", FakeClient)
+    projects = [{"name": "Interveil", "link": "https://x", "pitch": "p", "best_for": "b"}]
+    out = contacts.research(job("a:3", "Solutions Engineer", 1), {"domain": "g.ai"}, PEOPLE,
+                            {"profile": "me", "projects": projects})
+    assert out["fit"] == "strong" and out["project"] == "Interveil"
+    assert "—" not in out["message"] and out["message_flags"] == ["excited to"]
+    assert "<projects>" in calls[0]["messages"][0]["content"] and '"message"' in calls[0]["system"]
+
+
+def test_no_projects_keeps_plain_contact_prompt(monkeypatch):
+    monkeypatch.setenv("ANTHROPIC_API_KEY", "")
+    out = contacts.research(job("a:4", "Solutions Engineer", 1), {}, PEOPLE, {})
+    assert out["fit"] is None and out["picks"][0]["name"] == "Sam Solutions"
+
+
+def test_skip_jobs_are_summarized_not_pinged(monkeypatch):
+    posts = []
+    monkeypatch.setattr(main, "DISCORD_WEBHOOK_URL", "https://hook")
+    monkeypatch.setattr(main, "_discord_post", lambda payload: posts.append(payload) or True)
+    monkeypatch.setattr(main.time, "sleep", lambda s: None)
+    good = dict(job("a:5", "Solutions Engineer", 1), fit="strong", project="Interveil",
+                message="Hey Sam, short note.", contacts=[{"name": "Sam", "title": "SE", "why": "w"}])
+    bad = dict(job("a:6", "Solutions Architect", 1), fit="skip", gap="Wants 5+ yrs presales.")
+    main.notify_discord_jobs([good, bad])
+    assert len(posts) == 2  # one alert + summary
+    fields = {f["name"]: f["value"] for f in posts[0]["embeds"][0]["fields"]}
+    assert "Hey Sam, short note." in fields["✉️ Send this"]
+    assert "Wants 5+ yrs presales." in posts[1]["embeds"][0]["description"]

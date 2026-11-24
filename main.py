@@ -40,7 +40,7 @@ import yaml
 import boards_extra
 import careers
 import discover as _discover
-from contacts import who_to_message
+from contacts import assess_job
 from discover import board_alive, discover, load_cache, probe_board, save_cache
 from slugs import COMPANY_SLUGS
 
@@ -784,9 +784,14 @@ def add_contacts(new_jobs: list[dict], cfg: dict, cache: dict):
     if not c_cfg.get("enabled", True):
         return
     c_cfg.setdefault("profile", cfg.get("Profile", ""))
+    c_cfg.setdefault("projects", cfg.get("Projects") or [])
     for job in new_jobs[: c_cfg.get("max_jobs_per_run", 8)]:
         try:
-            job["contacts"] = who_to_message(job, job["target"], c_cfg, cache)
+            out = assess_job(job, job["target"], c_cfg, cache)
+            job["contacts"] = out["picks"]
+            for k in ("fit", "gap", "project", "message", "message_flags"):
+                if out.get(k):
+                    job[k] = out[k]
         except Exception as e:
             _p(C.RED, f"  [contacts] {job['company']}: {e}")
 
@@ -801,9 +806,35 @@ def print_job(job: dict):
         _p(C.YELLOW,      f"      Comp:     ${job['compensation']:,}+")
     _p(C.DIM,             f"      Posted:   {human_posted}")
     _p(C.YELLOW,          f"      Apply:    {job['url']}")
+    if job.get("fit"):
+        _p(C.BOLD,        f"      Fit:      {job['fit'].upper()}" + (f" ({job['gap']})" if job.get("gap") else ""))
     for i, c in enumerate(job.get("contacts") or [], 1):
         _p("",            f"      {i}. {c['name']} ({c['title']}) {c.get('email') or ''}")
         _p(C.DIM,         f"         {c['why']}")
+    if job.get("message"):
+        _p(C.CYAN,        f"      Send ({job.get('project') or 'no project'}): {job['message']}")
+
+
+FIT_BADGE = {"strong": "🟢 Strong fit", "maybe": "🟡 Maybe", "skip": "🔴 Skip"}
+
+
+def fit_text(job: dict) -> str:
+    badge = FIT_BADGE.get(job.get("fit") or "", "")
+    return badge + (f": {job['gap']}" if badge and job.get("gap") else "")
+
+
+def fit_emoji(job: dict) -> str:
+    return FIT_BADGE.get(job.get("fit") or "", " ").split(" ")[0]
+
+
+def message_block(job: dict) -> str:
+    """The ready-to-send note as a code block (one tap to copy on mobile)."""
+    fence = "`" * 3
+    msg = (job.get("message") or "").replace(fence, "'" * 3)
+    to = (job.get("contacts") or [{}])[0].get("name") or "your #1 pick"
+    head = f"To {to}" + (f", sharing {job['project']}" if job.get("project") else "")
+    warn = f"\n⚠️ has stock phrasing: {', '.join(job['message_flags'])}" if job.get("message_flags") else ""
+    return f"{head}\n{fence}{msg[:850]}{fence}{warn}"[:1024]
 
 
 def format_contacts(contacts: list[dict]) -> str:
@@ -887,7 +918,10 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
         _p(C.DIM, "  [discord] DISCORD_WEBHOOK_URL not set -- skipping notification")
         return
 
+    skips = [j for j in new_jobs if j.get("fit") == "skip"]
     for job in new_jobs:
+        if job.get("fit") == "skip":
+            continue  # listed in the summary with the reason instead of pinging
         location     = job.get("location") or "Remote / Not specified"
         human_posted = humanize_time(job.get("posted", ""))
         apply_url    = job["url"]
@@ -925,11 +959,19 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
                 "inline": False,
             })
 
+        if job.get("message"):
+            fields.append({
+                "name":   "✉️ Send this",
+                "value":  message_block(job),
+                "inline": False,
+            })
+
         embed = {
             "title":       job["title"],
             "url":         apply_url,
             "color":       DISCORD_COLOR_NEW_JOB,
-            "description": f"**{job['company']}**\n📍 {location}" + company_line(job),
+            "description": (f"{fit_text(job)}\n" if job.get("fit") else "")
+                           + f"**{job['company']}**\n📍 {location}" + company_line(job),
             "fields":      fields,
             "footer":      {"text": "FirstLight Job Scanner"},
             "timestamp":   datetime.now(timezone.utc).isoformat(),
@@ -937,15 +979,21 @@ def notify_discord_jobs(new_jobs: list[dict]) -> None:
 
         # Plain-text content surfaces in push notifications before embed renders
         comp_str = f" (${job['compensation']:,}+)" if job.get("compensation") else ""
-        plain = f"**New job ({human_posted}):** {job['title']} @ {job['company']}{comp_str}\n{apply_url}"
+        badge = fit_emoji(job)
+        plain = (f"{badge + ' ' if badge.strip() else ''}**New job ({human_posted}):** {job['title']} @ "
+                 f"{job['company']}{comp_str}\n{apply_url}")
         _discord_post({"content": plain, "embeds": [embed]})
         time.sleep(2.1)  # stay under Discord rate-limit (30 msgs/min per webhook)
 
     # Summary embed listing all new jobs
     summary_lines = "\n".join(
-        f"- [{j['title']} @ {j['company']}]({j['url']}) ({humanize_time(j.get('posted', ''))})"
+        f"- {fit_emoji(j) + ' ' if j.get('fit') else ''}"
+        f"[{j['title']} @ {j['company']}]({j['url']}) ({humanize_time(j.get('posted', ''))})"
+        + (f": {j['gap']}" if j.get("fit") == "skip" and j.get("gap") else "")
         for j in new_jobs
     )
+    if skips:
+        summary_lines += f"\n\n{len(skips)} marked 🔴 Skip were not pinged separately."
     summary_embed = {
         "title":       f"FirstLight: {len(new_jobs)} new job(s) found",
         "color":       DISCORD_COLOR_SUMMARY,
