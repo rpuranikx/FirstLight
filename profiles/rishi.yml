@@ -1,0 +1,45 @@
+# Rishi's search. Copy this file to make another profile (e.g. an environmental one).
+name: rishi
+
+watchlist:
+  min_size: 15            # people; big companies are always in
+  yc: true
+  a16z: true
+  getro_boards:           # VC portfolio job boards (Getro-powered)
+    - jobs.accel.com
+    - jobs.generalcatalyst.com
+    - jobs.insightpartners.com
+    - jobs.khoslaventures.com
+    - jobs.lererhippeau.com
+    - jobs.menlovc.com
+    - jobs.primary.vc
+    - jobs.thrivecap.com
+    - jobs.uncorkcapital.com
+  companies:              # always watched, any size. Add "careers: <url>" if one gets flagged.
+    - {name: Databricks, domain: databricks.com}
+    - {name: Stripe, domain: stripe.com}
+    - {name: Snowflake, domain: snowflake.com}
+    - {name: Anthropic, domain: anthropic.com}
+    - {name: OpenAI, domain: openai.com}
+    - {name: Hex, domain: hex.tech}
+    - {name: Braintrust, domain: braintrust.dev}
+    - {name: Ramp, domain: ramp.com}
+    - {name: Notion, domain: notion.so}
+    - {name: Vercel, domain: vercel.com}
+    - {name: Retool, domain: retool.com}
+    - {name: Datadog, domain: datadoghq.com}
+    - {name: MongoDB, domain: mongodb.com}
+    - {name: dbt Labs, domain: getdbt.com}
+    - {name: Fivetran, domain: fivetran.com}
+    - {name: Scale AI, domain: scale.com}
+    - {name: Glean, domain: glean.com}
+    - {name: Sierra, domain: sierra.ai}
+    - {name: Harvey, domain: harvey.ai}
+    - {name: Cohere, domain: cohere.com}
+  block: [Palantir, Palantir Technologies, Flock Safety]
+
+workday_search: ["solutions", "sales engineer", "forward deployed", "implementation"]
+
+discord:                  # webhook URLs come from GitHub secrets, never this file
+  jobs: DISCORD_JOBS_WEBHOOK
+  summaries: DISCORD_SUMMARY_WEBHOOK

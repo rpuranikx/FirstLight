@@ -67,9 +67,11 @@ def from_getro(host: str, min_size: int) -> list[dict]:
         return []
     cid, vc = coll
     companies = []
-    for page in range(0, 100):
+    seen = 0
+    for page in range(0, 2000):  # Getro returns a fixed 12 per page whatever hitsPerPage says
         try:
-            rows = _getro(cid, "companies", {"hitsPerPage": 100, "page": page, "query": "", "filters": ""}).get("companies") or []
+            res = _getro(cid, "companies", {"hitsPerPage": 100, "page": page, "query": "", "filters": ""})
+            rows = res.get("companies") or []
         except Exception as e:
             print(f"  [sources] {host} page {page}: {e}")
             break
@@ -81,7 +83,8 @@ def from_getro(host: str, min_size: int) -> list[dict]:
                 continue
             companies.append({"name": c["name"], "domain": domain_of(c["domain"]), "size": size,
                               "source": f"{vc} portfolio", "getro": (cid, c["id"]), "evidence": []})
-        if len(rows) < 100:
+        seen += len(rows)
+        if not rows or seen >= (res.get("count") or 0):
             break
     # One cheap call per company: the URLs of its current jobs say which board it uses
     with ThreadPoolExecutor(16) as pool:
