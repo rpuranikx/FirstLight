@@ -8,6 +8,7 @@ A board is {"ats": "greenhouse", "slug": "databricks"}. Workday slugs are
 reported instead of looking like a quiet one.
 """
 import re
+import time
 from datetime import datetime, timezone
 
 import requests
@@ -33,6 +34,7 @@ URL_PATTERNS = [
     ("recruitee",  re.compile(r"\b([a-z0-9-]+)\.recruitee\.com", re.I)),
     ("bamboohr",   re.compile(r"\b([a-z0-9-]+)\.bamboohr\.com", re.I)),
     ("breezy",     re.compile(r"\b([a-z0-9-]+)\.breezy\.hr", re.I)),
+    ("gem",        re.compile(r"jobs\.gem\.com/([A-Za-z0-9_-]+)", re.I)),
 ]
 WORKDAY_RE = re.compile(r"([a-z0-9-]+)\.(wd\d+)\.myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_-]+)")
 NOT_SLUGS = {"embed", "api", "v1", "jobs", "job", "careers", "www", "apply", "j", "o"}
@@ -57,7 +59,11 @@ def board_key(board: dict) -> str:
 
 
 def _get(url: str, **kw):
-    r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kw)
+    for wait in (2, 6, 15, None):  # back off on rate limits instead of reporting a broken board
+        r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kw)
+        if r.status_code != 429 or wait is None:
+            break
+        time.sleep(wait)
     r.raise_for_status()
     return r.json()
 
@@ -213,6 +219,19 @@ def fetch_breezy(board):
     return out
 
 
+def fetch_gem(board):
+    out = []
+    for j in _get(f"https://api.gem.com/job_board/v0/{board['slug']}/job_posts/"):
+        if j.get("employment_type") not in (None, "", "full_time"):
+            continue
+        loc = (j.get("location") or {}).get("name", "")
+        kind = j.get("location_type") or ""
+        out.append(_job(board, j.get("id"), j.get("title"), j.get("absolute_url"), loc, kind == "remote",
+                        j.get("first_published_at"), j.get("content_plain") or j.get("content") or "",
+                        workplace=kind))
+    return out
+
+
 def fetch_workday(board, search_terms=("",)):
     """Workday has no "all jobs" call, so it is searched by role keywords."""
     tenant, wd, site = board["slug"].split("|")
@@ -243,6 +262,7 @@ FETCHERS = {
     "greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby,
     "workable": fetch_workable, "smartrecruiters": fetch_smartrecruiters, "rippling": fetch_rippling,
     "recruitee": fetch_recruitee, "bamboohr": fetch_bamboohr, "breezy": fetch_breezy, "workday": fetch_workday,
+    "gem": fetch_gem,
 }
 
 

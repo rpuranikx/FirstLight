@@ -59,7 +59,7 @@ def scan_careers(domain: str) -> list[str]:
         found.extend(l for l in links if ats.board_from_url(l))
         found.extend(re.findall(r"https?://[a-z0-9.-]+(?:greenhouse\.io|lever\.co|ashbyhq\.com|workable\.com|"
                                 r"myworkdayjobs\.com|smartrecruiters\.com|rippling\.com|recruitee\.com|"
-                                r"bamboohr\.com|breezy\.hr)[^\s\"'<>\\]*", html))
+                                r"bamboohr\.com|breezy\.hr|gem\.com)[^\s\"'<>\\]*", html))
         if follow:
             host = urlparse(final).netloc
             for l in links:
@@ -115,7 +115,7 @@ def confirm_by_name(name: str, domain: str) -> tuple[dict | None, list[dict]]:
     domain or name it in most descriptions. A hit is labelled so the report shows it.
     """
     for slug in _slugs(name, domain):
-        for a in ("greenhouse", "ashby", "lever"):
+        for a in ("greenhouse", "ashby", "lever", "gem"):
             board = {"ats": a, "slug": slug}
             jobs, status = ats.fetch(board)
             if status != "ok" or not jobs:
@@ -210,10 +210,29 @@ def build(profile: dict, workers: int = 24) -> list[dict]:
     return sorted(resolved, key=lambda c: c["name"].lower())
 
 
+STATUS_HELP = {
+    VERIFIED: "We read their job board directly and it has open jobs.",
+    NO_OPENINGS: "Board confirmed, nothing open right now. Checked every run.",
+    OWN_SITE: "Jobs live on a site we can't poll (Gem, Comeet, Dover, LinkedIn...). Their VC board's feed still catches new posts.",
+    MISMATCH: "A board answered but its company name differs. Not polled until someone confirms it.",
+    BROKEN: "A board was found but errored. Retried next run; shows in the daily health check.",
+    MANUAL: "No job board link anywhere: not on their VC board, site or a board named after them. Mostly small companies not hiring right now. Add `careers:` in the profile for any you care about.",
+}
+
+
 def coverage_report(watchlist: list[dict]) -> str:
     counts = Counter(c["status"] for c in watchlist)
+    polled = counts[VERIFIED] + counts[NO_OPENINGS]
+    named = [c for c in watchlist if "named in profile" in c.get("sources", [])]
     lines = ["# Watchlist coverage", "",
-             f"{len(watchlist)} companies. " + ", ".join(f"{n} {s}" for s, n in counts.most_common()), ""]
+             f"{len(watchlist)} companies, {polled} polled directly ({polled * 100 // max(1, len(watchlist))}%).", ""]
+    lines += [f"- **{s}** ({counts[s]}): {STATUS_HELP[s]}" for s in [VERIFIED, NO_OPENINGS, OWN_SITE, MISMATCH, BROKEN, MANUAL]
+              if counts[s]]
+    if named:
+        lines += ["", "## Your named companies", "", "| Company | Status | Board | Open jobs |", "|---|---|---|---|"]
+        lines += [f"| {c['name']} | {c['status']} | {ats.board_key(c['board']) if c.get('board') else ''} | "
+                  f"{c.get('open_jobs', '')} |" for c in named]
+    lines.append("")
     order = [MANUAL, BROKEN, MISMATCH, OWN_SITE, NO_OPENINGS, VERIFIED]
     for status in order:
         rows = [c for c in watchlist if c["status"] == status]
