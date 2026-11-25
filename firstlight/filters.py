@@ -16,7 +16,7 @@ DEFAULTS = {
     "home_metro": ["chicago", "evanston", "oak brook", "naperville", "schaumburg", "illinois", ", il"],
     "drop_title": r"\b(director|vp|vice president|head of|chief|manager|principal|staff|lead|intern|internship|"
                   r"new grad|apprentice|architect,? enterprise)\b",
-    "keep_title_even_if": r"^(?!.*\b(director|vp|head of|staff|principal)\b).*(\bsolutions? architect\b|\bproduct manager\b|\bprogram manager\b|\bproject manager\b|\baccount manager\b)",
+    "keep_title_even_if": r"^(?!.*\b(director|vp|head of|staff|principal|lead)\b).*(\bsolutions? architect\b|\bproduct manager\b|\bprogram manager\b|\bproject manager\b|\baccount manager\b)",
     "drop_type": r"\b(contract(or)?|temporary|temp|part[- ]time|freelance|seasonal|1099)\b",
     "clearance": r"\b(active|current)\s+(ts|top secret|secret|ts/sci|security)\s*(/sci)?\s*clearance\b|"
                  r"\bclearance\s+(is\s+)?required\b",

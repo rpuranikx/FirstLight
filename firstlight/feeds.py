@@ -78,6 +78,7 @@ def getro_search(host: str, terms=DEFAULT_TERMS, since: int = 0, max_pages: int 
                                 "; ".join(j.get("locations") or []), mode == "remote", _iso(j.get("created_at")),
                                 pay_max=int(cents) // 100 if cents else None, workplace=mode,
                                 domain=domain_of(org.get("domain") or "")))
+                out[-1]["getro_host"] = host
             if len(fresh) < len(rows) or len(rows) < 20:
                 break
     print(f"  [feeds] {vc}: {len(out)} jobs")

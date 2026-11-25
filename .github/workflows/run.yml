@@ -1,0 +1,60 @@
+name: FirstLight run
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: firstlight-state      # one run at a time; runs share the state branch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    strategy:
+      max-parallel: 1
+      matrix:
+        profile: [rishi]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get state (seen jobs, watchlist) from the firstlight-state branch
+        run: |
+          if git ls-remote --exit-code origin firstlight-state >/dev/null; then
+            git fetch origin firstlight-state --depth=1
+            git worktree add state FETCH_HEAD
+          else
+            echo "No state branch yet: seeding it from data/ (first run sends the day-one digest)"
+            mkdir -p state && cp -r data/. state/
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Run
+        env:
+          FIRSTLIGHT_DATA: state
+          DISCORD_JOBS_WEBHOOK: ${{ secrets.DISCORD_JOBS_WEBHOOK }}
+          DISCORD_SUMMARY_WEBHOOK: ${{ secrets.DISCORD_SUMMARY_WEBHOOK }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python -m firstlight run --profile profiles/${{ matrix.profile }}.yml
+
+      - name: Save state
+        if: always()
+        run: |
+          cd state
+          git init -q 2>/dev/null || true
+          git config user.name "FirstLight"
+          git config user.email "firstlight@users.noreply.github.com"
+          git checkout -q -B firstlight-state
+          git add -A
+          git commit -qm "state $(date -u +%FT%TZ)" || exit 0
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:firstlight-state
