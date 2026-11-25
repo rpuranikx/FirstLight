@@ -35,9 +35,13 @@ def pay_from_text(text: str) -> dict:
 
 
 # "5+ years", "3-5 years", "at least 4 years", "Minimum of 6 years"
-YEARS_RE = re.compile(r"(?<![\d.$])(\d{1,2})\s*\+?\s*(?:(?:-|–|to)\s*\d{1,2}\s*\+?\s*)?years?\b(?!\s+(?:old|ago))", re.I)
+YEARS_RE = re.compile(r"(?<![\d.$])(\d{1,2})\s*\+?\s*(?:(?:-+|–|to)\s*\d{1,2}\s*\+?\s*)?(?:years?|yrs?)(?:'|’)?\b(?!\s+(?:old|ago|of age|to exercise))", re.I)
 NOT_A_REQUIREMENT = re.compile(r"founded|company|history|in business|track record|over the (?:past|last)|"
-                               r"for (?:the )?(?:past|last)|since|anniversary|customers for|we've been", re.I)
+                               r"for (?:the )?(?:past|last)|since|anniversary|customers for|we've been|founders|worked together|"
+                               r"with more than|serving|trusted by", re.I)
+REQUIREMENT_AFTER = re.compile(r"^.{0,60}\b(experience|exp\b|in |of |as |working|selling|background|track|hands-on|"
+                               r"building|leading|managing|supporting|designing|deploying|professional|industry|"
+                               r"customer|technical|sales)", re.I | re.S)
 
 
 NICE_TO_HAVE = re.compile(r"prefer|nice to have|bonus|a plus|ideally|desired", re.I)
@@ -54,9 +58,14 @@ def years_required(description: str) -> int | None:
         before = text[max(0, m.start() - 40):m.start()]
         end = text.find("\n", m.end())
         line = text[text.rfind("\n", 0, m.start()) + 1: end if end != -1 else len(text)]
-        if NOT_A_REQUIREMENT.search(before) or NICE_TO_HAVE.search(line):
+        heading = text[max(0, m.start() - 120):m.start()]
+        if NOT_A_REQUIREMENT.search(before) or NICE_TO_HAVE.search(line) or \
+                re.search(r"preferred qualifications|nice[- ]to[- ]haves?:?\s*$|bonus points", heading, re.I):
+            continue
+        if not (REQUIREMENT_AFTER.match(text[m.end():m.end() + 80]) or
+                re.search(r"experience|required|minimum|at least", before, re.I)):
             continue
         n = int(m.group(1))
-        if 0 < n < 20:
+        if 0 < n <= 15:
             found.append(n)
     return max(found) if found else None

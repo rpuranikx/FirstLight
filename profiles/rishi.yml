@@ -15,6 +15,13 @@ watchlist:
     - jobs.primary.vc
     - jobs.thrivecap.com
     - jobs.uncorkcapital.com
+    - jobs.ggvc.com
+    - jobs.8vc.com
+    - jobs.foundrygroup.com
+    - jobs.hydeparkvp.com     # Chicago
+    - jobs.headline.com
+    - jobs.craftventures.com
+  lists: [profiles/lists/late-stage-and-public.txt]
   companies:              # always watched, any size. Add "careers: <url>" if one gets flagged.
     - {name: Databricks, domain: databricks.com}
     - {name: Stripe, domain: stripe.com}

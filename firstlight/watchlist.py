@@ -11,6 +11,7 @@ Every company ends up with a status, and the coverage report lists all of them, 
 company we can't read is visible instead of silently skipped.
 """
 import json
+import os
 import re
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -198,6 +199,13 @@ def build(profile: dict, workers: int = 24) -> list[dict]:
         found.append({"name": c["name"], "domain": sources.domain_of(c.get("domain", "")),
                       "board": ats.board_from_url(c["careers"]) if c.get("careers") else None,
                       "size": None, "source": "named in profile", "evidence": [c["careers"]] if c.get("careers") else []})
+    for path in w.get("lists") or []:  # plain "Name, domain" files, e.g. late-stage and Chicago companies
+        label = os.path.splitext(os.path.basename(path))[0].replace("-", " ")
+        for line in open(path):
+            if line.strip() and not line.startswith("#"):
+                name, _, domain = line.strip().partition(",")
+                found.append({"name": name.strip(), "domain": sources.domain_of(domain.strip()), "size": None,
+                              "source": label, "evidence": []})
     blocked = {b.lower() for b in w.get("block") or []}
     companies = [c for c in merge(found) if c["name"].lower() not in blocked]
     terms = tuple(profile.get("workday_search") or ("",))
