@@ -1420,6 +1420,7 @@
 "unstructured|ai engineer public sector": "2026-11-26",
 "uplevel|executive technical consultant": "2026-11-26",
 "us bank|bb product manager customer onboarding": "2026-11-26",
+"us bank|healthcare payment solutions consultant enterprise market": "2026-11-26",
 "us bank|senior solutions consultant technical sales specialist": "2026-11-26",
 "usertesting|solutions consultant": "2026-11-26",
 "ushur|senior solution consultant": "2026-11-26",
@@ -1518,7 +1519,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-26T20:10:44+00:00",
+"last_run": "2026-11-26T20:25:57+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -5109,6 +5110,10 @@
 "drop": "asks 7+ years",
 "t": "2026-11-26",
 "tier": null
+},
+"builtin:12527439": {
+"t": "2026-11-26",
+"tier": "ringer"
 },
 "builtin:7120339": {
 "t": "2026-11-26",
@@ -10879,6 +10884,7 @@
 "\u2022 Strategic Solutions Engineer  (Pre-Sales & Post-Sales) at GrowthLoop (up to $280k) <https://www.builtinchicago.org/job/strategic-solutions-engineer-pre-sales-post-sales/12235583>",
 "\u2022 Partner Solutions Engineer, Southern Europe at Cribl (pay not listed) <https://weworkremotely.com/remote-jobs/cribl-partner-solutions-engineer-southern-europe>",
 "\u2022 Enterprise Sales Engineer - Germany at Datadog (pay not listed) <https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-germany>",
-"\u2022 Partner Sales Engineer (France) at Ping Identity (pay not listed) <https://weworkremotely.com/remote-jobs/ping-identity-partner-sales-engineer-france>"
+"\u2022 Partner Sales Engineer (France) at Ping Identity (pay not listed) <https://weworkremotely.com/remote-jobs/ping-identity-partner-sales-engineer-france>",
+"\u2022 Healthcare Payment Solutions Consultant - Enterprise Market at US Bank (up to $155k) <https://www.builtinchicago.org/job/healthcare-payment-solutions-consultant-enterprise-market/12527439>"
 ]
 }
