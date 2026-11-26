@@ -210,6 +210,7 @@
 "bridge bridge xyz|solutions consultant": "2026-11-26",
 "brillio|ai builder forward deployed engineer": "2026-11-26",
 "broadcom|senior mainframe technical consultant": "2026-11-26",
+"bvnk|solutions engineer": "2026-11-26",
 "c1|solutions architect customer success": "2026-11-26",
 "camp systems international|ai solutions sales engineer": "2026-11-26",
 "campfire|accounting solutions consultant": "2026-11-26",
@@ -604,6 +605,7 @@
 "groundswell|associate applied ai engineer": "2026-11-26",
 "groundswell|senior applied ai engineer": "2026-11-26",
 "growth book|founding solutions engineer": "2026-11-26",
+"growthloop|strategic solutions engineer pre sales post sales": "2026-11-26",
 "gryps|founding product manager freeflow": "2026-11-26",
 "gryps|senior product manager": "2026-11-26",
 "guidehouse|senior data engineer analytics applied ai": "2026-11-26",
@@ -1513,7 +1515,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-26T17:54:26+00:00",
+"last_run": "2026-11-26T18:09:37+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3442,6 +3444,10 @@
 "dup": "builtin:12424354",
 "t": "2026-11-26"
 },
+"builtin:11686492": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
 "builtin:11690355": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -4045,6 +4051,9 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:12206585": {
+"t": "2026-11-26"
+},
 "builtin:12207335": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -4088,6 +4097,10 @@
 "builtin:12235551": {
 "t": "2026-11-26",
 "tier": "stretch"
+},
+"builtin:12235583": {
+"t": "2026-11-26",
+"tier": "ringer"
 },
 "builtin:12235634": {
 "t": "2026-11-26",
@@ -10607,6 +10620,9 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"workday:postman|wd108|careers:JR1000135": {
+"t": "2026-11-26"
+},
 "workday:teladoc|wd503|teladochealth_is_hiring:JR21247-1": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10832,5 +10848,8 @@
 "t": "2026-11-26"
 }
 },
-"summary_buffer": []
+"summary_buffer": [
+"\u2022 Solutions Engineer at BVNK (up to $220k) <https://www.builtinchicago.org/job/solutions-engineer/11686492>",
+"\u2022 Strategic Solutions Engineer  (Pre-Sales & Post-Sales) at GrowthLoop (up to $280k) <https://www.builtinchicago.org/job/strategic-solutions-engineer-pre-sales-post-sales/12235583>"
+]
 }
