@@ -11,16 +11,18 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write   # to queue the next run (GitHub's own cron often skips hours)
 
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     strategy:
       max-parallel: 1
       matrix:
         profile: [rishi]
     steps:
+      - run: echo "START=$(date +%s)" >> "$GITHUB_ENV"
       - uses: actions/checkout@v4
 
       - name: Get state (seen jobs, watchlist) from the firstlight-state branch
@@ -58,3 +60,12 @@ jobs:
           git add -A
           git commit -qm "state $(date -u +%FT%TZ)" || exit 0
           git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" HEAD:firstlight-state
+
+      - name: Queue the next run 15 minutes after this one started
+        if: always() && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          wait=$(( 900 - ($(date +%s) - START) ))
+          if [ "$wait" -gt 0 ]; then sleep "$wait"; fi
+          gh workflow run run.yml --ref main --repo "${{ github.repository }}"

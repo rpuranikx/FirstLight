@@ -17,7 +17,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from .sources import GETRO_API, UA, domain_of, getro_collection
+from .sources import GETRO_API, SKIP_STAGES, UA, domain_of, getro_collection
 from .text import pay_from_text, plain_text
 
 TIMEOUT = 30
@@ -71,6 +71,8 @@ def getro_search(host: str, terms=DEFAULT_TERMS, since: int = 0, max_pages: int 
                     continue
                 seen.add(j["id"])
                 org = j.get("organization") or {}
+                if org.get("stage") in SKIP_STAGES:  # acquired: Getro files the buyer's jobs under the old name
+                    continue
                 usd = (j.get("compensation_currency") or "USD") == "USD"
                 cents = j.get("compensation_amount_max_cents") if usd else None
                 mode = j.get("work_mode") or ""
