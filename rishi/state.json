@@ -1161,6 +1161,7 @@
 "sentinelone|solutions engineer sled west": "2026-11-26",
 "sentinelone|technical program manager product technology strategic partnerships": "2026-11-26",
 "sequencing|senior consumer product manager growth": "2026-11-26",
+"serious development|product manager healthcare hybrid accepting applications from mid west and east coast states usa only": "2026-11-26",
 "servicetitan|associate solutions architect": "2026-11-26",
 "servicetrade|senior solution consultant finance solutions": "2026-11-26",
 "sharp performance|field implementation specialist": "2026-11-26",
@@ -1522,7 +1523,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-26T23:27:28+00:00",
+"last_run": "2026-11-26T23:42:34+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -5129,6 +5130,10 @@
 "builtin:12533759": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"builtin:12537728": {
+"t": "2026-11-26",
+"tier": "stepping"
 },
 "builtin:7120339": {
 "t": "2026-11-26",
@@ -10894,15 +10899,5 @@
 "t": "2026-11-26"
 }
 },
-"summary_buffer": [
-"\u2022 Solutions Engineer at BVNK (up to $220k) <https://www.builtinchicago.org/job/solutions-engineer/11686492>",
-"\u2022 Strategic Solutions Engineer  (Pre-Sales & Post-Sales) at GrowthLoop (up to $280k) <https://www.builtinchicago.org/job/strategic-solutions-engineer-pre-sales-post-sales/12235583>",
-"\u2022 Partner Solutions Engineer, Southern Europe at Cribl (pay not listed) <https://weworkremotely.com/remote-jobs/cribl-partner-solutions-engineer-southern-europe>",
-"\u2022 Enterprise Sales Engineer - Germany at Datadog (pay not listed) <https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-germany>",
-"\u2022 Partner Sales Engineer (France) at Ping Identity (pay not listed) <https://weworkremotely.com/remote-jobs/ping-identity-partner-sales-engineer-france>",
-"\u2022 Healthcare Payment Solutions Consultant - Enterprise Market at US Bank (up to $155k) <https://www.builtinchicago.org/job/healthcare-payment-solutions-consultant-enterprise-market/12527439>",
-"\u2022 Brevant Area Product Manager (IA,IL,WI) at Vylor (up to $161k) <https://www.builtinchicago.org/job/brevant-area-product-manager-ia-il-wi/12526800>",
-"\u2022 Sales Engineer at Cognyte (up to $120k) <https://www.builtinchicago.org/job/sales-engineer/12533759>",
-"\u2022 Healthcare Data Solutions Architect at Ursa Health (pay not listed) <https://www.builtinchicago.org/job/healthcare-data-solutions-architect/12533582>"
-]
+"summary_buffer": []
 }
