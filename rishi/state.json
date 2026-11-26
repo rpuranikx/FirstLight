@@ -1,20 +1,20 @@
 {
 "getro_since": {
-"jobs.8vc.com": 1795611431,
-"jobs.accel.com": 1795615920,
+"jobs.8vc.com": 1795702818,
+"jobs.accel.com": 1795704973,
 "jobs.craftventures.com": 1795611300,
-"jobs.foundrygroup.com": 1795606244,
-"jobs.generalcatalyst.com": 1795611970,
-"jobs.ggvc.com": 1795610365,
-"jobs.headline.com": 1795610076,
-"jobs.hydeparkvp.com": 1795606878,
-"jobs.insightpartners.com": 1795611174,
-"jobs.khoslaventures.com": 1795611030,
-"jobs.lererhippeau.com": 1795606560,
-"jobs.menlovc.com": 1795609884,
-"jobs.primary.vc": 1795606008,
-"jobs.thrivecap.com": 1795609946,
-"jobs.uncorkcapital.com": 1795607297
+"jobs.foundrygroup.com": 1795700638,
+"jobs.generalcatalyst.com": 1795702818,
+"jobs.ggvc.com": 1795689884,
+"jobs.headline.com": 1795698822,
+"jobs.hydeparkvp.com": 1795694259,
+"jobs.insightpartners.com": 1795703871,
+"jobs.khoslaventures.com": 1795699328,
+"jobs.lererhippeau.com": 1795687235,
+"jobs.menlovc.com": 1795699821,
+"jobs.primary.vc": 1795698789,
+"jobs.thrivecap.com": 1795702818,
+"jobs.uncorkcapital.com": 1795688513
 },
 "keys": {
 "01a|enterprise solutions architect": "2026-11-26",
@@ -56,6 +56,7 @@
 "aios|product manager engagement remote 150k 300k yr inc equity": "2026-11-26",
 "airkit|account solution engineer enterprise nonprofit team": "2026-11-26",
 "airkit|account solution engineer higher education": "2026-11-26",
+"airkit|applied ai architect governance trust": "2026-11-26",
 "airkit|deployment strategist mid senior levels": "2026-11-26",
 "airkit|deployment strategist public sector nonprofit education": "2026-11-26",
 "airkit|forward deployed engineer fde agentforce orchestration": "2026-11-26",
@@ -160,6 +161,7 @@
 "basis technologies|senior technical product manager identity": "2026-11-26",
 "bask health|forward deployed engineer ai automation": "2026-11-26",
 "bask health|forward deployed engineer ai solutions": "2026-11-26",
+"bask health|forward deployed product engineer": "2026-11-26",
 "bask health|implementation engineer": "2026-11-26",
 "bask health|junior applied ai engineer": "2026-11-26",
 "bask health|junior implementation engineer": "2026-11-26",
@@ -405,6 +407,7 @@
 "databricks|solutions architect retail travel hospitality": "2026-11-26",
 "databricks|solutions architect strategic high tech": "2026-11-26",
 "databricks|solutions engineer": "2026-11-26",
+"databricks|specialist solutions architect ai ml healthcare life sciences": "2026-11-26",
 "databricks|specialist solutions architect aws infrastructure ai platform": "2026-11-26",
 "databricks|specialist solutions architect azure infrastructure ai platform": "2026-11-26",
 "datadog|enterprise sales engineer rockies": "2026-11-26",
@@ -467,6 +470,7 @@
 "equip|senior product manager patient engagement ai": "2026-11-26",
 "erm|managing technical consultant project management": "2026-11-26",
 "esko|senior presales solution consultant north america": "2026-11-26",
+"ethena|customer success engineer": "2026-11-26",
 "ethena|sales engineer": "2026-11-26",
 "euna solutions|solutions consultant budget": "2026-11-26",
 "everbridge|enterprise sales engineer": "2026-11-26",
@@ -523,6 +527,7 @@
 "fortinet|ai sales engineer": "2026-11-26",
 "fortinet|ai sales engineer sled": "2026-11-26",
 "fortinet|regional sales engineer": "2026-11-26",
+"fortra|senior solutions engineer ibm i": "2026-11-26",
 "fortune brands innovations|product manager bathroom wholesale segment": "2026-11-26",
 "fourkites|associate product manager": "2026-11-26",
 "fourkites|product manager inventory orders": "2026-11-26",
@@ -739,6 +744,7 @@
 "intradiem|application deployment engineer": "2026-11-26",
 "invert|solutions engineer": "2026-11-26",
 "inviso corporation|applied ai engineer usa": "2026-11-26",
+"invoca|forward deployed engineer": "2026-11-26",
 "island|technical account manager remote us": "2026-11-26",
 "it1|senior google presales engineer": "2026-11-26",
 "itron|product manager": "2026-11-26",
@@ -1128,6 +1134,7 @@
 "sardine|sales engineer": "2026-11-26",
 "sardine|senior applied ai research scientist": "2026-11-26",
 "sargent lundy|forward deployed ai automation engineer grid projects": "2026-11-26",
+"saviynt|senior sales engineer atlanta": "2026-11-26",
 "saviynt|senior sales engineer chicago": "2026-11-26",
 "scaleops|ai engineer us": "2026-11-26",
 "scaleops|sales engineer us": "2026-11-26",
@@ -1233,6 +1240,7 @@
 "sphere|senior platform implementation engineer": "2026-11-26",
 "spindle ai spindle ai|account solution engineer enterprise nonprofit team": "2026-11-26",
 "spindle ai spindle ai|account solution engineer higher education": "2026-11-26",
+"spindle ai spindle ai|applied ai architect governance trust": "2026-11-26",
 "spindle ai spindle ai|deployment strategist mid senior levels": "2026-11-26",
 "spindle ai spindle ai|deployment strategist public sector nonprofit education": "2026-11-26",
 "spindle ai spindle ai|forward deployed engineer fde agentforce orchestration": "2026-11-26",
@@ -1347,6 +1355,7 @@
 "temporal technologies|senior solutions architect scale": "2026-11-26",
 "temporal|senior solutions architect commercial": "2026-11-26",
 "temporal|senior solutions architect scale": "2026-11-26",
+"tenable|senior technical support engineer": "2026-11-26",
 "tessera labs|data forward deployed engineer applied data ml engineering": "2026-11-26",
 "tessera labs|senior technical project manager enterprise modernization ai delivery": "2026-11-26",
 "tessera labs|senior technical project manager infrastructure security compliance": "2026-11-26",
@@ -1424,6 +1433,7 @@
 "vanta|solutions engineer mid market": "2026-11-26",
 "vector solutions|senior product manager commercial": "2026-11-26",
 "vector|software solutions engineer": "2026-11-26",
+"veeva systems|solution consultant site solutions": "2026-11-26",
 "vega vega io|regional sales engineer north central": "2026-11-26",
 "vega vega io|regional sales engineer south east": "2026-11-26",
 "vega ventures|regional sales engineer mid atlantic": "2026-11-26",
@@ -1488,6 +1498,7 @@
 "wunderkind formerly bouncex|technical solutions consultant": "2026-11-26",
 "wurl|solutions architect adtech": "2026-11-26",
 "wursta|digital workplace deployment engineer": "2026-11-26",
+"xealth|senior solutions consultant enterprise healthcare": "2026-11-26",
 "yugabyte|solutions engineer": "2026-11-26",
 "yugabyte|technical support engineer": "2026-11-26",
 "yurts|senior applied ml ai engineer": "2026-11-26",
@@ -1499,7 +1510,9 @@
 "zip|solution engineer pre sales": "2026-11-26",
 "zumper|product manager data": "2026-11-26"
 },
-"last_run": "2026-11-26T06:26:15+00:00",
+"last_daily": "2026-11-26",
+"last_run": "2026-11-26T17:13:19+00:00",
+"meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
 "t": "2026-11-26",
@@ -3233,6 +3246,11 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:11092294": {
+"drop": "asks 7+ years",
+"t": "2026-11-26",
+"tier": null
+},
 "builtin:11167138": {
 "dup": "builtin:11737572",
 "t": "2026-11-26"
@@ -4056,6 +4074,10 @@
 "builtin:12235118": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"builtin:12235461": {
+"t": "2026-11-26",
+"tier": "stretch"
 },
 "builtin:12235529": {
 "t": "2026-11-26",
@@ -5026,6 +5048,41 @@
 "dup": "greenhouse:launchdarkly:8217232003",
 "t": "2026-11-26"
 },
+"builtin:12503493": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
+"builtin:12503546": {
+"drop": "needs active clearance",
+"t": "2026-11-26",
+"tier": null
+},
+"builtin:12506887": {
+"drop": "asks 7+ years",
+"t": "2026-11-26",
+"tier": null
+},
+"builtin:12506898": {
+"drop": "asks 10+ years",
+"t": "2026-11-26",
+"tier": null
+},
+"builtin:12510535": {
+"t": "2026-11-26"
+},
+"builtin:12510541": {
+"drop": "asks 6+ years",
+"t": "2026-11-26",
+"tier": null
+},
+"builtin:12510551": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
+"builtin:12510666": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
 "builtin:7120339": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -5053,6 +5110,11 @@
 "builtin:8838317": {
 "dup": "ashby:supabase:48950725-e0d9-4025-92d9-f75e1b60ce45",
 "t": "2026-11-26"
+},
+"builtin:8983417": {
+"drop": "asks 7+ years",
+"t": "2026-11-26",
+"tier": null
 },
 "builtin:9017255": {
 "t": "2026-11-26",
@@ -6678,6 +6740,9 @@
 "dup": "greenhouse:project44:8383640",
 "t": "2026-11-26"
 },
+"getro-246:100779846": {
+"t": "2026-11-26"
+},
 "getro-246:35107530": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -7133,6 +7198,9 @@
 },
 "getro-247:100050004": {
 "dup": "greenhouse:humaninterest:8357115",
+"t": "2026-11-26"
+},
+"getro-247:100779846": {
 "t": "2026-11-26"
 },
 "getro-247:87894538": {
@@ -7813,6 +7881,9 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"getro-767:100830549": {
+"t": "2026-11-26"
+},
 "getro-767:54387458": {
 "dup": "greenhouse:obsidiansecurity:4801720008",
 "t": "2026-11-26"
@@ -8210,6 +8281,33 @@
 "getro-8672:100764636": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"getro-8672:100783543": {
+"t": "2026-11-26",
+"tier": "stretch"
+},
+"getro-8672:100786145": {
+"t": "2026-11-26",
+"tier": "stretch"
+},
+"getro-8672:100806992": {
+"t": "2026-11-26",
+"tier": "stretch"
+},
+"getro-8672:100825393": {
+"drop": "needs active clearance",
+"t": "2026-11-26",
+"tier": null
+},
+"getro-8672:100825396": {
+"drop": "needs active clearance",
+"t": "2026-11-26",
+"tier": null
+},
+"getro-8672:100825398": {
+"drop": "needs active clearance",
+"t": "2026-11-26",
+"tier": null
 },
 "getro-8672:56081047": {
 "t": "2026-11-26",
@@ -10092,6 +10190,10 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"greenhouse:tenableinc:5457234008": {
+"t": "2026-11-26",
+"tier": "meh"
+},
 "greenhouse:thatch:5226930008": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10400,6 +10502,21 @@
 "dup": "greenhouse:reddit:8331370",
 "t": "2026-11-26"
 },
+"remoteok:1138107": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
+"remoteok:1138112": {
+"t": "2026-11-26",
+"tier": "meh"
+},
+"remoteok:1138119": {
+"t": "2026-11-26"
+},
+"remoteok:1138120": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
 "rippling:bamboo-health-careers:ad3fcc9d-803b-472f-9dc2-d70ab0e3d746": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10704,5 +10821,16 @@
 "dup": "wwr:https://weworkremotely.com/remote-jobs/wrike-senior-product-manager-ai-platform-ecosystem",
 "t": "2026-11-26"
 }
-}
+},
+"summary_buffer": [
+"\u2022 Specialist Solutions Architect - AI/ML (Healthcare & Life Sciences) at Databricks (up to $248k) <https://www.builtinchicago.org/job/specialist-solutions-architect-ai-ml-healthcare-life-sciences/12510551>",
+"\u2022 Sr. Solutions Engineer - IBM i at Fortra (up to $135k) <https://www.builtinchicago.org/job/sr-solutions-engineer-ibm-i/12503493>",
+"\u2022 Senior Sales Engineer - Atlanta at Saviynt (pay not listed) <https://remoteOK.com/remote-jobs/remote-senior-sales-engineer-atlanta-saviynt-1138120>",
+"\u2022 Solution Consultant - Site Solutions at Veeva Systems (up to $160k) <https://remoteOK.com/remote-jobs/remote-solution-consultant-site-solutions-veeva-systems-1138107>",
+"\u2022 Senior Solutions Consultant, Enterprise Healthcare at Xealth (up to $170k) <https://www.builtinchicago.org/job/senior-solutions-consultant-enterprise-healthcare/12510666>",
+"\u2022 Applied AI Architect, Governance & Trust at Airkit (pay not listed) <https://www.salesforce.com/company/careers/jobs/JR369324/applied-ai-architect-governance-trust/>",
+"\u2022 Forward Deployed Product Engineer at Bask Health (pay not listed) <https://www.builtinchicago.org/job/forward-deployed-product-engineer/12235461>",
+"\u2022 Forward Deployed Engineer at Invoca (pay not listed) <https://www.invoca.com/company/careers#cjh2lyw6a5gr0tp92vxhk0qi8&:~:text=Forward%20Deployed%20Engineer>",
+"\u2022 Applied AI Architect, Governance & Trust at Spindle Ai (spindle.ai) (pay not listed) <https://www.salesforce.com/company/careers/jobs/JR369324/applied-ai-architect-governance-trust/>"
+]
 }
