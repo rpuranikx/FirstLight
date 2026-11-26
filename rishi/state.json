@@ -1518,7 +1518,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-26T18:54:58+00:00",
+"last_run": "2026-11-26T19:10:10+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -5104,6 +5104,11 @@
 "builtin:12516898": {
 "t": "2026-11-26",
 "tier": "stretch"
+},
+"builtin:12523169": {
+"drop": "asks 7+ years",
+"t": "2026-11-26",
+"tier": null
 },
 "builtin:7120339": {
 "t": "2026-11-26",
