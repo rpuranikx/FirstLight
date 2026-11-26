@@ -14,7 +14,7 @@
 "jobs.menlovc.com": 1795699821,
 "jobs.primary.vc": 1795698789,
 "jobs.thrivecap.com": 1795702818,
-"jobs.uncorkcapital.com": 1795688513
+"jobs.uncorkcapital.com": 1795702260
 },
 "keys": {
 "01a|enterprise solutions architect": "2026-11-26",
@@ -368,6 +368,7 @@
 "cresta|solutions architect": "2026-11-26",
 "crewai|forward deployed engineer east coast based": "2026-11-26",
 "cribl|customer success engineer west region": "2026-11-26",
+"cribl|partner solutions engineer southern europe": "2026-11-26",
 "cribl|sales engineer global system integrators gsis": "2026-11-26",
 "cribl|sales engineer san francisco strategic": "2026-11-26",
 "cribl|sales engineer sled midwest southeast": "2026-11-26",
@@ -411,6 +412,7 @@
 "databricks|specialist solutions architect ai ml healthcare life sciences": "2026-11-26",
 "databricks|specialist solutions architect aws infrastructure ai platform": "2026-11-26",
 "databricks|specialist solutions architect azure infrastructure ai platform": "2026-11-26",
+"datadog|enterprise sales engineer germany": "2026-11-26",
 "datadog|enterprise sales engineer rockies": "2026-11-26",
 "datadog|mid market sales engineer": "2026-11-26",
 "datadog|product solutions architect finops": "2026-11-26",
@@ -995,6 +997,7 @@
 "phil|senior product manager launch and client success": "2026-11-26",
 "pico pico net|network implementation engineer": "2026-11-26",
 "pinecone|solutions engineer": "2026-11-26",
+"ping identity|partner sales engineer france": "2026-11-26",
 "ping identity|technical account manager": "2026-11-26",
 "pinterest|senior product manager ads quality delivery": "2026-11-26",
 "pinterest|senior product manager deceptive content": "2026-11-26",
@@ -1515,7 +1518,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-26T18:24:45+00:00",
+"last_run": "2026-11-26T18:39:51+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -10675,6 +10678,12 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"wwr:https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-ai-process-optimization": {
+"t": "2026-11-26"
+},
+"wwr:https://weworkremotely.com/remote-jobs/celonis-senior-value-engineer-ai-process-optimization-1": {
+"t": "2026-11-26"
+},
 "wwr:https://weworkremotely.com/remote-jobs/circleci-senior-support-engineer": {
 "t": "2026-11-26",
 "tier": "meh"
@@ -10691,6 +10700,10 @@
 "t": "2026-11-26",
 "tier": "meh"
 },
+"wwr:https://weworkremotely.com/remote-jobs/cribl-partner-solutions-engineer-southern-europe": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
 "wwr:https://weworkremotely.com/remote-jobs/cribl-sales-engineer-global-system-integrators-gsis": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10698,6 +10711,10 @@
 "wwr:https://weworkremotely.com/remote-jobs/customer-io-senior-product-manager-workflows": {
 "t": "2026-11-26",
 "tier": "stepping"
+},
+"wwr:https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-germany": {
+"t": "2026-11-26",
+"tier": "ringer"
 },
 "wwr:https://weworkremotely.com/remote-jobs/datadog-senior-partner-solutions-architect-pan-emea-gsi": {
 "t": "2026-11-26",
@@ -10783,6 +10800,10 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"wwr:https://weworkremotely.com/remote-jobs/ping-identity-partner-sales-engineer-france": {
+"t": "2026-11-26",
+"tier": "ringer"
+},
 "wwr:https://weworkremotely.com/remote-jobs/planetscale-solutions-engineer": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -10850,6 +10871,9 @@
 },
 "summary_buffer": [
 "\u2022 Solutions Engineer at BVNK (up to $220k) <https://www.builtinchicago.org/job/solutions-engineer/11686492>",
-"\u2022 Strategic Solutions Engineer  (Pre-Sales & Post-Sales) at GrowthLoop (up to $280k) <https://www.builtinchicago.org/job/strategic-solutions-engineer-pre-sales-post-sales/12235583>"
+"\u2022 Strategic Solutions Engineer  (Pre-Sales & Post-Sales) at GrowthLoop (up to $280k) <https://www.builtinchicago.org/job/strategic-solutions-engineer-pre-sales-post-sales/12235583>",
+"\u2022 Partner Solutions Engineer, Southern Europe at Cribl (pay not listed) <https://weworkremotely.com/remote-jobs/cribl-partner-solutions-engineer-southern-europe>",
+"\u2022 Enterprise Sales Engineer - Germany at Datadog (pay not listed) <https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-germany>",
+"\u2022 Partner Sales Engineer (France) at Ping Identity (pay not listed) <https://weworkremotely.com/remote-jobs/ping-identity-partner-sales-engineer-france>"
 ]
 }
