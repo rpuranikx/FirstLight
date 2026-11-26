@@ -1479,6 +1479,7 @@
 "vori|product support engineer": "2026-11-26",
 "vorlon|sales engineer solutions engineer": "2026-11-26",
 "vsp vision care|senior business technical consultant treasury sap systems": "2026-11-26",
+"vylor|brevant area product manager ia il wi": "2026-11-26",
 "weaviate|enterprise sales engineer": "2026-11-26",
 "webflow|senior product manager cloud infrastructure": "2026-11-26",
 "webroot|senior solutions consultant itom m f x": "2026-11-26",
@@ -1519,7 +1520,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-26T21:56:42+00:00",
+"last_run": "2026-11-26T22:11:48+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -5110,6 +5111,10 @@
 "drop": "asks 7+ years",
 "t": "2026-11-26",
 "tier": null
+},
+"builtin:12526800": {
+"t": "2026-11-26",
+"tier": "stepping"
 },
 "builtin:12527439": {
 "t": "2026-11-26",
@@ -10885,6 +10890,7 @@
 "\u2022 Partner Solutions Engineer, Southern Europe at Cribl (pay not listed) <https://weworkremotely.com/remote-jobs/cribl-partner-solutions-engineer-southern-europe>",
 "\u2022 Enterprise Sales Engineer - Germany at Datadog (pay not listed) <https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-germany>",
 "\u2022 Partner Sales Engineer (France) at Ping Identity (pay not listed) <https://weworkremotely.com/remote-jobs/ping-identity-partner-sales-engineer-france>",
-"\u2022 Healthcare Payment Solutions Consultant - Enterprise Market at US Bank (up to $155k) <https://www.builtinchicago.org/job/healthcare-payment-solutions-consultant-enterprise-market/12527439>"
+"\u2022 Healthcare Payment Solutions Consultant - Enterprise Market at US Bank (up to $155k) <https://www.builtinchicago.org/job/healthcare-payment-solutions-consultant-enterprise-market/12527439>",
+"\u2022 Brevant Area Product Manager (IA,IL,WI) at Vylor (up to $161k) <https://www.builtinchicago.org/job/brevant-area-product-manager-ia-il-wi/12526800>"
 ]
 }
