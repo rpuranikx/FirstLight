@@ -23,12 +23,6 @@ DEFAULTS = {
     "surveillance": ["clearview", "soundthinking", "shotspotter", "fog data", "babel street", "anomaly six"],
 }
 
-# Banks, insurers, hospitals, big consultancies: real jobs, but not the venture-backed tech
-# his dead ringers are. They top out at stepping stone.
-NON_TECH = re.compile(r"\b(bank|bancorp|financial group|insurance|mutual|health system|hospital|university|college|"
-                      r"county|city of|state of|department|deloitte|accenture|kpmg|pwc|ernst|ey\b|capgemini|cognizant|"
-                      r"infosys|wipro|tata|ibm|oracle|sap|verizon|at&t|comcast|walmart|target|kroger)\b", re.I)
-
 # Title families and the taste tier each lands in (job-taste-profile, 2026-11-23)
 FAMILIES = [
     ("ringer", r"\b(solutions?|sales|pre-?sales|customer|value)\s+(engineer|architect|consultant)\b|"
@@ -140,9 +134,6 @@ def check(job: dict, company: dict, profile: dict | None = None) -> dict:
     if travel and int(travel.group(1) or travel.group(2)) >= 50:
         j["tier"] = {"ringer": "stepping", "stretch": "stepping", "stepping": "meh"}.get(j["tier"], "meh")
         j["note"] = (j.get("note", "") + f" {travel.group(0)}").strip()
-    if j["tier"] in ("ringer", "stretch") and NON_TECH.search(company.get("name") or ""):
-        j["tier"] = "stepping"
-        j["note"] = (j.get("note", "") + " big non-startup employer").strip()
     if any(s in (company.get("name") or "").lower() for s in cfg["surveillance"]):
         j["tag"] = "surveillance"
     return j
