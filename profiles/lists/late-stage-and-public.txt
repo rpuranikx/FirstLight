@@ -1,0 +1,140 @@
+# Late-stage and public tech companies that hire presales/solutions/FDE roles.
+# One "Name, domain" per line. Each still has to pass the same board check as everything else.
+Airtable, airtable.com
+Amplitude, amplitude.com
+Asana, asana.com
+Atlassian, atlassian.com
+Benchling, benchling.com
+Brex, brex.com
+Canva, canva.com
+Celonis, celonis.com
+Checkr, checkr.com
+ClickHouse, clickhouse.com
+Cloudflare, cloudflare.com
+Clay, clay.com
+Cockroach Labs, cockroachlabs.com
+Confluent, confluent.io
+Coinbase, coinbase.com
+Coupa, coupa.com
+CrowdStrike, crowdstrike.com
+Cribl, cribl.io
+Dataiku, dataiku.com
+Deel, deel.com
+Docker, docker.com
+Elastic, elastic.co
+Fireblocks, fireblocks.com
+Figma, figma.com
+Gong, gong.io
+GitLab, gitlab.com
+Grafana Labs, grafana.com
+Gusto, gusto.com
+HashiCorp, hashicorp.com
+HubSpot, hubspot.com
+Hugging Face, huggingface.co
+Intercom, intercom.com
+Klaviyo, klaviyo.com
+LaunchDarkly, launchdarkly.com
+Lattice, lattice.com
+Marqeta, marqeta.com
+Mercury, mercury.com
+Miro, miro.com
+Mistral AI, mistral.ai
+Modern Treasury, moderntreasury.com
+Monte Carlo, montecarlodata.com
+Netlify, netlify.com
+New Relic, newrelic.com
+Okta, okta.com
+Onebrief, onebrief.com
+Outreach, outreach.io
+PagerDuty, pagerduty.com
+Perplexity, perplexity.ai
+Plaid, plaid.com
+PlanetScale, planetscale.com
+Postman, postman.com
+Rippling, rippling.com
+Rubrik, rubrik.com
+Runway, runwayml.com
+Samsara, samsara.com
+SentinelOne, sentinelone.com
+Sigma Computing, sigmacomputing.com
+Snyk, snyk.io
+Starburst, starburst.io
+Supabase, supabase.com
+Temporal, temporal.io
+Together AI, together.ai
+Twilio, twilio.com
+Unit, unit.co
+Vanta, vanta.com
+Weights & Biases, wandb.ai
+Webflow, webflow.com
+Wiz, wiz.io
+Writer, writer.com
+Zapier, zapier.com
+Zip, ziphq.com
+Anduril, anduril.com
+Shield AI, shield.ai
+Applied Intuition, appliedintuition.com
+Rebellion Defense, rebelliondefense.com
+Hebbia, hebbia.ai
+Decagon, decagon.ai
+Cursor, cursor.com
+Replit, replit.com
+LangChain, langchain.com
+Pinecone, pinecone.io
+Weaviate, weaviate.io
+Arize AI, arize.com
+Fiddler AI, fiddler.ai
+Cresta, cresta.com
+Abnormal Security, abnormalsecurity.com
+Chainguard, chainguard.dev
+Tailscale, tailscale.com
+Sourcegraph, sourcegraph.com
+Airbyte, airbyte.com
+Hightouch, hightouch.com
+Motherduck, motherduck.com
+Tecton, tecton.ai
+Anyscale, anyscale.com
+Modal, modal.com
+Baseten, baseten.co
+Fireworks AI, fireworks.ai
+ElevenLabs, elevenlabs.io
+# Chicago tech
+Sprout Social, sproutsocial.com
+Relativity, relativity.com
+Cameo, cameo.com
+Tempus, tempus.com
+project44, project44.com
+FourKites, fourkites.com
+Uptake, uptake.com
+Avant, avant.com
+Braviant, braviant.com
+Vivid Seats, vividseats.com
+Morningstar, morningstar.com
+Kin Insurance, kin.com
+Amount, amount.com
+Ascent, ascentregtech.com
+Bitly, bitly.com
+Clearcover, clearcover.com
+Groupon, groupon.com
+G2, g2.com
+Hireology, hireology.com
+Basis Technologies, basis.com
+Paylocity, paylocity.com
+Rewards Network, rewardsnetwork.com
+ShipBob, shipbob.com
+SpotHero, spothero.com
+Strata Decision, stratadecision.com
+Sittercity, sittercity.com
+Trustwave, trustwave.com
+Built In, builtin.com
+Cleo, cleo.com
+Snapsheet, snapsheet.com
+Raise, raise.com
+Gem, gem.com
+Akuna Capital, akunacapital.com
+Enova, enova.com
+OneMain, onemainfinancial.com
+Coyote Logistics, coyote.com
+Echo Global Logistics, echo.com
+Sprinklr, sprinklr.com
+Fetch, fetch.com
