@@ -42,6 +42,14 @@ FOREIGN = re.compile(r"\b(uk|united kingdom|london|dublin|ireland|germany|berlin
                      r"hyderabad|singapore|sydney|melbourne|australia|tokyo|japan|toronto|vancouver|canada|"
                      r"mexico|brazil|são paulo|sao paulo|tel aviv|israel|emea|apac|latam|europe|stockholm|zurich|"
                      r"switzerland|seoul|korea|dubai|uae|philippines|manila)\b", re.I)
+# A "remote" job whose title names another US city is usually based there (RemoteOK tags
+# everything remote; "Senior Sales Engineer - Atlanta" isn't)
+US_CITY_TITLE = re.compile(r"[-–(,/|]\s*(atlanta|austin|boston|dallas|denver|houston|los angeles|la|miami|new york|nyc|"
+                           r"philadelphia|phoenix|portland|raleigh|salt lake|san diego|san francisco|sf|bay area|"
+                           r"seattle|washington,? dc|dc|nashville|charlotte|minneapolis|detroit|pittsburgh|"
+                           r"san jose|palo alto|mountain view|menlo park|irvine|tampa|orlando|columbus|kansas city|"
+                           r"st\.? louis|baltimore|new jersey|nj|cambridge|brooklyn|carolinas|texas|california|florida)\b",
+                           re.I)
 US_REMOTE = re.compile(r"\b(us|u\.s\.|usa|united states|north america|americas|anywhere)\b", re.I)
 
 
@@ -70,6 +78,9 @@ def location_ok(job: dict, cfg) -> tuple[bool, str]:
         return False, f"location: {loc or 'not given'}"
     if FOREIGN.search(where) and not US_REMOTE.search(where):
         return False, f"remote outside the US: {loc or title}"
+    city = US_CITY_TITLE.search(title)
+    if city and "remote" not in title.lower():
+        return False, f"based in {city.group(1).title()} (named in the title)"
     return True, "remote"
 
 

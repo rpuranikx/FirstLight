@@ -84,6 +84,11 @@ def run(profile: dict, data_dir: str, dry: bool = False) -> dict:
 
     # 3. Alerts
     jobs_hook, summary_hook = discord.webhook(profile, "jobs"), discord.webhook(profile, "summaries")
+    if not jobs_hook and not dry:
+        # Never mark jobs seen without sending them (v1 lost the Databricks posting that way)
+        print("  [run] No Discord webhook secret set, so nothing is sent and nothing is marked seen. "
+              "Add DISCORD_JOBS_WEBHOOK (or DISCORD_WEBHOOK_URL) in the repo's Actions secrets.")
+        dry = True
     if not dry:
         if first_run:
             digest = ["# FirstLight day-one digest", f"{len(hits)} open jobs that fit, best first.", ""]

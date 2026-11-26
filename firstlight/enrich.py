@@ -69,8 +69,12 @@ def dedupe(jobs: list[dict]) -> list[dict]:
     """One job per company + title. The same posting shows up on several VC boards, on Built In
     and on the company's own board; keep the copy with the most detail and remember the others."""
     best: dict[str, dict] = {}
+    by_url: dict[str, str] = {}
     for j in jobs:
-        k = _key(j)
+        url = (j.get("url") or "").split("#")[0].split("?")[0].rstrip("/").lower()
+        k = by_url.get(url) or _key(j)  # same link under two company names is one job
+        if url:
+            by_url.setdefault(url, k)
         if k not in best:
             best[k] = {**j, "also_seen": []}
             continue
