@@ -1485,6 +1485,7 @@
 "vitruvi software|remote solutions consultant": "2026-11-26",
 "viz ai|pulmonologist senior product manager": "2026-11-26",
 "vizient|solutions architect": "2026-11-26",
+"vmware workspace one|senior solutions consultant": "2026-11-27",
 "vooma|forward deployed engineer": "2026-11-26",
 "vori|product support engineer": "2026-11-26",
 "vorlon|sales engineer solutions engineer": "2026-11-26",
@@ -1530,7 +1531,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T09:18:03+00:00",
+"last_run": "2026-11-27T09:33:07+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -10699,6 +10700,10 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"workday:omnissa|wd501|Omnissa_External_Career_Site:R-102312-1": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "workday:postman|wd108|careers:JR1000135": {
 "t": "2026-11-26"
 },
@@ -10969,6 +10974,7 @@
 "\u2022 Partner Solution Architect, Partner Center of Excellence at agiloft (pay not listed) <https://remoteOK.com/remote-jobs/remote-partner-solution-architect-partner-center-of-excellence-agiloft-1138172>",
 "\u2022 Technical Consultant at Aderant (pay not listed) <https://www.builtinchicago.org/job/technical-consultant/12541921>",
 "\u2022 Senior Technical Consultant at Aderant (pay not listed) <https://www.builtinchicago.org/job/senior-technical-consultant/12541910>",
-"\u2022 Product Manager at Aderant (pay not listed) <https://www.builtinchicago.org/job/product-manager/12541923>"
+"\u2022 Product Manager at Aderant (pay not listed) <https://www.builtinchicago.org/job/product-manager/12541923>",
+"\u2022 Senior Solutions Consultant at Vmware Workspace One (pay not listed) <https://omnissa.wd501.myworkdayjobs.com/Omnissa_External_Career_Site/job/Remote---Texas/Senior-Solutions-Consultant_R-102312-1>"
 ]
 }
