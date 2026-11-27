@@ -1150,6 +1150,7 @@
 "scotch|product manager": "2026-11-26",
 "second front systems|customer support engineer": "2026-11-26",
 "second front systems|solutions engineer": "2026-11-26",
+"secure code warrior|sales engineer us east": "2026-11-27",
 "seeq|senior solutions consultant mining metals": "2026-11-26",
 "seeq|senior solutions consultant oil gas": "2026-11-26",
 "seezo|sales engineer": "2026-11-26",
@@ -1523,7 +1524,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T03:14:32+00:00",
+"last_run": "2026-11-27T03:29:50+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -10569,6 +10570,10 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"remoteok:1138160": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "rippling:bamboo-health-careers:ad3fcc9d-803b-472f-9dc2-d70ab0e3d746": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10899,5 +10904,7 @@
 "t": "2026-11-26"
 }
 },
-"summary_buffer": []
+"summary_buffer": [
+"\u2022 Sales Engineer, US East at Secure Code Warrior (pay not listed) <https://remoteOK.com/remote-jobs/remote-sales-engineer-us-east-secure-code-warrior-1138160>"
+]
 }
