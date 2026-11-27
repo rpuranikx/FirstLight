@@ -47,6 +47,7 @@
 "afresh technologies|senior forward deployed engineer": "2026-11-26",
 "afresh technologies|senior support engineer i": "2026-11-26",
 "agave|customer solutions engineer": "2026-11-26",
+"agiloft|partner solution architect partner center of excellence": "2026-11-27",
 "ahead|senior forward deployed engineer ai security": "2026-11-26",
 "ahead|senior technical consultant cloud security": "2026-11-26",
 "ahead|senior technical consultant ctem vulnerability management engineer": "2026-11-26",
@@ -1526,7 +1527,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T07:16:46+00:00",
+"last_run": "2026-11-27T07:31:56+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -10587,6 +10588,10 @@
 "t": "2026-11-27",
 "tier": "ringer"
 },
+"remoteok:1138172": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "rippling:bamboo-health-careers:ad3fcc9d-803b-472f-9dc2-d70ab0e3d746": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10937,6 +10942,7 @@
 "summary_buffer": [
 "\u2022 Sales Engineer, US East at Secure Code Warrior (pay not listed) <https://remoteOK.com/remote-jobs/remote-sales-engineer-us-east-secure-code-warrior-1138160>",
 "\u2022 Senior AI Engineer at Talkspace (up to $200k) <https://weworkremotely.com/remote-jobs/talkspace-senior-ai-engineer>",
-"\u2022 Senior Product Manager - Platform at Bitwarden (up to $160k) <https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform>"
+"\u2022 Senior Product Manager - Platform at Bitwarden (up to $160k) <https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform>",
+"\u2022 Partner Solution Architect, Partner Center of Excellence at agiloft (pay not listed) <https://remoteOK.com/remote-jobs/remote-partner-solution-architect-partner-center-of-excellence-agiloft-1138172>"
 ]
 }
