@@ -58,6 +58,7 @@
 "ahead|senior technical consultant data analytics": "2026-11-26",
 "ahead|senior technical consultant enterprise platform engineering": "2026-11-26",
 "ahead|servicenow senior technical consultant ai": "2026-11-26",
+"aidaptive|solutions engineer": "2026-11-27",
 "aios|product manager engagement remote 150k 300k yr inc equity": "2026-11-26",
 "airkit|account solution engineer enterprise nonprofit team": "2026-11-26",
 "airkit|account solution engineer higher education": "2026-11-26",
@@ -154,6 +155,7 @@
 "axonius|technical support engineer skillbridge on the job training": "2026-11-26",
 "axon|deployment engineer ii fusus": "2026-11-26",
 "axon|justice sales engineer": "2026-11-26",
+"ayr global it solutions|customer solutions engineer": "2026-11-27",
 "babylist|senior product manager shopping": "2026-11-26",
 "backblaze external website|solutions engineer": "2026-11-26",
 "backblaze|solutions engineer": "2026-11-26",
@@ -220,6 +222,7 @@
 "bridge bridge xyz|solutions consultant": "2026-11-26",
 "brillio|ai builder forward deployed engineer": "2026-11-26",
 "broadcom|senior mainframe technical consultant": "2026-11-26",
+"burq|senior solutions engineer": "2026-11-27",
 "bvnk|solutions engineer": "2026-11-26",
 "c1|solutions architect customer success": "2026-11-26",
 "camp systems international|ai solutions sales engineer": "2026-11-26",
@@ -433,6 +436,7 @@
 "datadog|senior partner solutions architect pan emea gsi": "2026-11-26",
 "datarails|solutions consultant": "2026-11-26",
 "datavations|solutions architect": "2026-11-26",
+"dataxstream|solutions engineer na": "2026-11-27",
 "dearborn group|product manager": "2026-11-26",
 "deepgram|customer success engineer scaled": "2026-11-26",
 "deepgram|senior forward deployed engineer fde strategic accounts": "2026-11-26",
@@ -666,6 +670,8 @@
 "higharc|senior product manager studio data platform": "2026-11-26",
 "highstreet it solutions|oracle cloud hcm solutions architect 1658": "2026-11-26",
 "hightouch|software engineer applied ai research": "2026-11-26",
+"hightouch|solutions engineer enterprise east pre sales": "2026-11-27",
+"hightouch|solutions engineer mid market west pre sales": "2026-11-27",
 "hilbert|solutions architect sales nam": "2026-11-26",
 "hippocractic ai|deployment strategist": "2026-11-26",
 "hippocractic ai|deployment strategist payors": "2026-11-26",
@@ -854,6 +860,7 @@
 "lyric|forward deployed supply chain engineer us": "2026-11-26",
 "m files|sales engineer us remote": "2026-11-26",
 "mach9|solutions consultant": "2026-11-26",
+"magnitude software|enterprise solutions engineer": "2026-11-27",
 "mapbox|product manager ii maps ai": "2026-11-26",
 "mapbox|solutions architect enterprise": "2026-11-26",
 "marigold|product manager growth strategy": "2026-11-26",
@@ -1556,7 +1563,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-27T19:54:06+00:00",
+"last_run": "2026-11-27T20:09:10+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3187,6 +3194,10 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:10184639": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:10184833": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -3218,6 +3229,9 @@
 "builtin:10394061": {
 "t": "2026-11-26",
 "tier": "stretch"
+},
+"builtin:10429338": {
+"t": "2026-11-27"
 },
 "builtin:10463662": {
 "t": "2026-11-26",
@@ -3267,6 +3281,11 @@
 "dup": "ashby:montecarlodata:bee6315c-3bc5-49b8-a6c0-1c36b3b59de6",
 "t": "2026-11-26"
 },
+"builtin:10913704": {
+"drop": "asks 7+ years",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:10959545": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -3290,6 +3309,9 @@
 "builtin:11059189": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"builtin:11063743": {
+"t": "2026-11-27"
 },
 "builtin:11085205": {
 "t": "2026-11-26",
@@ -3357,6 +3379,11 @@
 "t": "2026-11-27",
 "tier": null
 },
+"builtin:11341733": {
+"drop": "needs active clearance",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:11360805": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -3372,6 +3399,11 @@
 "builtin:11401391": {
 "t": "2026-11-27",
 "tier": "ringer"
+},
+"builtin:11422704": {
+"drop": "asks 8+ years",
+"t": "2026-11-27",
+"tier": null
 },
 "builtin:11425664": {
 "dup": "ashby:horizon3ai:24ce76de-ab80-4274-bb7f-4e395dc1ca92",
@@ -3409,6 +3441,10 @@
 "t": "2026-11-27",
 "tier": "ringer"
 },
+"builtin:11488436": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:11490089": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -3429,9 +3465,17 @@
 "dup": "ashby:freshpaint:7560ce21-df4d-41e3-b2cf-81e8dfa8c6ae",
 "t": "2026-11-26"
 },
+"builtin:11550674": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:11550702": {
 "t": "2026-11-26",
 "tier": "stretch"
+},
+"builtin:11550709": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:11562331": {
 "t": "2026-11-26",
@@ -3440,6 +3484,11 @@
 "builtin:11563775": {
 "t": "2026-11-26",
 "tier": "stretch"
+},
+"builtin:11564668": {
+"drop": "asks 7+ years",
+"t": "2026-11-27",
+"tier": null
 },
 "builtin:11575123": {
 "dup": "greenhouse:datadog:8259180",
@@ -3718,6 +3767,9 @@
 "builtin:11903598": {
 "t": "2026-11-26",
 "tier": "stepping"
+},
+"builtin:11923551": {
+"t": "2026-11-27"
 },
 "builtin:11925294": {
 "t": "2026-11-26",
@@ -5323,6 +5375,10 @@
 "t": "2026-11-27",
 "tier": "stepping"
 },
+"builtin:3415359": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:7120339": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -5396,6 +5452,20 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:9627165": {
+"drop": "asks 6+ years",
+"t": "2026-11-27",
+"tier": null
+},
+"builtin:9627309": {
+"drop": "asks 6+ years",
+"t": "2026-11-27",
+"tier": null
+},
+"builtin:9796493": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:9801031": {
 "t": "2026-11-26",
 "tier": "stretch"
@@ -5407,6 +5477,10 @@
 "builtin:9961399": {
 "dup": "ashby:oneleet:e178bb4b-b402-4630-aaba-89a3c2841518",
 "t": "2026-11-26"
+},
+"builtin:9995534": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:9999026": {
 "t": "2026-11-27",
@@ -11133,5 +11207,13 @@
 "tier": "ringer"
 }
 },
-"summary_buffer": []
+"summary_buffer": [
+"\u2022 Solutions Engineer at Aidaptive (pay not listed) <https://www.builtinchicago.org/job/solutions-engineer/2234111>",
+"\u2022 Customer Solutions Engineer. at AYR Global IT Solutions Inc (pay not listed) <https://www.builtinchicago.org/job/customer-solutions-engineer/9796493>",
+"\u2022 Senior Solutions Engineer at Burq, Inc. (pay not listed) <https://www.builtinchicago.org/job/senior-solutions-engineer/9995534>",
+"\u2022 Solutions Engineer - NA at DataXstream (pay not listed) <https://www.builtinchicago.org/job/solutions-engineer/11488436>",
+"\u2022 Solutions Engineer, Enterprise East (Pre-Sales) at Hightouch (up to $250k) <https://www.builtinchicago.org/job/solutions-engineer-enterprise-east-pre-sales/11550709>",
+"\u2022 Solutions Engineer, Mid-Market West (Pre-Sales) at Hightouch (up to $220k) <https://www.builtinchicago.org/job/solutions-engineer-mid-market-west-pre-sales/11550674>",
+"\u2022 Enterprise Solutions Engineer at Magnitude Software (up to $174k) <https://www.builtinchicago.org/job/enterprise-solutions-engineer/10184639>"
+]
 }
