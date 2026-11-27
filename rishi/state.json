@@ -18,6 +18,7 @@
 },
 "keys": {
 "01a|enterprise solutions architect": "2026-11-26",
+"11 11 systems|product manager cloud finops and services": "2026-11-27",
 "15five|senior technical solutions consultant mid market enterprise": "2026-11-26",
 "1kosmos|senior solutions engineer public sector": "2026-11-26",
 "1mind|ai product manager agents orchestration": "2026-11-26",
@@ -132,6 +133,7 @@
 "arize ai|applied ai engineer": "2026-11-26",
 "arize ai|senior ai product manager evals annotations": "2026-11-26",
 "arize ai|senior ai product manager observability": "2026-11-26",
+"aroa biosurgery limited|senior global product manager us": "2026-11-27",
 "asana|technical consultant": "2026-11-26",
 "ashby|mid market implementation specialist americas": "2026-11-26",
 "ashby|senior product manager": "2026-11-26",
@@ -556,6 +558,7 @@
 "g w electric|sales engineer power grid automation": "2026-11-26",
 "gainsight|ai product manager": "2026-11-26",
 "gainsystems|solutions engineer presales": "2026-11-26",
+"gbh|product manager": "2026-11-27",
 "ge healthcare|global product manager connectivity interoperability": "2026-11-26",
 "ge vernova|plm solutions architect": "2026-11-26",
 "gem|senior partner solutions architect gsi": "2026-11-26",
@@ -941,6 +944,7 @@
 "nymbus|technical product manager core banking": "2026-11-26",
 "obsidian security|senior solutions engineer east": "2026-11-26",
 "oddball|integration engineer": "2026-11-26",
+"oddball|product manager": "2026-11-27",
 "oddball|senior integration engineer": "2026-11-26",
 "oec|client analytics solutions consultant remote within the us": "2026-11-26",
 "okta|senior product manager ai products auth0": "2026-11-26",
@@ -1089,6 +1093,7 @@
 "reddit|senior forward deployed engineer ai enablement": "2026-11-26",
 "reddit|senior product manager finance technology procure to pay record to report": "2026-11-26",
 "reddit|senior product manager notifications": "2026-11-26",
+"rekor|product manager": "2026-11-27",
 "relationalai|solution engineer": "2026-11-26",
 "renesas electronics|senior implementation engineer": "2026-11-26",
 "rescale|customer success engineer public sector": "2026-11-26",
@@ -1109,6 +1114,7 @@
 "rithum|senior technical account manager": "2026-11-26",
 "ritten|senior product manager": "2026-11-26",
 "robco|senior robotic sales engineer": "2026-11-26",
+"robinhood|senior product manager brokerage platform": "2026-11-27",
 "roboflow|customer success engineer": "2026-11-26",
 "roboflow|forward deployed engineer": "2026-11-26",
 "roboflow|implementation engineer": "2026-11-26",
@@ -1243,6 +1249,7 @@
 "socure|forward deployed engineer riskos agents": "2026-11-26",
 "socure|post sales associate solution consultant sled west": "2026-11-26",
 "socure|senior technical program manager partner ecosystem": "2026-11-26",
+"solace solace health|product manager": "2026-11-27",
 "solace|product manager": "2026-11-26",
 "solace|senior associate product manager": "2026-11-26",
 "solace|technical product manager": "2026-11-26",
@@ -1475,6 +1482,7 @@
 "verta|senior solutions engineer federal civilian": "2026-11-26",
 "vesta|product manager": "2026-11-26",
 "vetcove|senior product manager": "2026-11-26",
+"vikingcloud|sales engineer": "2026-11-27",
 "visionary integration professionals|forward deployment engineer ai agentic solutions": "2026-11-26",
 "vista consulting group|consultant technical program manager": "2026-11-26",
 "vitalize|deployment strategist": "2026-11-26",
@@ -1531,7 +1539,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T13:05:10+00:00",
+"last_run": "2026-11-27T13:20:30+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -4047,6 +4055,16 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:12193863": {
+"drop": "asks 8+ years",
+"t": "2026-11-27",
+"tier": null
+},
+"builtin:12195400": {
+"drop": "asks 8+ years",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:12200147": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -4805,6 +4823,23 @@
 "t": "2026-11-26",
 "tier": "stretch"
 },
+"builtin:12422382": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
+"builtin:12422388": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
+"builtin:12423051": {
+"drop": "asks 6+ years",
+"t": "2026-11-27",
+"tier": null
+},
+"builtin:12424248": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
 "builtin:12424308": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -4826,9 +4861,17 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:12426856": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
 "builtin:12427867": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"builtin:12428534": {
+"t": "2026-11-27",
+"tier": "stepping"
 },
 "builtin:12428721": {
 "t": "2026-11-26",
@@ -4840,6 +4883,10 @@
 },
 "builtin:12431735": {
 "t": "2026-11-26",
+"tier": "stepping"
+},
+"builtin:12431814": {
+"t": "2026-11-27",
 "tier": "stepping"
 },
 "builtin:12433001": {
@@ -5014,6 +5061,10 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:12472233": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
 "builtin:12472322": {
 "t": "2026-11-26",
 "tier": "stretch"
@@ -5123,6 +5174,11 @@
 "t": "2026-11-26",
 "tier": null
 },
+"builtin:12524608": {
+"drop": "asks 7+ years",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:12526800": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -5170,6 +5226,10 @@
 "builtin:12541923": {
 "t": "2026-11-27",
 "tier": "stepping"
+},
+"builtin:12547916": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:7120339": {
 "t": "2026-11-26",
@@ -10967,14 +11027,5 @@
 "t": "2026-11-26"
 }
 },
-"summary_buffer": [
-"\u2022 Sales Engineer, US East at Secure Code Warrior (pay not listed) <https://remoteOK.com/remote-jobs/remote-sales-engineer-us-east-secure-code-warrior-1138160>",
-"\u2022 Senior AI Engineer at Talkspace (up to $200k) <https://weworkremotely.com/remote-jobs/talkspace-senior-ai-engineer>",
-"\u2022 Senior Product Manager - Platform at Bitwarden (up to $160k) <https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform>",
-"\u2022 Partner Solution Architect, Partner Center of Excellence at agiloft (pay not listed) <https://remoteOK.com/remote-jobs/remote-partner-solution-architect-partner-center-of-excellence-agiloft-1138172>",
-"\u2022 Technical Consultant at Aderant (pay not listed) <https://www.builtinchicago.org/job/technical-consultant/12541921>",
-"\u2022 Senior Technical Consultant at Aderant (pay not listed) <https://www.builtinchicago.org/job/senior-technical-consultant/12541910>",
-"\u2022 Product Manager at Aderant (pay not listed) <https://www.builtinchicago.org/job/product-manager/12541923>",
-"\u2022 Senior Solutions Consultant at Vmware Workspace One (pay not listed) <https://omnissa.wd501.myworkdayjobs.com/Omnissa_External_Career_Site/job/Remote---Texas/Senior-Solutions-Consultant_R-102312-1>"
-]
+"summary_buffer": []
 }
