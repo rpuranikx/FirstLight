@@ -188,6 +188,7 @@
 "bitwarden|implementation engineer customer support": "2026-11-26",
 "bitwarden|implementation engineer customer support apac": "2026-11-26",
 "bitwarden|product manager platform": "2026-11-26",
+"bitwarden|senior product manager platform": "2026-11-27",
 "blackline|senior ps solutions consultant": "2026-11-26",
 "blackpoint cyber|sales engineer": "2026-11-26",
 "blackpoint|sales engineer": "2026-11-26",
@@ -1355,6 +1356,7 @@
 "talkdesk|applied ai architect": "2026-11-26",
 "talkdesk|senior solutions consultant life sciences": "2026-11-26",
 "talkiatry|senior data product manager": "2026-11-26",
+"talkspace|senior ai engineer": "2026-11-27",
 "tanium|field customer engineer": "2026-11-26",
 "tebra|senior product manager": "2026-11-26",
 "techstars|product manager engineering": "2026-11-26",
@@ -1524,7 +1526,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T05:46:09+00:00",
+"last_run": "2026-11-27T06:01:10+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -10676,6 +10678,9 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"wwr:https://weworkremotely.com/remote-jobs/6sense-sr-data-scientist-forward-deployed": {
+"t": "2026-11-27"
+},
 "wwr:https://weworkremotely.com/remote-jobs/a-team-senior-independent-ai-engineer-architect": {
 "t": "2026-11-26",
 "tier": "stretch"
@@ -10715,6 +10720,10 @@
 "wwr:https://weworkremotely.com/remote-jobs/bitwarden-product-manager-platform": {
 "dup": "getro-3293:98167146",
 "t": "2026-11-26"
+},
+"wwr:https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform": {
+"t": "2026-11-27",
+"tier": "stepping"
 },
 "wwr:https://weworkremotely.com/remote-jobs/celonis-applied-ai-value-consultant": {
 "t": "2026-11-26",
@@ -10781,6 +10790,9 @@
 "wwr:https://weworkremotely.com/remote-jobs/fin-senior-forward-deployed-data-scientist": {
 "t": "2026-11-26",
 "tier": "stretch"
+},
+"wwr:https://weworkremotely.com/remote-jobs/fivetran-resident-solution-architect": {
+"t": "2026-11-27"
 },
 "wwr:https://weworkremotely.com/remote-jobs/glean-designated-technical-support-engineer-central-east": {
 "dup": "greenhouse:gleanwork:4735026005",
@@ -10850,6 +10862,9 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"wwr:https://weworkremotely.com/remote-jobs/pinterest-senior-product-manager-deceptive-content": {
+"t": "2026-11-27"
+},
 "wwr:https://weworkremotely.com/remote-jobs/planetscale-solutions-engineer": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -10890,6 +10905,10 @@
 "t": "2026-11-26",
 "tier": "meh"
 },
+"wwr:https://weworkremotely.com/remote-jobs/talkspace-senior-ai-engineer": {
+"t": "2026-11-27",
+"tier": "stretch"
+},
 "wwr:https://weworkremotely.com/remote-jobs/tebra-senior-product-manager": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10916,6 +10935,8 @@
 }
 },
 "summary_buffer": [
-"\u2022 Sales Engineer, US East at Secure Code Warrior (pay not listed) <https://remoteOK.com/remote-jobs/remote-sales-engineer-us-east-secure-code-warrior-1138160>"
+"\u2022 Sales Engineer, US East at Secure Code Warrior (pay not listed) <https://remoteOK.com/remote-jobs/remote-sales-engineer-us-east-secure-code-warrior-1138160>",
+"\u2022 Senior AI Engineer at Talkspace (up to $200k) <https://weworkremotely.com/remote-jobs/talkspace-senior-ai-engineer>",
+"\u2022 Senior Product Manager - Platform at Bitwarden (up to $160k) <https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform>"
 ]
 }
