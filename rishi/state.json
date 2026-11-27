@@ -161,6 +161,7 @@
 "bamboohr|senior product manager payroll platform": "2026-11-26",
 "bank of america|product manager tranformation initiatives and process office": "2026-11-26",
 "banyan software|forward deployed engineer applied ai": "2026-11-26",
+"barracuda|senior solutions architect": "2026-11-27",
 "baseten|forward deployed engineer": "2026-11-26",
 "baseten|solutions architect emea": "2026-11-26",
 "baseten|technical program manager model performance": "2026-11-26",
@@ -943,6 +944,8 @@
 "nymbus|technical product manager builder digital banking": "2026-11-26",
 "nymbus|technical product manager core banking": "2026-11-26",
 "obsidian security|senior solutions engineer east": "2026-11-26",
+"ocient|senior solutions architect engineering": "2026-11-27",
+"ocient|senior solutions architect for engineers who want to solve the problem in front of the customer": "2026-11-27",
 "oddball|integration engineer": "2026-11-26",
 "oddball|product manager": "2026-11-27",
 "oddball|senior integration engineer": "2026-11-26",
@@ -1502,6 +1505,7 @@
 "weaviate|enterprise sales engineer": "2026-11-26",
 "webflow|senior product manager cloud infrastructure": "2026-11-26",
 "webroot|senior solutions consultant itom m f x": "2026-11-26",
+"weka|senior solutions architect": "2026-11-27",
 "wgsn|senior solutions consultant enterprise data solutions": "2026-11-26",
 "wispr flow|ai engineer internal systems": "2026-11-26",
 "wiz|senior partner solutions architect gsi": "2026-11-26",
@@ -1539,7 +1543,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T13:20:30+00:00",
+"last_run": "2026-11-27T13:35:32+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3359,6 +3363,10 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:11456619": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:11483029": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -5036,6 +5044,11 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:12461318": {
+"drop": "asks 7+ years",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:12461474": {
 "t": "2026-11-26",
 "tier": "stretch"
@@ -5093,6 +5106,14 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:12479611": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
+"builtin:12479612": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
 "builtin:12482975": {
 "dup": "builtin:12484704",
 "t": "2026-11-26"
@@ -5129,6 +5150,10 @@
 "builtin:12492089": {
 "dup": "greenhouse:launchdarkly:8217232003",
 "t": "2026-11-26"
+},
+"builtin:12493098": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:12503493": {
 "t": "2026-11-26",
@@ -11027,5 +11052,10 @@
 "t": "2026-11-26"
 }
 },
-"summary_buffer": []
+"summary_buffer": [
+"\u2022 Senior Solutions Architect at Barracuda (up to $200k) <https://www.builtinchicago.org/job/senior-solutions-architect/12493098>",
+"\u2022 Senior Solutions Architect at WEKA (pay not listed) <https://www.builtinchicago.org/job/senior-solutions-architect/11456619>",
+"\u2022 Senior Solutions Architect (Engineering) at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineering/12479611>",
+"\u2022 Senior Solutions Architect: For Engineers Who Want to Solve the Problem in Front of the Customer at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineers-who-want-solve-problem-front-customer/12479612>"
+]
 }
