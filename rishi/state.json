@@ -39,6 +39,9 @@
 "addepar|sales engineer": "2026-11-26",
 "addepar|senior software engineer customer facing applied ai": "2026-11-26",
 "addepar|software engineer customer facing applied ai": "2026-11-26",
+"aderant|product manager": "2026-11-27",
+"aderant|senior technical consultant": "2026-11-27",
+"aderant|technical consultant": "2026-11-27",
 "adyen|group product manager revenue platform": "2026-11-26",
 "adyen|implementation engineer": "2026-11-26",
 "aegisai|customer engineer solutions engineer": "2026-11-26",
@@ -1527,7 +1530,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-26",
-"last_run": "2026-11-27T09:02:50+00:00",
+"last_run": "2026-11-27T09:18:03+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -5149,6 +5152,23 @@
 },
 "builtin:12540302": {
 "t": "2026-11-27"
+},
+"builtin:12541910": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
+"builtin:12541919": {
+"drop": "needs active clearance",
+"t": "2026-11-27",
+"tier": null
+},
+"builtin:12541921": {
+"t": "2026-11-27",
+"tier": "stepping"
+},
+"builtin:12541923": {
+"t": "2026-11-27",
+"tier": "stepping"
 },
 "builtin:7120339": {
 "t": "2026-11-26",
@@ -10592,6 +10612,9 @@
 "t": "2026-11-27",
 "tier": "ringer"
 },
+"remoteok:1138178": {
+"t": "2026-11-27"
+},
 "rippling:bamboo-health-careers:ad3fcc9d-803b-472f-9dc2-d70ab0e3d746": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -10943,6 +10966,9 @@
 "\u2022 Sales Engineer, US East at Secure Code Warrior (pay not listed) <https://remoteOK.com/remote-jobs/remote-sales-engineer-us-east-secure-code-warrior-1138160>",
 "\u2022 Senior AI Engineer at Talkspace (up to $200k) <https://weworkremotely.com/remote-jobs/talkspace-senior-ai-engineer>",
 "\u2022 Senior Product Manager - Platform at Bitwarden (up to $160k) <https://weworkremotely.com/remote-jobs/bitwarden-senior-product-manager-platform>",
-"\u2022 Partner Solution Architect, Partner Center of Excellence at agiloft (pay not listed) <https://remoteOK.com/remote-jobs/remote-partner-solution-architect-partner-center-of-excellence-agiloft-1138172>"
+"\u2022 Partner Solution Architect, Partner Center of Excellence at agiloft (pay not listed) <https://remoteOK.com/remote-jobs/remote-partner-solution-architect-partner-center-of-excellence-agiloft-1138172>",
+"\u2022 Technical Consultant at Aderant (pay not listed) <https://www.builtinchicago.org/job/technical-consultant/12541921>",
+"\u2022 Senior Technical Consultant at Aderant (pay not listed) <https://www.builtinchicago.org/job/senior-technical-consultant/12541910>",
+"\u2022 Product Manager at Aderant (pay not listed) <https://www.builtinchicago.org/job/product-manager/12541923>"
 ]
 }
