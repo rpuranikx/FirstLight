@@ -470,6 +470,7 @@
 "ellipsis health|product manager analytics reporting": "2026-11-26",
 "elm ai|forward deployed product engineer": "2026-11-26",
 "emi labs|implementation engineer": "2026-11-26",
+"endeavor ai|forward deployed engineer 2027 graduate": "2026-11-27",
 "endor labs|solutions architect central": "2026-11-26",
 "engflow|implementation engineer": "2026-11-26",
 "engflow|implementation enginner": "2026-11-26",
@@ -1544,7 +1545,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-27T18:08:06+00:00",
+"last_run": "2026-11-27T18:23:17+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3794,6 +3795,10 @@
 "builtin:12054219": {
 "dup": "ashby:WRITER:6ac02771-059b-490b-960b-f5616f255b65",
 "t": "2026-11-26"
+},
+"builtin:12055700": {
+"t": "2026-11-27",
+"tier": "stretch"
 },
 "builtin:12064099": {
 "t": "2026-11-26",
@@ -11062,6 +11067,7 @@
 "\u2022 Senior Solutions Architect at WEKA (pay not listed) <https://www.builtinchicago.org/job/senior-solutions-architect/11456619>",
 "\u2022 Senior Solutions Architect (Engineering) at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineering/12479611>",
 "\u2022 Senior Solutions Architect: For Engineers Who Want to Solve the Problem in Front of the Customer at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineers-who-want-solve-problem-front-customer/12479612>",
-"\u2022 Solutions Engineer - Critical Infrastructure at Echodyne (up to $150k) <https://www.builtinchicago.org/job/solutions-engineer-critical-infrastructure/12551635>"
+"\u2022 Solutions Engineer - Critical Infrastructure at Echodyne (up to $150k) <https://www.builtinchicago.org/job/solutions-engineer-critical-infrastructure/12551635>",
+"\u2022 Forward Deployed Engineer, 2027 Graduate at Endeavor AI, Inc. (pay not listed) <https://www.builtinchicago.org/job/forward-deployed-engineer-2027-graduate/12055700>"
 ]
 }
