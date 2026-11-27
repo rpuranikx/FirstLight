@@ -453,6 +453,7 @@
 "dscout|senior forward deployed engineer full stack": "2026-11-26",
 "dscout|senior product manager": "2026-11-26",
 "dynatrace|solutions engineer remote midwest": "2026-11-26",
+"echodyne|solutions engineer critical infrastructure": "2026-11-27",
 "elastic|senior solutions architect enterprise east presales": "2026-11-26",
 "elastic|senior solutions architect enterprise west presales": "2026-11-26",
 "elastic|senior solutions architect mid market west presales": "2026-11-26",
@@ -1543,7 +1544,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-27T14:20:56+00:00",
+"last_run": "2026-11-27T14:36:09+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -5255,6 +5256,10 @@
 "builtin:12547916": {
 "t": "2026-11-27",
 "tier": "ringer"
+},
+"builtin:12551635": {
+"t": "2026-11-27",
+"tier": "stepping"
 },
 "builtin:7120339": {
 "t": "2026-11-26",
@@ -11056,6 +11061,7 @@
 "\u2022 Senior Solutions Architect at Barracuda (up to $200k) <https://www.builtinchicago.org/job/senior-solutions-architect/12493098>",
 "\u2022 Senior Solutions Architect at WEKA (pay not listed) <https://www.builtinchicago.org/job/senior-solutions-architect/11456619>",
 "\u2022 Senior Solutions Architect (Engineering) at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineering/12479611>",
-"\u2022 Senior Solutions Architect: For Engineers Who Want to Solve the Problem in Front of the Customer at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineers-who-want-solve-problem-front-customer/12479612>"
+"\u2022 Senior Solutions Architect: For Engineers Who Want to Solve the Problem in Front of the Customer at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineers-who-want-solve-problem-front-customer/12479612>",
+"\u2022 Solutions Engineer - Critical Infrastructure at Echodyne (up to $150k) <https://www.builtinchicago.org/job/solutions-engineer-critical-infrastructure/12551635>"
 ]
 }
