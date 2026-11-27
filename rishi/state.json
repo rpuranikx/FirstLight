@@ -133,6 +133,7 @@
 "arize ai|applied ai engineer": "2026-11-26",
 "arize ai|senior ai product manager evals annotations": "2026-11-26",
 "arize ai|senior ai product manager observability": "2026-11-26",
+"arkestro|solutions consultant": "2026-11-27",
 "aroa biosurgery limited|senior global product manager us": "2026-11-27",
 "asana|technical consultant": "2026-11-26",
 "ashby|mid market implementation specialist americas": "2026-11-26",
@@ -188,6 +189,7 @@
 "bigpanda|senior solutions architect": "2026-11-26",
 "bigpanda|technical account manager": "2026-11-26",
 "bigpanda|technical project manager value delivery": "2026-11-26",
+"billtrust|solutions consultant": "2026-11-27",
 "biorender|senior product manager growth": "2026-11-26",
 "bitmovin|forward deployed engineer": "2026-11-26",
 "bitmovin|product solutions engineer observability": "2026-11-26",
@@ -239,11 +241,13 @@
 "captivateiq|partner success manager solutions architect": "2026-11-26",
 "cargill|advisor global product manager real estate": "2026-11-26",
 "catena labs|forward deployed engineer": "2026-11-26",
+"cbiz|hr solutions sales consultant": "2026-11-27",
 "cdata software|senior product manager": "2026-11-26",
 "cdata software|senior solutions engineer": "2026-11-26",
 "cdw|consulting solution architect ibm software solutions": "2026-11-26",
 "cdw|forward deployed engineer gcp commercial": "2026-11-26",
 "celerdata|presales solutions architect": "2026-11-26",
+"celigo|senior solutions consultant": "2026-11-27",
 "cellebrite|solutions engineer": "2026-11-26",
 "celonis|applied ai value consultant": "2026-11-26",
 "celonis|senior ai applied value architect": "2026-11-26",
@@ -355,6 +359,7 @@
 "commure|sales engineer ambient ai": "2026-11-26",
 "commure|senior forward deployed engineer": "2026-11-26",
 "companycam|senior product manager": "2026-11-26",
+"compose ly|solutions consultant application engineer switchgear": "2026-11-27",
 "conductorone|technical support engineer cs": "2026-11-26",
 "conduit|agent product manager": "2026-11-26",
 "confisa international group|forward deployed engineer fde ai agents full stack atlanta minneapolis": "2026-11-26",
@@ -816,6 +821,7 @@
 "lean layer|salesforce technical consultant": "2026-11-26",
 "leap|technical product manager data platform": "2026-11-26",
 "legion security|sales engineer": "2026-11-26",
+"legion technologies|senior solutions consultant": "2026-11-27",
 "legion|senior solutions consultant": "2026-11-26",
 "leolabs|radar product manager": "2026-11-26",
 "leolabs|software product manager": "2026-11-26",
@@ -877,6 +883,7 @@
 "mission uk eu|applied ai engineer": "2026-11-26",
 "mistral ai|compute solution architect": "2026-11-26",
 "mitratech|compliance solutions consultant": "2026-11-26",
+"modmed|pre sales solutions consultant clinical": "2026-11-27",
 "modular|ai cloud product manager": "2026-11-26",
 "modus create|forward deployed engineer python ai ml generative ai": "2026-11-26",
 "momentive software|senior ai product manager": "2026-11-26",
@@ -952,6 +959,7 @@
 "oddball|product manager": "2026-11-27",
 "oddball|senior integration engineer": "2026-11-26",
 "oec|client analytics solutions consultant remote within the us": "2026-11-26",
+"officespace software|enterprise solutions consultant": "2026-11-27",
 "okta|senior product manager ai products auth0": "2026-11-26",
 "okta|senior product manager auth0": "2026-11-26",
 "okta|senior product manager cloud infrastructure": "2026-11-26",
@@ -1045,6 +1053,7 @@
 "presidio|inside solutions architect services tools engineer": "2026-11-26",
 "prime intellect|applied researcher forward deployed rl": "2026-11-26",
 "procom consultants group|sap hana technical consultant": "2026-11-26",
+"procurify|solutions consultant": "2026-11-27",
 "prodege|publisher solutions engineer": "2026-11-26",
 "project44|senior forward deployed engineer": "2026-11-26",
 "project44|senior project manager software implementation": "2026-11-26",
@@ -1100,6 +1109,7 @@
 "reddit|senior product manager notifications": "2026-11-26",
 "rekor|product manager": "2026-11-27",
 "relationalai|solution engineer": "2026-11-26",
+"relx|vertical solutions consultant": "2026-11-27",
 "renesas electronics|senior implementation engineer": "2026-11-26",
 "rescale|customer success engineer public sector": "2026-11-26",
 "rescale|customer success engineer remote in the us": "2026-11-26",
@@ -1546,7 +1556,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-27T19:23:49+00:00",
+"last_run": "2026-11-27T19:38:56+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3181,6 +3191,10 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:10212354": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:10297686": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -3338,12 +3352,25 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:11340752": {
+"drop": "asks 6+ years",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:11360805": {
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:11382483": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:11388269": {
 "t": "2026-11-26",
+"tier": "ringer"
+},
+"builtin:11401391": {
+"t": "2026-11-27",
 "tier": "ringer"
 },
 "builtin:11425664": {
@@ -3378,6 +3405,10 @@
 "dup": "builtin:11737572",
 "t": "2026-11-26"
 },
+"builtin:11486538": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:11490089": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -3389,6 +3420,10 @@
 "builtin:11521342": {
 "t": "2026-11-26",
 "tier": "stepping"
+},
+"builtin:11522973": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:11550392": {
 "dup": "ashby:freshpaint:7560ce21-df4d-41e3-b2cf-81e8dfa8c6ae",
@@ -3422,9 +3457,18 @@
 "t": "2026-11-26",
 "tier": "stretch"
 },
+"builtin:11596016": {
+"drop": "asks 7+ years",
+"t": "2026-11-27",
+"tier": null
+},
 "builtin:11597841": {
 "dup": "builtin:12390425",
 "t": "2026-11-26"
+},
+"builtin:11601067": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:11601421": {
 "t": "2026-11-26",
@@ -3446,6 +3490,10 @@
 "builtin:11607659": {
 "dup": "builtin:12390425",
 "t": "2026-11-26"
+},
+"builtin:11617529": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:11619801": {
 "t": "2026-11-26",
@@ -3475,6 +3523,10 @@
 "dup": "greenhouse:apolloio:6223780004",
 "t": "2026-11-26"
 },
+"builtin:11680177": {
+"t": "2026-11-27",
+"tier": "ringer"
+},
 "builtin:11686029": {
 "dup": "builtin:12424354",
 "t": "2026-11-26"
@@ -3490,6 +3542,10 @@
 "builtin:11690359": {
 "dup": "greenhouse:cleo:4733431005",
 "t": "2026-11-26"
+},
+"builtin:11704827": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "builtin:11705118": {
 "t": "2026-11-26",
@@ -5351,6 +5407,10 @@
 "builtin:9961399": {
 "dup": "ashby:oneleet:e178bb4b-b402-4630-aaba-89a3c2841518",
 "t": "2026-11-26"
+},
+"builtin:9999026": {
+"t": "2026-11-27",
+"tier": "ringer"
 },
 "gem:bigpanda:am9icG9zdDo8Aouwy2eWuA9sV1DEkEiQ": {
 "t": "2026-11-26",
@@ -11073,13 +11133,5 @@
 "tier": "ringer"
 }
 },
-"summary_buffer": [
-"\u2022 Senior Solutions Architect at Barracuda (up to $200k) <https://www.builtinchicago.org/job/senior-solutions-architect/12493098>",
-"\u2022 Senior Solutions Architect at WEKA (pay not listed) <https://www.builtinchicago.org/job/senior-solutions-architect/11456619>",
-"\u2022 Senior Solutions Architect (Engineering) at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineering/12479611>",
-"\u2022 Senior Solutions Architect: For Engineers Who Want to Solve the Problem in Front of the Customer at Ocient (up to $247k) <https://www.builtinchicago.org/job/senior-solutions-architect-engineers-who-want-solve-problem-front-customer/12479612>",
-"\u2022 Solutions Engineer - Critical Infrastructure at Echodyne (up to $150k) <https://www.builtinchicago.org/job/solutions-engineer-critical-infrastructure/12551635>",
-"\u2022 Forward Deployed Engineer, 2027 Graduate at Endeavor AI, Inc. (pay not listed) <https://www.builtinchicago.org/job/forward-deployed-engineer-2027-graduate/12055700>",
-"\u2022 Commercial Sales Engineer - East at Zscaler (up to $150k) <https://weworkremotely.com/remote-jobs/zscaler-commercial-sales-engineer-east>"
-]
+"summary_buffer": []
 }
