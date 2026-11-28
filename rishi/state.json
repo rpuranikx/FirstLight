@@ -1565,7 +1565,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-28T05:44:25+00:00",
+"last_run": "2026-11-28T05:59:31+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -11154,6 +11154,9 @@
 },
 "wwr:https://weworkremotely.com/remote-jobs/pinterest-senior-product-manager-deceptive-content": {
 "t": "2026-11-27"
+},
+"wwr:https://weworkremotely.com/remote-jobs/pinterest-senior-technical-program-manager-infrastructure": {
+"t": "2026-11-28"
 },
 "wwr:https://weworkremotely.com/remote-jobs/planetscale-solutions-engineer": {
 "t": "2026-11-26",
