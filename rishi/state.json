@@ -449,6 +449,7 @@
 "desotec|sales engineer mobile solutions mid atlantic region": "2026-11-26",
 "desotec|sales engineer mobile solutions socal": "2026-11-26",
 "digicert|solutions engineer": "2026-11-26",
+"digital realty|senior solutions architect": "2026-11-28",
 "digitalowl|senior product manager l i": "2026-11-26",
 "digitalowl|senior product manager legal insurance": "2026-11-26",
 "digitalowl|senior project manager implementation": "2026-11-26",
@@ -1522,6 +1523,7 @@
 "viz ai|pulmonologist senior product manager": "2026-11-26",
 "vizient|solutions architect": "2026-11-26",
 "vmware workspace one|senior solutions consultant": "2026-11-27",
+"voize|founding product manager us remote": "2026-11-28",
 "vooma|forward deployed engineer": "2026-11-26",
 "vori|product support engineer": "2026-11-26",
 "vorlon|sales engineer solutions engineer": "2026-11-26",
@@ -1569,7 +1571,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-28T13:18:34+00:00",
+"last_run": "2026-11-28T13:33:40+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3142,6 +3144,10 @@
 },
 "ashby:vitalize:c6e06933-706f-472b-9d93-a34fdca30f9f": {
 "t": "2026-11-26",
+"tier": "stepping"
+},
+"ashby:voize:9aa32206-2cd9-4f2c-986a-dfe95220ec06": {
+"t": "2026-11-28",
 "tier": "stepping"
 },
 "ashby:vooma:19e61d82-8d3d-453d-815d-051bf1fc57d3": {
@@ -5429,6 +5435,10 @@
 },
 "builtin:12593389": {
 "t": "2026-11-28"
+},
+"builtin:12593849": {
+"t": "2026-11-28",
+"tier": "ringer"
 },
 "builtin:3415359": {
 "t": "2026-11-27",
@@ -11269,5 +11279,8 @@
 "tier": "ringer"
 }
 },
-"summary_buffer": []
+"summary_buffer": [
+"\u2022 Sr. Solutions Architect at Digital Realty (up to $185k) <https://www.builtinchicago.org/job/sr-solutions-architect/12593849>",
+"\u2022 Founding Product Manager - US Remote at voize (up to $200k) <https://jobs.ashbyhq.com/voize/9aa32206-2cd9-4f2c-986a-dfe95220ec06>"
+]
 }
