@@ -321,6 +321,7 @@
 "code metal|solutions engineer automotive": "2026-11-26",
 "code42|sales engineer": "2026-11-26",
 "code42|senior sales engineer": "2026-11-26",
+"coder technologies|senior forward deployed engineer united states": "2026-11-28",
 "coder|senior forward deployed engineer united states": "2026-11-26",
 "coder|senior solutions engineer us west": "2026-11-26",
 "cognite|senior field engineer pre sales forward deployed": "2026-11-26",
@@ -1229,6 +1230,7 @@
 "sigma computing|enterprise solution engineer south east": "2026-11-26",
 "signal advisors|product manager": "2026-11-26",
 "signifyd|senior product manager authorization optimization": "2026-11-26",
+"signoz|product manager open source growth": "2026-11-28",
 "signoz|senior product manager ic": "2026-11-26",
 "silkline|software engineer deployment strategist": "2026-11-26",
 "simility a paypal service|senior product manager technical": "2026-11-26",
@@ -1563,7 +1565,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-28T01:57:24+00:00",
+"last_run": "2026-11-28T02:12:34+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -1764,6 +1766,10 @@
 },
 "ashby:SigNoz:a41d80b2-389e-42c3-817e-feb7c3aa8fff": {
 "t": "2026-11-26",
+"tier": "stepping"
+},
+"ashby:SigNoz:aa9c8222-2660-4318-9940-d0b9823d8d91": {
+"t": "2026-11-28",
 "tier": "stepping"
 },
 "ashby:Slide:b38ecb51-ab42-4659-8493-33efe9f7754e": {
@@ -10851,6 +10857,10 @@
 "remoteok:1138178": {
 "t": "2026-11-27"
 },
+"remoteok:1138209": {
+"t": "2026-11-28",
+"tier": "stretch"
+},
 "rippling:bamboo-health-careers:ad3fcc9d-803b-472f-9dc2-d70ab0e3d746": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -11219,6 +11229,8 @@
 "\u2022 Solutions Engineer - NA at DataXstream (pay not listed) <https://www.builtinchicago.org/job/solutions-engineer/11488436>",
 "\u2022 Solutions Engineer, Enterprise East (Pre-Sales) at Hightouch (up to $250k) <https://www.builtinchicago.org/job/solutions-engineer-enterprise-east-pre-sales/11550709>",
 "\u2022 Solutions Engineer, Mid-Market West (Pre-Sales) at Hightouch (up to $220k) <https://www.builtinchicago.org/job/solutions-engineer-mid-market-west-pre-sales/11550674>",
-"\u2022 Enterprise Solutions Engineer at Magnitude Software (up to $174k) <https://www.builtinchicago.org/job/enterprise-solutions-engineer/10184639>"
+"\u2022 Enterprise Solutions Engineer at Magnitude Software (up to $174k) <https://www.builtinchicago.org/job/enterprise-solutions-engineer/10184639>",
+"\u2022 Senior Forward Deployed Engineer (United States) at Coder Technologies Inc. (up to $246k) <https://remoteOK.com/remote-jobs/remote-senior-forward-deployed-engineer-united-states-coder-technologies-inc-1138209>",
+"\u2022 Product Manager, Open Source Growth at SigNoz (pay not listed) <https://jobs.ashbyhq.com/SigNoz/aa9c8222-2660-4318-9940-d0b9823d8d91>"
 ]
 }
