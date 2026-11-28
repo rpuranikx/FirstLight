@@ -404,6 +404,7 @@
 "crowdstrike|regional sales engineer remote": "2026-11-26",
 "csaa insurance group|data solutions architect remote": "2026-11-26",
 "csi|product manager applied ai": "2026-11-26",
+"csl|ai ml engineer": "2026-11-28",
 "curri|senior product manager marketplace supply": "2026-11-26",
 "cursor|field engineer": "2026-11-26",
 "cursor|field engineer healthcare": "2026-11-26",
@@ -877,6 +878,8 @@
 "metamask|senior product manager universal kyc metamask passport": "2026-11-26",
 "metlife|product manager ai automation": "2026-11-26",
 "metrosys|ot scada deployment engineer": "2026-11-26",
+"microsoft|solution engineer cloud ai data platform": "2026-11-28",
+"microsoft|solution engineer cloud ai software dev tools and ai": "2026-11-28",
 "midstream health|applied ai researcher": "2026-11-26",
 "midstream health|applied ai solutions architect": "2026-11-26",
 "mimica automation|associate value engineer post sales": "2026-11-26",
@@ -1367,6 +1370,7 @@
 "supabase|product manager spark": "2026-11-26",
 "supabase|support engineer amer": "2026-11-26",
 "supabase|support engineer amer weekends": "2026-11-26",
+"surescripts|senior ai engineer": "2026-11-28",
 "suvoda|technical consultant": "2026-11-26",
 "swarm aero|technical product manager": "2026-11-26",
 "swiftkey|digital solution engineer sales service german speaking": "2026-11-26",
@@ -1565,7 +1569,7 @@
 "zumper|product manager data": "2026-11-26"
 },
 "last_daily": "2026-11-27",
-"last_run": "2026-11-28T12:33:11+00:00",
+"last_run": "2026-11-28T12:48:22+00:00",
 "meh_buffer": [],
 "seen": {
 "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e": {
@@ -3271,6 +3275,10 @@
 "t": "2026-11-26",
 "tier": "stepping"
 },
+"builtin:10745955": {
+"t": "2026-11-28",
+"tier": "ringer"
+},
 "builtin:10762569": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -4851,6 +4859,10 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:12402455": {
+"t": "2026-11-28",
+"tier": "ringer"
+},
 "builtin:12404029": {
 "t": "2026-11-26",
 "tier": "ringer"
@@ -5046,6 +5058,10 @@
 "t": "2026-11-26",
 "tier": "stretch"
 },
+"builtin:12436695": {
+"t": "2026-11-28",
+"tier": "stretch"
+},
 "builtin:12437465": {
 "dup": "ashby:1mind:011fa25b-4796-428e-b2b6-f358bff8027e",
 "t": "2026-11-26"
@@ -5074,6 +5090,10 @@
 "drop": "needs active clearance",
 "t": "2026-11-26",
 "tier": null
+},
+"builtin:12445688": {
+"t": "2026-11-28",
+"tier": "stretch"
 },
 "builtin:12447111": {
 "drop": "needs active clearance",
@@ -5149,6 +5169,11 @@
 "t": "2026-11-26",
 "tier": "ringer"
 },
+"builtin:12457521": {
+"drop": "asks 6+ years",
+"t": "2026-11-28",
+"tier": null
+},
 "builtin:12457543": {
 "t": "2026-11-26",
 "tier": "stepping"
@@ -5160,6 +5185,11 @@
 "builtin:12457986": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"builtin:12458604": {
+"drop": "asks 6+ years",
+"t": "2026-11-28",
+"tier": null
 },
 "builtin:12459575": {
 "t": "2026-11-26",
@@ -5206,6 +5236,11 @@
 "builtin:12472370": {
 "t": "2026-11-26",
 "tier": "ringer"
+},
+"builtin:12474815": {
+"drop": "asks 15+ years",
+"t": "2026-11-28",
+"tier": null
 },
 "builtin:12475521": {
 "t": "2026-11-26",
@@ -11234,15 +11269,5 @@
 "tier": "ringer"
 }
 },
-"summary_buffer": [
-"\u2022 Solutions Engineer at Aidaptive (pay not listed) <https://www.builtinchicago.org/job/solutions-engineer/2234111>",
-"\u2022 Customer Solutions Engineer. at AYR Global IT Solutions Inc (pay not listed) <https://www.builtinchicago.org/job/customer-solutions-engineer/9796493>",
-"\u2022 Senior Solutions Engineer at Burq, Inc. (pay not listed) <https://www.builtinchicago.org/job/senior-solutions-engineer/9995534>",
-"\u2022 Solutions Engineer - NA at DataXstream (pay not listed) <https://www.builtinchicago.org/job/solutions-engineer/11488436>",
-"\u2022 Solutions Engineer, Enterprise East (Pre-Sales) at Hightouch (up to $250k) <https://www.builtinchicago.org/job/solutions-engineer-enterprise-east-pre-sales/11550709>",
-"\u2022 Solutions Engineer, Mid-Market West (Pre-Sales) at Hightouch (up to $220k) <https://www.builtinchicago.org/job/solutions-engineer-mid-market-west-pre-sales/11550674>",
-"\u2022 Enterprise Solutions Engineer at Magnitude Software (up to $174k) <https://www.builtinchicago.org/job/enterprise-solutions-engineer/10184639>",
-"\u2022 Senior Forward Deployed Engineer (United States) at Coder Technologies Inc. (up to $246k) <https://remoteOK.com/remote-jobs/remote-senior-forward-deployed-engineer-united-states-coder-technologies-inc-1138209>",
-"\u2022 Product Manager, Open Source Growth at SigNoz (pay not listed) <https://jobs.ashbyhq.com/SigNoz/aa9c8222-2660-4318-9940-d0b9823d8d91>"
-]
+"summary_buffer": []
 }
